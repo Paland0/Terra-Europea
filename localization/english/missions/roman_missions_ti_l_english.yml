@@ -50,9 +50,9 @@
  me_roman_missions_ti.3.b: "I do my best work alone."
 
  #does the text show up for this?#
- me_roman_missions_ti.4.t: “Sands of Time” 
- me_roman_missions_ti.4.desc: “After millennia of near-constant warfare, Egypt and the Levant rest easy under the Roman flag. Peace and splendor have replaced uncertainty and bloodshed. From the northern hinterlands of Kush to the very edges of Mesopotamia, our people are now settling through the tireless efforts of our legions and governors. Let this era of glory never cease."
- me_roman_missions_ti.4.a: “Ave, true to Caesar.” 
+ me_roman_missions_ti.4.t: "Sands of Time" 
+ me_roman_missions_ti.4.desc: "After millennia of near-constant warfare, Egypt and the Levant rest easy under the Roman flag. Peace and splendor have replaced uncertainty and bloodshed. From the northern hinterlands of Kush to the very edges of Mesopotamia, our people are now settling through the tireless efforts of our legions and governors. Let this era of glory never cease."
+ me_roman_missions_ti.4.a: "Ave, true to Caesar." 
  #could we add claims to Kush here?#
  
  me_roman_missions_ti.12.t: "Roman Judea"
