@@ -79,6 +79,15 @@
  me_roman_missions_ti.27.t: "$roman_mission_13_fall_of_diadochoi_ti_task_6$"
  me_roman_missions_ti.27.desc: "The Egyptians test our patience with every passing year, as more time passes the more they drag their heels. The senate and people of Rome are roaring in outrage, how dare they not accept our suzerainty? Some are asking for direct intervention, others for more restrained actions. What destiny shall Rome embark upon?"
 
+ me_roman_missions_ti.28.t: "The Fate of the Ptolemies"
+ me_roman_missions_ti.28.desc: "Many amongst our court urge that we pledge our undying allegiance to Rome, and in your will, you shall leave the kingdom to be absorbed into the Roman Empire upon your passing. The Roman emissaries have been receptive to this idea, but they request that we take a decisive step to cement the end of the line of Ptolemy – the elimination of our outspoken heir, who vehemently criticizes Rome. This choice will bind Egypt to the might of Rome for generations to come."
+ me_roman_missions_ti.28.a: "The line of Ptolemy shall end."
+ me_roman_missions_ti.28.b: "The legacy of Ptolemy must endure."
+
+ me_roman_missions_ti.31.t: "The Last Ptolemy"
+ me_roman_missions_ti.31.desc: "Our kingdom has flourished in the centuries since your great ancestor seized control of Egypt and founded your illustrious dynasty. Under the wise and just rule of the Ptolemies, Egypt became a beacon of culture and power, blending the rich heritage of the Nile with the brilliance of Hellenistic thought. Now, as with your passing, we face the remarkable transition to Roman governance, it is with great optimism that we envision a new age for Egypt. The legacy of our civilization, nurtured by your dynasty, will continue to thrive under the influence of Rome, creating a vibrant tapestry of cultures and traditions. For the kingdom may change hands, but the spirit of Egypt endures. Egypt shall forever be a jewel in the crown of history, its stories and splendors echoing through the ages."
+ me_roman_missions_ti.31.a: "Let our accomplishments be a guiding light for those who follow."
+
  roman_conquest_missions_ti.28.t: "The Phoenician Coast"
  roman_conquest_missions_ti.28.desc: "At long last, the coast which brought forth Carthage is under the banner of Rome. Ancient trade routes and cities older than even our Republic belong to us, history may have belonged to the Phoenicians but the future shall now shine on Rome." 
  roman_conquest_missions_ti.28.a: "Tyrus is the crown jewel of Phoenicia"
