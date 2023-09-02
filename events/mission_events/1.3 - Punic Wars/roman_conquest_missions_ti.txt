@@ -337,7 +337,7 @@ me_roman_missions_ti.13 = {							# Island of Cyprus
     left_portrait = root.current_ruler
 	
 	option = {
-		name = me_roman_missions_ti.12.a
+		name = me_roman_missions_ti.13.a
 		p:331 = { roman_mission_colonia_effect = yes }
 	}
 }
