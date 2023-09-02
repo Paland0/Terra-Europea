@@ -1161,6 +1161,9 @@ me_roman_missions_ti.42 = {							# Rome Indian Trade - End
 	
 	option = {
 		name = me_roman_missions_ti.42.a
+		trigger = {
+			NOT = { has_variable = great_trade }
+		}
 		add_country_modifier = {
 			name = "rome_indian_trade" #diplo reach
 			duration = -1
@@ -1302,6 +1305,9 @@ me_roman_missions_ti.47 = {							# Rome African Expedition - End
 	
 	option = {
 		name = me_roman_missions_ti.47.a
+		trigger = {
+			NOT = { has_variable = found_treasure }
+		}
 		custom_tooltip = no_effect_tooltip
 	}
 	
@@ -1441,6 +1447,13 @@ me_roman_missions_ti.52 = {							# Sol Invictus - 25th of December - Dies Natal
 		add_stability = 5
 		current_ruler = {
 			add_popularity = 5
+		}
+		capital_scope = {
+			add_special_pop = {
+				text = "add_1_priest_tt"
+				type = priest
+				count = 1
+			}
 		}
 		add_treasury = -100
 	}
