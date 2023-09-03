@@ -72,7 +72,7 @@
         }
 
 		on_completion = {
-			trigger_event = me_roman_missions_inv.34
+			trigger_event = me_roman_missions_ti.34
 			show_as_tooltip = {
 				add_country_modifier = {
 					name = hastened_city_construction_rome_ger
@@ -102,7 +102,7 @@
         }
 
 		on_completion = {
-			trigger_event =  me_roman_missions_inv.35
+			trigger_event =  me_roman_missions_ti.35
 			show_as_tooltip = {
 				add_manpower = -20
 				p:3829 = {
@@ -144,7 +144,7 @@
         }
 
 		on_completion = {
-			trigger_event = me_roman_missions_inv.56
+			trigger_event = me_roman_missions_ti.56
 			show_as_tooltip = {
 				add_stability = 10
 				add_military_experience = 5
@@ -213,7 +213,7 @@
 		}
 	}	
 		on_completion = {
-			trigger_event = me_roman_missions_inv.57
+			trigger_event = me_roman_missions_ti.57
 			show_as_tooltip = {
 				add_stability = 10
 				every_owned_province = {
@@ -324,7 +324,7 @@
 
 		on_completion = {
 			custom_tooltip = roman_mission_15_arminius_task_9_tooltip	#prevented collapse
-			trigger_event = me_roman_missions_inv.36
+			trigger_event = me_roman_missions_ti.36
 		}
 	}
 	
@@ -354,7 +354,7 @@
 			roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
         	trigger_event = { 
-				id = roman_conquest_missions_inv.31 
+				id = roman_conquest_missions_ti.31 
 			}
 		}
 	}
@@ -378,7 +378,7 @@
 		}
 
 		on_completion = {
-			trigger_event = me_roman_missions_inv.59
+			trigger_event = me_roman_missions_ti.59
 			show_as_tooltip = {
 				add_country_modifier = {
 					name = "roman_mission_amber_source"
@@ -400,14 +400,14 @@
 		
 		on_start = {
 			trigger_event = { 
-				id = roman_conquest_missions_inv.34 
+				id = roman_conquest_missions_ti.34 
 			}
 			trigger_event = { 
-				id = roman_conquest_missions_inv.33
+				id = roman_conquest_missions_ti.33
 				days = 120
 			}
 			trigger_event = { 
-				id = roman_conquest_missions_inv.35
+				id = roman_conquest_missions_ti.35
 				days = 240
 			}
 		}
@@ -416,7 +416,7 @@
 			roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
 			trigger_event = { 
-				id = roman_conquest_missions_inv.32 
+				id = roman_conquest_missions_ti.32 
 			}
 		}
 	}
@@ -457,7 +457,7 @@
 		}
 
 		on_completion = {
-			trigger_event = me_roman_missions_inv.37
+			trigger_event = me_roman_missions_ti.37
 			show_as_tooltip = {
 				if = {
 					limit = {
