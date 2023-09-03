@@ -1577,7 +1577,7 @@ me_roman_missions_ti.58 = {							# Ensure Loyalty Germania
 	}
 }
 
-me_roman_missions_ti.59 = {							# Fortified Cities Germania
+me_roman_missions_ti.59 = {							# Source of Amber
     type = country_event
     title = me_roman_missions_ti.59.t
 	desc = me_roman_missions_ti.59.desc
