@@ -1,0 +1,11 @@
+﻿monthly_country_pulse = {
+
+	events = {
+		me_roman_missions_ti.33
+		roman_collapse_arminius_ti.1
+	}
+	random_events = {
+		470 = 0
+		30 = me_roman_missions_ti.49
+	}
+}
