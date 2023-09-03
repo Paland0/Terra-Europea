@@ -1512,3 +1512,85 @@ me_roman_missions_ti.55 = {							# End of Aurelian Walls
 		add_war_exhaustion = -5
 	}
 }
+
+me_roman_missions_ti.56 = {							# Pluck Boihaemian Thorn
+    type = country_event
+    title = me_roman_missions_ti.56.t
+	desc = me_roman_missions_ti.56.desc
+    picture = romans_marching
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.56.a
+		add_stability = 10
+		add_military_experience = 5
+	}
+}
+
+me_roman_missions_ti.57 = {							# Fortified Cities Germania
+    type = country_event
+    title = me_roman_missions_ti.57.t
+	desc = me_roman_missions_ti.57.desc
+    picture = romans_marching
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.57.a
+		add_stability = 10
+		every_owned_province = {
+			limit = {
+				is_in_region = germania_region
+				has_city_status = yes
+			}
+			add_civilization_value = 10
+		}
+	}
+}
+
+me_roman_missions_ti.58 = {							# Ensure Loyalty Germania
+    type = country_event
+    title = me_roman_missions_ti.58.t
+	desc = me_roman_missions_ti.58.desc
+    picture = romans_marching
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.58.a
+		p:3852.governorship = {		#Germania_Maga region
+			governor_or_ruler = {
+				add_loyalty = maurya_governor_good_loyalty
+				add_character_modifier = {
+					name = appeased_governors
+					duration = 1825
+				}
+			}
+		}
+		current_ruler = {
+			add_focus_perk = {
+				text = "add_1_char_perk"
+				amount = 1
+			}
+		}
+	}
+}
+
+me_roman_missions_ti.59 = {							# Fortified Cities Germania
+    type = country_event
+    title = me_roman_missions_ti.59.t
+	desc = me_roman_missions_ti.59.desc
+    picture = romans_marching
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.59.a
+		add_country_modifier = {
+				name = "roman_mission_amber_source"
+				duration = 7300
+			}
+		}
+	}
+}
