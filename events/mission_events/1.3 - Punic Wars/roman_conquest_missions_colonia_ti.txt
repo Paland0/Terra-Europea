@@ -741,8 +741,8 @@ roman_conquest_missions_ti.34 = {							# Istvaeonic
 
     option = {      
         name = roman_conquest_missions_ti.34.a 
-		trigger = { owns = 3777 } 
-		p:3777 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3776 } 
+		p:3776 = { roman_mission_colonia_effect = yes }
     }
 	
     option = {      
@@ -761,7 +761,7 @@ roman_conquest_missions_ti.34 = {							# Istvaeonic
         name = roman_conquest.not_interfere
 		trigger = {
 			OR = {
-				NOT = { owns = 3777 }
+				NOT = { owns = 3776 }
 				NOT = { owns = 3831 }
 				NOT = { owns = 3787 }
 			}
@@ -793,8 +793,8 @@ roman_conquest_missions_ti.35 = {							# Irminonic
 	
     option = {      
         name = roman_conquest_missions_ti.35.b
-		trigger = { owns = 3970 } 
-		p:3970 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3972 } 
+		p:3972 = { roman_mission_colonia_effect = yes }
     }
 	
 	option = {      
@@ -808,7 +808,7 @@ roman_conquest_missions_ti.35 = {							# Irminonic
 		trigger = {
 			OR = {
 				NOT = { owns = 3963 }
-				NOT = { owns = 3970 }
+				NOT = { owns = 3972 }
 				NOT = { owns = 3953 }
 			}
 		}
