@@ -55,7 +55,13 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					#is_in_area = sicambria_area
+					is_in_area = sicambria_area
+					is_in_area = turonia_area
+					is_in_area = vangionia_area
+					is_in_area = chattia_occidentalis_area
+					is_in_area = germanicum_area
+					is_in_area = latobrigia_area
+					is_in_area = raurica_area
 				}
         	}
         }
@@ -66,9 +72,15 @@
 			owns_or_subject_owns_area = chaucia_area
 			owns_or_subject_owns_area = langobardia_area
 			owns_or_subject_owns_area = caluconia_area
-        	owns_or_subject_owns_area = chamavia_area
+        		owns_or_subject_owns_area = chamavia_area
 			owns_or_subject_owns_area = bructeria_area
-			#owns_or_subject_owns_area = sicambria_area
+			owns_or_subject_owns_area = sicambria_area
+			owns_or_subject_owns_area = turonia_area
+                        owns_or_subject_owns_area = vangionia_area 
+			owns_or_subject_owns_area = chattia_occidentalis_area
+			owns_or_subject_owns_area = germanicum_area
+			owns_or_subject_owns_area = latobrigia_area
+			owns_or_subject_owns_area = raurica_area
         }
 
 		on_completion = {
@@ -132,6 +144,7 @@
 					is_in_area = marcomannia_minores_area
 					is_in_area = boioa_meridionalis_area
 					is_in_area = boioa_septentrionalis_area
+					is_in_area = chattia_orientalis_area
 				}
         	}
         }
@@ -141,14 +154,11 @@
         	owns_or_subject_owns_area = marcomannia_minores_area
 			owns_or_subject_owns_area = boioa_meridionalis_area
 			owns_or_subject_owns_area = boioa_septentrionalis_area
+			owns_or_subject_owns_area = chattia_orientalis_area
         }
 
 		on_completion = {
-			trigger_event = me_roman_missions_ti.56
-			show_as_tooltip = {
-				add_stability = 10
-				add_military_experience = 5
-			}
+			add_stability = 10
 		}
 	}
 
@@ -166,7 +176,13 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					#is_in_area = sicambria_area
+					is_in_area = sicambria_area
+					is_in_area = turonia_area
+					is_in_area = vangionia_area
+					is_in_area = chattia_occidentalis_area
+					is_in_area = germanicum_area
+					is_in_area = latobrigia_area
+					is_in_area = raurica_area
 				}
         	}
         }
@@ -206,23 +222,60 @@
 				fort_level >= 1
 			}
 			any_owned_province = {
+				is_in_area = turonia_area
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
 				is_in_area = bructeria_area
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = sicambria_area 
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = turonia_area 
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = chattia_occidentalis_area
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = vangionia_area
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = germanicum_area
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = latobrigia_area
+				has_city_status = yes
+				fort_level >= 1
+			}
+			any_owned_province = {
+				is_in_area = raurica_area
 				has_city_status = yes
 				fort_level >= 1
 			}
 		}
 	}	
 		on_completion = {
-			trigger_event = me_roman_missions_ti.57
-			show_as_tooltip = {
-				add_stability = 10
-				every_owned_province = {
-					limit = {
-						is_in_region = germania_region
-						has_city_status = yes
-					}
-					add_civilization_value = 10
+			add_stability = 10
+			every_owned_province = {
+				limit = {
+					is_in_region = germania_region
+					has_city_status = yes
 				}
+				add_civilization_value = 10
 			}
 		}
 	}
@@ -241,7 +294,13 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					#is_in_area = sicambria_area
+					is_in_area = sicambria_area
+					is_in_area = turonia_area
+                                        is_in_area = vangionia_area
+					is_in_area = chattia_occidentalis_area
+					is_in_area = germanicum_area
+					is_in_area = latobrigia_area
+					is_in_area = raurica_area
 				}
         	}
         }
@@ -278,23 +337,15 @@
 			}
 		}
 		on_completion = {
-			show_as_tooltip = {
-				p:3852.governorship = {		#Germania_Maga region
-					governor_or_ruler = {
-						add_loyalty = maurya_governor_good_loyalty
-						add_character_modifier = {
-							name = appeased_governors
-							duration = 1825
-						}
+			p:3852.governorship = {		#Germania_Maga region
+				governor_or_ruler = {
+					add_loyalty = maurya_governor_good_loyalty
+					add_character_modifier = {
+						name = appeased_governors
+						duration = 1825
 					}
 				}
-				current_ruler = {
-					add_focus_perk = {
-						text = "add_1_char_perk"
-						amount = 1
-					}
-				}
-			}
+			}																					
 		}
 	}
 
@@ -312,7 +363,13 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					#is_in_area = sicambria_area
+					is_in_area = sicambria_area
+					is_in_area = turonia_area
+					is_in_area = vangionia_area
+					is_in_area = chattia_occidentalis_area
+					is_in_area = germanicum_area
+					is_in_area = latobrigia_area
+					is_in_area = raurica_area
 				}
         	}
         }
@@ -338,7 +395,8 @@
 					is_in_area = semnonia_area
 					is_in_area = pharodenia_area
 					is_in_area = suradonia_area
-					#is_in_area = saxony_area
+					is_in_area = saxony_area
+					is_in_area = buria_area
 				}
         	}
         }
@@ -347,7 +405,8 @@
         	owns_or_subject_owns_area = semnonia_area
         	owns_or_subject_owns_area = pharodenia_area
 			owns_or_subject_owns_area = suradonia_area
-			#owns_or_subject_owns_area = saxony_area
+			owns_or_subject_owns_area = saxony_area
+			owns_or_subject_owns_area = buria_area
         }
 
 		on_completion = {
@@ -378,12 +437,9 @@
 		}
 
 		on_completion = {
-			trigger_event = me_roman_missions_ti.59
-			show_as_tooltip = {
-				add_country_modifier = {
-					name = "roman_mission_amber_source"
-					duration = 7300
-				}
+			add_country_modifier = {
+				name = "roman_mission_amber_source"
+				duration = 7300
 			}
 			#commerce boost and citizen happ
 		}
@@ -439,6 +495,15 @@
 					is_in_area = semnonia_area
 					is_in_area = pharodenia_area
 					is_in_area = suradonia_area
+					is_in_area = buria_area
+					is_in_area = turonia_area
+					is_in_area = sicambria_area
+					is_in_area = saxony_area
+                                        is_in_area = vangionia_area
+					is_in_area = chattia_occidentalis_area
+					is_in_area = germanicum_area
+					is_in_area = latobrigia_area
+					is_in_area = raurica_area
 				}
         	}
         }
@@ -454,6 +519,15 @@
 			owns_or_subject_owns_area = caluconia_area
         	owns_or_subject_owns_area = chamavia_area
 			owns_or_subject_owns_area = bructeria_area
+			owns_or_subject_owns_area = buria_area
+			owns_or_subject_owns_area = turonia_area
+			owns_or_subject_owns_area = saxony_area
+			owns_or_subject_owns_area = sicambria_area
+                        owns_or_subject_owns_area = vangionia_area 
+			owns_or_subject_owns_area = chattia_occidentalis_area
+			owns_or_subject_owns_area = germanicum_area
+			owns_or_subject_owns_area = latobrigia_area
+			owns_or_subject_owns_area = raurica_area
 		}
 
 		on_completion = {
