@@ -1,8 +1,11 @@
 ﻿l_english:
  #Eastern Glory Rework
  roman_mission_09_eastern_glory_ti_task_1: "Lycia et Pisidia"
+ roman_mission_09_eastern_glory_ti_task_1_DESC: "The lands of Lycia et Pisidia lie before us, untouched by the light of Roman rule. Here, our legions shall bring not only conquest but will also illuminate these lands with the civilizing light of#E Rome#!."
  roman_mission_09_eastern_glory_ti_task_2: "Rounding off Asia"
+ roman_mission_09_eastern_glory_ti_task_2_DESC: "Like the storied coasts of Ionia before it, the very heart of Asia and the enchanting Sporades archipelago have yielded to the might of#E Rome#!. Our legions have secured these lands by blood and iron, and the time has come to shape the future of this coastal region."
  roman_mission_09_eastern_glory_ti_task_3: "End Cappadocian Independence"
+ roman_mission_09_eastern_glory_ti_task_2_DESC: “The Persian remnants of Cappadocia, left behind by the dying Achaemenids, are anything but the calm sort. If not taken care of now, they will eternally be a thorn in our side much like they were for Alexander. This is not easy terrain and the people here are hardy, but they are no match for the divine might of Rome. It is high time we spread our wings there too. 
  roman_mission_09_eastern_glory_ti_task_4: "The So-Called Greater Armenia"
  
  #Eastern Glory - Fall of Diadochoi
@@ -425,49 +428,48 @@
  me_roman_missions_ti.55.t: "Completion of the Aurelian Walls"
  me_roman_missions_ti.55.desc: "With the final stone set in place, the Aurelian Walls stand as an imposing testament to Rome's enduring strength and unwavering commitment to protecting the Eternal City."
  me_roman_missions_ti.55.a: "The shield of Rome, unbreakable and eternal, is complete!"
+ 
  #Conquest Events
  # Assyria
- roman_conquest_missions_ti.36.t: ""
- roman_conquest_missions_ti.36.desc: ""
- roman_conquest_missions_ti.36.a: ""
- roman_conquest_missions_ti.36.b: ""
- roman_conquest_missions_ti.36.c: ""
- roman_conquest_missions_ti.36.d: ""
+roman_conquest_missions_ti.36.t: "Assyrian Conquest"
+roman_conquest_missions_ti.36.desc: "As our legions march triumphantly through the ancient lands of Assyria, we stand at the threshold of a new era. The riches and knowledge of this region are ripe for Roman assimilation. With a firm grip on these lands, we have a duty to bring the light of Rome to Assyria's dark corners. The time has come to choose the site for our new colonia, where we will sow the seeds of Roman civilization."
+roman_conquest_missions_ti.36.a: "Edessa, with its strategic location, is the ideal choice."
+roman_conquest_missions_ti.36.b: "Cholimma, with its abundant resources, presents a compelling option."
+roman_conquest_missions_ti.36.c: "Antiochia Mygdonum, steeped in history, demands our attention."
+roman_conquest_missions_ti.36.d: "Germanicia Caesarea shall become a symbol of Roman strength."
  # Mesopotamia
- roman_conquest_missions_ti.37.t: ""
- roman_conquest_missions_ti.37.desc: ""
- roman_conquest_missions_ti.37.a: ""
- roman_conquest_missions_ti.37.b: ""
- roman_conquest_missions_ti.37.c: ""
- roman_conquest_missions_ti.37.d: ""
+roman_conquest_missions_ti.37.t: "Mesopotamian Triumph"
+roman_conquest_missions_ti.37.desc: "The vast expanse of #E Mesopotamia#!, the very cradle of civilization, now lies under the banner of Rome. The land of ancient empires and fertile plains is ready to embrace the glory of Rome, and it is our duty to establish a lasting Roman presence here. #E Mesopotamia’s#! wealth and cultural heritage are too significant to ignore. Now, we must decide where to plant the Roman flag and create a new colonia, a testament to our might."
+roman_conquest_missions_ti.37.a: "Ninus, a city steeped in history, beckons as our first choice."
+roman_conquest_missions_ti.37.b: "Arbela, strategically positioned, presents a compelling option."
+roman_conquest_missions_ti.37.c: "Hulwan, with its abundant resources, demands our attention."
+roman_conquest_missions_ti.37.d: "Caenae, a symbol of Roman strength, shall be our enduring legacy."
  # Babylonia
- roman_conquest_missions_ti.38.t: ""
- roman_conquest_missions_ti.38.desc: ""
- roman_conquest_missions_ti.38.a: ""
- roman_conquest_missions_ti.38.b: ""
- roman_conquest_missions_ti.38.c: ""
- roman_conquest_missions_ti.38.d: ""
+roman_conquest_missions_ti.38.t: "Babylonian Campaign"
+roman_conquest_missions_ti.38.desc: "As our legions advance into the heart of ancient #E Babylonia#!, we find ourselves amidst the remnants of once-mighty civilizations. The Euphates and Tigris rivers have flowed through these lands for millennia, nurturing a rich tapestry of history and culture. #Y Babylon#!, with its fabled Hanging Gardens and towering ziggurats, is but one jewel in this ancient crown. It was here that Alexander the Great, in his quest for conquest, gazed upon these very streets. Our conquest of this region opens the doors to a treasure trove of knowledge and wealth. It is our duty to bring the glory of #E Rome#! to #E Babylonia's#! storied cities, just as Alexander did before us. The time has come to choose a site for our new Roman colonia, where we will blend the legacy of Babylonian civilization with Roman ingenuity."
+roman_conquest_missions_ti.38.a: "Babylon, a city steeped in myth and history, is the obvious choice."
+roman_conquest_missions_ti.38.b: "Selucia ad Tigridem, strategically located on the Tigris, is a worthy option."
+roman_conquest_missions_ti.38.c: "Antiochia Susiana, with its cultural significance, demands our attention."
+roman_conquest_missions_ti.38.d: "Apamea ad Tigridem, also well placed on the banks of the Tigris, shall be our legacy."
  # Colchis
- roman_conquest_missions_ti.39.t: ""
- roman_conquest_missions_ti.39.desc: ""
- roman_conquest_missions_ti.39.a: ""
- roman_conquest_missions_ti.39.b: ""
- roman_conquest_missions_ti.39.c: ""
- roman_conquest_missions_ti.39.d: ""
+roman_conquest_missions_ti.39.t: "The Conquest of Colchis"
+roman_conquest_missions_ti.39.desc: "The lush and mythical land of #E Colchis#!, nestled on the eastern shores of the Black Sea, beckons us with its rich history and legendary treasures. This region is steeped in classical antiquity, known not only for its wealth but also for its prominent role in Hellenic mythology. The time has come for Rome to firmly establish its governance in these fabled lands, bringing the might of the Roman Empire to the very heart of Colchis."
+roman_conquest_missions_ti.39.a: "Phasis, the home of the Golden Fleece, a city shrouded in myth and legend, shall become the crown jewel of #E Roman Colchis#!."
+roman_conquest_missions_ti.39.b: "Portus Altus, strategically positioned, will serve as the provincial capital of Tayk, a testament to Roman ambition in these bountiful lands."
+roman_conquest_missions_ti.39.c: "Hermatus, long serving as a center of trade and commerce within the region will be transformed into a Roman stronghold."
  # Caucasus
- roman_conquest_missions_ti.40.t: ""
- roman_conquest_missions_ti.40.desc: ""
- roman_conquest_missions_ti.40.a: ""
- roman_conquest_missions_ti.40.b: ""
- roman_conquest_missions_ti.40.c: ""
- roman_conquest_missions_ti.40.d: ""
+roman_conquest_missions_ti.40.t: "Caucasian Dominion"
+roman_conquest_missions_ti.40.desc: "Our legions have marched tirelessly through the challenging terrain of the Caucasus, an ancient and storied region that has long captured the imagination of conquerors and traders alike. The Caucasus holds a rich tapestry of history, and now it is our responsibility to weave the threads of Roman civilization into its fabric. We must decide where to focus our efforts and forge a lasting connection between Rome and the Caucasus."
+roman_conquest_missions_ti.40.a: "In Chabala, we shall plant the Roman standard."
+roman_conquest_missions_ti.40.b: "In Tigranocerta Albanum, founded by the great Armenian king Tigranes the Great."
+roman_conquest_missions_ti.40.c: "Ghizil-Agaj’s is in an ideal location to govern #E Paytankert#!."
  # Armenia
- roman_conquest_missions_ti.41.t:
- roman_conquest_missions_ti.41.desc:
- roman_conquest_missions_ti.41.a:
- roman_conquest_missions_ti.41.b:
- roman_conquest_missions_ti.41.c:
- roman_conquest_missions_ti.41.d:
+roman_conquest_missions_ti.41.t: "The Subjugation of Armenia"
+roman_conquest_missions_ti.41.desc: "Armenia, a fiercely independent, has now been brought to heel. As we assert Roman dominion over this region, it falls upon us to chart its future. The cities of old Armenia await rebirth under the banner of Rome, and we must decide where to establish our new Roman colonia, ensuring that the echoes of our triumphs resonate through the ages."
+roman_conquest_missions_ti.41.a: "In Neronia, we shall plant the seeds of Roman civilization."
+roman_conquest_missions_ti.41.b: "In Arvinum, renowned for its bustling trade, we shall lay the foundations of Roman prosperity."
+roman_conquest_missions_ti.41.c: "Placing our provincial capital Satala, the heart of Armenia Superior is a tantalizing option."
+roman_conquest_missions_ti.41.d: "We should build a city in Dagnevana and make it the capital of #E Vaspurakan#! is to imprint our authority in the east."
 
 
  #Treasure
