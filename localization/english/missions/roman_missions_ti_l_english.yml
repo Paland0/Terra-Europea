@@ -405,9 +405,9 @@
  me_roman_missions_ti.58.desc: "TODO"
  me_roman_missions_ti.58.a: "TODO"
  
- me_roman_missions_ti.59.t: "TODO"
- me_roman_missions_ti.59.desc: "TODO"
- me_roman_missions_ti.59.a: "TODO"
+ me_roman_missions_ti.59.t: "Follow The Amber Brick Road"
+ me_roman_missions_ti.59.desc: "The beautiful golden adornment, which has captivated our for centuries, is now flowing in in copious quantities. What was once only reserved for the highest of statuses, is now being worn by commoners and nobles alike; thus showcasing the bounty and splendor of our realm. Our people are as fashionable and confident as ever, let us make sure it stays that way."
+ me_roman_missions_ti.59.a: "Why, aren't you a pretty thing?"
  
  #Colony Events
  roman_conquest_missions_ti.31.t: "Conquest of Transalbia"
