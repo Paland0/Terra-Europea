@@ -54,8 +54,7 @@
  roman_conquest_missions_ti.19.desc: "The storied lands of #E Lycia et Pisidia#!, have now fallen under Roman dominion. Our legions have triumphed, and the time has come to shape the destiny of this region. Lycia et Pisidia, once a place of diverse cities and peoples, now awaits the guiding hand of Rome."
  roman_conquest_missions_ti.19.a: "Telmessus, with its strategic coastal location, is an ideal choice to establish a strong Roman presence."
  roman_conquest_missions_ti.19.b: "Sagalassus, perched among the mountains, presents an appealing alternative."
- #add Attalia as a colony choice
- roman_conquest_missions_ti.19.c: "Attalia’s connection to the Attalid dynasty and its strategic location on the coast makes it the perfect place to exert Roman rule over the region."
+ roman_conquest_missions_ti.19.c: "Cibyra, inland stronghold of Lycia, would provide us with many benefits."
  
  roman_conquest_missions_ti.20.t: "Conquest of Asia"
  roman_conquest_missions_ti.20.desc: "Like the storied coasts of Ionia before it, the very heart of Asia and the enchanting Sporades archipelago have yielded to the might of #E Rome#!. Our legions have secured these lands by blood and iron, and the time has come to shape the future of this coastal region."
