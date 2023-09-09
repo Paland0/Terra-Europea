@@ -276,6 +276,12 @@ roman_collapse_arminius_ti.3 = {							# Arminius gets killed
 			}
 		}
 		add_stability = -20
+		random_country = {
+			limit = { owns = 1 }
+			trigger_event = {
+				id = roman_collapse_arminius_ti.5
+			}
+		}
 	}
 }
 
@@ -362,4 +368,18 @@ roman_collapse_arminius_ti.4 = {     #Tag Switch
             }
         }
     }
+}
+
+roman_collapse_arminius_ti.5 = {							# Arminius gets killed - Roman notification
+    type = country_event
+    title = roman_collapse_arminius_ti.5.t
+	desc = roman_collapse_arminius_ti.5.desc
+    picture = revolt
+    
+    left_portrait = current_ruler
+	
+	option = {
+		name = roman_collapse_arminius_ti.5.a
+		add_stability = 5
+	}
 }
