@@ -874,7 +874,7 @@
 				region:Upper_Egypt_region = {
 					every_region_province = { add_claim = ROOT }
 				}
-				region:Lower_Numbia_region = {
+				region:Lower_Nubia_region = {
 					every_region_province = { add_claim = ROOT }
 				}
 			}	
