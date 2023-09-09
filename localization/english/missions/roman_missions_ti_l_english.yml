@@ -5,8 +5,61 @@
  roman_mission_09_eastern_glory_ti_task_2: "Rounding off Asia"
  roman_mission_09_eastern_glory_ti_task_2_DESC: "Like the storied coasts of Ionia before it, the very heart of Asia and the enchanting Sporades archipelago have yielded to the might of#E Rome#!. Our legions have secured these lands by blood and iron, and the time has come to shape the future of this coastal region."
  roman_mission_09_eastern_glory_ti_task_3: "End Cappadocian Independence"
- roman_mission_09_eastern_glory_ti_task_2_DESC: “The Persian remnants of Cappadocia, left behind by the dying Achaemenids, are anything but the calm sort. If not taken care of now, they will eternally be a thorn in our side much like they were for Alexander. This is not easy terrain and the people here are hardy, but they are no match for the divine might of Rome. It is high time we spread our wings there too. 
+ roman_mission_09_eastern_glory_ti_task_3_DESC: "The Persian remnants of Cappadocia, left behind by the dying Achaemenids, are anything but the calm sort. If not taken care of now, they will eternally be a thorn in our side much like they were for Alexander. This is not easy terrain and the people here are hardy, but they are no match for the divine might of Rome. It is high time we spread our wings there too."
  roman_mission_09_eastern_glory_ti_task_4: "The So-Called Greater Armenia"
+ 
+ #Modifiers
+ roman_mission_09_eastern_glory_ti_task_2_modifier_tt: "There will be a period of unrest for five years as our new subjects acclimate to their altered status as part of the Roman dominion."
+ roman_mission_09_eastern_glory_ti_task_1_modifier_tt: "The inhabitants of #E Lycia et Pisidia#! harbor apprehensions towards#E Roman#!rule, growing restless. However, with prudent governance, this apprehension is likely to fade within five years."
+ rome_theatre_of_pompeius: "Theatrum Marmoreum"
+ desc_rome_theatre_of_pompeius: "Enclosed by the large columned porticos is an expansive garden complex of fountains and statues. Along the stretch of the covered arcade are rooms dedicated to the exposition of art and other works collected during our recent eastern campaigns. On the opposite end of the garden complex is a curia for political meetings, which is used by our senate for their formal meetings."
+ 
+ #Tooltips
+ roman_mission_09_eastern_glory_task_1_ti_tt: "We shall receive claims on #Y Asia#!."
+ roman_mission_09_eastern_glory_task_2_ti_tt: "We shall receive claims on #Y Bythinia#!."
+ roman_mission_09_eastern_glory_task_5_ti_tt: "We shall receive claims on #Y Cilicia#!."
+ roman_mission_09_eastern_glory_task_6_ti_tt: "We shall receive claims on #Y Phrygia#! and #Y Cappadocia Pontica#!."
+ roman_mission_09_eastern_glory_task_8_ti_tt: "We shall receive claims on #Y Cappadocia Taurica#!."
+ roman_mission_09_eastern_glory_task_11_ti_tt: "We shall receive claims on #Y Syria#!."
+ 
+ roman_mission_09_eastern_glory_ti_task_4_armenia_alive_tt: "We will send an ultimatum to #Y Armenia#!."
+ roman_mission_09_eastern_glory_ti_task_4_armenia_dead_tt: "We shall receive claims on #Y Armenia#! and #Y Colchis#!."
+ 
+ #Events
+ me_roman_missions_ti.7.t: "Rome Rises in the East"
+ me_roman_missions_ti.7.desc: "The lands across the Aegean have had their fair share of masters; first Persian, then Greek. Each time taking their spoils but each time leaving new ones in their wake. Now, the people and treasures will all belong to Rome. This is a region of the arts and culture, of poets and playwrights. The Roman people deserve the best of these and more: the promise of what lies beyond. May Jupiter’s blessings eternally fall on our legions as we march from the ancient stone walkways of Ionia to the craggy shores of Pontus. Thus begins our eastern ascent to power." 
+ me_roman_missions_ti.7.a: "We shall build a great statue to commemorate the start of our eastern campaign!" 
+ me_roman_missions_ti.7.b: "Our time and money are better spent elsewhere."
+
+ me_roman_missions_ti.8.t: "Aurum Anatolicum"
+ me_roman_missions_ti.8.desc: "With the conquest of #E Eastern Anatolia#!, #E Rome#! stands as a mighty empire, stretching its dominion far and wide. The riches and culture of these newly acquired lands have enriched our treasury and expanded our influence, but debates have broken out amongst the senators about what to do with this newfound wealth."
+ me_roman_missions_ti.8.a: "We should patronize the arts and build a grand theater."
+ me_roman_missions_ti.8.b: "The wealth of#E Rome#! is not to be squandered on some paltry theater."
+ 
+ roman_conquest_missions_ti.19.t: "Liberation of the Lycian Shore"
+ roman_conquest_missions_ti.19.desc: "The storied lands of #E Lycia et Pisidia#!, have now fallen under Roman dominion. Our legions have triumphed, and the time has come to shape the destiny of this region. Lycia et Pisidia, once a place of diverse cities and peoples, now awaits the guiding hand of Rome."
+ roman_conquest_missions_ti.19.a: "Telmessus, with its strategic coastal location, is an ideal choice to establish a strong Roman presence."
+ roman_conquest_missions_ti.19.b: "Sagalassus, perched among the mountains, presents an appealing alternative."
+ #add Attalia as a colony choice
+ roman_conquest_missions_ti.19.c: "Attalia’s connection to the Attalid dynasty and its strategic location on the coast makes it the perfect place to exert Roman rule over the region."
+ 
+ roman_conquest_missions_ti.20.t: "Conquest of Asia"
+ roman_conquest_missions_ti.20.desc: "Like the storied coasts of Ionia before it, the very heart of Asia and the enchanting Sporades archipelago have yielded to the might of #E Rome#!. Our legions have secured these lands by blood and iron, and the time has come to shape the future of this coastal region."
+ roman_conquest_missions_ti.20.a: "In the home of the majestic #E Acropolis of Pergamum#!, a testament to the greatness of these lands, we shall establish our firstcolony."
+ roman_conquest_missions_ti.20.b: "In Cyzicus, a strategic port city, we will lay thefoundations of Roman commerce and influence."
+ roman_conquest_missions_ti.20.c: "In Sardis, where the riches of King Croesus onceflowed and where Alexander the Great once walked, we will cement the authority of #ERome#!."
+ roman_conquest_missions_ti.20.d: "We shall turn the island of Rhodes, lying in theshadow of the magnificent Colossus into a stronghold of Roman culture."
+ 
+ roman_conquest_missions_ti.21.t: "Conquered Cappadocians"
+ roman_conquest_missions_ti.21.desc: "The footsteps of Roman soldiers and settlers now fill the streets of every city and town in #E Cappadocia#!. No more will enemies of our glorious nation find comfort there. We have reached the edges of #E Anatolia#! with our scouts reportedly seeing the beginnings of #E Armenia#! and #E Mesopotamia#!, it is no wonder the burning question in #E Roma#! is 'Where next shall we plant our flag?'"
+ roman_conquest_missions_ti.21.a: "Caesarea was good enough for the Greeks and Persians, it will do for us too." 
+ roman_conquest_missions_ti.21.b: "Tyana could be a strategic option." 
+ roman_conquest_missions_ti.21.c: "The city of Melitene is important enough, let us build there." 
+ 
+ #Treasure
+ roman_statue_alexandros_pompeius:0 "Statue of Alexandros the Great"
+ roman_statue_alexandros_pompeius_desc:0 "Commissioned by the Roman Senate to mark the start of their own eastern conquests, this majestic marble statue portrays the legendary Macedonian conqueror, Alexander the Great, albeit somewhat resembling a famous Roman general."
+ 
  
  #Eastern Glory - Fall of Diadochoi
  roman_mission_13_fall_of_diadochoi: "The Fall of the Diadochi"
