@@ -134,9 +134,9 @@
  me_roman_missions_ti.12.desc: "For far too long the Israelites have been a rebellious thorn in our side, as they have been for all who have ruled them. We shall destroy their spirit of insolence and integrate them into our people. In time they will see our ways as theirs, and peace shall reign over Ierusalem." 
  me_roman_missions_ti.12.a: "Perhaps we should take a look at Nebuchadnezzar for inspiration." 
 
- me_roman_missions_ti.10.t: "TODO"
- me_roman_missions_ti.10.desc: "TODO"
- me_roman_missions_ti.10.a: "TODO"
+ me_roman_missions_ti.10.t: "Indepenedent Judea"
+ me_roman_missions_ti.10.desc: "The troublesome Isrealites buck us at every turn, they will not listen to Roman rule no matter how hard we try. It is not worth the trouble to directly control these damned people so we shall put in place a puppet who can reign in the Judeans."
+ me_roman_missions_ti.10.a: "This will serve us nicely"
 
  me_roman_missions_ti.11.t: "Decapolian League"
  me_roman_missions_ti.11.desc: "Our people and religion have begun to take root in the midst of the Samarian and Israelite settlements. While surviving, stronger ties between our scattered people would help solidify our footprint in the area. They know the region and locals far better than us which is why they should be granted rule directly. We must unite if we are to ever keep hold of the Levant; otherwise, we shall be nothing more than just another shattered empire washed away with the next sandstorm." 
@@ -157,7 +157,7 @@
 
  me_roman_missions_ti.27.t: "$roman_mission_13_fall_of_diadochoi_ti_task_6$"
  me_roman_missions_ti.27.desc: "The Egyptians test our patience with every passing year, as more time passes the more they drag their heels. The senate and people of Rome are roaring in outrage, how dare they not accept our suzerainty? Some are asking for direct intervention, others for more restrained actions. What destiny shall Rome embark upon?"
- me_roman_missions_ti.27.a: "TODO"
+ me_roman_missions_ti.27.a: "Why, one of control of course!"
 
  me_roman_missions_ti.28.t: "The Fate of the Ptolemies"
  me_roman_missions_ti.28.desc: "Many amongst our court urge that we pledge our undying allegiance to Rome, and in your will, you shall leave the kingdom to be absorbed into the Roman Empire upon your passing. The Roman emissaries have been receptive to this idea, but they request that we take a decisive step to cement the end of the line of Ptolemy – the elimination of our outspoken heir, who vehemently criticizes Rome. This choice will bind Egypt to the might of Rome for generations to come."
@@ -389,13 +389,13 @@
  me_roman_missions_ti.36.desc: "Since the beginning of our campaign into the enigmatic depths of Germania, we have known that maintaining control over this distant and rebellious realm would prove itself an incredibly arduous task. Insurgent tribesmen and defiant chieftains have fought against us every step of the way, launching attacks on our settlements, ambushing our troops, and undermining critical infrastructure, pushing the dream of a Roman Germania perilously close to collapse. But through herculean efforts, unwavering vigilance, and proactive measures we have brought enduring stability to this barbarous land, dismantled organized resistance to our rule, and at long last secured an unshakeable hold over the region."
  me_roman_missions_ti.36.a: "For a Safe and Secure Germania"
  
- me_roman_missions_ti.37.t: "TODO"
- me_roman_missions_ti.37.desc: "TODO"
- me_roman_missions_ti.37.a: "TODO"
+ me_roman_missions_ti.37.t: "German No More"
+ me_roman_missions_ti.37.desc: "Germania has long been the homeland of our most hated rivals, those who see civilization and culture as something to be destroyed and mocked. The children of Rome have been frightened by stories of Germanic raiders coming down through the Alps for as long as we have been in existence. But as our latest triumphant arch goes up between the seven hills, the people of Roma know there is nothing left to fear; there is no enemy we cannot vanquish. and the children of our lands rest easy knowing the Germans will trouble us no more."
+ me_roman_missions_ti.37.a: "A fine addition to the collection"
  
- me_roman_missions_ti.56.t: "TODO"
- me_roman_missions_ti.56.desc: "TODO"
- me_roman_missions_ti.56.a: "TODO"
+ me_roman_missions_ti.56.t: "Thorn Plucked"
+ me_roman_missions_ti.56.desc: "After many a hard fought battle and victory, no more troublesome Boi are left standing in their petty basin. It will now exist to spread Roman civilization, not Germanic rebellion. The bandits and raiders are running out of places to hide. Good riddance to bad rubbish."
+ me_roman_missions_ti.56.a: "This should serve to protect our borders nicely"
  
  me_roman_missions_ti.57.t: "Safety first!"
  me_roman_missions_ti.57.desc: "Since our annexation of Germania, we have set about diligently constructing numerous urban centers in this once wild and desolate land. However, we must not forget that this is still an untamed frontier territory, its newly paved roads remain perilous, teeming with brigands, tribesmen, and rebels alike. Thus, it becomes imperative to safeguard our burgeoning settlements in Germania through the construction of majestic walls and formidable fortifications. They shall serve as unassailable bastions of civilization amidst a sea of barbarism, safeguarding our hard-won gains."
