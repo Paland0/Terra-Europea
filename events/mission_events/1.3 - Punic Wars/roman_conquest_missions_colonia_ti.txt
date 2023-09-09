@@ -28,13 +28,19 @@ roman_conquest_missions_ti.19 = {							# Lycia & Pisidia - First new for Easter
 		trigger = { owns = 1949 } 
 		p:1949 = { roman_mission_colonia_effect = yes }
     }
-	
+
+    option = {      
+        name = roman_conquest_missions_ti.19.c
+		trigger = { owns = 1958 } 
+		p:1958 = { roman_mission_colonia_effect = yes }
+    }	
 	option = {      
         name = roman_conquest.not_interfere
 		trigger = {
 			OR = {
 				NOT = { owns = 1992 }
 				NOT = { owns = 1949 }
+				NOT = { owns = 1958 }
 			}
 		}
 	}
@@ -128,13 +134,7 @@ roman_conquest_missions_ti.21 = {							# Cappadocia
 		trigger = { owns = 1854 } 
 		p:1854 = { roman_mission_colonia_effect = yes }
     }
-	
-	option = {      
-        name = roman_conquest_missions_ti.21.d
-		trigger = { owns = 4202 } 
-		p:4202 = { roman_mission_colonia_effect = yes }
-    }
-	
+		
 	option = {      
         name = roman_conquest.not_interfere
 		trigger = {
