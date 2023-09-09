@@ -55,13 +55,7 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					is_in_area = sicambria_area
-					is_in_area = turonia_area
-					is_in_area = vangionia_area
-					is_in_area = chattia_occidentalis_area
-					is_in_area = germanicum_area
-					is_in_area = latobrigia_area
-					is_in_area = raurica_area
+					#is_in_area = sicambria_area
 				}
         	}
         }
@@ -72,15 +66,9 @@
 			owns_or_subject_owns_area = chaucia_area
 			owns_or_subject_owns_area = langobardia_area
 			owns_or_subject_owns_area = caluconia_area
-        		owns_or_subject_owns_area = chamavia_area
+        	owns_or_subject_owns_area = chamavia_area
 			owns_or_subject_owns_area = bructeria_area
-			owns_or_subject_owns_area = sicambria_area
-			owns_or_subject_owns_area = turonia_area
-                        owns_or_subject_owns_area = vangionia_area 
-			owns_or_subject_owns_area = chattia_occidentalis_area
-			owns_or_subject_owns_area = germanicum_area
-			owns_or_subject_owns_area = latobrigia_area
-			owns_or_subject_owns_area = raurica_area
+			#owns_or_subject_owns_area = sicambria_area
         }
 
 		on_completion = {
@@ -144,7 +132,6 @@
 					is_in_area = marcomannia_minores_area
 					is_in_area = boioa_meridionalis_area
 					is_in_area = boioa_septentrionalis_area
-					is_in_area = chattia_orientalis_area
 				}
         	}
         }
@@ -154,7 +141,6 @@
         	owns_or_subject_owns_area = marcomannia_minores_area
 			owns_or_subject_owns_area = boioa_meridionalis_area
 			owns_or_subject_owns_area = boioa_septentrionalis_area
-			owns_or_subject_owns_area = chattia_orientalis_area
         }
 
 		on_completion = {
@@ -163,8 +149,8 @@
 				add_stability = 10
 				add_military_experience = 5
 			}
+		}
 	}
-}
 
 	roman_mission_15_arminius_task_7 = {   ##Fortified Cities
 		icon = "task_political"
@@ -180,13 +166,7 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					is_in_area = sicambria_area
-					is_in_area = turonia_area
-					is_in_area = vangionia_area
-					is_in_area = chattia_occidentalis_area
-					is_in_area = germanicum_area
-					is_in_area = latobrigia_area
-					is_in_area = raurica_area
+					#is_in_area = sicambria_area
 				}
         	}
         }
@@ -226,47 +206,7 @@
 				fort_level >= 1
 			}
 			any_owned_province = {
-				is_in_area = turonia_area
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
 				is_in_area = bructeria_area
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = sicambria_area 
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = turonia_area 
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = chattia_occidentalis_area
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = vangionia_area
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = germanicum_area
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = latobrigia_area
-				has_city_status = yes
-				fort_level >= 1
-			}
-			any_owned_province = {
-				is_in_area = raurica_area
 				has_city_status = yes
 				fort_level >= 1
 			}
@@ -282,6 +222,7 @@
 						has_city_status = yes
 					}
 					add_civilization_value = 10
+				}
 			}
 		}
 	}
@@ -300,13 +241,7 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					is_in_area = sicambria_area
-					is_in_area = turonia_area
-                                        is_in_area = vangionia_area
-					is_in_area = chattia_occidentalis_area
-					is_in_area = germanicum_area
-					is_in_area = latobrigia_area
-					is_in_area = raurica_area
+					#is_in_area = sicambria_area
 				}
         	}
         }
@@ -359,7 +294,7 @@
 						amount = 1
 					}
 				}
-			}								
+			}
 		}
 	}
 
@@ -377,13 +312,7 @@
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
-					is_in_area = sicambria_area
-					is_in_area = turonia_area
-					is_in_area = vangionia_area
-					is_in_area = chattia_occidentalis_area
-					is_in_area = germanicum_area
-					is_in_area = latobrigia_area
-					is_in_area = raurica_area
+					#is_in_area = sicambria_area
 				}
         	}
         }
@@ -409,8 +338,7 @@
 					is_in_area = semnonia_area
 					is_in_area = pharodenia_area
 					is_in_area = suradonia_area
-					is_in_area = saxony_area
-					is_in_area = buria_area
+					#is_in_area = saxony_area
 				}
         	}
         }
@@ -419,8 +347,7 @@
         	owns_or_subject_owns_area = semnonia_area
         	owns_or_subject_owns_area = pharodenia_area
 			owns_or_subject_owns_area = suradonia_area
-			owns_or_subject_owns_area = saxony_area
-			owns_or_subject_owns_area = buria_area
+			#owns_or_subject_owns_area = saxony_area
         }
 
 		on_completion = {
@@ -512,15 +439,6 @@
 					is_in_area = semnonia_area
 					is_in_area = pharodenia_area
 					is_in_area = suradonia_area
-					is_in_area = buria_area
-					is_in_area = turonia_area
-					is_in_area = sicambria_area
-					is_in_area = saxony_area
-                                        is_in_area = vangionia_area
-					is_in_area = chattia_occidentalis_area
-					is_in_area = germanicum_area
-					is_in_area = latobrigia_area
-					is_in_area = raurica_area
 				}
         	}
         }
@@ -536,15 +454,6 @@
 			owns_or_subject_owns_area = caluconia_area
         	owns_or_subject_owns_area = chamavia_area
 			owns_or_subject_owns_area = bructeria_area
-			owns_or_subject_owns_area = buria_area
-			owns_or_subject_owns_area = turonia_area
-			owns_or_subject_owns_area = saxony_area
-			owns_or_subject_owns_area = sicambria_area
-                        owns_or_subject_owns_area = vangionia_area 
-			owns_or_subject_owns_area = chattia_occidentalis_area
-			owns_or_subject_owns_area = germanicum_area
-			owns_or_subject_owns_area = latobrigia_area
-			owns_or_subject_owns_area = raurica_area
 		}
 
 		on_completion = {
