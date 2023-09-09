@@ -21,7 +21,7 @@ roman_collapse_arminius_ti.1 = {							# Warning
 		any_owned_province = {
 			count >=5
 			is_in_region = germania_region
-			dominant_province_culture_group = germanic
+			dominant_province_culture_group = culture_group:germanic
 		}
 		has_dlc = "The Punic Wars"
 	}
@@ -32,7 +32,7 @@ roman_collapse_arminius_ti.1 = {							# Warning
 		set_global_variable = rome_imminent_germanic_threat
 		set_global_variable = {
 			name = rome_tik_tok_death
-			duration = 7300
+			days = 7300
 		}
 	}
 }
@@ -55,7 +55,7 @@ roman_collapse_arminius_ti.2 = {							# Arminius Revolt
 		NOT = { has_global_variable = rome_master_of_germania }
 		any_owned_province = {
 			is_in_region = germania_region
-			dominant_province_culture_group = germanic
+			dominant_province_culture_group = culture_group:germanic
 		}
 		has_dlc = "The Punic Wars"
 	}

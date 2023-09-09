@@ -1057,7 +1057,7 @@ me_roman_missions_ti.37 = {							# Triumph in Germania
 			}
 			current_ruler.family = { add_prestige = prestige_huge }
 		}
-		add_2_free_province_tiestments = yes
+		add_2_free_province_investments = yes
 		capital_scope = { rm_triumphal_arch_effect = yes }
 	}
 }
@@ -1505,8 +1505,9 @@ me_roman_missions_ti.55 = {							# End of Aurelian Walls
 	option = {
 		name = me_roman_missions_ti.55.a
 		p:1 = {
-			add_permanent_province_modifer = {
+			add_province_modifier = {
 				name = "aurelian_walls_ti"
+				duration = -1
 			}
 		}
 		add_war_exhaustion = -5
