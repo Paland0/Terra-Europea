@@ -325,8 +325,8 @@ roman_collapse_arminius_ti.4 = {     #Tag Switch
         hidden_effect = {
             #set_variable = is_indo_greek_tiader #Form indo greek kingdom
             if = {
-                limit = { has_country_modifier = roman_collapse_arminius_ti }
-                remove_country_modifier = roman_collapse_arminius_ti
+                limit = { has_country_modifier = rome_clades_variana_mod }
+                remove_country_modifier = rome_clades_variana_mod
             }
 			current_ruler = {
 				add_martial = 15
