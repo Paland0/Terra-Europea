@@ -10,7 +10,7 @@
  
  #Modifiers
  roman_mission_09_eastern_glory_ti_task_2_modifier_tt: "There will be a period of unrest for five years as our new subjects acclimate to their altered status as part of the Roman dominion."
- roman_mission_09_eastern_glory_ti_task_1_modifier_tt: "The inhabitants of #E Lycia et Pisidia#! harbor apprehensions towards#E Roman#!rule, growing restless. However, with prudent governance, this apprehension is likely to fade within five years."
+ roman_mission_09_eastern_glory_ti_task_1_modifier_tt: "The inhabitants of #E Lycia et Pisidia#! harbor apprehensions towards #E Roman#! rule, growing restless. However, with prudent governance, this apprehension is likely to fade within five years."
  rome_theatre_of_pompeius: "Theatrum Marmoreum"
  desc_rome_theatre_of_pompeius: "Enclosed by the large columned porticos is an expansive garden complex of fountains and statues. Along the stretch of the covered arcade are rooms dedicated to the exposition of art and other works collected during our recent eastern campaigns. On the opposite end of the garden complex is a curia for political meetings, which is used by our senate for their formal meetings."
  
@@ -98,6 +98,9 @@
  roman_mission_13_fall_of_diadochoi_ti_task_6_cd_tt: "We have to wait at least 10 years after we started guaranteeing Egypt."
  roman_mission_09_eastern_glory_task_12_ti_tt: "We shall rule Judea either directly or through their own political elites."
  showered_subject_with_gifts_ti_tt: "We have used the subject interaction to #Y Bestow Gifts #!."
+ roman_mission_09_eastern_glory_task_12_ti_tt: "We shall receive claims on #Y Arabia Petrea#! and #Y Sinai#!."
+ roman_mission_13_fall_of_diadochoi_ti_task_2_modifier_tt: "The inhabitants of #Y Judea#! harbor massive apprehensions towards #E Roman#! rule, growing restless."
+ roman_mission_13_fall_of_diadochoi_ti_task_3_modifier_tt: "The inhabitants of #Y Arabia Petrea#! and #Y Sinai#! harbor apprehensions towards #E Roman#! rule, growing restless. However, with prudent governance, this apprehension is likely to fade within five years."
  
  #Events
  me_roman_missions_ti.3.t: "Guidance of the Elders"
