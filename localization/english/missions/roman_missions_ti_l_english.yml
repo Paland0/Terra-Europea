@@ -68,6 +68,7 @@
  roman_conquest_missions_ti.21.a: "Caesarea was good enough for the Greeks and Persians, it will do for us too." 
  roman_conquest_missions_ti.21.b: "Tyana could be a strategic option." 
  roman_conquest_missions_ti.21.c: "The city of Melitene is important enough, let us build there." 
+ roman_conquest_missions_ti.21.d: "TODO"
  
  #Treasure
  roman_statue_alexandros_pompeius:0 "Statue of Alexandros the Great"
@@ -131,6 +132,10 @@
  me_roman_missions_ti.12.desc: "For far too long the Israelites have been a rebellious thorn in our side, as they have been for all who have ruled them. We shall destroy their spirit of insolence and integrate them into our people. In time they will see our ways as theirs, and peace shall reign over Ierusalem." 
  me_roman_missions_ti.12.a: "Perhaps we should take a look at Nebuchadnezzar for inspiration." 
 
+ me_roman_missions_ti.10.t: "TODO"
+ me_roman_missions_ti.10.desc: "TODO"
+ me_roman_missions_ti.10.a: "TODO"
+
  me_roman_missions_ti.11.t: "Decapolian League"
  me_roman_missions_ti.11.desc: "Our people and religion have begun to take root in the midst of the Samarian and Israelite settlements. While surviving, stronger ties between our scattered people would help solidify our footprint in the area. They know the region and locals far better than us which is why they should be granted rule directly. We must unite if we are to ever keep hold of the Levant; otherwise, we shall be nothing more than just another shattered empire washed away with the next sandstorm." 
  me_roman_missions_ti.11.a: "Unity is strength." 
@@ -150,15 +155,34 @@
 
  me_roman_missions_ti.27.t: "$roman_mission_13_fall_of_diadochoi_ti_task_6$"
  me_roman_missions_ti.27.desc: "The Egyptians test our patience with every passing year, as more time passes the more they drag their heels. The senate and people of Rome are roaring in outrage, how dare they not accept our suzerainty? Some are asking for direct intervention, others for more restrained actions. What destiny shall Rome embark upon?"
+ me_roman_missions_ti.27.a: "TODO"
 
  me_roman_missions_ti.28.t: "The Fate of the Ptolemies"
  me_roman_missions_ti.28.desc: "Many amongst our court urge that we pledge our undying allegiance to Rome, and in your will, you shall leave the kingdom to be absorbed into the Roman Empire upon your passing. The Roman emissaries have been receptive to this idea, but they request that we take a decisive step to cement the end of the line of Ptolemy – the elimination of our outspoken heir, who vehemently criticizes Rome. This choice will bind Egypt to the might of Rome for generations to come."
  me_roman_missions_ti.28.a: "The line of Ptolemy shall end."
  me_roman_missions_ti.28.b: "The legacy of Ptolemy must endure."
+ 
+ me_roman_missions_ti.29.t: "TODO"
+ me_roman_missions_ti.29.desc: "TODO"
+ me_roman_missions_ti.29.a: "TODO"
 
  me_roman_missions_ti.31.t: "The Last Ptolemy"
  me_roman_missions_ti.31.desc: "Our kingdom has flourished in the centuries since your great ancestor seized control of Egypt and founded your illustrious dynasty. Under the wise and just rule of the Ptolemies, Egypt became a beacon of culture and power, blending the rich heritage of the Nile with the brilliance of Hellenistic thought. Now, as with your passing, we face the remarkable transition to Roman governance, it is with great optimism that we envision a new age for Egypt. The legacy of our civilization, nurtured by your dynasty, will continue to thrive under the influence of Rome, creating a vibrant tapestry of cultures and traditions. For the kingdom may change hands, but the spirit of Egypt endures. Egypt shall forever be a jewel in the crown of history, its stories and splendors echoing through the ages."
  me_roman_missions_ti.31.a: "Let our accomplishments be a guiding light for those who follow."
+ 
+ me_roman_missions_ti.32.t: "TODO"
+ me_roman_missions_ti.32.desc: "TODO"
+ me_roman_missions_ti.32.a: "TODO"
+ 
+ suicide_asp: "Killed by the bite of an asp"
+ 
+ me_roman_missions_ti.33.t: "TODO"
+ me_roman_missions_ti.33.desc: "TODO"
+ me_roman_missions_ti.33.a: "TODO"
+ 
+ me_roman_missions_ti.53.t: "NOT NEEDED"
+ me_roman_missions_ti.53.desc: "NOT NEEDED"
+ me_roman_missions_ti.53.a: "NOT NEEDED"
 
  roman_conquest_missions_ti.28.t: "The Phoenician Coast"
  roman_conquest_missions_ti.28.desc: "At long last, the coast which brought forth Carthage is under the banner of Rome. Ancient trade routes and cities older than even our Republic belong to us, history may have belonged to the Phoenicians but the future shall now shine on Rome." 
@@ -310,7 +334,7 @@
  roman_mission_15_arminius_BUTTON_DETAILS:0 ""
  roman_mission_15_arminius_DESCRIPTION:0 "Germans; even the name of these barbarians is enough to send a shiver down a good Roman citizen's spine. Although we have memories of Gallic invasions, like the time when Brennus came and sacked Rome itself, the Germans are even fiercer and deadlier opponents and present a threat to our interests in the north. Although it will require a strenuous effort, we should do what we can to bring peace to this region."
  roman_mission_15_arminius_CRITERIA_DESCRIPTION:0 ""
- roman_mission_15_arminius_REWARD_DESCRIPTION:0 ""
+ roman_mission_15_arminius_REWARD_DESCRIPTION:0 "We will be able to stablize our conquests in Germania Magna."
  #Tasks
  roman_mission_15_arminius_task_2: "The Land between Albis and Rhenus"
  roman_mission_15_arminius_task_2_DESC: "The dark and distant forests of [GetProvince('(int32)3827').GetArea.GetRegion.GetName] are filled with resources that we would greatly like to have for ourselves; the raw goods of the province, like lumber and stone, shall be used to build permanent settlements in the region. \n\n\n\n\n\n\n\n\n\n\n@celt_mil12!"
@@ -363,6 +387,58 @@
  me_roman_missions_ti.36.desc: "Since the beginning of our campaign into the enigmatic depths of Germania, we have known that maintaining control over this distant and rebellious realm would prove itself an incredibly arduous task. Insurgent tribesmen and defiant chieftains have fought against us every step of the way, launching attacks on our settlements, ambushing our troops, and undermining critical infrastructure, pushing the dream of a Roman Germania perilously close to collapse. But through herculean efforts, unwavering vigilance, and proactive measures we have brought enduring stability to this barbarous land, dismantled organized resistance to our rule, and at long last secured an unshakeable hold over the region."
  me_roman_missions_ti.36.a: "For a Safe and Secure Germania"
  
+ me_roman_missions_ti.37.t: "TODO"
+ me_roman_missions_ti.37.desc: "TODO"
+ me_roman_missions_ti.37.a: "TODO"
+ 
+ me_roman_missions_ti.56.t: "TODO"
+ me_roman_missions_ti.56.desc: "TODO"
+ me_roman_missions_ti.56.a: "TODO"
+ 
+ me_roman_missions_ti.57.t: "Safety first!"
+ me_roman_missions_ti.57.desc: "Since our annexation of Germania, we have set about diligently constructing numerous urban centers in this once wild and desolate land. However, we must not forget that this is still an untamed frontier territory, its newly paved roads remain perilous, teeming with brigands, tribesmen, and rebels alike. Thus, it becomes imperative to safeguard our burgeoning settlements in Germania through the construction of majestic walls and formidable fortifications. They shall serve as unassailable bastions of civilization amidst a sea of barbarism, safeguarding our hard-won gains."
+ me_roman_missions_ti.57.a: "I have seen much of the rest of the world. It is brutal and cruel and dark."
+ 
+ me_roman_missions_ti.58.t: "TODO"
+ me_roman_missions_ti.58.desc: "TODO"
+ me_roman_missions_ti.58.a: "TODO"
+ 
+ me_roman_missions_ti.59.t: "TODO"
+ me_roman_missions_ti.59.desc: "TODO"
+ me_roman_missions_ti.59.a: "TODO"
+ 
+ #Colony Events
+ roman_conquest_missions_ti.31.t: "Conquest of Transalbia"
+ roman_conquest_missions_ti.31.desc: "We have conquered and firmly established our dominion over the western expanse of Germania, yet our borders remain vulnerable. Beyond the Albis River dwell the Suebi, the fiercest, most barbaric and warlike of all the Germanic tribes, undeterred by a mere river's breadth. Sustaining our suzerainty over the Germans is impossible as long as their eastern kin raid our holdings and aid local rebels, threatening the stability of the entire region. Our legions have been dispatched to crush these barbarians and extend our dominion to the Viadua, silencing the Suebian menace and solidifying our eastern borders once and for all. With newly conquered territory comes the inevitable parceling of land and distribution of promises, but it is up to us to decide which township will become the Roman hub of the area."
+ roman_conquest_missions_ti.31.a: "Urania and its central position is key to securing Semnonia" 
+ roman_conquest_missions_ti.31.b: "The island of Lemovia is strategic enough"
+ roman_conquest_missions_ti.31.c: "Laciburaium and its coastline is crucial to trade"
+
+ roman_conquest_missions_ti.32.t: "The Conquest of Boihaemia"
+ roman_conquest_missions_ti.32.desc: "Despite its apparent proximity to our heartland compared to the Germanic lands, the Bohemian Basin poses a deceptively daunting challenge for colonization. Encircled by thick forests and rugged hills to the north and west, and the formidable Alps to the south, it can only be safely approached via a narrow corridor: the Pannonian Plain and the Danube within it. The geographic isolation only adds to the harsh climate and unfriendly tribes rendering Roman settlement a complicated and difficult endeavor. Nevertheless, undeterred by these obstacles, our colonists march across the plain and traverse the mighty Danube into the heart of the basin leaving it up to us to decide where to build the new Roman hub of the area."
+ roman_conquest_missions_ti.32.a: "Baemia, Capital of the Boihaemian homeland, will become our Roman city" 
+ roman_conquest_missions_ti.32.b: "Furgisatis and its tactical position would help us" 
+ roman_conquest_missions_ti.32.c: "Phargisatus is the most interesting choice" 
+
+ roman_conquest_missions_ti.33.t: "Colonization of the Northern Coast"
+ roman_conquest_missions_ti.33.desc: "With Germania stabilized, we can at last safely begin our colonial project in the region, the first step in bringing civilization and Roman culture to the area, transforming it into a productive, prosperous, and integral part of our nation. This is a harsh land distant from our core territories, as such we have decided that the first wave of colonists will settle on Germania's northern shore where they can be most easily supplied, but it is up to us to decide where to build the new Roman hub of the area."
+ roman_conquest_missions_ti.33.a: "Flevum, with its excellent ports, shall be our stronghold across the Rhenus"
+ roman_conquest_missions_ti.33.b: "Setutanda has a nice ring to it"
+ roman_conquest_missions_ti.33.c: "The maps show Tecelia could be an excellent option" 
+
+
+ roman_conquest_missions_ti.34.t: "Colonization of the interior"
+ roman_conquest_missions_ti.34.desc: "With the coast secured, our colonists are ready to venture further inland, into the heart of darkness. This area is cold, dangerous, distant, and not yet fully pacified presenting a great challenge to our colonization efforts. But if we are truly committed to bringing civilization to Germania, we cannot ignore the interior, regardless of the harsh conditions. As our colonists cross the Rhenus and leave the shores behind, it is up to us to decide where to build the new Roman hub of the area."
+ roman_conquest_missions_ti.34.a: "Carvium, sister to the Rhenus, is too important"
+ roman_conquest_missions_ti.34.b: "The omens have said that Teutoburgiensis is our destiny"
+ roman_conquest_missions_ti.34.c: "Tenctheria could work, given enough time"
+
+ roman_conquest_missions_ti.35.t: "Colonization of Cisalbia"
+ roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
+ roman_conquest_missions_ti.35.a: "Tropea"
+ roman_conquest_missions_ti.35.b: "Treva, watchman to the Albia, is our eastern lookout" 
+ roman_conquest_missions_ti.35.c: "Dandutia"
+ 
  #Collapse
  roman_collapse_arminius_ti.1.t: "Rumbles of Rebellion"
  roman_collapse_arminius_ti.1.desc: "As the Roman banner flutters in the winds of Germania, unsettling reports reach us from the frontiers. What were once sporadic and uncoordinated acts of rebellion and sabotage have begun to coalesce into an organized insurgency against our rule in the region. These developments paint a concerning picture. At the heart of this growing threat is a charismatic and astute leader, a chief who is uniting the disparate Germanic tribes under a single banner in opposition to our authority, possessing a profound understanding of the structure, strategies, and capabilities of the Roman military, and using this knowledge to great effect by skillfully coordinating attacks on our holdings and ambushes of our troops As the threat of rebellion grows increasingly organized and formidable, we must remain ever vigilant if we wish to maintain our dominion in these lands. \n\n #R A new mission tree is available to us. If we complete it within 20 years, the German resistance will end.#!"
@@ -389,10 +465,10 @@
  
  #Imperium Sine Fine
  roman_mission_16_imperium_sine_fine: "Imperium Sine Fine"
- roman_mission_16_imperium_sine_fine_BUTTON_TOOLTIP: The East will bend to the might of Rome."
+ roman_mission_16_imperium_sine_fine_BUTTON_TOOLTIP: "The East will bend to the might of Rome."
  roman_mission_16_imperium_sine_fine_BUTTON_DETAILS: ""
  roman_mission_16_imperium_sine_fine_DESCRIPTION: "As dawn breaks over the Roman Empire, our ambition knows no bounds. Guided by the Unconquered Sun, we shall embark on an unwavering quest to secure our dominion, destined to span from the misty shores of Britannia to the edges of Mesopotamia. From the throne of Babylon, the very heart of Alexander's empire, to the legendary shores of Colchis, we are destined to etch our mark onto history with tales of Roman valor and enduring dominance. Wherever the children of the wolf roam, will be Rome. Imperium Sine Fine, an empire without end, is our destiny. For millennia to come, the name of Rome shall echo through the annals of time, an enduring testament to the indomitable spirit of the Roman people."
- roman_mission_16_imperium_sine_fine_CRITERIA_DESCRIPTION: This mission will be considered complete when Rome conquers or subjugates the tribes of the Caucasus and Colchis and brings the regions of Assyria, Armenia, and Mesopotamia to heel."
+ roman_mission_16_imperium_sine_fine_CRITERIA_DESCRIPTION: "This mission will be considered complete when Rome conquers or subjugates the tribes of the Caucasus and Colchis and brings the regions of Assyria, Armenia, and Mesopotamia to heel."
  roman_mission_16_imperium_sine_fine_REWARD_DESCRIPTION: "An Empire Without End."
  #Tasks
  roman_mission_16_imperium_sine_fine_task_1: "Sol Invictus"
@@ -459,6 +535,10 @@
  me_roman_missions_ti.6.desc: "As the brilliance of your rule shines brighter than the sun itself, whispers of divine favor fill the air. The people clamor for your ascension to the ranks of the gods, declaring you the earthly manifestation of Sol Invictus, the Unconquered Sun. They see in you the embodiment of Roman greatness, a ruler beyond mortal bounds. The choice is yours: ascend to godhood and become a symbol of eternal Roman greatness, or remain mortal and continue your legacy as a wise and revered leader of the Republic."
  me_roman_missions_ti.6.a: "Dear me, I believe I am becoming a god."
  me_roman_missions_ti.6.b: "I am but a man."
+ 
+ me_roman_missions_ti.9.t: "TODO"
+ me_roman_missions_ti.9.desc: "TODO"
+ me_roman_missions_ti.9.a: "TODO"
  
  me_roman_missions_ti.38.t: "Ave Imperator"
  me_roman_missions_ti.38.desc: "The echoes of history resound as Rome stands at the precipice of a transformative era. It has become increasingly evident that the time has come to cast aside the pretense of republican governance and usher in a new age—an Empire under the resolute authority of one man, as Rome looks eastward for further conquest, its ambitions stretching beyond the horizon."
