@@ -164,9 +164,13 @@
  me_roman_missions_ti.28.a: "The line of Ptolemy shall end."
  me_roman_missions_ti.28.b: "The legacy of Ptolemy must endure."
  
- me_roman_missions_ti.29.t: "TODO"
- me_roman_missions_ti.29.desc: "TODO"
- me_roman_missions_ti.29.a: "TODO"
+ me_roman_missions_ti.29.t: "Defiance Against Rome"
+ me_ptolemaic_mission_ti.29.desc: "In the face of Roman pressure, we choose defiance. Our legacy as the rulers of Egypt shall not yield to external dominance. We reject any notions of capitulation to Rome. It is time to strengthen our resolve, bolster our defenses, and prepare for the inevitable clash with the Roman Empire. Our sovereignty shall remain unbroken, and the spirit of Egypt shall endure."
+ me_roman_missions_ti.29.a: "Ready our armies."
+
+ me_roman_missions_ti.30.t: "Capitulation to Rome"
+ me_ptolemies_mission_rome_capitulation_desc: "In the face of relentless Roman pressure, we have made the decision to submit to their suzerainty. Rome's power and influence have grown too formidable to resist, and it is in the best interest of Egypt to align with the might of the Roman Empire."
+ me_roman_missions_ti.30.a: "This is what Ptolemy I Soter would have wanted."
 
  me_roman_missions_ti.31.t: "The Last Ptolemy"
  me_roman_missions_ti.31.desc: "Our kingdom has flourished in the centuries since your great ancestor seized control of Egypt and founded your illustrious dynasty. Under the wise and just rule of the Ptolemies, Egypt became a beacon of culture and power, blending the rich heritage of the Nile with the brilliance of Hellenistic thought. Now, as with your passing, we face the remarkable transition to Roman governance, it is with great optimism that we envision a new age for Egypt. The legacy of our civilization, nurtured by your dynasty, will continue to thrive under the influence of Rome, creating a vibrant tapestry of cultures and traditions. For the kingdom may change hands, but the spirit of Egypt endures. Egypt shall forever be a jewel in the crown of history, its stories and splendors echoing through the ages."
