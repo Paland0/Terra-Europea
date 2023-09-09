@@ -127,7 +127,7 @@
                     duration = 1825 # 5 years
                 }
             }
-			hidden:custom_tooltip = roman_mission_09_eastern_glory_task_3_ti_tt
+			custom_tooltip = roman_mission_09_eastern_glory_task_3_ti_tt
 			hidden_effect = {
 				region:moesia_region = {
 					every_region_province = { add_claim = ROOT }
