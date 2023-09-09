@@ -648,6 +648,14 @@
                     duration = 1825 # 5 years
                 }
             }
+	hidden_effect = {
+				region:Arabia_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+				region:Arabia_Felix_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+			}
     	}
     }
 	
@@ -862,7 +870,14 @@
 				add_stability = -20
 				#disloyalty of non-Populares?
 			}
-			
+		hidden_effect = {
+				region:Upper_Egypt_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+				region:Lower_Numbia_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+			}	
     	}
     }
 
