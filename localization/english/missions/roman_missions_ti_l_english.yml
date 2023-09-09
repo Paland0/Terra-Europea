@@ -441,9 +441,9 @@
 
  roman_conquest_missions_ti.35.t: "Colonization of Cisalbia"
  roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
- roman_conquest_missions_ti.35.a: "Tropea"
+ roman_conquest_missions_ti.35.a: "Tropea is strategic enough"
  roman_conquest_missions_ti.35.b: "Treva, watchman to the Albia, is our eastern lookout" 
- roman_conquest_missions_ti.35.c: "Dandutia"
+ roman_conquest_missions_ti.35.c: "Dandutia has a nice ring to it"
  
  #Collapse
  roman_collapse_arminius_ti.1.t: "Rumbles of Rebellion"
@@ -453,7 +453,7 @@
  roman_collapse_arminius_ti.2.t: "Ruma, gae naehwo Hus!"
  roman_collapse_arminius_ti.2.desc: "News most dire reach us from the frontier! Under the leadership of the archtraitor [Cherushian leader name], a man we once regarded as a loyal soldier and a living symbol of the universal reach of our civilizing mission, the Germanic barbarians have risen in a massive rebellion against our enlightened rule! With ruthless coordination, Roman garrisons have been brutally massacred, troops ambushed and slaughtered, command centers reduced to ashes, vital infrastructure set ablaze and thriving urban centers ruthlessly seized and razed to the ground. Except for the most loyal of territories, our authority in Germania has completely disintegrated. With chilling, never before seen unity, the Germanic tribes now march as one, converging upon our last bastions. Their intent is clear - to drive us entirely from our hard-won territory, to erase our presence from Germania, and perhaps they even seek to breach the Rhenus and encroach upon the fertile fields of Roman Gaul. It is impossible understate the menace posed by a united and hostile Germania to the safety of our nation, we must act quickly and crush this rebellion, or risk losing everything we have gained in this region!"
  roman_collapse_arminius_ti.2.a: "To Arms!"
- roman_collapse_arminius_ti.2.b: "TODO" 
+ roman_collapse_arminius_ti.2.b: "Perhaps a change in management is in order" 
  flavor_tag_switch_arminius: "#R We will now continue playing as the German revolters!#!"
  
  roman_collapse_arminius_ti.3.t: "You Were The Chosen One!"
