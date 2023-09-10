@@ -1,26 +1,26 @@
 ﻿l_english:
 
  gaul_arvernia_1: "A Tale of Gaulish Heroes"
- gaul_arvernia_1_DESCRIPTION: "Mission description"
- gaul_arvernia_1_CRITERIA_DESCRIPTION: "This mission will be completed when"
- gaul_arvernia_1_BUTTON_TOOLTIP: ""
+ gaul_arvernia_1_DESCRIPTION: "Our tribe, the Gaulish Arvernia has lived amidst the lush landscapes of Celtica for generations. Nestled among rolling hills and ancient forests, we've thrived, preserving our unique traditions and ways of life. However, a new era dawns for our people, one that calls us to venture beyond the familiar and unite the Gallic tribes. This new dawn marks the beginning of a grand journey where we shall seek to unite Gaul under a single banner, forging a mighty federation."
+ gaul_arvernia_1_CRITERIA_DESCRIPTION: "This mission will be completed when we have created a Gallic Federation."
+ gaul_arvernia_1_BUTTON_TOOLTIP: "Forge the destiny of Gaul with courage, wisdom, and unity."
 
  #Missions
 
  gaul_arvernia_task_1: "Gather Allies"
- gaul_arvernia_task_1_DESC: ""
+ gaul_arvernia_task_1_DESC: "We shall seek out those who share our vision of a united Gaul, where the strength of many shall overcome the challenges of the few. Together, we will form a formidable force, united in purpose and resolve, ready to face the trials that lie ahead."
 
  gaul_arvernia_task_2: "Cooperation is Key"
- gaul_arvernia_task_2_DESC: ""
+ gaul_arvernia_task_2_DESC: "To ensure the success of our grand undertaking, we strengthen the bonds of cooperation with our newfound allies. We forge agreements that will bind our tribes together against common threats and challenges. In unity, there is strength."
 
  gaul_arvernia_task_3: "Gaulish Gifts"
- gaul_arvernia_task_3_DESC: ""
+ gaul_arvernia_task_3_DESC: "We will demonstrate our goodwill and benevolence by offering gifts and valuable assistance to neighboring tribes. In this manner, we can build trust and camaraderie among the Gauls, fostering an environment of mutual respect and solidarity that transcends tribal boundaries."
 
  gaul_arvernia_task_4: "Envoys to Gauls"
- gaul_arvernia_task_4_DESC: ""
+ gaul_arvernia_task_4_DESC: "We must extend the hand of diplomacy to our brethren by dispatching envoys to our fellow Gaulish tribes. Our mission is clear: to initiate earnest discussions about the promising prospect of forging a united Gaul. With diplomatic finesse and unwavering resolve, we endeavor to explore every avenue to unite the tribes peacefully, for a united Gaul shall emerge as an indomitable force, commanding the respect of all."
 
  gaul_arvernia_task_5: "Gaulish Hospitality"
- gaul_arvernia_task_5_DESC: ""
+ gaul_arvernia_task_5_DESC: "The Arvernia have long believed that shared traditions and festivities reinforce the Gaulish identity that binds us. Our commitment to unity will be made clear to all by hosting gatherings, feasts, and celebrations that promote unity and solidarity among the Gaulish tribes."
 
  gaul_arvernia_task_6: "Reveal Haeduian Corruption"
  gaul_arvernia_task_6_DESC: ""
