@@ -1256,6 +1256,8 @@ me_roman_missions_ti.44 = {							# Truce
 		add_truce = {
 			target = c:PTH
 			duration = 5475
+		}
+		current_ruler = {
 			add_charisma = 3
 			add_popularity = 10
 		}
