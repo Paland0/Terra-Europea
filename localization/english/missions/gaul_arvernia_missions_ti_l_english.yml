@@ -23,23 +23,23 @@
  gaul_arvernia_task_5_DESC: "The Arvernia have long believed that shared traditions and festivities reinforce the Gaulish identity that binds us. Our commitment to unity will be made clear to all by hosting gatherings, feasts, and celebrations that promote unity and solidarity among the Gaulish tribes."
 
  gaul_arvernia_task_6: "Reveal Haeduian Corruption"
- gaul_arvernia_task_6_DESC: ""
+ gaul_arvernia_task_6_DESC: " Rumors of corruption have cast a shadow over the Haedui tribe, and it is our solemn duty to unearth the truth behind these allegation and expose any deceit and wrongdoing that may threaten the harmony of Gaul. In our relentless quest for justice and transparency, we shall leave no stone unturned, sparing no effort to ensure that the values upon which Gaul stands are upheld and that any shadowy forces within our midst are exposed to the piercing light of truth."
 
  gaul_arvernia_task_7: "Envoy to Haeduia"
- gaul_arvernia_task_7_DESC: ""
+ gaul_arvernia_task_7_DESC: "Following our efforts to expose corruption within the Haedui leadership, a thick fog has been cast over our relations. It is imperative that we extend the hand of reconciliation and seek to reestablish good diplomatic footing with the Haedui. We shall send our most capable envoy, armed with words of conciliation and a vision of a united Gaul, to attempt to mend the rift growing between our peoples and bring the Haedui back into the fold as valued allies."
 
  gaul_arvernia_task_8: "Destroy the Haedui"
- gaul_arvernia_task_8_DESC: ""
+ gaul_arvernia_task_8_DESC: "Despite our earnest attempts at diplomacy, the Haedui remain an obstacle to our grand vision of Gaulish unity. Their refusal to embrace cooperation and their persistent hostility threaten the harmony we seek to establish among Gaulish tribes. It is with a heavy heart that we must now consider more drastic measures. While we regret the necessity of this action, we remain steadfast in our commitment to forging a united Gaul, where the strength of many shall overcome the challenges of the few."
 
  gaul_arvernia_task_9: "Integrate Central Gaul"
- gaul_arvernia_task_9_DESC: ""
+ gaul_arvernia_task_9_DESC: "Now, it is time to take the next crucial step along our steady march towards Gallic unity. Our influence across the heartland of Gaul in Lemovicia, Celtica Occidentalis, and Allobrogia. The time has come to formalize our alliance with the tribes dwelling in these fertile lands and integrate them into our burgeoning federation."
 
  gaul_arvernia_task_10: "A Stable Court"
- gaul_arvernia_task_10_DESC: ""
+ gaul_arvernia_task_10_DESC: "As we forge ahead towards a united Gaul, it has become increasingly vital to establish a centralized authority that can guide our federation towards prosperity and stability. To achieve this, we must create a stable court of advisors, bringing together esteemed tribal chiefs and influential religious leaders. This diverse assembly will provide counsel and wisdom, ensuring that our decisions are well-informed and collectively beneficial. This will allow us to streamline our governance, strengthen our resolve, and lead Gaul towards a future where unity and prosperity reign supreme."
 
- gaul_arvernia_task_11: "Renovate Our Capital"
- gaul_arvernia_task_11_DESC: ""
-
+ gaul_arvernia_task_11: "Renovation of [GetProvince('(int32)CAPITALIDPLACEHOLDER').GetName]"
+ gaul_arvernia_task_11_DESC: "With our dreams of a united Gaul drawing closer to fruition, it is imperative that we renovate and fortify our capital, making it a symbol of our collective strength and resilience. The grandeur of the revitalized [GetProvince('(int32)CAPITALIDPLACEHOLDER').GetName] will inspire awe and reverence, reinforcing the bonds that tie our federation together as we continue our journey towards Gaulish unity and prosperity."
+ 
  gaul_arvernia_task_12: "Cultivate Our Markets"
  gaul_arvernia_task_12_DESC: ""
 
