@@ -210,7 +210,7 @@ me_roman_missions_ti.8 = {							#Eastern Glory - End
 			add_permanent_province_modifier = {
 				name = rome_theatre_of_pompeius
 			}
-			add_building_level = theatre_building
+			add_building_level = theathre_building
 			add_special_pop = {
 				text = "add_2_artist_tt"
 				type = artist
@@ -1315,7 +1315,7 @@ me_roman_missions_ti.47 = {							# Rome African Expedition - End
 		trigger = {
 			NOT = { has_variable = found_treasure }
 		}
-			add_treasury = -250
+		custom_tooltip = no_effect_tooltip
 	}
 	
 	option = {
@@ -1499,12 +1499,8 @@ me_roman_missions_ti.54 = {							# Begin of Aurelian Walls
 	option = {
 		name = me_roman_missions_ti.54.a
 		add_treasury = -500
-		capital_scope = {
-			add_special_pop = {
-				text = "add_1_architect_tt"
-				type = architect
-				count = 2
 	}
+		
 }
 
 me_roman_missions_ti.55 = {							# End of Aurelian Walls
@@ -1522,10 +1518,19 @@ me_roman_missions_ti.55 = {							# End of Aurelian Walls
 				name = "aurelian_walls_ti"
 				duration = -1
 			}
+
 		}
 		add_war_exhaustion = -5
+		capital_scope = {
+			add_special_pop = {
+				text = "add_1_architect_tt"
+				type = architect
+				count = 1
+			}
+		}
 		add_splendor = {
 	  		amount = 100
+		}
 	}
 }
 
