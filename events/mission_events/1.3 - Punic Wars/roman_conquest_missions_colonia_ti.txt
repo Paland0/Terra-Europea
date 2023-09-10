@@ -1124,3 +1124,415 @@ roman_conquest_missions_ti.41 = {							# Armenia
 		}
 	}
 }
+roman_conquest_missions_ti.42 = {							# Media
+    type = country_event
+	title = roman_conquest_missions_ti.42.t
+    desc = {
+		desc = roman_conquest_missions_ti.42.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:1595
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.42.a 
+		trigger = { owns = 1595 } 
+		p:1595 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.42.b
+		trigger = { owns = 4991 } 
+		p:4991 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.42.c
+		trigger = { owns = 1515 } 
+		p:1515 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.42.d
+		trigger = { owns = 4985 } 
+		p:4985 = { roman_mission_colonia_effect = yes }
+    }
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 1595 }
+				NOT = { owns = 4991 }
+				NOT = { owns = 1515 }
+				NOT = { owns = 4985 }
+			}
+		}
+	}
+}
+
+roman_conquest_missions_ti.43 = {							# Persia
+    type = country_event
+	title = roman_conquest_missions_ti.43.t
+    desc = {
+		desc = roman_conquest_missions_ti.43.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:4799
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.43.a 
+		trigger = { owns = 4799 } 
+		p:4799 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.43.b
+		trigger = { owns = 946 } 
+		p:946 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.43.c
+		trigger = { owns = 4787 } 
+		p:4787 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.43.d
+		trigger = { owns = 943 } 
+		p:943 = { roman_mission_colonia_effect = yes }
+    }
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 4799 }
+				NOT = { owns = 946 }
+				NOT = { owns = 4787 }
+				NOT = { owns = 943 }
+			}
+		}
+	}
+}
+
+roman_conquest_missions_ti.44 = {							# Gedrosia
+    type = country_event
+	title = roman_conquest_missions_ti.44.t
+    desc = {
+		desc = roman_conquest_missions_ti.44.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:6620
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.44.a 
+		trigger = { owns = 4791 } 
+		p:4791 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.44.b
+		trigger = { owns = 6821 } 
+		p:6821 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.44.c
+		trigger = { owns = 6620 } 
+		p:6620 = { roman_mission_colonia_effect = yes }
+    }
+	
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 4791 }
+				NOT = { owns = 6821 }
+				NOT = { owns = 6620 }
+			}
+		}
+	}
+}
+
+roman_conquest_missions_ti.45 = {							# Indus
+    type = country_event
+	title = roman_conquest_missions_ti.45.t
+    desc = {
+		desc = roman_conquest_missions_ti.45.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:4371
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.45.a 
+		trigger = { owns = 4371 } 
+		p:4371 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.45.b
+		trigger = { owns = 7314 } 
+		p:7314 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.45.c
+		trigger = { owns = 7485 } 
+		p:7485 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.45.d
+		trigger = { owns = 4316 } 
+		p:4316 = { roman_mission_colonia_effect = yes }
+    }
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 4371 }
+				NOT = { owns = 7314 }
+				NOT = { owns = 7485 }
+				NOT = { owns = 4316 }
+			}
+		}
+	}
+}
+
+roman_conquest_missions_ti.46 = {							# Ariana
+    type = country_event
+	title = roman_conquest_missions_ti.46.t
+    desc = {
+		desc = roman_conquest_missions_ti.46.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:6558
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.46.a 
+		trigger = { owns = 6558 } 
+		p:6558 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.46.b
+		trigger = { owns = 3460 } 
+		p:3460 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.46.c
+		trigger = { owns = 6541 } 
+		p:6541 = { roman_mission_colonia_effect = yes }
+    }
+	
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 6558 }
+				NOT = { owns = 3460 }
+				NOT = { owns = 6541 }
+			}
+		}
+	}
+}
+
+roman_conquest_missions_ti.47 = {							# Parthia
+    type = country_event
+	title = roman_conquest_missions_ti.47.t
+    desc = {
+		desc = roman_conquest_missions_ti.47.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:1595
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.47.a 
+		trigger = { owns = 6657 } 
+		p:6657 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.47.b
+		trigger = { owns = 3439 } 
+		p:3439 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.47.c
+		trigger = { owns = 6668 } 
+		p:6668 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.47.d
+		trigger = { owns = 3435 } 
+		p:3435 = { roman_mission_colonia_effect = yes }
+    }
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 6657 }
+				NOT = { owns = 3439 }
+				NOT = { owns = 6668 }
+				NOT = { owns = 3435 }
+			}
+		}
+	}
+}
+
+roman_conquest_missions_ti.48 = {							# Bactria & Sogdiana
+    type = country_event
+	title = roman_conquest_missions_ti.48.t
+    desc = {
+		desc = roman_conquest_missions_ti.48.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:6704
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.48.a 
+		trigger = { owns = 6704 } 
+		p:6704 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.48.b
+		trigger = { owns = 6682 } 
+		p:6682 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.48.c
+		trigger = { owns = 6694 } 
+		p:6694 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.48.d
+		trigger = { owns = 6703 } 
+		p:6703 = { roman_mission_colonia_effect = yes }
+    }
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 6704 }
+				NOT = { owns = 6682 }
+				NOT = { owns = 6694 }
+				NOT = { owns = 6703 }
+			}
+		}
+	}
+}
+roman_conquest_missions_ti.49 = {							# Scythia
+    type = country_event
+	title = roman_conquest_missions_ti.49.t
+    desc = {
+		desc = roman_conquest_missions_ti.49.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:7187
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.49.a 
+		trigger = { owns = 7187 } 
+		p:7187 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.49.b
+		trigger = { owns = 4925 } 
+		p:4925 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.49.c
+		trigger = { owns = 4915 } 
+		p:4915 = { roman_mission_colonia_effect = yes }
+    }
+	
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 7187 }
+				NOT = { owns = 4925 }
+				NOT = { owns = 4915 }
+			}
+		}
+	}
+}
