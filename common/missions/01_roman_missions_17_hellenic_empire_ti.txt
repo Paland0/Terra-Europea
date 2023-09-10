@@ -1,0 +1,1068 @@
+﻿roman_mission_17_hellenic_empire = {
+    header = "mission_image_rome"
+	icon = "rome_4"
+
+    repeatable = no
+
+    chance = {
+    	factor = 3 
+    }
+
+    potential = {
+        NOT = { has_variable = roman_mission_17_hellenic_empire }
+        has_dlc = "The Punic Wars"
+    	tag = ROM
+    	OR = {
+			#always = yes
+    		has_completed_mission = roman_mission_16_imperium_sine_fine
+    		any_owned_province = {
+    			OR = {
+    				is_in_region = ariana_region
+    				is_in_region = persis_region
+    				is_in_region = media_region
+    			}
+    		}
+    	}
+        is_subject = no
+        has_civil_war = no
+    }
+
+    abort = {
+        ai_mission_back_out_trigger = yes
+    }
+
+    on_start = {
+        start_mission_ai_effect = yes
+        if = {
+            limit = { is_ai = yes }
+            region:ariana_region = {
+                every_region_province = { add_claim = ROOT }
+            }
+            region:persis_region = {
+                every_region_province = { add_claim = ROOT }
+            }
+            region:media_region = {
+                every_region_province = { add_claim = ROOT }
+            }
+        }
+		trigger_event = me_roman_missions_ti.60
+    }
+
+    on_abort = {
+        custom_tooltip = general_mission_cooldown_tt
+        set_variable = {
+            name = roman_mission_17_hellenic_empire
+            days = 7300
+        }
+    }
+
+
+    roman_mission_17_hellenic_empire_task_1 = { ##Footholds in Media
+    	icon = "task_expansion"
+
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = aspadana_area
+					is_in_area = rhagai_area
+					is_in_area = ecbatana_area
+					is_in_area = media_choromithrene
+					is_in_area = amardioi_area
+					is_in_area = kossioi_area
+					is_in_area = media_area
+					is_in_area = media_atropatene_area
+					is_in_area = kadousioi_area
+				}
+    		}
+    	}
+
+    	allow = {
+    		owns_or_subject_owns_area = aspadana_area
+			owns_or_subject_owns_area = rhagai_area
+			owns_or_subject_owns_area = ecbatana_area
+			owns_or_subject_owns_area = media_choromithrene
+			owns_or_subject_owns_area = amardioi_area
+			owns_or_subject_owns_area = kossioi_area
+			owns_or_subject_owns_area = media_area
+			owns_or_subject_owns_area = media_atropatene_area
+			owns_or_subject_owns_area = kadousioi_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.42 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = aspadana_area
+								is_in_area = rhagai_area
+								is_in_area = ecbatana_area
+								is_in_area = media_choromithrene_area
+								is_in_area = amardioi_area
+								is_in_area = kossioi_area
+								is_in_area = media_area
+								is_in_area = media_atropatene_area
+								is_in_area = kadousioi_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = aspadana_area
+								is_in_area = rhagai_area
+								is_in_area = ecbatana_area
+								is_in_area = media_choromithrene
+								is_in_area = amardioi_area
+								is_in_area = kossioi_area
+								is_in_area = media_area
+								is_in_area = media_atropatene_area
+								is_in_area = kadousioi_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = aspadana_area
+							is_in_area = rhagai_area
+							is_in_area = ecbatana_area
+							is_in_area = media_choromithrene
+							is_in_area = amardioi_area
+							is_in_area = kossioi_area
+							is_in_area = media_area
+							is_in_area = media_atropatene_area
+							is_in_area = kadousioi_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+    roman_mission_17_hellenic_empire_task_2 = { ##Conquering Persis
+    	icon = "task_conquest"
+
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = susiana_area
+					is_in_area = pars_area
+					is_in_area = veshapur_area
+					is_in_area = persepolis_area
+					is_in_area = utia_area
+					is_in_area = media_felix_area
+					is_in_area = ardashir_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = susiana_area
+			owns_or_subject_owns_area = pars_area
+			owns_or_subject_owns_area = veshapur_area
+			owns_or_subject_owns_area = persepolis_area
+			owns_or_subject_owns_area = utia_area
+			owns_or_subject_owns_area = media_felix_area
+			owns_or_subject_owns_area = ardashir_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.43 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = susiana_area
+								is_in_area = pars_area
+								is_in_area = veshapur_area
+								is_in_area = persepolis_area
+								is_in_area = utia_area
+								is_in_area = media_felix_area
+								is_in_area = ardashir_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = susiana_area
+								is_in_area = pars_area
+								is_in_area = veshapur_area
+								is_in_area = persepolis_area
+								is_in_area = utia_area
+								is_in_area = media_felix_area
+								is_in_area = ardashir_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = susiana_area
+							is_in_area = pars_area
+							is_in_area = veshapur_area
+							is_in_area = persepolis_area
+							is_in_area = utia_area
+							is_in_area = media_felix_area
+							is_in_area = ardashir_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+    roman_mission_17_hellenic_empire_task_3 = { ##Subduing Gedrosia
+    	icon = "task_expansion"
+		requires = { roman_mission_17_hellenic_empire_task_2 }
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = gedrosia_area
+					is_in_area = parecania_area
+					is_in_area = harmozeia_area
+					is_in_area = south_sindhu_area
+					is_in_area = patalene_area
+					is_in_area = sauvira_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = gedrosia_area
+			owns_or_subject_owns_area = harmozeia_area
+			owns_or_subject_owns_area = parecania_area
+			owns_or_subject_owns_area = south_sindhu_area
+			owns_or_subject_owns_area = patalene_area
+			owns_or_subject_owns_area = sauvira_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.44 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = gedrosia_area
+								is_in_area = parecania_area
+								is_in_area = south_sindhu_area
+								is_in_area = patalene_area
+								is_in_area = harmozeia_area
+								is_in_area = sauvira_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = gedrosia_area
+								is_in_area = parecania_area
+								is_in_area = harmozeia_area
+								is_in_area = south_sindhu_area
+								is_in_area = patalene_area
+								is_in_area = sauvira_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = gedrosia_area
+							is_in_area = parecania_area
+							is_in_area = south_sindhu_area
+							is_in_area = patalene_area
+							is_in_area = sauvira_area
+							is_in_area = north_sindhu_area
+							is_in_area = harmozeia_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+    roman_mission_17_hellenic_empire_task_4 = { ##The Indus River Valley
+    	icon = "task_battle"
+		requires = { roman_mission_17_hellenic_empire_task_3 }
+
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = rodewala_area
+					is_in_area = trigarta_area
+					is_in_area = north_sindhu_area
+					is_in_area = madra_area
+					is_in_area = panchanada_area
+					is_in_area = mallia_area
+					is_in_area = sivi_area
+					is_in_area = taxila_area
+					is_in_area = gandhara_area
+					is_in_area = kasmira_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = rodewala_area
+			owns_or_subject_owns_area = trigarta_area
+			owns_or_subject_owns_area = madra_area
+			owns_or_subject_owns_area = panchanada_area
+			owns_or_subject_owns_area = mallia_area
+			owns_or_subject_owns_area = sivi_area
+			owns_or_subject_owns_area = taxila_area
+			owns_or_subject_owns_area = gandhara_area
+			owns_or_subject_owns_area = north_sindhu_area
+			owns_or_subject_owns_area = kasmira_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.45 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = rodewala_area
+								is_in_area = trigarta_area
+								is_in_area = north_sindhu_area
+								is_in_area = madra_area
+								is_in_area = panchanada_area
+								is_in_area = mallia_area
+								is_in_area = sivi_area
+								is_in_area = taxila_area
+								is_in_area = gandhara_area
+								is_in_area = kasmira_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = rodewala_area
+								is_in_area = trigarta_area
+								is_in_area = madra_area
+								is_in_area = panchanada_area
+								is_in_area = mallia_area
+								is_in_area = sivi_area
+								is_in_area = north_sindhu_area
+								is_in_area = taxila_area
+								is_in_area = gandhara_area
+								is_in_area = kasmira_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                       		is_in_area = rodewala_area
+							is_in_area = trigarta_area
+							is_in_area = madra_area
+							is_in_area = panchanada_area
+							is_in_area = mallia_area
+							is_in_area = sivi_area
+							is_in_area = north_sindhu_area
+							is_in_area = taxila_area
+							is_in_area = gandhara_area
+							is_in_area = kasmira_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+    roman_mission_17_hellenic_empire_task_5 = { ##The Heart of Ariana
+    	icon = "task_political"
+		requires = { roman_mission_17_hellenic_empire_task_2 roman_mission_17_hellenic_empire_task_1 }
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = namek_area
+					is_in_area = sagartia_area
+					is_in_area = drangiana_area
+					is_in_area = carmania_area
+					is_in_area = pactya_area
+					is_in_area = arachosia_area
+					is_in_area = aria_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = namek_area
+			owns_or_subject_owns_area = sagartia_area
+			owns_or_subject_owns_area = drangiana_area
+			owns_or_subject_owns_area = pactya_area
+			owns_or_subject_owns_area = carmania_area
+			owns_or_subject_owns_area = arachosia_area
+			owns_or_subject_owns_area = aria_area
+			owns_or_subject_owns_area = media_felix_area
+			owns_or_subject_owns_area = ardashir_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.46 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = namek_area
+								is_in_area = sagartia_area
+								is_in_area = drangiana_area
+								is_in_area = carmania_area
+								is_in_area = pactya_area
+								is_in_area = arachosia_area
+								is_in_area = aria_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = namek_area
+								is_in_area = sagartia_area
+								is_in_area = drangiana_area
+								is_in_area = carmania_area
+								is_in_area = pactya_area
+								is_in_area = arachosia_area
+								is_in_area = aria_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = namek_area
+							is_in_area = sagartia_area
+							is_in_area = drangiana_area
+							is_in_area = carmania_area
+							is_in_area = arachosia_area
+							is_in_area = pactya_area
+							is_in_area = aria_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+   	roman_mission_17_hellenic_empire_task_6 = { ##Partitioning Parthia
+    	icon = "task_battle"
+		requires = { roman_mission_17_hellenic_empire_task_1 }
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = hyrcania_area
+					is_in_area = parthia_komishene_area
+					is_in_area = parthia_area
+					is_in_area = vishpauzatis_area
+					is_in_area = margu_area
+					is_in_area = margiana_area
+					is_in_area = derbicca_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = hyrcania_area
+			owns_or_subject_owns_area = parthia_komishene_area
+			owns_or_subject_owns_area = parthia_area
+			owns_or_subject_owns_area = derbicca_area
+			owns_or_subject_owns_area = vishpauzatis_area
+			owns_or_subject_owns_area = margu_area
+			owns_or_subject_owns_area = margiana_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.47 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        					is_in_area = hyrcania_area
+							is_in_area = parthia_komishene_area
+							is_in_area = parthia_area
+							is_in_area = vishpauzatis_area
+							is_in_area = derbicca_area
+							is_in_area = margu_area
+							is_in_area = margiana_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = hyrcania_area
+								is_in_area = parthia_komishene_area
+								is_in_area = parthia_area
+								is_in_area = derbicca_area
+								is_in_area = vishpauzatis_area
+								is_in_area = margu_area
+								is_in_area = margiana_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = hyrcania_area
+							is_in_area = parthia_komishene_area
+							is_in_area = parthia_area
+							is_in_area = derbicca_area
+							is_in_area = vishpauzatis_area
+							is_in_area = margu_area
+							is_in_area = margiana_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+   	roman_mission_17_hellenic_empire_task_7 = { ##Bactriana & Sogdiana
+    	icon = "task_conquest"
+		requires = { roman_mission_17_hellenic_empire_task_6 }
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = sattagydia_area
+					is_in_area = bamyan_area
+					is_in_area = candria_area
+					is_in_area = bactria_area
+					is_in_area = candara_area
+					is_in_area = oxiana_area
+					is_in_area = cyropolis_area
+					is_in_area = ferghana_area
+					is_in_area = transoxus_area
+					is_in_area = sogdiana_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = sattagydia_area
+			owns_or_subject_owns_area = bamyan_area
+			owns_or_subject_owns_area = candara_area
+			owns_or_subject_owns_area = bactria_area
+			owns_or_subject_owns_area = candara_area
+			owns_or_subject_owns_area = oxiana_area
+			owns_or_subject_owns_area = cyropolis_area
+			owns_or_subject_owns_area = ferghana_area
+			owns_or_subject_owns_area = transoxus_area
+			owns_or_subject_owns_area = sogdiana_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.48 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = sattagydia_area
+								is_in_area = bamyan_area
+								is_in_area = candara_area
+								is_in_area = bactria_area
+								is_in_area = candara_area
+								is_in_area = oxiana_area
+								is_in_area = cyropolis_area
+								is_in_area = ferghana_area
+								is_in_area = transoxus_area
+								is_in_area = sogdiana_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = sattagydia_area
+								is_in_area = bamyan_area
+								is_in_area = candara_area
+								is_in_area = bactria_area
+								is_in_area = oxiana_area
+								is_in_area = candara_area
+								is_in_area = cyropolis_area
+								is_in_area = ferghana_area
+								is_in_area = transoxus_area
+								is_in_area = sogdiana_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = sattagydia_area
+							is_in_area = bamyan_area
+							is_in_area = candria_area
+							is_in_area = bactria_area
+							is_in_area = candara_area
+							is_in_area = oxiana_area
+							is_in_area = cyropolis_area
+							is_in_area = ferghana_area
+							is_in_area = transoxus_area
+							is_in_area = sogdiana_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+   	roman_mission_17_hellenic_empire_task_8 = { ##Scythia
+    	icon = "task_heracles"
+
+    	highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = borysthenia_area
+					is_in_area = hypania_minoris_area
+					is_in_area = transborysthenia_area
+					is_in_area = sarmatia_superioris_area
+					is_in_area = sarmatia_area
+					is_in_area = hypania_area
+					is_in_area = dnieper_area
+					is_in_area = transhypania_area
+					is_in_area = muradava_area
+					is_in_area = zargidava_area
+				}
+    		}
+    	}
+
+    	allow = {
+			owns_or_subject_owns_area = borysthenia_area
+					owns_or_subject_owns_area = transborysthenia_area
+					owns_or_subject_owns_area = sarmatia_superioris_area
+					owns_or_subject_owns_area = sarmatia_area
+					owns_or_subject_owns_area = hypania_area
+					owns_or_subject_owns_area = hypania_minoris_area
+					owns_or_subject_owns_area = dnieper_area
+					owns_or_subject_owns_area = transhypania_area
+					owns_or_subject_owns_area = muradava_area
+					owns_or_subject_owns_area = zargidava_area
+    	}
+
+    	on_completion = {
+    		roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.49 }
+        	if = {
+        		limit = {
+        			any_subject = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = borysthenia_area
+					is_in_area = transborysthenia_area
+					is_in_area = sarmatia_superioris_area
+					is_in_area = sarmatia_area
+					is_in_area = hypania_minoris_area
+					is_in_area = hypania_area
+					is_in_area = dnieper_area
+					is_in_area = transhypania_area
+					is_in_area = muradava_area
+					is_in_area = zargidava_area
+        					}
+        				}
+        			}
+        		}
+        		every_subject = {
+        			limit = {
+        				any_owned_province = {
+        					OR = {
+        						is_in_area = borysthenia_area
+					is_in_area = transborysthenia_area
+					is_in_area = sarmatia_superioris_area
+					is_in_area = sarmatia_area
+					is_in_area = hypania_minoris_area
+					is_in_area = hypania_area
+					is_in_area = dnieper_area
+					is_in_area = transhypania_area
+					is_in_area = muradava_area
+					is_in_area = zargidava_area
+        					}
+        				}
+        			}
+        			add_opinion = {
+        				modifier = opinion_roman_mission_subject_appreciation
+        				target = root
+        			}
+        		}
+        	}
+            every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                           	is_in_area = sattagydia_area
+							is_in_area = borysthenia_area
+					is_in_area = transborysthenia_area
+					is_in_area = sarmatia_superioris_area
+					is_in_area = sarmatia_area
+					is_in_area = hypania_area
+					is_in_area = hypania_minoris_area
+					is_in_area = dnieper_area
+					is_in_area = transhypania_area
+					is_in_area = muradava_area
+					is_in_area = zargidava_area
+                        }
+                    }
+                }
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
+    	}
+    }
+
+	roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
+		icon = task_expansion
+		requires = { roman_mission_17_hellenic_empire_task_5 }
+
+		allow = {
+			government = imperium
+			capital_scope = {
+				has_great_work = yes
+			}
+		}
+		highlight = {
+			scope:province = {
+				is_capital = yes
+				is_uninhabitable = no
+				has_owner = yes
+				owner = ROOT
+			}
+}
+		on_completion = {
+			show_as_tooltip = {
+				add_innovation = 4
+				add_stability = 35
+			capital_scope = {
+					if = {
+						limit = {
+							NOT = { has_province_rank = city_metropolis }
+						}
+						set_city_status = city_metropolis
+					}
+					add_permanent_province_modifier = {
+						name = "imperial_capital_mission_reward"
+						duration = -1
+					}
+				}
+			}
+			trigger_event = { id = me_roman_missions_ti.63 }
+		}
+
+	}
+
+	roman_mission_17_hellenic_empire_task_9 = { # Philosophy Treasure
+		icon = task_political
+		requires = { roman_mission_17_hellenic_empire_task_7 }
+
+		allow = {
+			trigger_if = {
+				limit = { exists = treasure:treasure_anthology }
+				treasure:treasure_anthology = {
+					custom_tooltip = {
+						text = own_or_control_treasure_in_alex_shrine
+						ROOT = {
+							any_holy_site = {
+								province_deity = scope:alexander_deity_scope
+								any_province_treasure = {
+									this = treasure:treasure_anthology
+								}
+							}
+						}
+					}
+				}
+			}
+			trigger_else = {
+				custom_tooltip = {
+					text = anthology_which_does_not_exist_yet_tt
+					always = no
+				}
+			}
+		}
+
+		bypass = {
+				AND = {
+					NOT = { 
+						has_variable = made_anthologia
+					}
+					OR = {
+						NOT = { exists = treasure:treasure_enquiry_into_plants }
+						NOT = { exists = treasure:treasure_partition_triparadeisos }
+						NOT = { exists = treasure:treasure_history_of_animals }
+						NOT = { exists = treasure:treasure_indike }
+						NOT = { exists = treasure:treasure_tragedies }
+						NOT = { exists = treasure:treasure_book_of_the_dead }
+						NOT = { exists = treasure:treasure_gilgamesh }
+						NOT = { exists = treasure:treasure_babylonian_chronicles }
+						NOT = { exists = treasure:history_of_alexander }
+					}
+				}
+			}
+
+		on_completion = {
+			set_variable = completed_anthology
+			show_as_tooltip = {
+				add_innovation = 6
+				add_country_modifier = {
+					name = "center_of_art_and_culture_modifier"
+					duration = -1
+				}
+			}
+			trigger_event = { id = me_roman_missions_ti.61 }
+		}
+
+	}
+
+	roman_mission_17_hellenic_empire_task_10 = { # Alexander Panopoly
+		icon = task_conquest
+		requires = { roman_mission_17_hellenic_empire_task_4 }
+
+		allow = {
+			trigger_if = {
+				limit = { exists = treasure:treasure_alexander_panoply }
+				treasure:treasure_alexander_panoply = {
+					custom_tooltip = {
+						text = own_or_control_treasure_in_alex_shrine
+						ROOT = {
+							any_holy_site = {
+								province_deity = scope:alexander_deity_scope
+								any_province_treasure = {
+									this = treasure:treasure_alexander_panoply
+								}
+							}
+						}
+					}
+				}
+			}
+			trigger_else = {
+				custom_tooltip = {
+					text = panoply_which_does_not_exist_yet_tt
+					always = no
+				}
+			}
+		}
+		on_completion = {
+			trigger_event = { id = me_roman_missions_ti_62 }
+			if = {
+				limit = {
+					exists = deity:omen_alexander
+					deity:omen_alexander = {
+						exists = holy_site
+					}
+				}
+				show_as_tooltip = {
+					deity:omen_alexander.holy_site = {
+						add_permanent_province_modifier = {
+							name = "alex_pilgrimage_major"
+							duration = -1
+						}
+					}
+				}
+			}
+			else = {
+				custom_tooltip = holy_site_which_does_not_exist_yet_tt
+			}
+			current_ruler = {
+				add_zeal = 4
+				add_martial = 2
+				family = {
+					add_prestige = 350
+				}
+			}
+		}
+		bypass  = {
+			AND = {
+				NOT = { 
+					has_variable = made_panoply
+				}
+				OR = {
+					NOT = { exists = treasure:treasure_alexander_helmet }
+					NOT = { exists = treasure:treasure_arms_of_alexander }
+					NOT = { exists = treasure:treasure_armor_of_alexander }
+				}
+			}
+		}
+	}
+		roman_mission_17_hellenic_empire_task_11 = { #Triumph over the Savage Lands
+		icon = task_heracles
+		requires = { roman_mission_17_hellenic_empire_task_9 roman_mission_17_hellenic_empire_task_10 roman_mission_17_hellenic_empire_task_12 }
+		final = yes
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					is_in_area = bamyan_area
+							is_in_area = candria_area
+							is_in_area = bactria_area
+							is_in_area = oxiana_area
+							is_in_area = cyropolis_area
+							is_in_area = ferghana_area
+							is_in_area = transoxus_area
+							is_in_area = sogdiana_area
+							is_in_area = parthia_komishene_area
+							is_in_area = parthia_area
+							is_in_area = vishpauzatis_area
+							is_in_area = margu_area
+							is_in_area = margiana_area
+							is_in_area = namek_area
+							is_in_area = sagartia_area
+							is_in_area = drangiana_area
+							is_in_area = carmania_area
+							is_in_area = pactya_area
+							is_in_area = arachosia_area
+							is_in_area = aria_area
+							is_in_area = trigarta_area
+							is_in_area = madra_area
+							is_in_area = panchanada_area
+							is_in_area = mallia_area
+							is_in_area = sivi_area
+							is_in_area = taxila_area
+							is_in_area = gandhara_area
+							is_in_area = kasmira_area
+							is_in_area = parecania_area
+							is_in_area = south_sindhu_area
+							is_in_area = patalene_area
+							is_in_area = sauvira_area
+							is_in_area = north_sindhu_area
+							is_in_area = harmozeia_area
+							is_in_area = candara_area
+							is_in_area = susiana_area
+							is_in_area = hyrcania_area
+							is_in_area = rodewala_area
+							is_in_area = gedrosia_area
+							is_in_area = pars_area
+							is_in_area = veshapur_area
+							is_in_area = persepolis_area
+							is_in_area = utia_area
+							is_in_area = media_felix_area
+							is_in_area = ardashir_area
+							is_in_area = derbicca_area
+							is_in_area = aspadana_area
+							is_in_area = rhagai_area
+							is_in_area = ecbatana_area
+							is_in_area = media_choromithrene
+							is_in_area = amardioi_area
+							is_in_area = kossioi_area
+							is_in_area = sattagydia_area
+							is_in_area = media_area
+							is_in_area = media_atropatene_area
+							is_in_area = kadousioi_area
+
+
+				}
+			}
+		}
+		
+		
+		on_completion = {
+			capital_scope = { rm_triumphal_arch_effect = yes }
+			add_2_free_province_investments = yes
+			trigger_event = { id = me_roman_missions_ti.64 }
+		}
+	}
