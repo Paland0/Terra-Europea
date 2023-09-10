@@ -86,3 +86,9 @@ aurelian_walls_ti = {
 	fort_level = 3
 	garrison_growth = 0.25
 }
+mantle_of_alexander = {
+	general_loyalty = 5
+	heavy_cavalry_combat_ability = 0.08
+	heavy_infantry_combat_ability = 0.08
+	war_score_cost = -0.1
+}
