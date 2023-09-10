@@ -939,17 +939,18 @@
 						name = aurelian_walls_ti
 						duration = -1
 					}
-					
+					add_special_pop = {
+						text = "add_1_architect_tt"
+						type = architect
+						count = 1
+					}
 				}
 				add_war_exhaustion = -5
-			}
-			p:1 = {
-				add_special_pop = {
-					text = "add_1_architect_tt"
-					type = architect
-					count = 1
+				add_splendor = {
+	  				amount = 100
 				}
 			}
+			
 			trigger_event = me_roman_missions_ti.55
 		}
 	}
