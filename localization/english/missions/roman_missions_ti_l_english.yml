@@ -671,3 +671,117 @@
  #Tooltips
  rome_assyrian_forts_tt: "Is a level 3 fort in the Assyria Region."
  rome_mesopotamian_forts_tt: "Is a level 3 fort in the Mesopotamia Region."
+
+#Hellenic Empire
+ roman_mission_17_hellenic_empire: "Terra Indomita"
+ roman_mission_17_hellenic_empire_BUTTON_TOOLTIP:0 "Nothing Shall Stand in Our Way"
+ roman_mission_17_hellenic_empire_BUTTON_DETAILS:0 ""
+ roman_mission_17_hellenic_empire_DESCRIPTION:0 "In the wake of Alexander the Great's legendary conquests, the Hellenistic world has long stood fragmented and divided. For years, we have observed the Hellenistic kingdoms engaging in petty conflicts and undermining the stability of the Eastern Mediterranean.  Rome has tolerated this turmoil for too long, but the time has come to unite and bring these fractured realms under the banner of Rome. We, the Romans, the very children of the wolf, are destined to fulfill Jupiter's prophecy and become the "rulers of the world," establishing a truly eternal empire - Imperium Invictus!"
+ roman_mission_17_hellenic_empire_CRITERIA_DESCRIPTION:0 "This mission will be considered complete after we have stabilized and united the Hellenistic World which was once ruled by [alexander_scope.GetName] under the Roman banner"
+ roman_mission_17_hellenic_empire_REWARD_DESCRIPTION:0 ""
+ 
+ #Tasks
+ roman_mission_17_hellenic_empire_ti_task_1: "March on Median Mountains"
+ roman_mission_17_hellenic_empire_ti_task_1_DESC: "As the sun sets over the Eternal City, the shadows cast by distant Media beckon. This ancient land, nestled between the Caspian Sea and the Zagros Mountains, has witnessed the rise and fall of empires. As we contemplate venturing into this realm, we recall the great legacy of Cyrus the Great and dare to surpass it."
+ roman_mission_17_hellenic_empire_ti_task_2: "Persian Dominion"
+ roman_mission_17_hellenic_empire_ti_task_2_DESC: "Once the Achaemenid Emperors extended Persian dominion as far as the heartland of Greece, casting a menacing shadow over every free Hellene. During his sweeping conquests, Alexander brought the entire Persian Empire under his control - and began the task of fusing the Persian imperial project with his own. To tread the path of this conqueror, we must assert control over the core territories of the former Persian Empire."
+ roman_mission_17_hellenic_empire_ti_task_3: "Gedrosian Ambitions"
+ roman_mission_17_hellenic_empire_ti_task_3_DESC: "Looking into the shadowy heart of Gedrosia's unforgiving deserts, where the winds whisper tales of Alexander's ill-fated journey, Rome stands resolute. Our legions shall march through the scorching sands and lay the ghosts of history to rest."
+ roman_mission_17_hellenic_empire_ti_task_4: "Glory of the Indus"
+ roman_mission_17_hellenic_empire_ti_task_4_DESC: "Having defeated Porus at the Hydaspes, Alexander gained control of the plains of Pentapotamia, the land of the five rivers, only turning back because his soldiers would not continue further. Since the death of Alexander, the fertile floodplains surrounding the Indus were seized from the Seleucids, first to unruly satraps and then to Indian strongmen. Now, it is time to right this wrong and place these lands under the righteous rule of Rome."
+ roman_mission_17_hellenic_empire_ti_task_5: "Arian Expedition"
+ roman_mission_17_hellenic_empire_ti_task_5_DESC: "Ariana, fabled to be the 'mother country' of the Persians, stands in the way of our destiny. Its roaming bands of formidable warriors and rugged terrain shall pose but a minor road bump on our divinely sanctioned journey to forge an imperium without end."
+ roman_mission_17_hellenic_empire_ti_task_6: "Parthian Conquest"
+ roman_mission_17_hellenic_empire_ti_task_6_DESC: "Before Rome stretches her imperial arms towards the distant Euphrates, she must first conquer Parthia. As we muster our forces and brace for a campaign that will rigorously assess the strength of our legions and the determination of our people, it has become clear to the Roman people that victory over Parthia is not merely about securing our eastern borders, but instead is a pivotal step towards establishing Rome's unassailable dominion from the Mare Germanicum to the Indus."
+ roman_mission_17_hellenic_empire_ti_task_7: "Bactrian & Sogdian Campaign"
+ roman_mission_17_hellenic_empire_ti_task_7_DESC: "The vast expanses of Bactria and Sogdia lure us with the siren call, just as once, across the sands of time, they called to the indomitable Alexander the Great. We tread the path of conquerors and the march of our legions will echo the footsteps of the Macedonian."
+ roman_mission_17_hellenic_empire_ti_task_8: "Scythian Frontier"
+ roman_mission_17_hellenic_empire_ti_task_8_DESC: "Beyond the furthest corners of the known world, where the Eastern horizon meets the boundless expanse of the Scythian steppes, resides a people that has eluded the grasp of Rome for too long. In these lands, where Queen Tomyris reputedly crushed the ambitions of the Achaemenids under Cyrus the Great, it falls upon us to add a new chapter, one where Rome's might extends to the very edge of the world, as we conquer Scythia."
+ roman_mission_17_hellenic_empire_ti_task_9: "The Power of Learning"
+ roman_mission_17_hellenic_empire_ti_task_9_DESC: "An empire that is to stand the test of time must be one not only of soldiers, but also of letters and culture. Let us bring all the knowledge of the world to the shrine complex of Alexander the Great and make this the pearl of the Hellenistic world. Anyone wishing to partake of the collective wisdom of mankind should seek to study it at our leisure and be provided with all things needed for such a noble pursuit."
+ roman_mission_17_hellenic_empire_ti_task_10: "Armaments of a Living God"
+ roman_mission_17_hellenic_empire_ti_task_10_DESC: "When Alexander died in Babylon, his arms and armor were initially shown the greatest respect, taking the highest seat at the table as the plans were drawn up for the succession. In the general chaos that ensued, however, they were lost, spread by the winds of change across his crumbling empire. We must assemble the panoply of Alexander once again, and return it to his grave where it shall be properly honored."
+ roman_mission_17_hellenic_empire_ti_task_11: "Doing the Impossible"
+ roman_mission_17_hellenic_empire_ti_task_11_DESC: "We have done all that can be done, conquered all that we know to be conquerable. Now we should celebrate as only we Romans can! The grandest of festivities, of food and drink, await. The most rhythmic of dancers, jubilous of revelers, shall grace the cities with their songs and smiles. If anyone has earned the party of the millennium, it is us."
+ roman_mission_17_hellenic_empire_ti_task_12: "An Empire Indeed"
+ roman_mission_17_hellenic_empire_ti_task_12_DESC: "While our lands were never small, it has grown vastly as we progress towards reuniting the splintered state that Alexander left behind. This process must be tempered by a bureaucracy capable both of growing dynamically as we expand, and with carrying out our plans and designs as we start to look to creating a durable and long lasting empire, capable to remain standing where Alexander's broke apart. Our recent expansion of our royal bureaucracy has been aimed at building exactly such a structure. Only time will tell if it has been built to last."
+
+ 
+ #Modifiers
+ mantle_of_alexander: "Mantle of Alexander"
+ desc_mantle_of_alexander: "A feat most thought impossible, we have united the Hellenistic world under one flag; that of the mighty Roman eagle. We shall make Alexander proud."
+ 
+ #Events
+ me_roman_missions_ti.60.t: "Walking in his Foosteps"
+ me_roman_missions_ti.60.desc: "As we embark on this most auspicious of endeavors, all, from the lowliest of slave to the highest of senators, has thoughts on how we should proceed. In particular, former citizens of the now crumbling Diadochi states have flooded the senate floor begging to have say on how we carve up the far eastern lands of Alexander. Should we listen, we could get insight on how to wage our campaign but at the cost of losing the trust of our own citizenry."
+ me_roman_missions_ti.60.a: "We need all the help we can get"
+ me_roman_missions_ti.60.b: "I shall do it alone"
+
+ me_roman_missions_ti.61.t: “Arts & Culture”
+ me_roman_missions_ti.61.desc: “Our efforts to turn [alex_city.GetName] into the primary center of learning in the world has resulted in a grand library where the ambition is to store all the knowledge of humankind. Scribes have been sent out to all corners of the world to find procure, or copy, the written word in almost any form it exists. The result is a grand collection of works, known colloquially as the Anthologia Philosophike, which any subject of the empire can request to study. The library now employs enough copyists, translators and illuminators to fill a small city, who are tasked with the dissemination of this newly collected knowledge to all corners of the empire." 
+ me_roman_missions_ti.61.a: “Knowledge is Power”
+
+ me_roman_missions_ti.62.t: “A Sight to Behold”
+ me_roman_missions_ti.62.desc: “After many trials and tribulations, we have reunited Alexander's panoply with the man himself; a feat not accomplished since his death. We have constructed a magnificent altar and pilgrims are already coming from far and wide to see the glorious site. The man who conquered the world now has the most extravagant tomb the world has ever seen. We Romans will ensure it stays that way." 
+ me_roman_missions_ti.62.a: “Alexander's finally getting the resting place he deserves”
+
+ me_roman_missions_ti.63.t: “Empire of the Ages”
+ me_roman_missions_ti.63.desc: “Consummatum est. The words we never thought would ever be spoken are now being shouted by every citizen of our grand realm. The largest triumph Roma has ever seen is being commenced, as well as celebrations from Italia all the way to Persia. The Nile is alight with festive fires and the ships of the Pontus all wave our banner with glee. We are the greatest empire the world has ever seen, uniting all of the Hellenic faith and finishing what Alexander could not. May our glory be as eternal as our spirit, and may all corners of the world know that Rome is the only power worthy of respect."
+ me_roman_missions_ti.63.a: “I know, somewhere, he is looking down on us. Smiling”
+
+ me_roman_missions_ti.64.t: “Uniting as One”
+ me_roman_missions_ti.64.desc: “As we expand through every crag and valley of the Hellenic lands, a grassroots effort to embellish and greaten our nation's capital has taken place. Every citizen has taken it upon themselves to better Roma, in ways both large and small, making it a focal point worthy of the world's largest empire. Administratively, senators and governors alike have taken steps to make processes more efficient and bureaucracy less cumbersome. Through these efforts, along with our grand military acumen, the Roman Empire will never fade into obscurity." 
+ me_roman_missions_ti.64.a: “Our empire and capital shall stand the tests of time”
+
+ roman_conquest_missions_ti.42.t: "March on Medean Shores"
+ roman_conquest_missions_ti.42.desc: "In the shadow of the Zagros Mountains, our legions have advanced through the enigmatic heartland of Media. Here, amidst the echoes of ancient empires, our legions find themselves at the nexus of history. Media awaits the embrace of Roman authority. Where shall we establish a Roman colonia, a radiant beacon of civilization in this land of enduring history and promise?" 
+ roman_conquest_missions_ti.42.a: "Ecbatana Partiorum, once the mighty Median capital, stands as a testament to our conquest and the dawn of a new Roman era"
+ roman_conquest_missions_ti.42.b: "Rhagae, renowned for its ancient trade routes and vibrant markets, offers the promise of prosperity under the Roman banner"
+ roman_conquest_missions_ti.42.c: "Gazaca, heartland of Atropatene, beckons us to fortify our presence and secure this vital region"
+ roman_conquest_missions_ti.42.d: "Cyropolis, cradle of learning and wisdom for the great king Cyrus, shall become a bastion of Roman enlightenment and progress"
+
+ roman_conquest_missions_ti.43.t: "Persian Dominion"
+ roman_conquest_missions_ti.43.desc: "The rugged terrain of Persis stretches before us, a land shrouded by the mystique of rulers long dead. This region, once dominated by the mighty Achaemenids, beckons us to rewrite its history in Roman script. The time has come to decide where we shall plant the Roman standard in Persis." 
+ roman_conquest_missions_ti.43.a: "Persepolis, the fabled capital of the Achaemenid Empire, will forever stand as a symbol of our triumph over the Persians, a testament to our ascendancy"
+ roman_conquest_missions_ti.43.b: "Susa, ancient capital of Elam, has withstood the sands of time and will do for us as well"
+ roman_conquest_missions_ti.43.c: "Antiochia Persicae, the gateway to the southern shores, holds the key to maritime supremacy"
+ roman_conquest_missions_ti.43.d: "Selucia Hedyphone, fabled to have been founded of Alexander himself, shall now become a symbol of Roman authority in Persis"
+
+ roman_conquest_missions_ti.44.t: "Gedrosian Ambitions"
+ roman_conquest_missions_ti.44.desc: "Our ambitions have led us to the edges of the Indus, to the exotic lands of Gedrosia. As we set our sights on Gedrosia, we are reminded of the hardships faced by those who sought to control its harsh terrain. Yet, we are Romans, and no challenge is too great for our indomitable spirit for it is our divine duty bring the light of civilization to these untamed lands."
+ roman_conquest_missions_ti.44.a: "Harmosia's ideal position is too important to leave in the hands of locals"
+ roman_conquest_missions_ti.44.b: "Portus Macedonum, where Alexander first sailed the Indus, shall be our port in the storm"
+ roman_conquest_missions_ti.44.c: "Alexandria Rhambacia, stronghold of Gedrosia, should be the shining Roman city for all to see"
+
+ roman_conquest_missions_ti.45.t: "Glory of the Indus"
+ roman_conquest_missions_ti.45.desc: "The dream of Alexander the Great, a vision of conquering the known world and beyond, is being fulfilled. The rich lands and wares of Indum lie beneath our sacred eagle. Now, as the heirs apparent to the legacy of Alexander, we stand as his triumphant successors who have extended the light of civilization from the misty Isle of Brittania to the very shores of the Indus. The time has come to solidify our rule on the far side of the world." 
+ roman_conquest_missions_ti.45.a: "Alexandria ad Indum, with its central location, shall help make it the cornerstone of our presence in the Indus"
+ roman_conquest_missions_ti.45.b: "Taxila, with a history of resilience and resourcefulness will allow us to strengthen our hold on this fertile land"
+ roman_conquest_missions_ti.45.c: "Alexandria ad Hyphasum, farthest corner of Alexander’s empire, will be the seat of our power on the Indus as well"
+ roman_conquest_missions_ti.45.d: "Bucephalia, named after Alexander’s faithful steed, will allow our influence to flourish here"
+ 
+ roman_conquest_missions_ti.46.t: "Arian Expedition"
+ roman_conquest_missions_ti.46.desc: "The winds of destiny have carried us to Ariana, a realm steeped in history and ripe with potential. With our conquest secured, we must now decide where to lay the foundations of a new era of Roman rule in Ariana." 
+ roman_conquest_missions_ti.46.a: "Alexandria Ariorum, the heartland of Ariana, will be our regional stronghold"
+ roman_conquest_missions_ti.46.b: "Tabae Persicae, strategically positioned along major trade routes offers a gateway to prosperity and influence in Ariana"
+ roman_conquest_missions_ti.46.c: "Alexandria Arachosiae, a city bearing the name of the great conqueror, calls for our dominion in these lands"
+
+ roman_conquest_missions_ti.47.t: "Parthian Conquest"
+ roman_conquest_missions_ti.47.desc: "The sounds of our marching legions can now be heard from all corners of Parthia. This land, situated as it is on the threshold of the Oriens has witnessed the ebb and flow of once mighty empires. The time has come to choose where we shall plant the seeds of Roman power in the east." 
+ roman_conquest_missions_ti.47.a: "Nisaea, a city steeped in the grandeur of Parthian rulers, awaits our transformation into a bastion of Roman progress"
+ roman_conquest_missions_ti.47.b: "Hecatompylus, the ancient capital of Parthia shall become the seat of Roman power in the region"
+ roman_conquest_missions_ti.47.c: "Alexandria Margiana, a city bearing the scars of time, invites us to claim its heritage"
+ roman_conquest_missions_ti.47.d: "Sadracarta, situated along ancient trade routes that once crisscrossed Parthia, beckons us to seize the reins of commerce"
+ 
+ roman_conquest_missions_ti.48.t: "Bactrian & Sogdian Campaign"
+ roman_conquest_missions_ti.48.desc: "The Sogdian lands, situated along the fledging Silk Road, have recently become a crossroads of cultures and trade. Bactria brings together commerce and peoples, along with a rich history of both. As we advance through these fabled territories, we are reminded of the legendary journeys of Alexander the Great, who once ventured into these very lands. Now, it is our turn to leave our mark on Sogdia & Bactria, to build upon the foundations of history and forge a Roman legacy." 
+ roman_conquest_missions_ti.48.a: "Alexandria Eschate, farthest settlement of the great conqueror, is a fitting choice"
+ roman_conquest_missions_ti.48.b: "Maracanda, strategically located, promises prosperity and influence"
+ roman_conquest_missions_ti.48.c: "Alexandria Ochu, a place of ancient mystique, beckons for Roman development"
+ roman_conquest_missions_ti.48.d: "Cyropolis, is a compelling choice"
+
+ roman_conquest_missions_ti.49.t: "Scythian Frontier"
+ roman_conquest_missions_ti.49.desc: "Our legions have ventured into the vast unknown tamed the wild Scythian frontier. This remote and rugged land, on very the edges of the known world has long been a realm of nomads and fierce warriors, where empires have collided and civilizations have flourished. Now, it is our duty to bring the might and culture of Rome to these backwards and barbaric lands." 
+ roman_conquest_missions_ti.49.a: "Ektonopolis, a lost Greek colony, remains a hub of trade and is the best place to consolidate our control over Scythia"
+ roman_conquest_missions_ti.49.b: "Volumis, hidden away in the wilds of the steppe offers a unique opportunity"
+ roman_conquest_missions_ti.49.c: "Clepidava, a crossroads of cultures and commerce in this wild expanse, beckons"
