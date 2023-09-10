@@ -5,7 +5,7 @@
  roman_mission_09_eastern_glory_ti_task_2: "Rounding off Asia"
  roman_mission_09_eastern_glory_ti_task_2_DESC: "Like the storied coasts of Ionia before it, the very heart of Asia and the enchanting Sporades archipelago have yielded to the might of#E Rome#!. Our legions have secured these lands by blood and iron, and the time has come to shape the future of this coastal region."
  roman_mission_09_eastern_glory_ti_task_3: "End Cappadocian Independence"
- roman_mission_09_eastern_glory_ti_task_3_DESC: "The Persian remnants of Cappadocia, left behind by the dying Achaemenids, are anything but the calm sort. If not taken care of now, they will eternally be a thorn in our side much like they were for Alexander. This is not easy terrain and the people here are hardy, but they are no match for the divine might of Rome. It is high time we spread our wings there too."
+ roman_mission_09_eastern_glory_ti_task_3_DESC: "The Persian remnants of Cappadocia, left behind by the dying Achaemenids, are anything but the calm sort. If not taken care of now, they will eternally be a thorn in our side, much like they were for Alexander. This is not easy terrain, and the people here are hardy, but they are no match for the divine might of Rome. It is high time we spread our wings there too."
  roman_mission_09_eastern_glory_ti_task_4: "The So-Called Greater Armenia"
  
  #Modifiers
@@ -37,21 +37,21 @@
  me_roman_missions_ti.8.a: "We should patronize the arts and build a grand theater."
  me_roman_missions_ti.8.b: "The wealth of#E Rome#! is not to be squandered on some paltry theater."
  
- me_roman_missions_ti.15.t: "TODO" #Event for Armenia
- me_roman_missions_ti.15.desc: "TODO"
- me_roman_missions_ti.15.a: "TODO"
- me_roman_missions_ti.15.b: "TODO"
+ me_roman_missions_ti.15.t: "Armenian Overtures"
+ me_roman_missions_ti.15.desc: "For too long, the Armenian throne has danced on the edge of Roman interests. Now, the time has come for a clear choice. Armenia must decide its fate: become a loyal ally, benefiting from the protection and prosperity of the Roman Empire, or face the consequences of resistance. The die is cast, and the future of Armenia depends on the decision made today."
+ me_roman_missions_ti.15.a: "We shall pressure the rulers of Armenia to consider our proposal."
+ me_roman_missions_ti.15.b: "These petty kings are nothing to us. Draw up invasion plans."
  
- me_roman_missions_ti.16.t: "TODO" #Response for Rome
- me_roman_missions_ti.16.desc: "TODO"
- me_roman_missions_ti.16.a: "TODO"
+ me_roman_missions_ti.16.t: "Embracing Roman Patronage"
+ me_roman_missions_ti.16.desc: "In the chambers of our noble court, a momentous decision has been made. With great deliberation, our advisors have convinced us to accept Rome's diplomatic overtures and formally embrace our status as a Roman client state. This decision carries profound implications for our land and our people, for we have entrusted our sovereignty to the mighty Roman Empire. As Armenians, we have chosen the path of stability, forging a partnership with a formidable ally. This newfound allegiance brings both opportunities and responsibilities. We must navigate this alliance wisely, ensuring the welfare and prosperity of our beloved Armenia, while honoring our pledge of loyalty to Rome."
+ me_roman_missions_ti.16.a: "With Rome's strength, we stand tall."
  
- me_roman_missions_ti.17.t: "TODO" #Response for Rome
- me_roman_missions_ti.17.desc: "TODO"
- me_roman_missions_ti.17.a: "TODO"
+ me_roman_missions_ti.17.t: "Defiance of Roman Hegemony"
+ me_roman_missions_ti.17.desc: "We, the proud Armenians, have made a resolute decision—to reject the Roman overtures of becoming a mere client state under their dominion. Our lands, hard-won by the Orontids and the Artaxiads, shall not bow to the might of Rome without a fight. As the sun rises over the Caucasus Mountains, the people stand united in defiance, prepared to defend our sovereignty at all costs. Rome's ambitions to seize our lands by force are clear, but we shall not yield without a valiant struggle. "
+ me_roman_missions_ti.17.a: "Armenia will not be subjugated."
  
  roman_conquest_missions_ti.19.t: "Liberation of the Lycian Shore"
- roman_conquest_missions_ti.19.desc: "The storied lands of #E Lycia et Pisidia#!, have now fallen under Roman dominion. Our legions have triumphed, and the time has come to shape the destiny of this region. Lycia et Pisidia, once a place of diverse cities and peoples, now awaits the guiding hand of Rome."
+ roman_conquest_missions_ti.19.desc: "The storied lands of #E Lycia et Pisidia#!, have now fallen under Roman dominion. Our legions have triumphed, and the time has come to shape the destiny of this region. Lycia et Pisidia, once a place of diverse cities and peoples, now await the guiding hand of Rome."
  roman_conquest_missions_ti.19.a: "Telmessus, with its strategic coastal location, is an ideal choice to establish a strong Roman presence."
  roman_conquest_missions_ti.19.b: "Sagalassus, perched among the mountains, presents an appealing alternative."
  roman_conquest_missions_ti.19.c: "Cibyra, an inland stronghold of Lycia, would provide us with many benefits."
@@ -61,7 +61,7 @@
  roman_conquest_missions_ti.20.a: "In the home of the majestic #E Acropolis of Pergamum#!, a testament to the greatness of these lands, we shall establish our first colony."
  roman_conquest_missions_ti.20.b: "In Cyzicus, a strategic port city, we will lay the foundations of Roman commerce and influence."
  roman_conquest_missions_ti.20.c: "In Sardis, where the riches of King Croesus once flowed and where Alexander the Great once walked, we will cement the authority of #ERome#!."
- roman_conquest_missions_ti.20.d: "We shall turn the island of Rhodes, lying in the shadow of the magnificent Colossus into a stronghold of Roman culture."
+ roman_conquest_missions_ti.20.d: "We shall turn the island of Rhodes, lying in the shadow of the magnificent Colossus, into a stronghold of Roman culture."
  
  roman_conquest_missions_ti.21.t: "Conquered Cappadocians"
  roman_conquest_missions_ti.21.desc: "The footsteps of Roman soldiers and settlers now fill the streets of every city and town in #E Cappadocia#!. No more will enemies of our glorious nation find comfort there. We have reached the edges of #E Anatolia#! with our scouts reportedly seeing the beginnings of #E Armenia#! and #E Mesopotamia#!, it is no wonder the burning question in #E Roma#! is 'Where next shall we plant our flag?'"
@@ -78,7 +78,7 @@
  roman_mission_13_fall_of_diadochoi: "The Fall of the Diadochi"
  roman_mission_13_fall_of_diadochoi_BUTTON_TOOLTIP:0 "The Wars of the Diadochi will accomplish nothing besides softening up the lands for Roman invasion."
  roman_mission_13_fall_of_diadochoi_BUTTON_DETAILS:0 ""
- roman_mission_13_fall_of_diadochoi_DESCRIPTION:0 "For many years, the pathetic Diadochi and their mewling children have been fighting each other over the scraps of Alexander's Empire in the Eastern Mediterranean - a scene reminiscent of emaciated vultures pulling apart a rotting animal. For as long as we were able, us Romans tolerated the instability caused by their bickering and warmongering, but we can no longer allow them to destabilize the region."
+ roman_mission_13_fall_of_diadochoi_DESCRIPTION:0 "For many years, the pathetic Diadochi and their mewling children have been fighting each other over the scraps of Alexander's Empire in the Eastern Mediterranean - a scene reminiscent of emaciated vultures pulling apart a rotting animal. For as long as we were able, we Romans tolerated the instability caused by their bickering and warmongering, but we can no longer allow them to destabilize the region."
  roman_mission_13_fall_of_diadochoi_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when we have pushed the Diadochi and their heirs out of the lands of the Eastern Mediterranean."
  roman_mission_13_fall_of_diadochoi_REWARD_DESCRIPTION:0 ""
  #Tasks
@@ -94,12 +94,12 @@
  roman_mission_13_fall_of_diadochoi_ti_task_5: "Egyptian Protectorate"
  roman_mission_13_fall_of_diadochoi_ti_task_5_DESC: "We do not guarantee the waning power of the Ptolemies out of any sense of brotherly love or friendship; we simply desire to keep their remaining territories out of the hands of their neighbors. \n\n\n\n\n\n\n\n\n\n\n@egypt_mil15!"
  roman_mission_13_fall_of_diadochoi_ti_task_6: "Question of Egyptian Loyalty"
- roman_mission_13_fall_of_diadochoi_ti_task_6_DESC: "For a dynasty that has seen better days, we would expect the Ptolemies to treat us Romans with more respect than they currently do - our word protects their borders more than their own armies do. So why do we hear rumors that they are plotting behind our backs? \n\n\n\n\n\n\n\n\n\n\n@egypt_mil17!"
+ roman_mission_13_fall_of_diadochoi_ti_task_6_DESC: "For a dynasty that has seen better days, we would expect the Ptolemies to treat us, Romans, with more respect than they currently do - our word protects their borders more than their own armies do. So why do we hear rumors that they are plotting behind our backs? \n\n\n\n\n\n\n\n\n\n\n@egypt_mil17!"
  roman_mission_13_fall_of_diadochoi_ti_task_6_egyptian_fate_tt: "We will have to decide what to do with the perfidious Ptolemies."
  roman_mission_13_fall_of_diadochoi_ti_task_7: "The Matter of Cyrenaica"
  roman_mission_13_fall_of_diadochoi_ti_task_7_DESC: "It only takes a few days from Roma to travel the gentle waters of the Syrtis Maior and reach the land of Cyrenaica, home where philosophers eat silphium-flavored dishes. It would be very popular with the people if [ROOT.GetCountry.GetRuler.GetName] was able to bring the Cyrenaicans under our control. \n\n\n\n\n\n\n\n\n\n\n@egypt_mil13!"
  roman_mission_13_fall_of_diadochoi_ti_task_8: "Roman Pharaoh"
- roman_mission_13_fall_of_diadochoi_ti_task_8_DESC: "It has been said that the trappings of power can corrupt a weak man's soul, but who among us would resist the gift of living godhood? A new Dynasty is here, one that will combine the traditions of the ancient Egyptians with that of the Romans and create something that the world has never seen before. \n\n\n\n\n\n\n\n\n\n\n@egypt_por1!"
+ roman_mission_13_fall_of_diadochoi_ti_task_8_DESC: "It has been said that the trappings of power can corrupt a weak man's soul, but who among us would resist the gift of living godhood? A new Dynasty is here, one that will combine the traditions of the ancient Egyptians with those of the Romans and create something that the world has never seen before. \n\n\n\n\n\n\n\n\n\n\n@egypt_por1!"
  roman_mission_13_fall_of_diadochoi_ti_task_1_modifier_tt: "We have recently conquered this area and the locals are unhappy with their change in status."
  
  
@@ -133,15 +133,15 @@
  me_roman_missions_ti.12.a: "Perhaps we should take a look at Nebuchadnezzar for inspiration." 
 
  me_roman_missions_ti.10.t: "Indepenedent Judea"
- me_roman_missions_ti.10.desc: "The troublesome Isrealites buck us at every turn, they will not listen to Roman rule no matter how hard we try. It is not worth the trouble to directly control these damned people so we shall put in place a puppet who can reign in the Judeans."
- me_roman_missions_ti.10.a: "This will serve us nicely"
+ me_roman_missions_ti.10.desc: "The troublesome Israelites buck us at every turn, they will not listen to Roman rule no matter how hard we try. It is not worth the trouble to directly control these damned people, so we shall put in place a puppet who can reign over the Judeans."
+ me_roman_missions_ti.10.a: "This will serve us nicely."
 
  me_roman_missions_ti.11.t: "Decapolian League"
- me_roman_missions_ti.11.desc: "Our people and religion have begun to take root in the midst of the Samarian and Israelite settlements. While surviving, stronger ties between our scattered people would help solidify our footprint in the area. They know the region and locals far better than us which is why they should be granted rule directly. We must unite if we are to ever keep hold of the Levant; otherwise, we shall be nothing more than just another shattered empire washed away with the next sandstorm." 
+ me_roman_missions_ti.11.desc: "Our people and religion have begun to take root in the midst of the Samarian and Israelite settlements. While surviving, stronger ties between our scattered people would help solidify our footprint in the area. They know the region and locals far better than us which is why they should be granted direct rule. We must unite if we are to ever keep hold of the Levant; otherwise, we shall be nothing more than just another shattered empire washed away with the next sandstorm." 
  me_roman_missions_ti.11.a: "Unity is strength." 
 
  me_roman_missions_ti.13.t: "The Island of Cyprus"
- me_roman_missions_ti.13.desc: "Cyprus, island gateway to the far eastern Mediterranean, belongs now to Rome. With it, our control of trade flowing from Anatolia and down through Phoenicia is secured and the Pirates of Cicilia will know no peace." 
+ me_roman_missions_ti.13.desc: "Cyprus, island gateway to the far eastern Mediterranean, belongs now to Rome. With it, our control of trade flowing from Anatolia and down through Phoenicia is secured, and the Pirates of Cicilia will know no peace." 
  me_roman_missions_ti.13.a: "Salamis, site of the great Antigonid victory, shall become our port stronghold. We are its new masters."
  
  me_roman_missions_ti.25.t: "Egyptian Protectorate"
@@ -149,21 +149,21 @@
  me_roman_missions_ti.25.a: "The Ptolemies will learn to bow to Roman rule."
 
  me_roman_missions_ti.26.t: "$roman_mission_13_fall_of_diadochoi_ti_task_8$"
- me_roman_missions_ti.26.desc: "Finally, at long last, the entirety of Egypt belongs to us Romans. From the Hellenic prize of Alexandria to the Pyramids of Giza and temples in Memfis, all fall under SPQR. May our Eagle fly until long after the hieroglyphs fade away, Ad Gloriam Romae! Now the question becomes do we accept the mantle of Roman Pharaoh or let democracy reign?" 
+ me_roman_missions_ti.26.desc: "Finally, at long last, the entirety of Egypt belongs to us Romans. From the Hellenic prize of Alexandria to the Pyramids of Giza and temples in Memphis, all fall under SPQR. May our Eagle fly until long after the hieroglyphs fade away, Ad Gloriam Romae! Now the question becomes, do we accept the mantle of Roman Pharaoh or let democracy reign?" 
  me_roman_missions_ti.26.a: "The Imperium era has begun!"
  me_roman_missions_ti.26.b: "The vox populi shall not be denied!"
 
  me_roman_missions_ti.27.t: "$roman_mission_13_fall_of_diadochoi_ti_task_6$"
- me_roman_missions_ti.27.desc: "The Egyptians continue to test our patience with each passing year, showing reluctance to accept our suzerainty. The senate and people of Rome are roaring in outrage, 'How dare they not accept our suzerainty?' Some advocate for direct intervention, while others counsel a more measured approach. The destiny of Rome hangs in the balance—what path shall we choose?"
+ me_roman_missions_ti.27.desc: "The Egyptians continue to test our patience with each passing year, showing reluctance to accept our suzerainty. The senate and people of Rome are roaring in outrage: 'How dare they not accept our suzerainty?' Some advocate for direct intervention, while others counsel a more measured approach. The destiny of Rome hangs in the balance—what path shall we choose?"
  me_roman_missions_ti.27.a: "Why, one of control, of course!"
 
  me_roman_missions_ti.28.t: "The Fate of the Ptolemies"
- me_roman_missions_ti.28.desc: "Many amongst our court urge that we pledge our undying allegiance to Rome, and in your will, you shall leave the kingdom to be absorbed into the Roman Empire upon your passing. The Roman emissaries have been receptive to this idea, but they request that we take a decisive step to cement the end of the line of Ptolemy – the elimination of our outspoken heir, who vehemently criticizes Rome. This choice will bind Egypt to the might of Rome for generations to come."
+ me_roman_missions_ti.28.desc: "Many amongst our court urge that we pledge our undying allegiance to Rome, and in your will, you shall leave the kingdom to be absorbed into the Roman Empire upon your passing. The Roman emissaries have been receptive to this idea, but they request that we take a decisive step to cement the end of the line of Ptolemy: the elimination of our outspoken heir, who vehemently criticizes Rome. This choice will bind Egypt to the might of Rome for generations to come."
  me_roman_missions_ti.28.a: "The line of Ptolemy shall end."
  me_roman_missions_ti.28.b: "The legacy of Ptolemy must endure."
  
  me_roman_missions_ti.29.t: "Defiance Against Rome"
- me_ptolemaic_mission_ti.29.desc: "In the face of Roman pressure, we choose defiance. Our legacy as the rulers of Egypt shall not yield to external dominance. We reject any notions of capitulation to Rome. It is time to strengthen our resolve, bolster our defenses, and prepare for the inevitable clash with the Roman Empire. Our sovereignty shall remain unbroken, and the spirit of Egypt shall endure."
+ me_ptolemaic_mission_ti.29.desc: "In the face of Roman pressure, we choose defiance. Our legacy as the rulers of Egypt shall not yield to external dominance. We reject any notion of capitulation to Rome. It is time to strengthen our resolve, bolster our defenses, and prepare for the inevitable clash with the Roman Empire. Our sovereignty shall remain unbroken, and the spirit of Egypt shall endure."
  me_roman_missions_ti.29.a: "Ready our armies."
 
  me_roman_missions_ti.30.t: "Capitulation to Rome"
@@ -171,7 +171,7 @@
  me_roman_missions_ti.30.a: "This is what Ptolemy I Soter would have wanted."
 
  me_roman_missions_ti.31.t: "The Last Ptolemy"
- me_roman_missions_ti.31.desc: "Our kingdom has flourished in the centuries since your great ancestor seized control of Egypt and founded your illustrious dynasty. Under the wise and just rule of the Ptolemies, Egypt became a beacon of culture and power, blending the rich heritage of the Nile with the brilliance of Hellenistic thought. Now, as with your passing, we face the remarkable transition to Roman governance, it is with great optimism that we envision a new age for Egypt. The legacy of our civilization, nurtured by your dynasty, will continue to thrive under the influence of Rome, creating a vibrant tapestry of cultures and traditions. For the kingdom may change hands, but the spirit of Egypt endures. Egypt shall forever be a jewel in the crown of history, its stories and splendors echoing through the ages."
+ me_roman_missions_ti.31.desc: "Our kingdom has flourished in the centuries since your great ancestor seized control of Egypt and founded your illustrious dynasty. Under the wise and just rule of the Ptolemies, Egypt became a beacon of culture and power, blending the rich heritage of the Nile with the brilliance of Hellenistic thought. Now, as with your passing, we face the remarkable transition to Roman governance, and it is with great optimism that we envision a new age for Egypt. The legacy of our civilization, nurtured by your dynasty, will continue to thrive under the influence of Rome, creating a vibrant tapestry of cultures and traditions. For the kingdom may change hands, but the spirit of Egypt endures. Egypt shall forever be a jewel in the crown of history, its stories and splendors echoing through the ages."
  me_roman_missions_ti.31.a: "Let our accomplishments be a guiding light for those who follow."
  
  me_roman_missions_ti.32.t: "The End of Ptolemaic Rule"
@@ -263,24 +263,24 @@
 
  #does the text show up for this?#
  me_roman_missions_ti.2.t: "Roman Pontus"
- me_roman_missions_ti.2.desc: "The lands of the northernmost Greeks have been united under one banner, a feat not even Alexander could accomplish. These civilized bastions amidst the barbarous wilds shall be home to the people of Rome, in all our glory. In time, from the great cities along the river Tanais to the Bosporus strait south of Thrace, all will have the exaltations of Invictum Roma on their lips." 
+ me_roman_missions_ti.2.desc: "The lands of the northernmost Greeks have been united under one banner, a feat not even Alexander could accomplish. These civilized bastions amidst the barbarous wilds shall be home to the people of Rome, in all our glory. In time, from the great cities along the river Tanais to the Bosporus strait south of Thrace, all will have the exaltations of Invicta Roma on their lips." 
  me_roman_missions_ti.2.a: "The entire Hellenic world shall belong to us"
 
  me_roman_missions_ti.18.t: "Thracian Client Kingdom"
  me_roman_missions_ti.18.desc: "#E Lysimachus#!, that old goat, did well for himself by claiming the lands near the Sea Propontis for himself. The city that he vainly gave his own name, surrounded by fertile farmlands as it is, makes for an excellent capital, and it is from here that our new #Y Thracian Client Kingdom#! will reign.\n\nLet our representatives stay in #E Lysimachaea#!, with the full knowledge that our ships are ever-close to their harbors, and that the privileges of being a Roman client come with their fair share of responsibilities and duties."
- me_roman_missions_ti.18.a: "We have full faith in our subordinates and their abilities"
+ me_roman_missions_ti.18.a: "We have full faith in our subordinates and their abilities."
 
  me_roman_missions_ti.19.t: "The Land Between Dacia and Pannonia"
- me_roman_missions_ti.19.desc: "Although us Romans have every right to directly rule the lands that we have conquered, it is has been decided that we shall add another name to the list of client kings that call #E Rome#! master. Let the barbarians sort their own affairs, just as long as they acknowledge who is in charge."
- me_roman_missions_ti.19.a: "For this region, we prefer to rule through our client kings"
+ me_roman_missions_ti.19.desc: "Although us Romans have every right to directly rule the lands that we have conquered, it has been decided that we shall add another name to the list of client kings that call #E Rome#! master. Let the barbarians sort their own affairs, just as long as they acknowledge who is in charge."
+ me_roman_missions_ti.19.a: "For this region, we prefer to rule through our client kings."
 
  me_roman_missions_ti.20.t: "Fortify the Bosporus"
  me_roman_missions_ti.20.desc: "After a period of construction, our Roman engineers have completed their work at #E Byzantion#!, building upon the existing fortifications of the old Greek colony and expanding them to [ROOT.GetCountry.GetRuler.GetName]'s exacting specifications. Because of the masterful work that we have accomplished here, the city has seen trade explode, as merchants love nothing more than stability. Our fortifications keep pirates and raiders away, and our Roman fleets patrolling the #E Bosporus#! are a welcome sight to trade ships - it should come as no surprise that people from all across Asia are flocking in droves to the newly built quarters of the city."
- me_roman_missions_ti.20.a: "This city, surrounded by water on three sides, is very defensible"
+ me_roman_missions_ti.20.a: "This city, surrounded by water on three sides, is very defensible."
 
  me_roman_missions_ti.21.t: "The Dacian Column"
- me_roman_missions_ti.21.desc: "By all metrics, the campaign that [ROOT.GetCountry.GetRuler.GetName] launched in Thrace and beyond has been a smashing success, with Roman hegemony extending to the very border of the vast steppe that lies at the edges of the #E Pontus Euxinus#!. Our colonies continue to thrive in these harsh regions, and our marketplaces swell with all manner of foreign trade goods, such as furs, hemp and smoked meats - the prizes of these rich lands that now send their bounties to Rome.\n\nIn order to celebrate our accomplishments in the region, the #E Roman Senate#! has decided to erect an ornate column in the Forum in #E Roma#!, with a bronze equestrian statue of [ROOT.GetCountry.GetRuler.GetFirstName] standing astride a giant Corinthian capital. This 'Dacian Column', as it is known, shows [ROOT.GetCountry.GetRuler.GetFirstName] with [ROOT.GetCountry.GetRuler.GetHerHis] face turned to the East, eternally watching the Dacians and Black Sea Greeks that [ROOT.GetCountry.GetRuler.GetSheHe] conquered forever."
- me_roman_missions_ti.21.a: "Let the people gaze upon this monument and remember our triumph"
+ me_roman_missions_ti.21.desc: "By all metrics, the campaign that [ROOT.GetCountry.GetRuler.GetName] launched in Thrace and beyond has been a smashing success, with Roman hegemony extending to the very border of the vast steppe that lies at the edges of the #E Pontus Euxinus#!. Our colonies continue to thrive in these harsh regions, and our marketplaces swell with all manner of foreign trade goods, such as furs, hemp, and smoked meats - the prizes of these rich lands that now send their bounties to Rome.\n\nIn order to celebrate our accomplishments in the region, the #E Roman Senate#! has decided to erect an ornate column in the Forum in #E Roma#!, with a bronze equestrian statue of [ROOT.GetCountry.GetRuler.GetFirstName] standing astride a giant Corinthian capital. This 'Dacian Column', as it is known, shows [ROOT.GetCountry.GetRuler.GetFirstName] with [ROOT.GetCountry.GetRuler.GetHerHis] face turned to the East, eternally watching the Dacians and Black Sea Greeks that [ROOT.GetCountry.GetRuler.GetSheHe] conquered forever."
+ me_roman_missions_ti.21.a: "Let the people gaze upon this monument and remember our triumph."
 
  roman_conquest_missions_ti.22.t: "West-Pontic Colonies"
  roman_conquest_missions_ti.22.desc: "Now that we have conquered the West-Pontic Greeks and brought them into the Roman fold, the time has come for us to determine which one of their cities will be the best location for a Roman colony. Although this is a familiar task, we have a handful of excellent candidates to choose from today, making this a bit more exciting than usual." 
@@ -290,7 +290,7 @@
  roman_conquest_missions_ti.22.d: "The omens have chosen Histria"
 
  roman_conquest_missions_ti.23.t: "The Thracian Hinterland"
- roman_conquest_missions_ti.23.desc: "We have managed to bring peace to the Thracian hinterlands, a feat that Lysimachus was unable to accomplish. The best way to celebrate our eternal victory is building a Roman colony in the region; it is best to set down our roots, as we plan to stay here for a very long time." 
+ roman_conquest_missions_ti.23.desc: "We have managed to bring peace to the Thracian hinterlands, a feat that Lysimachus was unable to accomplish. The best way to celebrate our eternal victory is by building a Roman colony in the region; it is best to set down our roots, as we plan to stay here for a very long time." 
  roman_conquest_missions_ti.23.a: "Make Seuthopolis a Roman colony"
  roman_conquest_missions_ti.23.b: "Oescus sounds like the best place"
  roman_conquest_missions_ti.23.c: "The ford at Durostorum is worth protecting"
@@ -308,7 +308,7 @@
  roman_conquest_missions_ti.25.c: "Porolissum sounds like an auspicious site, does it not?"
  
  roman_conquest_missions_ti.26.t: "The Northern Greek City States"
- roman_conquest_missions_ti.26.desc: "Although the cities of #E Tyras#! and #E Olbia#! are very far away from #E Roma#! indeed, with few Romans who are not soldiers having ever visited the distant regions of #Y Sarmatia Europea#!, the Roman Eagle still watches over the plains and forests of our territories.\n\nTo increase our presence in these northern Greek city states, we must build a colony." 
+ roman_conquest_missions_ti.26.desc: "Although the cities of #E Tyras#! and #E Olbia#! are very far away from #E Roma#! indeed, with few Romans who are not soldiers having ever visited the distant regions of #Y Sarmatia Europea#!, the Roman Eagle still watches over the plains and forests of our territories.\n\nTo increase our presence in these northern Greek city-states, we must build a colony." 
  roman_conquest_missions_ti.26.a: "We have decided upon Tyras"
  roman_conquest_missions_ti.26.b: "Olbia shall become the next colony"
 
@@ -320,7 +320,7 @@
  roman_conquest_missions_ti.27.d: "The marshes of Tanais are of strategic importance"
 
  me_roman_missions_ti.22.t: "Bosporan Ultimatum"
- me_roman_missions_ti.22.desc: "Now that we have decided to send diplomats to the #Y Bosporan Kingdom#! to deliver an ultimatum, [ROOT.GetCountry.GetRuler.GetName] must decide how we want our diplomats to act. Truly, our reputation precedes us, so the Bosporans should know whom they are dealing with...still, our men could use some direction, in case that the mere sight of Roman diplomats on their doorstep isn't enough to persuade their minds."
+ me_roman_missions_ti.22.desc: "Now that we have decided to send diplomats to the #Y Bosporan Kingdom#! to deliver an ultimatum, [ROOT.GetCountry.GetRuler.GetName] must decide how we want our diplomats to act. Truly, our reputation precedes us, so the Bosporans should know whom they are dealing with...still, our men could use some direction, in case the mere sight of Roman diplomats on their doorstep isn't enough to persuade their minds."
  me_roman_missions_ti.22.a: "Appeal to their reason but make no threats"
  me_roman_missions_ti.22.b: "Adopt an aggressive tone if they respond poorly"
 
@@ -329,7 +329,7 @@
  me_roman_missions_ti.23.a: "The Bosporans are wiser than I originally thought..."
 
  me_roman_missions_ti.24.t: "Bosporan Client Kingdom"
- me_roman_missions_ti.24.desc: "Our diplomats return from the #E Bosporan Kingdom#! with disappointing news; the haughty Bosporans, feeling that the distance between #E Rome#! and #E Pantikapaion#! are some great hindrance to our ships, have treated our embassy poorly by giving them only cold food and foul water. They have no desire to even be our friends, it seems...would a civilized people treat our men this way?"
+ me_roman_missions_ti.24.desc: "Our diplomats return from the #E Bosporan Kingdom#! with disappointing news; the haughty Bosporans, feeling that the distance between #E Rome#! and #E Pantikapaion#! are some great hindrance to our ships, have treated our embassy poorly by giving them only cold food and foul water. They have no desire to even be our friends, it seems. Would a civilized people treat our men this way?"
  me_roman_missions_ti.24.a: "Well, we cannot be blamed for trying."
  
  #Arminius Tree 
@@ -338,7 +338,7 @@
  roman_mission_15_arminius_BUTTON_DETAILS:0 ""
  roman_mission_15_arminius_DESCRIPTION:0 "Germans; even the name of these barbarians is enough to send a shiver down a good Roman citizen's spine. Although we have memories of Gallic invasions, like the time when Brennus came and sacked Rome itself, the Germans are even fiercer and deadlier opponents and present a threat to our interests in the north. Although it will require a strenuous effort, we should do what we can to bring peace to this region."
  roman_mission_15_arminius_CRITERIA_DESCRIPTION:0 ""
- roman_mission_15_arminius_REWARD_DESCRIPTION:0 "We will be able to stablize our conquests in Germania Magna."
+ roman_mission_15_arminius_REWARD_DESCRIPTION:0 "We will be able to stabilize our conquests in Germania Magna."
  #Tasks
  roman_mission_15_arminius_task_2: "The Land between Albis and Rhenus"
  roman_mission_15_arminius_task_2_DESC: "The dark and distant forests of [GetProvince('(int32)3827').GetArea.GetRegion.GetName] are filled with resources that we would greatly like to have for ourselves; the raw goods of the province, like lumber and stone, shall be used to build permanent settlements in the region. \n\n\n\n\n\n\n\n\n\n\n@celt_mil12!"
@@ -347,7 +347,7 @@
  roman_mission_15_arminius_task_5: "Pluck Boihaemian Thorn"
  roman_mission_15_arminius_task_5_DESC: "The Boihaemian Basin is an exceptional region, worthy of taking full possession of, and yet is inhabited with warlike tribes that we must first deal with. News of this barbarous region being pacified will be received with pleasure in [GetProvince('(int32)1').GetName]. \n\n\n\n\n\n\n\n\n\n\n@celt_mil6!"
  roman_mission_15_arminius_task_7: "Construct Fortified Cities"
- roman_mission_15_arminius_task_7_DESC: "The inhabitants of [GetProvince('(int32)3827').GetArea.GetRegion.GetName] will have to trust the walls of their fortified cities to protect them from marauding Germans - thankfully, we are up for the challenge of civilizing the region. \n\n\n\n\n\n\n\n\n\n\n@event_pic11!"
+ roman_mission_15_arminius_task_7_DESC: "The inhabitants of [GetProvince('(int32)3827').GetArea.GetRegion.GetName] will have to trust the walls of their fortified cities to protect them from marauding Germans; thankfully, we are up for the challenge of civilizing the region. \n\n\n\n\n\n\n\n\n\n\n@event_pic11!"
  rom_fortified_cities_germ_7_tt: "We must build a #Y City#! with a #Y Fortress#! level of at least 1 in each of the following provinces of #Y Germania Magna#!; #Y Frisia#!, #Y Chasuaria#!, #Y Bructeria#!, #Y Chaucia#!, #Y Chamavia#!, #Y Langobardia#! and #Y Baluconia#!."
  roman_mission_15_arminius_task_8: "Ensure Loyalty"
  roman_mission_15_arminius_task_8_DESC: "As the direct extension of our authority, our governors must be completely above reproach, especially when they are placed in important regions like Germania. We must do everything in our power to ensure that this region remains completely loyal to Rome, and that includes installing honest rulers. \n\n\n\n\n\n\n\n\n\n\n@event_pic12!"
@@ -396,7 +396,7 @@
  me_roman_missions_ti.37.a: "A fine addition to the collection"
  
  me_roman_missions_ti.56.t: "Thorn Plucked"
- me_roman_missions_ti.56.desc: "After many a hard fought battle and victory, no more troublesome Boi are left standing in their petty basin. It will now exist to spread Roman civilization, not Germanic rebellion. The bandits and raiders are running out of places to hide. Good riddance to bad rubbish."
+ me_roman_missions_ti.56.desc: "After many a hard-fought battle and victory, no more troublesome Boi are left standing in their petty basin. It will now exist to spread Roman civilization, not Germanic rebellion. The bandits and raiders are running out of places to hide. Good riddance to bad rubbish."
  me_roman_missions_ti.56.a: "This should serve to protect our borders nicely"
  
  me_roman_missions_ti.57.t: "Safety first!"
@@ -408,7 +408,7 @@
  me_roman_missions_ti.58.a: "Loyalty is such a fickle thing, but oh so worth it."
  
  me_roman_missions_ti.59.t: "Follow The Amber Brick Road"
- me_roman_missions_ti.59.desc: "The beautiful golden adornment, which has captivated our for centuries, is now flowing in in copious quantities. What was once only reserved for the highest of statuses, is now being worn by commoners and nobles alike; thus showcasing the bounty and splendor of our realm. Our people are as fashionable and confident as ever, let us make sure it stays that way."
+ me_roman_missions_ti.59.desc: "The beautiful golden adornment, which has captivated us for centuries, is now flowing in in copious quantities. What was once only reserved for the highest of statuses, is now being worn by commoners and nobles alike; thus showcasing the bounty and splendor of our realm. Our people are as fashionable and confident as ever, let us make sure it stays that way."
  me_roman_missions_ti.59.a: "Why, aren't you a pretty thing?"
  
  #Colony Events
@@ -420,7 +420,7 @@
 
  roman_conquest_missions_ti.32.t: "The Conquest of Boihaemia"
  roman_conquest_missions_ti.32.desc: "Despite its apparent proximity to our heartland compared to the Germanic lands, the Bohemian Basin poses a deceptively daunting challenge for colonization. Encircled by thick forests and rugged hills to the north and west, and the formidable Alps to the south, it can only be safely approached via a narrow corridor: the Pannonian Plain and the Danube within it. The geographic isolation only adds to the harsh climate and unfriendly tribes rendering Roman settlement a complicated and difficult endeavor. Nevertheless, undeterred by these obstacles, our colonists march across the plain and traverse the mighty Danube into the heart of the basin leaving it up to us to decide where to build the new Roman hub of the area."
- roman_conquest_missions_ti.32.a: "Baemia, Capital of the Boihaemian homeland, will become our Roman city" 
+ roman_conquest_missions_ti.32.a: "Baemia, the Capital of the Boihaemian homeland, will become our Roman city" 
  roman_conquest_missions_ti.32.b: "Furgisatis and its tactical position would help us" 
  roman_conquest_missions_ti.32.c: "Phargisatus is the most interesting choice" 
 
@@ -438,7 +438,7 @@
  roman_conquest_missions_ti.34.c: "Tenctheria could work, given enough time"
 
  roman_conquest_missions_ti.35.t: "Colonization of Cisalbia"
- roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
+ roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested, and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
  roman_conquest_missions_ti.35.a: "Tropea is strategic enough"
  roman_conquest_missions_ti.35.b: "Treva, watchman to the Albia, is our eastern lookout" 
  roman_conquest_missions_ti.35.c: "Dandutia has a nice ring to it"
@@ -449,13 +449,13 @@
  roman_collapse_arminius_ti.1.a: "Worrying"
  
  roman_collapse_arminius_ti.2.t: "Ruma, gae naehwo Hus!"
- roman_collapse_arminius_ti.2.desc: "News most dire reach us from the frontier! Under the leadership of the archtraitor [Cherushian leader name], a man we once regarded as a loyal soldier and a living symbol of the universal reach of our civilizing mission, the Germanic barbarians have risen in a massive rebellion against our enlightened rule! With ruthless coordination, Roman garrisons have been brutally massacred, troops ambushed and slaughtered, command centers reduced to ashes, vital infrastructure set ablaze and thriving urban centers ruthlessly seized and razed to the ground. Except for the most loyal of territories, our authority in Germania has completely disintegrated. With chilling, never before seen unity, the Germanic tribes now march as one, converging upon our last bastions. Their intent is clear - to drive us entirely from our hard-won territory, to erase our presence from Germania, and perhaps they even seek to breach the Rhenus and encroach upon the fertile fields of Roman Gaul. It is impossible understate the menace posed by a united and hostile Germania to the safety of our nation, we must act quickly and crush this rebellion, or risk losing everything we have gained in this region!"
+ roman_collapse_arminius_ti.2.desc: "News most dire reach us from the frontier! Under the leadership of the archtraitor [Cherushian leader name], a man we once regarded as a loyal soldier and a living symbol of the universal reach of our civilizing mission, the Germanic barbarians have risen in a massive rebellion against our enlightened rule! With ruthless coordination, Roman garrisons have been brutally massacred, troops ambushed and slaughtered, command centers reduced to ashes, vital infrastructure set ablaze, and thriving urban centers ruthlessly seized and razed to the ground. Except for the most loyal of territories, our authority in Germania has completely disintegrated. With chilling, never-before-seen unity, the Germanic tribes now march as one, converging upon our last bastions. Their intent is clear - to drive us entirely from our hard-won territory, to erase our presence from Germania, and perhaps they even seek to breach the Rhenus and encroach upon the fertile fields of Roman Gaul. It is impossible to understate the menace posed by a united and hostile Germania to the safety of our nation, we must act quickly and crush this rebellion, or risk losing everything we have gained in this region!"
  roman_collapse_arminius_ti.2.a: "To Arms!"
  roman_collapse_arminius_ti.2.b: "Perhaps a change in management is in order" 
  flavor_tag_switch_arminius: "#R We will now continue playing as the German revolters!#!"
  
  roman_collapse_arminius_ti.3.t: "You Were The Chosen One!"
- roman_collapse_arminius_ti.3.desc: "Our valiant leader Arminius has been slain! Our rebellion is in disarray and our soldiers don't know where to look for guidance. He was our rock, our voice, and a face which striked fear in every Roman soldier. Already there are squabbles for power amongst his mighty generals, and word from our scouts say the Romans will not let us recover before striking. To where do we go from here... many do not know. But we do know thus: our fight has only just begun."
+ roman_collapse_arminius_ti.3.desc: "Our valiant leader Arminius has been slain! Our rebellion is in disarray and our soldiers don't know where to look for guidance. He was our rock, our voice, and a face that struck fear in every Roman soldier. Already there are squabbles for power amongst his mighty generals, and word from our scouts says the Romans will not let us recover before striking. To where do we go from here... many do not know. But we do know thus: our fight has only just begun."
  roman_collapse_arminius_ti.3.a: "Well, that could have gone better"
  
  roman_collapse_arminius_ti.4.t: "Sic Semper Tyrannus"
@@ -463,7 +463,7 @@
  roman_collapse_arminius_ti.4.a: "We must strike while the iron is hot!"
  
  roman_collapse_arminius_ti.5.t: "Death of the Archtraitor"
- roman_collapse_arminius_ti.5.desc: "Once more, our indomitable legions have marched north to face the detestable Germans, engaging in fierce and bloody battles along our northern frontier. Their courage and strength halting the advance of the Archtraitor's barbarous hordes, safeguarding our cherished holdings and forcing the barbarians back to the Rhenus. Beyond the great river, our legions have been plunged into an abyss of unparalleled carnage. They left a trail of scorched earth, scouring countless rebellious villages. Every step haunted by ceaseless and brutal ambushes, lurking behind every tree and rock, painting the landscape a ghastly crimson hue. \n\nOur troops weathered the constant attrition of the bitter, biting cold and the relentless hostility of the terrain, the land itself conspiring against them. They have assaulted the enemy's fortifications, battling their way through mazes of blood-soaked barricades. Within the shadowy depths of dark forests, they engaged in pitched and savage battles with the bloodthirsty barbarians, their clashes leaving behind naught but bloody gore and the sickening stench of the dead. \n\nYet, in the end, they emerged victorious, the once-proud Cheruschi domain reduced to smoldering ruins. Their armies lay slaughtered, their fortifications incinerated, and their leaders slain, their grisly ends serving as an unmistakable warning to all who dare defy Roman might. The scarred remains of Germania, at long last, have been fully returned to our rule, bearing the heavy price of rebellion. \n\nThe Archtraitor Arminius, found by our troops, captured as he cowardly attempted to fall upon his own sword, has been condemned to languish in the most wretched pits of our dungeons, awaiting the excruciating end he so rightly deserves. With their spirits irrevocably shattered, their leaders either killed or captured, and their men strewn across the red-stained fields, we may now rest easy in the knowledge that the Germans, battered and broken, lack the strength to oppose us ever again. The threat of a Germanic rebellion has been permanently extinguished, and Germania now stands firmly beneath our benevolent rule."
+ roman_collapse_arminius_ti.5.desc: "Once more, our indomitable legions have marched north to face the detestable Germans, engaging in fierce and bloody battles along our northern frontier. Their courage and strength halted the advance of the Archtraitor's barbarous hordes, safeguarding our cherished holdings and forcing the barbarians back to the Rhenus. Beyond the great river, our legions have been plunged into an abyss of unparalleled carnage. They left a trail of scorched earth, scouring countless rebellious villages. Every step is haunted by ceaseless and brutal ambushes, lurking behind every tree and rock, painting the landscape a ghastly crimson hue. \n\nOur troops weathered the constant attrition of the bitter, biting cold and the relentless hostility of the terrain, the land itself conspiring against them. They have assaulted the enemy's fortifications, battling their way through mazes of blood-soaked barricades. Within the shadowy depths of dark forests, they engaged in pitched and savage battles with the bloodthirsty barbarians, their clashes leaving behind naught but bloody gore and the sickening stench of the dead. \n\nYet, in the end, they emerged victorious, the once-proud Cheruschi domain reduced to smoldering ruins. Their armies lay slaughtered, their fortifications incinerated, and their leaders slain, their grisly ends serving as an unmistakable warning to all who dare defy Roman might. The scarred remains of Germania, at long last, have been fully returned to our rule, bearing the heavy price of rebellion. \n\nThe Archtraitor Arminius, found by our troops, captured as he cowardly attempted to fall upon his own sword, has been condemned to languish in the most wretched pits of our dungeons, awaiting the excruciating end he so rightly deserves. With their spirits irrevocably shattered, their leaders either killed or captured, and their men strewn across the red-stained fields, we may now rest easy in the knowledge that the Germans, battered and broken, lack the strength to oppose us ever again. The threat of a Germanic rebellion has been permanently extinguished, and Germania now stands firmly beneath our benevolent rule."
  roman_collapse_arminius_ti.5.a: "The air was filled with smoke and blood."
  
  
@@ -541,7 +541,7 @@
  me_roman_missions_ti.6.b: "I am but a man."
  
  me_roman_missions_ti.9.t: "Via Indica"
- me_roman_missions_ti.9.desc: "Amidst the bustling ports of Alexandria and the exotic markets of India, a historic achievement has been realized: the establishment of a thriving trade route, the Via Indica. This monumental endeavor has ushered in a new era of commerce, connecting the treasures of the far east with the wealth of Egypt. The caravans and ships laden with spices, silks, and other exotic goods have transformed the fortunes of both lands, and the scent of prosperity fills the air."
+ me_roman_missions_ti.9.desc: "Amidst the bustling ports of Alexandria and the exotic markets of India, a historic achievement has been realized: the establishment of a thriving trade route, the Via Indica. This monumental endeavor has ushered in a new era of commerce, connecting the treasures of the Far East with the wealth of Egypt. The caravans and ships laden with spices, silks, and other exotic goods have transformed the fortunes of both lands, and the scent of prosperity fills the air."
  me_roman_missions_ti.9.a: "This will surely lead to the formation of new merchant companies."
  
  me_roman_missions_ti.38.t: "Ave Imperator"
@@ -635,7 +635,7 @@
  roman_conquest_missions_ti.37.d: "Caenae, a symbol of Roman strength, shall be our enduring legacy."
  # Babylonia
  roman_conquest_missions_ti.38.t: "Babylonian Campaign"
- roman_conquest_missions_ti.38.desc: "As our legions advance into the heart of ancient #E Babylonia#!, we find ourselves amidst the remnants of once-mighty civilizations. The Euphates and Tigris rivers have flowed through these lands for millennia, nurturing a rich tapestry of history and culture. #Y Babylon#!, with its fabled Hanging Gardens and towering ziggurats, is but one jewel in this ancient crown. It was here that Alexander the Great, in his quest for conquest, gazed upon these very streets. Our conquest of this region opens the doors to a treasure trove of knowledge and wealth. It is our duty to bring the glory of #E Rome#! to #E Babylonia's#! storied cities, just as Alexander did before us. The time has come to choose a site for our new Roman colonia, where we will blend the legacy of Babylonian civilization with Roman ingenuity."
+ roman_conquest_missions_ti.38.desc: "As our legions advance into the heart of ancient #E Babylonia#!, we find ourselves amidst the remnants of once-mighty civilizations. The Euphrates and Tigris rivers have flowed through these lands for millennia, nurturing a rich tapestry of history and culture. #Y Babylon#!, with its fabled Hanging Gardens and towering ziggurats, is but one jewel in this ancient crown. It was here that Alexander the Great, in his quest for conquest, gazed upon these very streets. Our conquest of this region opens the doors to a treasure trove of knowledge and wealth. It is our duty to bring the glory of #E Rome#! to #E Babylonia's#! storied cities, just as Alexander did before us. The time has come to choose a site for our new Roman colonia, where we will blend the legacy of Babylonian civilization with Roman ingenuity."
  roman_conquest_missions_ti.38.a: "Babylon, a city steeped in myth and history, is the obvious choice."
  roman_conquest_missions_ti.38.b: "Selucia ad Tigridem, strategically located on the Tigris, is a worthy option."
  roman_conquest_missions_ti.38.c: "Antiochia Susiana, with its cultural significance, demands our attention."
@@ -645,7 +645,7 @@
  roman_conquest_missions_ti.39.desc: "The lush and mythical land of #E Colchis#!, nestled on the eastern shores of the Black Sea, beckons us with its rich history and legendary treasures. This region is steeped in classical antiquity, known not only for its wealth but also for its prominent role in Hellenic mythology. The time has come for Rome to firmly establish its governance in these fabled lands, bringing the might of the Roman Empire to the very heart of Colchis."
  roman_conquest_missions_ti.39.a: "Phasis, the home of the Golden Fleece, a city shrouded in myth and legend, shall become the crown jewel of #E Roman Colchis#!."
  roman_conquest_missions_ti.39.b: "Portus Altus, strategically positioned, will serve as the provincial capital of Tayk, a testament to Roman ambition in these bountiful lands."
- roman_conquest_missions_ti.39.c: "Hermatus, long serving as a center of trade and commerce within the region will be transformed into a Roman stronghold."
+ roman_conquest_missions_ti.39.c: "Hermatus, long serving as a center of trade and commerce within the region, will be transformed into a Roman stronghold."
  # Caucasus
  roman_conquest_missions_ti.40.t: "Caucasian Dominion"
  roman_conquest_missions_ti.40.desc: "Our legions have marched tirelessly through the challenging terrain of the Caucasus, an ancient and storied region that has long captured the imagination of conquerors and traders alike. The Caucasus holds a rich tapestry of history, and now it is our responsibility to weave the threads of Roman civilization into its fabric. We must decide where to focus our efforts and forge a lasting connection between Rome and the Caucasus."
@@ -654,7 +654,7 @@
  roman_conquest_missions_ti.40.c: "Ghizil-Agaj’s is in an ideal location to govern #E Paytankert#!."
  # Armenia
  roman_conquest_missions_ti.41.t: "The Subjugation of Armenia"
- roman_conquest_missions_ti.41.desc: "Armenia, a fiercely independent, has now been brought to heel. As we assert Roman dominion over this region, it falls upon us to chart its future. The cities of old Armenia await rebirth under the banner of Rome, and we must decide where to establish our new Roman colonia, ensuring that the echoes of our triumphs resonate through the ages."
+ roman_conquest_missions_ti.41.desc: "Armenia, a fiercely independent country, has now been brought to heel. As we assert Roman dominion over this region, it falls upon us to chart its future. The cities of old Armenia await rebirth under the banner of Rome, and we must decide where to establish our new Roman colonia, ensuring that the echoes of our triumphs resonate through the ages."
  roman_conquest_missions_ti.41.a: "In Neronia, we shall plant the seeds of Roman civilization."
  roman_conquest_missions_ti.41.b: "In Arvinum, renowned for its bustling trade, we shall lay the foundations of Roman prosperity."
  roman_conquest_missions_ti.41.c: "Placing our provincial capital Satala, the heart of Armenia Superior is a tantalizing option."
@@ -669,7 +669,7 @@
  rome_imperium_sine_fine_sol_invictus_activation: "We will unlock the Sol Invictus omen."
  deity_sol_invictus: "Sol Invictus"
  omen_sol_invictus: "$deity_sol_invictus$"
- omen_sol_invictus_desc:0 "$helios_description$\n\n#Y Sol Invictus#!: The glorified unconquerable sun, the creator of light, ascended to prominence during the later RomanEmpire, culminating in the reign of Emperor Aurelianus. This radiant figure represents aremarkable fusion of Roman solar worship with influences from various Eastern sungods, melding attributes of Roman deities like Apollo and Mithras with elements ofEastern sun deities like Sol Elagabalus. Aurelianus, a visionary emperor, recognized thepotential of Sol Invictus to serve as a unifying force in a culturally diverse empire. Underhis patronage, the cult of Sol Invictus gained official recognition and support, leading toits rapid rise in popularity.\n\nAurelianus’s elevation of Sol Invictus to one of the premier deities of the Roman Empiresolidified the sun god's place in the pantheon, embodying the emperor's commitment tofostering cohesion within the realm. Aurelianus saw that the priests of Sol Invictus weremade pontifices and admitted them to the revitalized College of Pontiffs, entrusting themwith the sacred duty of tending to the rites of the sun god. A grand Temple of the Sun, atestament to the deity's significance, graced the Campus Agrippae, drawing pilgrimsfrom across the empire seeking the blessings of the unconquerable sun.\nThe day of the temple’s dedication, the 25th of December, was thereafter celebrated asDies Natalis Solis Invicti, marking the birth of this radiant god, a time when Romansgathered to honor his enduring light and power. Sol Invictus, with his golden rays andunwavering strength, embodied the resilience and magnificence of the Roman Empire, alegacy solidified by the enlightened reign of Emperor Aurelian."
+ omen_sol_invictus_desc:0 "$helios_description$\n\n#Y Sol Invictus#!: The glorified, unconquerable sun, the creator of light, ascended to prominence during the later Roman Empire, culminating in the reign of Emperor Aurelianus. This radiant figure represents a remarkable fusion of Roman solar worship with influences from various Eastern sun gods, melding attributes of Roman deities like Apollo and Mithras with elements of Eastern sun deities like Sol Elagabalus. Aurelianus, a visionary emperor, recognized the potential of Sol Invictus to serve as a unifying force in a culturally diverse empire. Under his patronage, the cult of Sol Invictus gained official recognition and support, leading to its rapid rise in popularity.\n\nAurelianus’s elevation of Sol Invictus to one of the premier deities of the Roman Empires solidified the sun god's place in the pantheon, embodying the emperor's commitment to fostering cohesion within the realm. Aurelianus saw that the priests of Sol Invictus were made pontifices and admitted them to the revitalized College of Pontiffs, entrusting them with the sacred duty of tending to the rites of the sun god. A grand Temple of the Sun, a testament to the deity's significance, graced the Campus Agrippae, drawing pilgrims from across the empire seeking the blessings of the unconquerable sun.\nThe day of the temple’s dedication, the 25th of December, was thereafter celebrated as Dies Natalis Solis Invicti, marking the birth of this radiant god, a time when Romans gathered to honor his enduring light and power. Sol Invictus, with his golden rays and unwavering strength, embodied the resilience and magnificence of the Roman Empire, a legacy solidified by the enlightened reign of Emperor Aurelian."
  
  #Tooltips
  rome_assyrian_forts_tt: "Is a level 3 fort in the Assyria Region."
