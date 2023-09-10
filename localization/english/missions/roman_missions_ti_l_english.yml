@@ -43,12 +43,12 @@
  me_roman_missions_ti.15.b: "These petty kings are nothing to us. Draw up invasion plans."
  
  me_roman_missions_ti.16.t: "Embracing Roman Patronage"
- me_roman_missions_ti.16.desc: "In the chambers of our noble court, a momentous decision has been made. With great deliberation, our advisors have convinced us to accept Rome's diplomatic overtures and formally embrace our status as a Roman client state. This decision carries profound implications for our land and our people, for we have entrusted our sovereignty to the mighty Roman Empire. As Armenians, we have chosen the path of stability, forging a partnership with a formidable ally. This newfound allegiance brings both opportunities and responsibilities. We must navigate this alliance wisely, ensuring the welfare and prosperity of our beloved Armenia, while honoring our pledge of loyalty to Rome."
- me_roman_missions_ti.16.a: "With Rome's strength, we stand tall."
+ me_roman_missions_ti.16.desc: "In the chambers of the Armenian noble court, a momentous decision has been made. With great deliberation, our advisors have convinced them to accept Rome's diplomatic overtures and formally embrace their status as a Roman client state. This decision carries profound implications for their land and people, for they have entrusted their sovereignty to our mighty Roman Empire. As Armenians, they have chosen the path of stability, forging a partnership with a formidable ally. This newfound allegiance brings both opportunities and responsibilities. We must navigate this alliance wisely, ensuring the welfare and prosperity of Rome, while honoring our pledge of loyalty to Armenia."
+ me_roman_missions_ti.16.a: "With Rome's strength, Armenia will stand tall."
  
  me_roman_missions_ti.17.t: "Defiance of Roman Hegemony"
- me_roman_missions_ti.17.desc: "We, the proud Armenians, have made a resolute decision—to reject the Roman overtures of becoming a mere client state under their dominion. Our lands, hard-won by the Orontids and the Artaxiads, shall not bow to the might of Rome without a fight. As the sun rises over the Caucasus Mountains, the people stand united in defiance, prepared to defend our sovereignty at all costs. Rome's ambitions to seize our lands by force are clear, but we shall not yield without a valiant struggle. "
- me_roman_missions_ti.17.a: "Armenia will not be subjugated."
+ me_roman_missions_ti.17.desc: "Those damned Armenians, they have made the unwise decision to reject our offer of becoming a client state under our great dominion. The Armenians seem unwilling to concede power to the might of Rome without a fight. As the sun rises over the Caucasus Mountains, our scouts are making headway in learning the shortcomngs in the foolish Armenians' defenses. Our ambitions to seize Armenian lands by force are clear, we shall not yield without a valiant struggle."
+ me_roman_missions_ti.17.a: "We will gain Armenia, one way or another."
  
  roman_conquest_missions_ti.19.t: "Liberation of the Lycian Shore"
  roman_conquest_missions_ti.19.desc: "The storied lands of #E Lycia et Pisidia#!, have now fallen under Roman dominion. Our legions have triumphed, and the time has come to shape the destiny of this region. Lycia et Pisidia, once a place of diverse cities and peoples, now await the guiding hand of Rome."
