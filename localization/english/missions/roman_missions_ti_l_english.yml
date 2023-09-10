@@ -562,7 +562,6 @@
  
  me_roman_missions_ti.42.t: "Return from India"
  me_roman_missions_ti.42.desc: "The navigators, who embarked on a daring journey to India, have returned triumphant. They not only succeeded in establishing a reliable trade route to the distant lands of wealth but also brought back astonishing tales. They speak of a great empire lying at the very ends of the world, shrouded in mystery and allure."
-#there seems to be no reason to pick A over B
  me_roman_missions_ti.42.a: "Thank the navigators for their service."
  me_roman_missions_ti.42.b: "Our treasury deserves to benefit from this increased trade with India."
  
@@ -570,9 +569,9 @@
  me_roman_missions_ti.43.desc: "The winds of change sweep across the eastern lands, and the Parthian Empire rises as a formidable power on Rome's eastern borders. In this perilous moment, voices within the Senate advocate for the pursuit of a truce with #Y Parthia#!, a chance to secure peace and stability in the East. "
  me_roman_missions_ti.43.a: "Send envoys to #Y Parthia#! in pursuit of a nonagression pact."
  me_roman_missions_ti.43.b: "Rome shall stand firm, meeting this rising power with unwavering determination and defending our interests without compromise."
+
  me_roman_missions_ti.44.t: "The Parthian Truce"
  me_roman_missions_ti.44.desc: "In a historic turn of events, the Parthian Empire has extended an olive branch, accepting a truce with Rome. The news has sent ripples of relief and optimism throughout the Senate and the Empire as a whole."
- #maybe give the current ruler a few extra Charisma points
  me_roman_missions_ti.44.a: "Celebrate the diplomatic victory."
  
  me_roman_missions_ti.45.t: "The Parthian Rejection"
@@ -585,14 +584,15 @@
  
  me_roman_missions_ti.47.t: "Return from the Heart of Africa"
  me_roman_missions_ti.47.desc: "After months of perilous exploration deep into the uncharted regions of Africa, our intrepid explorers have returned, bringing with them an elephantine treasure, carved from ivory and adorned with strange jewels."
- #option A seems to be incomplete
- me_roman_missions_ti.47.a: "Congratulate these exemplary citizens"
+ me_roman_missions_ti.47.a: "Reward these exemplary citizens for their service to the state."
  me_roman_missions_ti.47.b: "Place the treasure in the Imperial treasury."
+
  me_roman_missions_ti.48.t: "The Dawn of Sol Invictus"
  me_roman_missions_ti.48.desc: "In the wake of a spectacular celestial event, witnessed by all of Rome, the emergence of a radiant, previously unseen celestial body prompts the establishment of a new priesthood dedicated to the veneration of Sol Invictus, the Unconquered Sun, as the divine guardian of the Roman Empire."
  me_roman_missions_ti.48.a: "Truly, this celestial manifestation is a sign of divine favor upon Rome. We shall embrace the guidance of Sol Invictus and honor this new priesthood as a beacon of our empire's enduring strength and destiny."
  
  #me_roman_missions_ti.49 is a hidden event
+ 
  me_roman_missions_ti.50.t: "Celebration of the Sun and Moon "
  me_roman_missions_ti.50.desc: "The auspicious date of August 28th marks the anniversary of the revered temple of Sol and Luna, a day of great significance within the Priesthood of Sol Invictus. They have declared a grand holiday to honor the Unconquered Sun on this sacred occasion."
  me_roman_missions_ti.50.a: "We shall embrace this holiday and allocate funds from the state treasury to sponsor spectacular circus games in the name of Sol Invictus."
@@ -605,15 +605,13 @@
  
  me_roman_missions_ti.52.t: "The Birth of the Sacred Son"
  me_roman_missions_ti.52.desc: "The sacred occasion of Dies Natalis Solis Invicti approaches, a grand celebration of the birthday of Sol Invictus, the Unconquered Sun. The Priesthood of Sol Invictus plans to hold a magnificent temple festival, complete with thirty exhilarating chariot races, in honor of this revered day. "
- me_roman_missions_ti.52.a: "Attend the celebration and give an offering on to Sol Invictus on behalf of the Roman people."
- #Consider adding a priest to the capital to give the feel of the Solar Cult growing.
+ me_roman_missions_ti.52.a: "Attend the celebration and give an offering to Sol Invictus on behalf of the Roman people."
  me_roman_missions_ti.52.b: "Refuse to attend the celebration."
  
  me_roman_missions_ti.54.t: "Commencement of the Aurelian Walls"
  me_roman_missions_ti.54.desc: "Amidst the bustling streets of Rome, the first stone is laid as construction commences on the mighty Aurelian Walls, a monumental endeavor to safeguard the Eternal City."
  me_roman_missions_ti.54.a: "Rome will be the mightier for it."
 
- #Can we maybe make this give an architect in the capital
  me_roman_missions_ti.55.t: "Completion of the Aurelian Walls"
  me_roman_missions_ti.55.desc: "With the final stone set in place, the Aurelian Walls stand as an imposing testament to Rome's enduring strength and unwavering commitment to protecting the Eternal City."
  me_roman_missions_ti.55.a: "The shield of Rome, unbreakable and eternal, is complete!"
@@ -659,7 +657,6 @@
  roman_conquest_missions_ti.41.b: "In Arvinum, renowned for its bustling trade, we shall lay the foundations of Roman prosperity."
  roman_conquest_missions_ti.41.c: "Placing our provincial capital Satala, the heart of Armenia Superior is a tantalizing option."
  roman_conquest_missions_ti.41.d: "We should build a city in Dagnevana and make it the capital of #E Vaspurakan#! is to imprint our authority in the east."
-
 
  #Treasure
  rome_african_treasure: "Aethiopian Elephant"
