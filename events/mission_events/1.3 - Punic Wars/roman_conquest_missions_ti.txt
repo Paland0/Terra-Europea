@@ -210,7 +210,7 @@ me_roman_missions_ti.8 = {							#Eastern Glory - End
 			add_permanent_province_modifier = {
 				name = rome_theatre_of_pompeius
 			}
-			add_building_level = theathre_building
+			add_building_level = theatre_building
 			add_special_pop = {
 				text = "add_2_artist_tt"
 				type = artist
@@ -1167,6 +1167,11 @@ me_roman_missions_ti.42 = {							# Rome Indian Trade - End
 		add_country_modifier = {
 			name = "rome_indian_trade" #diplo reach
 			duration = -1
+		capital_scope = {
+			add_special_pop = {
+				text = "add_1_merchant_tt"
+				type = merchant
+				count = 1
 		}
 	}
 	
@@ -1175,7 +1180,7 @@ me_roman_missions_ti.42 = {							# Rome Indian Trade - End
 		trigger = {
 			has_variable = great_trade
 		}
-		add_treasury = 500
+		add_treasury = 1000
 		add_country_modifier = {
 			name = "rome_indian_trade" #diplo reach
 			duration = -1
@@ -1251,6 +1256,8 @@ me_roman_missions_ti.44 = {							# Truce
 		add_truce = {
 			target = c:PTH
 			duration = 5475
+			add_charisma = 3
+			add_popularity = 10
 		}
 	}
 }
@@ -1308,7 +1315,7 @@ me_roman_missions_ti.47 = {							# Rome African Expedition - End
 		trigger = {
 			NOT = { has_variable = found_treasure }
 		}
-		custom_tooltip = no_effect_tooltip
+			add_treasury = -250
 	}
 	
 	option = {
@@ -1461,7 +1468,8 @@ me_roman_missions_ti.52 = {							# Sol Invictus - 25th of December - Dies Natal
 		name = me_roman_missions_ti.52.b
 		add_stability = -5
 		current_ruler = {
-			add_popularity = -5
+			add_zeal = -1
+			add_popularity = -10
 		}
 	}
 }
@@ -1491,6 +1499,11 @@ me_roman_missions_ti.54 = {							# Begin of Aurelian Walls
 	option = {
 		name = me_roman_missions_ti.54.a
 		add_treasury = -500
+		capital_scope = {
+			add_special_pop = {
+				text = "add_1_architect_tt"
+				type = architect
+				count = 2
 	}
 }
 
@@ -1511,6 +1524,8 @@ me_roman_missions_ti.55 = {							# End of Aurelian Walls
 			}
 		}
 		add_war_exhaustion = -5
+		add_splendor = {
+	  		amount = 100
 	}
 }
 
