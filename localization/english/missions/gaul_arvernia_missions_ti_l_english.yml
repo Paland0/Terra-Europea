@@ -110,24 +110,26 @@ gaul_arvernia_task_28_DESC: "Embracing the need for a highly skilled and profess
 
 
  #Events gaul_arvernia_1_title: "$ gaul_arvernia_task_1$"
- me_gaul_arvernia_ti_1_desc: ""
- me_gaul_arvernia_ti_1.a: ""
+ me_gaul_arvernia_ti_1_desc: "Our ruler has gained valuable experience from negotiating with fellow Gallic leaders, honing their diplomatic skills. This expertise will prove invaluable as we work towards uniting Gaul under a single banner."
+ me_gaul_arvernia_ti_1.a: "Continue practicing."
 
  me_gaul_arvernia_ti_2_title: "$ gaul_arvernia_task_2$"
- me_gaul_arvernia_ti_2_desc: ""
- me_gaul_arvernia_ti_2.a: ""
+ me_gaul_arvernia_ti_2_desc: "Many of our advisors push us to directly extend our influence over neighboring lands. Their inhabitants have shown reluctance to join our federation willingly. We must decide whether to forcibly make them pay tribute, bringing them into our fold under our terms, or to resort to more forceful measures and confront them in open conflict."
+ me_gaul_arvernia_ti_2.a: "Establish a tributary state."
+  me_gaul_arvernia_ti_2.b: "Let us not be hasty."
+
 
  me_gaul_arvernia_ti_3_title: "$ gaul_arvernia_task_3$"
- me_gaul_arvernia_ti_3_desc: ""
- me_gaul_arvernia_ti_3.a: ""
+ me_gaul_arvernia_ti_3_desc: "As we continue our journey to unite Gaul, it is essential to show our goodwill and benevolence to neighboring tribes."
+ me_gaul_arvernia_ti_3.a: "Bestow generous gifts upon our neighbors"
 
  me_gaul_arvernia_ti_4_title: "$ gaul_arvernia_task_4$"
- me_gaul_arvernia_ti_4_desc: ""
- me_gaul_arvernia_ti_4.a: ""
+ me_gaul_arvernia_ti_4_desc: "In pursuit of a grand federation, diplomacy must be a cornerstone of our strategy. Luckily our ruler's dedication to the studies of diplomacy and oration have paid off, contributing significantly to the fruitful discussions and frank negotiations had with fellow Gaulish tribes."
+ me_gaul_arvernia_ti_4.a: "We have much to learn from our ruler."
 
  me_gaul_arvernia_ti_5_title: "$ gaul_arvernia_task_5$"
- me_gaul_arvernia_ti_5_desc: ""
- me_gaul_arvernia_ti_5.a: ""
+ me_gaul_arvernia_ti_5_desc: "In our pursuit of unity and cultural richness, our ruler has recognized the importance of celebrating our Gaulish heritage through the arts. By nurturing the talents of local artists and fostering an environment that values artistic expression. As we support these artisans and invest in cultural endeavors, our treasury may see a modest expenditure, but the cultural richness and pride it brings to our people are."
+ me_gaul_arvernia_ti_5.a: "Very well."
 
  me_gaul_arvernia_ti_6_title: "$ gaul_arvernia_task_6$"
  me_gaul_arvernia_ti_6_desc: ""
