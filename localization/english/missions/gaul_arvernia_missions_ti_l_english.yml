@@ -50,54 +50,55 @@ l_english:
  gaul_arvernia_task_14_DESC: "The#E Haedui#! shall become an integral part of our united#E Gaul#!, contributing their resources, manpower, and expertise to our grand endeavor. By weaving the#E Haedui#! into the fabric of our federation, we will further solidify the bonds of unity that hold#E Gaul#! together. This act not only strengthens our collective might but also symbolizes the triumph of diplomacy and cooperation over conflict and division, bringing us one step closer to the realization of our grand vision for#E Gaul#!."
 
  gaul_arvernia_2: "Supreme Leader of Gaulish Heroes"
- gaul_arvernia_2_DESCRIPTION: "Mission description"
- gaul_arvernia_2_CRITERIA_DESCRIPTION: "This mission will be completed when"
- gaul_arvernia_2_BUTTON_TOOLTIP: ""
+ gaul_arvernia_2_DESCRIPTION: "As the central Gallic tribes rally under our banner in a grand federation, our vision extends beyond unity. We aim to become the Supreme Leader of all Gaul, guiding the Gallic people to an era of unparalleled prosperity and power. With unity as our foundation, we will cultivate a realm where the collective spirit of the Gallic tribes flourishes, where every tribe finds its place in a harmonious mosaic of cultures and strengths."
+ gaul_arvernia_2_CRITERIA_DESCRIPTION: "This mission will be completed when we have achieved unrivaled supremacy over all Gaul and solidified our position as its Supreme Leader."
+ gaul_arvernia_2_BUTTON_TOOLTIP: "Lead Gaul to an era of unrivaled greatness as its Supreme Leader."
 
  gaul_arvernia_task_15: "Expansion Policy"
- gaul_arvernia_task_15_DESC: ""
+ gaul_arvernia_task_15_DESC: "gaul_arvernia_task_15_DESC: "Our expansion policy will define the future of our federation. We must carefully consider whether to expand through diplomacy, conquest, or alliances. The consequences of our choice will resonate across Gaul and influence the perception of our leadership."
 
  gaul_arvernia_task_16: "Pictones and Santones"
- gaul_arvernia_task_16_DESC: ""
+ gaul_arvernia_task_16_DESC: "We must turn our attention westward to the lands of the Pictones and Santones. These tribes, nestled in the western reaches of Gaul, possess both valuable resources and strategic significance. By incorporating the Pictones and Santones into our federation, we will not only secure access to their wealth and strength but also be poised to extend our influence over the entire western region of Gaul."
 
  gaul_arvernia_task_17: "Volcae and Ligures"
- gaul_arvernia_task_17_DESC: ""
+ gaul_arvernia_task_17_DESC: "Our gaze now turns southward, where the Volcae and Ligures tribes hold sway. The regions offerings a bountiful prize for our expanding Gaulish Federation. To realize our vision of Gaulish supremacy, we must muster our forces and embark on a bold campaign to conquer and assimilate the southern territories."
 
  gaul_arvernia_task_18: "The Upper Rhenus"
- gaul_arvernia_task_18_DESC: ""
+ gaul_arvernia_task_18_DESC: "We now set our sights on the territories along the banks the Rhenus. With our battle-hardened warriors and unwavering determination, we shall march boldly into the heart of the Upper Rhenus, seizing control and ensuring that these lands become an integral part of our burgeoning Gaulish federation. "
 
  gaul_arvernia_task_19: "Aremorican Peninsula"
- gaul_arvernia_task_19_DESC: ""
+ gaul_arvernia_task_19_DESC: "The Aremorican Peninsula is a vital part of Gaul, and it is time to bring these lands into the Gaulish Federation. Our warriors, fueled by the spirit of unity and a shared Gaulish identity, stand ready to do so."
 
  gaul_arvernia_task_20: "Expand Navy"
- gaul_arvernia_task_1_DESC: ""
+ gaul_arvernia_task_20_DESC: "A powerful navy will be essential for maintaining control over coastal regions and trade routes. We must invest in expanding our navy, ensuring our dominance over the seas surrounding Gaul."
 
  gaul_arvernia_task_21: "Celts United"
- gaul_arvernia_task_21_DESC: ""
+ gaul_arvernia_task_21_DESC: "As our Gaulish Federation flourishes, we find ourselves at an inflection point in our journey towards uniting all Celtic peoples. The bonds we've forged with our fellow tribes have grown stronger, and our vision of a united Gaul has begun to take root. The time has come to evolve from a loose federation into a unified, powerful entity that commands respect and admiration across the Celtic world."
 
  gaul_arvernia_task_22: "Gauls Across the Alps"
- gaul_arvernia_task_22_DESC: ""
+ gaul_arvernia_task_22_DESC: "We cannot ignore the Gauls living beyond the Alps. Establishing relations with these distant kin will broaden our influence and demonstrate our commitment to the unity of all Gauls."
 
  gaul_arvernia_task_23: "The Three Parts of Gaul"
- gaul_arvernia_task_23_DESC: ""
+ gaul_arvernia_task_23_DESC: "Outsiders have traditionally divided Gaul into three parts: Celtica, Belgica, and Aquitania. Yet, our vision transcends these artificial divisions, aiming for a truly united nation of Gaul, erasing artificial divisions and forging a truly united Gaul."
 
+[ROOT.GetCountry.GetRuler.GetName]
  gaul_arvernia_task_24: "Apotheosis"
- gaul_arvernia_task_24_DESC: ""
+ gaul_arvernia_task_24_DESC: "As a monumental testament to the unity and strength we've achieved in Gaul, it is only fitting that [ROOT.GetCountry.GetRuler.GetName], who has played a pivotal role in uniting our land, ascends to a divine status. [ROOT.GetCountry.GetRuler.GetName] will forever watch over the future generations of the Celtic people, guiding them through challenges and triumphs, forever embodying the indomitable Gaulish spirit."
 
  gaul_arvernia_task_25: "Celtic Sanctuaries"
- gaul_arvernia_task_25_DESC: ""
+ gaul_arvernia_task_25_DESC: "The preservation and restoration of sacred Celtic sanctuaries is not only a matter of cultural heritage but also a symbol of our unwavering commitment to our ancestral beliefs. These sacred places hold the key to maintaining our profound connection to the divine and our shared Gaulish spirituality. As these hallowed grounds flourish, our people will be inspired to deepen their spiritual connection, fostering a sense of religiosity that binds the disparate parts of Gaul together."
 
  gaul_arvernia_task_26: "Gaulish Metropolis"
- gaul_arvernia_task_26_DESC: ""
+ gaul_arvernia_task_26_DESC: "[GetProvince('(int32)CAPITALIDPLACEHOLDER').GetName] must ascend to the status of a metropolis of unparalleled grandeur in order to be a true reflection of the magnificence of our federation. Through meticulous development and expansion of our capital, we shall ensure that [GetProvince('(int32)CAPITALIDPLACEHOLDER').GetName] will not merely be a city; it will be an embodiment of our federation's vision, laying the foundation for a future where Gaul's splendor knows no bounds, and where our people thrive amid the awe-inspiring beauty of our capital."
 
  gaul_arvernia_task_27: "Gaulish Splendor"
- gaul_arvernia_task_27_DESC: ""
+gaul_arvernia_task_27_DESC: "As [GetProvince('(int32)CAPITALIDPLACEHOLDER').GetName] transforms into a thriving metropolitan hub, we are presented with a golden opportunity to showcase the splendor and achievements of our federation to the world. Through vibrant art, rich culture, and captivating displays of our architectural accomplishments, we will captivate the hearts and minds of all who witness Gaul's cultural naissance, drawing admiration and respect from near and far."
 
  gaul_arvernia_task_28: "Establish a Professional Army"
- gaul_arvernia_task_28_DESC: ""
+gaul_arvernia_task_28_DESC: "Embracing the need for a highly skilled and professional army, we will employ rigorous training, cutting-edge tactics, and unwavering discipline to mold our soldiers into a formidable and efficient fighting force. This professional army will not only safeguard our federation but also project our strength far beyond our borders, ensuring that Gaul stands as an indomitable force in the eyes of the world."
 
  gaul_arvernia_task_29: "Brennus's Legacy"
- gaul_arvernia_task_29_DESC: ""
+ gaul_arvernia_task_29_DESC: "As we set our sights on the ultimate conquest, the city of Rome itself, we are poised to establish Gaul as a formidable empire in its own right. In the spirit of our legendary forebearer, Brennus, we ready to march on Rome, carrying forward the legacy of bravery and ambition that has defined our people for generations."
  
  #Formables
  GAUL_FEDERATION_NAME:  "Gaulish Federation"
