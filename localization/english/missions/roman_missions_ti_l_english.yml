@@ -726,24 +726,24 @@
  mantle_of_alexander: "Mantle of Alexander"
  desc_mantle_of_alexander: "A feat most thought impossible, we have united the Hellenistic world under one flag; that of the mighty Roman eagle. We shall make Alexander proud."
  roman_epic: "The Greatest Story Ever Told"
- desc_roman_epic: "Telling the story of our empire through poetic personal accounts, philosophical musings, and sweeping historical analysis to rival Herodotus, this grand tale is a fitting tribute to our great nation. From Romulus & Remus, to our reaching the edges of Serica, everything resides within this tome. For the first time, an entire nation's history and culture lay within a single book. Here's hoping we need a second volume."
+ desc_roman_epic: "Telling the story of our empire through poetic personal accounts, philosophical musings, and sweeping historical analysis to rival Herodotus, this grand tale is a fitting tribute to our great nation. From Romulus and Remus to our reaching the edges of Serica, everything resides within this tome. For the first time, an entire nation's history and culture lay within a single book. Here's hoping we need a second volume."
  
  #Events
  me_roman_missions_ti.60.t: "Walking in his Footsteps"
- me_roman_missions_ti.60.desc: "As we embark on this most auspicious of endeavors, all, from the lowliest of slaves to the highest of senators, has thoughts on how we should proceed. In particular, former citizens of the now crumbling Diadochi states have flooded the senate floor begging to have a say on how we carve up the far eastern lands of Alexander. Should we listen, we could get insight on how to wage our campaign but at the cost of losing the trust of our own citizenry."
+ me_roman_missions_ti.60.desc: "As we embark on this most auspicious of endeavors, all, from the lowliest of slaves to the highest of senators, have thoughts on how we should proceed. In particular, former citizens of the now crumbling Diadochi states have flooded the Senate floor, begging to have a say on how we carve up the far eastern lands of Alexander. Should we listen, we could get insight on how to wage our campaign, but at the cost of losing the trust of our own citizenry."
  me_roman_missions_ti.60.a: "We need all the help we can get"
  me_roman_missions_ti.60.b: "I shall do it alone"
 
  me_roman_missions_ti.61.t: "Arts & Culture"
- me_roman_missions_ti.61.desc: "Our efforts to turn [alex_city.GetName] into the primary center of learning in the world has resulted in a grand library where the ambition is to store all the knowledge of humankind. Scribes have been sent out to all corners of the world to find procure, or copy, the written word in almost any form it exists. The result is a grand collection of works, known colloquially as the Anthologia Philosophike, which any subject of the empire can request to study. The library now employs enough copyists, translators and illuminators to fill a small city, who are tasked with the dissemination of this newly collected knowledge to all corners of the empire." 
+ me_roman_missions_ti.61.desc: "Our efforts to turn [alex_city.GetName] into the primary center of learning in the world have resulted in a grand library where the ambition is to store all the knowledge of humankind. Scribes have been sent out to all corners of the world to procure or copy the written word in almost any form that exists. The result is a grand collection of works, known colloquially as the Anthologia Philosophike, which any subject of the empire can request to study. The library now employs enough copyists, translators, and illuminators to fill a small city, who are tasked with the dissemination of this newly collected knowledge to all corners of the empire." 
  me_roman_missions_ti.61.a: "Knowledge is Power"
 
  me_roman_missions_ti.62.t: "A Sight to Behold"
- me_roman_missions_ti.62.desc: "After many trials and tribulations, we have reunited Alexander's panoply with the man himself; a feat not accomplished since his death. We have constructed a magnificent altar and pilgrims are already coming from far and wide to see the glorious site. The man who conquered the world now has the most extravagant tomb the world has ever seen. We Romans will ensure it stays that way." 
+ me_roman_missions_ti.62.desc: "After many trials and tribulations, we have reunited Alexander's panoply with the man himself; a feat not accomplished since his death. We have constructed a magnificent altar, and pilgrims are already coming from far and wide to see the glorious site. The man who conquered the world now has the most extravagant tomb the world has ever seen. We Romans will ensure it stays that way." 
  me_roman_missions_ti.62.a: "Alexander's finally getting the resting place he deserves"
 
  me_roman_missions_ti.63.t: "Empire of the Ages"
- me_roman_missions_ti.63.desc: "Consummatum est. The words we never thought would ever be spoken are now being shouted by every citizen of our grand realm. The largest triumph Roma has ever seen is being commenced, as well as celebrations from Italia all the way to Persia. The Nile is alight with festive fires and the ships of the Pontus all wave our banner with glee. We are the greatest empire the world has ever seen, uniting all of the Hellenic faith and finishing what Alexander could not. May our glory be as eternal as our spirit, and may all corners of the world know that Rome is the only power worthy of respect."
+ me_roman_missions_ti.63.desc: "Consummatum est. The words we never thought would ever be spoken are now being shouted by every citizen of our grand realm. The largest triumph Roma has ever seen is being commenced, as are celebrations from Italia all the way to Persia. The Nile is alight with festive fires, and the ships of the Pontus all wave our banner with glee. We are the greatest empire the world has ever seen, uniting all of the Hellenic faith and finishing what Alexander could not. May our glory be as eternal as our spirit, and may all corners of the world know that Rome is the only power worthy of respect."
  me_roman_missions_ti.63.a: "I know, somewhere, he is looking down on us. Smiling"
  
  me_roman_missions_ti.64.t: "Uniting as One"
@@ -755,7 +755,7 @@
  me_roman_missions_ti.65.a: "For this region, we prefer to rule through our client kings."
 
  me_roman_missions_ti.66.t: "Imperial Lineage"
- me_roman_missions_ti.66.desc: "While the school and philosophers of [ROOT.GetCountry.GetCapital.GetName] are devoted to exploring the ideal way for a universal empire to be ruled, there are at present a number of competing ideas as to what this training should be like.\n\nSome, inspired by the ideas of [finesse_thinker.GetPraenomen], claim that the foremost responsibility of a king is to be educated in the details of government and administration itself. Others, followers of [zeal_thinker.GetPraenomen], center on the great need to understand philosophy and liturgy, to be able to grasp divinity and to honor the divines in all actions. A third group, disciples of [charisma_thinker.GetPraenomen], argue that it is in fact the grasp of the spoken word that is the primary attribute of a great ruler, and that only rhetoric will let them convince their subjects of what is good and proper.\n\nThe choice is left to us to decide which group should be allowed to shape the education of future royalty."
+ me_roman_missions_ti.66.desc: "While the school and philosophers of [ROOT.GetCountry.GetCapital.GetName] are devoted to exploring the ideal way for a universal empire to be ruled, there are at present a number of competing ideas as to what this training should be like.\n\nSome, inspired by the ideas of [finesse_thinker.GetPraenomen], claim that the foremost responsibility of an emperor is to be educated in the details of government and administration itself. Others, followers of [zeal_thinker.GetPraenomen], center on the great need to understand philosophy and liturgy, to be able to grasp divinity, and to honor the divine in all actions. A third group, disciples of [charisma_thinker.GetPraenomen], argue that it is in fact the grasp of the spoken word that is the primary attribute of a great ruler and that only rhetoric will let them convince their subjects of what is good and proper.\n\nThe choice is left to us to decide which group should be allowed to shape the education of future royalty."
  me_roman_missions_ti.66.a: "The followers of [finesse_thinker.GetName]."
  me_roman_missions_ti.66.a.tt: "All children of our dynasty will from now on gain #Y 2#! more Finesse."
  me_roman_missions_ti.66.b: "The School of [zeal_thinker.GetName]."
@@ -766,33 +766,33 @@
  tutor_of_generations: "Dynastic Tutor" 
 
  me_roman_missions_ti.67.t: "Serican Silk"
- me_roman_missions_ti.67.desc: "Silk has always been a rare and sought after good within our lands, but as we have expanded east we have finally met the realms which make this finest of materials. Our emissaries have witnessed the extravagant and near ritualistic way the silk is prepared, and rumors have spread across the empire as silk becomes, even more, the rage. We shall do something in order to meet demand, no matter the price."
- me_roman_missions_ti.67.a: "They ask a pretty penny, but one we shall pay nonetheless"
+ me_roman_missions_ti.67.desc: "Silk has always been a rare and sought after good within our lands, but as we have expanded east, we have finally met the realms that make this finest of materials. Our emissaries have witnessed the extravagant and near ritualistic way the silk is prepared, and rumors have spread across the empire as silk becomes, even more, the rage. We shall do something in order to meet demand, no matter the price."
+ me_roman_missions_ti.67.a: "They ask a pretty penny, but one we shall pay nonetheless."
  
  me_roman_missions_ti.68.t: "Smooth as Silk"
- me_roman_missions_ti.68.desc: "After careful deliberation and planning, our best spies and masters of espionage have breached the Serican capital and taken hold of not only the sacred documents on silk cultivation but even the precious worms who spin the illustrious strands we so desperately desire. It was not without risk, and it is assured our reputation shall suffer for it in the east, but at long last we have silk in abundance; as well as the means to produce more. This is truly a remarkable day ineed."
- me_roman_missions_ti.68.a: "We have pulled the heist of the century, none shall soon forget this!"
+ me_roman_missions_ti.68.desc: "After careful deliberation and planning, our best spies and masters of espionage have breached the Serican capital and taken hold of not only the sacred documents on silk cultivation but even the precious worms who spin the illustrious strands we so desperately desire. It was not without risk, and it is assured that our reputation shall suffer for it in the east, but at long last we have silk in abundance; as well as the means to produce more. This is truly a remarkable day, indeed."
+ me_roman_missions_ti.68.a: "We have pulled the heist of the century; none shall soon forget this!"
 
  me_roman_missions_ti.69.t: "Masters of the Strand"
- me_roman_missions_ti.69.desc: "It has taken time, effort, and no shortage of coin but craftsmen in Roma now tell us that it is our Roman silk that reigns supreme! The brightest scientists and weavers have done the impossible after the success of our daring mission: made better silk than even those in Serica. We shall spare no expense in introducing our new product into markets across our nation and beyond. A new age of Roman aesthetic and industry has begun."
+ me_roman_missions_ti.69.desc: "It has taken time, effort, and no shortage of coin, but craftsmen in Roma now tell us that it is our Roman silk that reigns supreme! The brightest scientists and weavers have done the impossible after the success of our daring mission: made better silk than even those in Serica. We shall spare no expense in introducing our new product into markets across our nation and beyond. A new age of Roman aesthetic and industry has begun."
  me_roman_missions_ti.69.c: "Through time and effort, Roman silk shall be the gold standard across the world!"
  
  me_roman_missions_ti.70.t: "Roman Mouseion"
- me_roman_missions_ti.70.desc: "Greeks and Romans alike have always been enjoyers of the more existential academic sciences. Of learning, pondering, philosophizing. A grand mouseion is right at home within our empire, and Rome will challenge our scholars in compiling the collective knowledge of the Hellenic world. The building itself should cause awe in all who gaze upon its wonder and we shall make this so."
- me_roman_missions_ti.70.a: "Rome houses the grandest collection of knowledge the world has ever seen, as we should"
+ me_roman_missions_ti.70.desc: "Greeks and Romans alike have always been enjoyers of the more existential academic sciences. Of learning, pondering, and philosophizing. A grand mouseion is right at home within our empire, and Rome will challenge our scholars in compiling the collective knowledge of the Hellenic world. The building itself should cause awe in all who gaze upon its wonder, and we shall make this so."
+ me_roman_missions_ti.70.a: "Rome houses the grandest collection of knowledge the world has ever seen, as we should."
  
  me_roman_missions_ti.71.t: "Tale as Old as Time"
- me_roman_missions_ti.71.desc: "The Iliad has long been a favorite of our people, Odyssey as well with its vivid imagery, and even the epic of Gilgamesh now captivates minds of the settlers in Babylonia. Yet, as much as we Romans love a good story, we have had no famous tale to call our own. This changes now. Playwrights and poets from across all corners of the empire have conspired to write the most bombastic yet emotion-tolling narrative in existence. Taking inspiration from not only Greco-Roman sources but, with our borders ever-expanding, that of Persia, Mesopotamia, and Egypt as well this work will be one for the ages."
- me_roman_missions_ti.71.a: "This grand epic will survive long past all our buildings turn to dust, we must ensure every citizen has one in their hands."
- me_roman_missions_ti.71.b: "While a wonderful work for sure, we could use the coin elsewhere. it is fine sitting in museums and libraries."
+ me_roman_missions_ti.71.desc: "The Iliad has long been a favorite of our people, the Odyssey as well with its vivid imagery, and even the epic of Gilgamesh now captivates the minds of the settlers in Babylonia. Yet, as much as we Romans love a good story, we have no famous tale to call our own. This changes now. Playwrights and poets from across all corners of the empire have conspired to write the most bombastic yet emotion-tolling narrative in existence. Taking inspiration from not only Greco-Roman sources but, with our borders ever-expanding, that of Persia, Mesopotamia, and Egypt as well, this work will be one for the ages."
+ me_roman_missions_ti.71.a: "This grand epic will survive long after all our buildings turn to dust; we must ensure every citizen has one in their hands."
+ me_roman_missions_ti.71.b: "While a wonderful work for sure, we could use the coin elsewhere. It is fine sitting in museums and libraries."
 
  me_roman_missions_ti.72.t: "Greco? Romaned"
- me_roman_missions_ti.72.desc: "All the major cities in Greece have now properly been bettered and embellished. From Athenea rivaling Roma in sheer beauty to the jewel of Korinthus shining ever brighter, the Greek lands are becoming one of our most cherished provinces. With this effort comes more Roman settlers and further closeness between our two great peoples, Latin and Hellenic uniting under our gods and culture. Glory to Roma, carrier of the torch!"
- me_roman_missions_ti.72.a: "Our peoples are coalescing in ways even we did not expect, the nation is as strong as ever"
+ me_roman_missions_ti.72.desc: "All the major cities in Greece have now properly been bettered and embellished. From Athenea rivaling Roma in sheer beauty to the jewel of Korinthus shining ever brighter, the Greek lands are becoming one of our most cherished provinces. With this effort comes more Roman settlers and further closeness between our two great peoples, Latin and Hellenic, uniting under our gods and cultures. Glory to Roma, carrier of the torch!"
+ me_roman_missions_ti.72.a: "Our peoples are coalescing in ways even we did not expect; the nation is as strong as ever."
 
  me_roman_missions_ti.73.t: "The Pannhellenium"
- me_roman_missions_ti.73.desc: "Since we have greatly improved our Greek cities, they have gotten closer in both affinity and trust. Feuds and rivalries going back millenium hae been washed away and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome have led to calls for greater autonomy in order to better serve the empire and our peoples. This iniative will allow us to better fund other more torublesome or unsightly provinces, well worth it indeed."
- me_roman_missions_ti.73.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire"
+ me_roman_missions_ti.73.desc: "Since we have greatly improved our Greek cities, they have grown closer in both affinity and trust. Feuds and rivalries going back a millennium have been washed away, and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome has led to calls for greater autonomy in order to better serve the empire and our peoples. This initiative will allow us to better fund other more troublesome or unsightly provinces; it will be well worth it indeed."
+ me_roman_missions_ti.73.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire."
 
  roman_conquest_missions_ti.42.t: "March on Medean Shores"
  roman_conquest_missions_ti.42.desc: "In the shadow of the Zagros Mountains, our legions have advanced through the enigmatic heartland of Media. Here, amidst the echoes of ancient empires, our legions find themselves at the nexus of history. Media awaits the embrace of Roman authority. Where shall we establish a Roman colonia, a radiant beacon of civilization in this land of enduring history and promise?" 
@@ -809,7 +809,7 @@
  roman_conquest_missions_ti.43.d: "Selucia Hedyphone, fabled to have been founded of Alexander himself, shall now become a symbol of Roman authority in Persis"
 
  roman_conquest_missions_ti.44.t: "Gedrosian Ambitions"
- roman_conquest_missions_ti.44.desc: "Our ambitions have led us to the edges of the Indus, to the exotic lands of Gedrosia. As we set our sights on Gedrosia, we are reminded of the hardships faced by those who sought to control its harsh terrain. Yet, we are Romans, and no challenge is too great for our indomitable spirit for it is our divine duty to bring the light of civilization to these untamed lands."
+ roman_conquest_missions_ti.44.desc: "Our ambitions have led us to the edges of the Indus, to the exotic lands of Gedrosia. As we set our sights on Gedrosia, we are reminded of the hardships faced by those who sought to control its harsh terrain. Yet, we are Romans, and no challenge is too great for our indomitable spirit, for it is our divine duty to bring the light of civilization to these untamed lands."
  roman_conquest_missions_ti.44.a: "Harmosia's ideal position is too important to leave in the hands of locals"
  roman_conquest_missions_ti.44.b: "Portus Macedonum, where Alexander first sailed the Indus, shall be our port in the storm"
  roman_conquest_missions_ti.44.c: "Alexandria Rhambacia, stronghold of Gedrosia, should be the shining Roman city for all to see"
@@ -817,20 +817,20 @@
  roman_conquest_missions_ti.45.t: "Glory of the Indus"
  roman_conquest_missions_ti.45.desc: "The dream of Alexander the Great, a vision of conquering the known world and beyond, is being fulfilled. The rich lands and wares of Indum lie beneath our sacred eagle. Now, as the heirs apparent to the legacy of Alexander, we stand as his triumphant successors who have extended the light of civilization from the misty Isle of Brittania to the very shores of the Indus. The time has come to solidify our rule on the far side of the world." 
  roman_conquest_missions_ti.45.a: "Alexandria ad Indum, with its central location, shall help make it the cornerstone of our presence in the Indus"
- roman_conquest_missions_ti.45.b: "Taxila, with a history of resilience and resourcefulness will allow us to strengthen our hold on this fertile land"
+ roman_conquest_missions_ti.45.b: "Taxila, with a history of resilience and resourcefulness, will allow us to strengthen our hold on this fertile land"
  roman_conquest_missions_ti.45.c: "Alexandria ad Hyphasum, farthest corner of Alexander’s empire, will be the seat of our power on the Indus as well"
  roman_conquest_missions_ti.45.d: "Bucephalia, named after Alexander’s faithful steed, will allow our influence to flourish here"
  
  roman_conquest_missions_ti.46.t: "Arian Expedition"
  roman_conquest_missions_ti.46.desc: "The winds of destiny have carried us to Ariana, a realm steeped in history and ripe with potential. With our conquest secured, we must now decide where to lay the foundations of a new era of Roman rule in Ariana." 
  roman_conquest_missions_ti.46.a: "Alexandria Ariorum, the heartland of Ariana, will be our regional stronghold"
- roman_conquest_missions_ti.46.b: "Tabae Persicae, strategically positioned along major trade routes offers a gateway to prosperity and influence in Ariana"
+ roman_conquest_missions_ti.46.b: "Tabae Persicae, strategically positioned along major trade routes, offers a gateway to prosperity and influence in Ariana"
  roman_conquest_missions_ti.46.c: "Alexandria Arachosiae, a city bearing the name of the great conqueror, calls for our dominion in these lands"
 
  roman_conquest_missions_ti.47.t: "Parthian Conquest"
  roman_conquest_missions_ti.47.desc: "The sounds of our marching legions can now be heard from all corners of Parthia. This land, situated as it is on the threshold of the Oriens has witnessed the ebb and flow of once mighty empires. The time has come to choose where we shall plant the seeds of Roman power in the east." 
  roman_conquest_missions_ti.47.a: "Nisaea, a city steeped in the grandeur of Parthian rulers, awaits our transformation into a bastion of Roman progress"
- roman_conquest_missions_ti.47.b: "Hecatompylus, the ancient capital of Parthia shall become the seat of Roman power in the region"
+ roman_conquest_missions_ti.47.b: "Hecatompylus, the ancient capital of Parthia, shall become the seat of Roman power in the region"
  roman_conquest_missions_ti.47.c: "Alexandria Margiana, a city bearing the scars of time, invites us to claim its heritage"
  roman_conquest_missions_ti.47.d: "Sadracarta, situated along ancient trade routes that once crisscrossed Parthia, beckons us to seize the reins of commerce"
  
