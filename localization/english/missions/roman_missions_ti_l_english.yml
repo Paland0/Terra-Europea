@@ -745,7 +745,7 @@
  me_roman_missions_ti.63.t: "Empire of the Ages"
  me_roman_missions_ti.63.desc: "Consummatum est. The words we never thought would ever be spoken are now being shouted by every citizen of our grand realm. The largest triumph Roma has ever seen is being commenced, as well as celebrations from Italia all the way to Persia. The Nile is alight with festive fires and the ships of the Pontus all wave our banner with glee. We are the greatest empire the world has ever seen, uniting all of the Hellenic faith and finishing what Alexander could not. May our glory be as eternal as our spirit, and may all corners of the world know that Rome is the only power worthy of respect."
  me_roman_missions_ti.63.a: "I know, somewhere, he is looking down on us. Smiling"
-
+ 
  me_roman_missions_ti.64.t: "Uniting as One"
  me_roman_missions_ti.64.desc: "As we expand through every crag and valley of the Hellenic lands, a grassroots effort to embellish and greaten our nation's major cities has taken place. Every citizen has taken it upon themselves to better Roma, Babylonia, Byzantion, and Alexandria in ways both large and small, making them focal points worthy of the world's largest empire. Administratively, senators and governors alike have taken steps to make processes more efficient and bureaucracy less cumbersome. Through these efforts, along with our grand military acumen, the Roman Empire will never fade into obscurity." 
  me_roman_missions_ti.64.a: "Our empire and cities shall stand the tests of time"
@@ -765,28 +765,34 @@
  roman_imperial_lineage_reward: "All children of our dynasty will from now on be educated to gain #Y 2#! more Finesse, Zeal or Charisma."
  tutor_of_generations: "Dynastic Tutor" 
 
- me_roman_missions_ti.67.t: "The Issue of Serican Silk"
- me_roman_missions_ti.67.desc: "Silk has always been a rare and sought after good within our lands, but as we have expanded east we have finally met the realms which make this finest of materials. Our emissaries have witnessed the extravagant and near ritualistic way the silk is prepared, and rumors have spread across the empire as silk becomes, even more, the rage. We shall do something in order to meet demand, the only question is what?"
- me_roman_missions_ti.67.a: "They ask a high price, but one we shall pay nonetheless"
- me_roman_missions_ti.67.b: "Perhaps our best spies could... borrow some silk worms from them?"
- me_roman_missions_ti.67.c: "We will invest in making our own silk, Rome shall never bow to Serican demands!"
+ me_roman_missions_ti.67.t: "Serican Silk"
+ me_roman_missions_ti.67.desc: "Silk has always been a rare and sought after good within our lands, but as we have expanded east we have finally met the realms which make this finest of materials. Our emissaries have witnessed the extravagant and near ritualistic way the silk is prepared, and rumors have spread across the empire as silk becomes, even more, the rage. We shall do something in order to meet demand, no matter the price."
+ me_roman_missions_ti.67.a: "They ask a pretty penny, but one we shall pay nonetheless"
+ 
+ me_roman_missions_ti.68.t: "Smooth as Silk"
+ me_roman_missions_ti.68.desc: "After careful deliberation and planning, our best spies and masters of espionage have breached the Serican capital and taken hold of not only the sacred documents on silk cultivation but even the precious worms who spin the illustrious strands we so desperately desire. It was not without risk, and it is assured our reputation shall suffer for it in the east, but at long last we have silk in abundance; as well as the means to produce more. This is truly a remarkable day ineed."
+ me_roman_missions_ti.68.a: "We have pulled the heist of the century, none shall soon forget this!"
 
- me_roman_missions_ti.68.t: "Roman Mouseion"
- me_roman_missions_ti.68.desc: "Greeks and Romans alike have always been enjoyers of the more existential academic sciences. Of learning, pondering, philosophizing. A grand mouseion is right at home within our empire, and Rome will challenge our scholars in compiling the collective knowledge of the Hellenic world. The building itself should cause awe in all who gaze upon its wonder and we shall make this so."
- me_roman_missions_ti.68.a: "Rome houses the grandest collection of knowledge the world has ever seen, as we should"
+ me_roman_missions_ti.69.t: "Masters of the Strand"
+ me_roman_missions_ti.69.desc: "It has taken time, effort, and no shortage of coin but craftsmen in Roma now tell us that it is our Roman silk that reigns supreme! The brightest scientists and weavers have done the impossible after the success of our daring mission: made better silk than even those in Serica. We shall spare no expense in introducing our new product into markets across our nation and beyond. A new age of Roman aesthetic and industry has begun."
+ me_roman_missions_ti.69.c: "Through time and effort, Roman silk shall be the gold standard across the world!"
+ 
+ me_roman_missions_ti.70.t: "Roman Mouseion"
+ me_roman_missions_ti.70.desc: "Greeks and Romans alike have always been enjoyers of the more existential academic sciences. Of learning, pondering, philosophizing. A grand mouseion is right at home within our empire, and Rome will challenge our scholars in compiling the collective knowledge of the Hellenic world. The building itself should cause awe in all who gaze upon its wonder and we shall make this so."
+ me_roman_missions_ti.70.a: "Rome houses the grandest collection of knowledge the world has ever seen, as we should"
+ 
+ me_roman_missions_ti.71.t: "Tale as Old as Time"
+ me_roman_missions_ti.71.desc: "The Iliad has long been a favorite of our people, Odyssey as well with its vivid imagery, and even the epic of Gilgamesh now captivates minds of the settlers in Babylonia. Yet, as much as we Romans love a good story, we have had no famous tale to call our own. This changes now. Playwrights and poets from across all corners of the empire have conspired to write the most bombastic yet emotion-tolling narrative in existence. Taking inspiration from not only Greco-Roman sources but, with our borders ever-expanding, that of Persia, Mesopotamia, and Egypt as well this work will be one for the ages."
+ me_roman_missions_ti.71.a: "This grand epic will survive long past all our buildings turn to dust, we must ensure every citizen has one in their hands."
+ me_roman_missions_ti.71.b: "While a wonderful work for sure, we could use the coin elsewhere. it is fine sitting in museums and libraries."
 
- me_roman_missions_ti.69.t: "Tale as Old as Time"
- me_roman_missions_ti.69.desc: "The Iliad has long been a favorite of our people, Odyssey as well with its vivid imagery, and even the epic of Gilgamesh now captivates minds of the settlers in Babylonia. Yet, as much as we Romans love a good story, we have had no famous tale to call our own. This changes now. Playwrights and poets from across all corners of the empire have conspired to write the most bombastic yet emotion-tolling narrative in existence. Taking inspiration from not only Greco-Roman sources but, with our borders ever-expanding, that of Persia, Mesopotamia, and Egypt as well this work will be one for the ages."
- me_roman_missions_ti.69.a: "This grand epic will survive long past all our buildings turn to dust, we must ensure every citizen has one in their hands."
- me_roman_missions_ti.69.b: "While a wonderful work for sure, we could use the coin elsewhere. it is fine sitting in museums and libraries."
+ me_roman_missions_ti.72.t: "Greco? Romaned"
+ me_roman_missions_ti.72.desc: "All the major cities in Greece have now properly been bettered and embellished. From Athenea rivaling Roma in sheer beauty to the jewel of Korinthus shining ever brighter, the Greek lands are becoming one of our most cherished provinces. With this effort comes more Roman settlers and further closeness between our two great peoples, Latin and Hellenic uniting under our gods and culture. Glory to Roma, carrier of the torch!"
+ me_roman_missions_ti.72.a: "Our peoples are coalescing in ways even we did not expect, the nation is as strong as ever"
 
- me_roman_missions_ti.70.t: "Greco? Romaned"
- me_roman_missions_ti.70.desc: "All the major cities in Greece have now properly been bettered and embellished. From Athenea rivaling Roma in sheer beauty to the jewel of Korinthus shining ever brighter, the Greek lands are becoming one of our most cherished provinces. With this effort comes more Roman settlers and further closeness between our two great peoples, Latin and Hellenic uniting under our gods and culture. Glory to Roma, carrier of the torch!"
- me_roman_missions_ti.70.a: "Our peoples are coalescing in ways even we did not expect, the nation is as strong as ever"
-
- me_roman_missions_ti.71.t: "The Pannhellenium"
- me_roman_missions_ti.71.desc: "Since we have greatly improved our Greek cities, they have gotten closer in both affinity and trust. Feuds and rivalries going back millenium hae been washed away and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome have led to calls for greater autonomy in order to better serve the empire and our peoples. This iniative will allow us to better fund other more torublesome or unsightly provinces, well worth it indeed."
- me_roman_missions_ti.71.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire"
+ me_roman_missions_ti.73.t: "The Pannhellenium"
+ me_roman_missions_ti.73.desc: "Since we have greatly improved our Greek cities, they have gotten closer in both affinity and trust. Feuds and rivalries going back millenium hae been washed away and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome have led to calls for greater autonomy in order to better serve the empire and our peoples. This iniative will allow us to better fund other more torublesome or unsightly provinces, well worth it indeed."
+ me_roman_missions_ti.73.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire"
 
  roman_conquest_missions_ti.42.t: "March on Medean Shores"
  roman_conquest_missions_ti.42.desc: "In the shadow of the Zagros Mountains, our legions have advanced through the enigmatic heartland of Media. Here, amidst the echoes of ancient empires, our legions find themselves at the nexus of history. Media awaits the embrace of Roman authority. Where shall we establish a Roman colonia, a radiant beacon of civilization in this land of enduring history and promise?" 
