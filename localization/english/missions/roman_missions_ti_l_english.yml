@@ -713,9 +713,14 @@
  roman_mission_17_hellenic_empire_ti_task_15_DESC: "To immortalize the illustrious history of our mighty empire and exalt the Imperial Family, we shall commission the creation of an epic that codifies the cherished traditions of Rome. This epic shall stand as a masterpiece, recounting the noble origins of our people, the divine guidance that has graced our path, as well as the triumphant journey that has brought us to our current zenith."
  roman_mission_17_hellenic_empire_ti_task_16: "Rebirth of Hellenistic Cities"
  roman_mission_17_hellenic_empire_ti_task_16_DESC: "To ensure the lasting prosperity and splendor of the Hellenistic world under Roman rule, we must embark on a noble endeavor - the restoration and embellishment of the most illustrious Greek cities. These cultural and economic hubs were once the jewels of the Hellenistic world, and it is our duty to return them to their former glory. By investing in their infrastructure, fostering artistic and intellectual endeavors, and ensuring the well-being of their citizens, we shall breathe new life into these ancient metropolises, reaffirming our commitment to preserving the rich heritage of Greece."
- roman_mission_17_hellenic_empire_ti_task_17: "Serican Silk"
- roman_mission_17_hellenic_empire_ti_task_17_DESC: "The distant lands of Serica, long rumored to be the source of silk, have remained shrouded in mystery and intrigue. To secure a more prosperous future for our empire, it is imperative that we establish direct diplomatic contact with the Serican authorities and pave the way for the exchange of riches, knowledge, and culture that will benefit both Rome and Serica for generations to come."
-
+ roman_mission_17_hellenic_empire_ti_task_17: "The Panhellenium"
+ roman_mission_17_hellenic_empire_ti_task_17_DESC: "With the revitalization of Greek cities well underway, it is time to take the next step towards ensuring the lasting unity and prosperity of the Hellenistic world. We shall establish the Panhellenium, a league of Greek city-states united under the stewardship of Rome. This league shall serve as a beacon of Hellenistic culture, fostering cooperation, mutual defense, and the exchange of knowledge among its member states."
+ roman_mission_17_hellenic_empire_ti_task_18: "Serican Silk"
+ roman_mission_17_hellenic_empire_ti_task_18_DESC: "The distant lands of Serica, long rumored to be the source of silk, have remained shrouded in mystery and intrigue. To secure a more prosperous future for our empire, it is imperative that we establish direct diplomatic contact with the Serican authorities and pave the way for the exchange of riches, knowledge, and culture that will benefit both Rome and Serica for generations to come."
+ roman_mission_17_hellenic_empire_ti_task_19: "Silk Smuggling"
+ roman_mission_17_hellenic_empire_ti_task_19_DESC: "To bring the luxurious silk of Serica to the eager markets of Rome, we shall embark on a daring endeavor, employing skilled traders and adventurers to smuggle precious silk cocoons and the knowledge of silk production back to Europa. This clandestine operation will require cunning and discretion, but the rewards of bringing this exotic treasure to Rome will certainly be worth the risk."
+ roman_mission_17_hellenic_empire_ti_task_20: "Cultivating Roman Silk"
+ roman_mission_17_hellenic_empire_ti_task_20_DESC: "Having successfully acquired the knowledge and silk cocoons from Serica, it is time to cultivate this precious commodity on Roman soil. We will establish silk farms, appoint skilled workers, and provide the necessary resources to ensure the production of high-quality silk. This initiative will not only enrich our empire but also make Rome self-sufficient in this valuable resource, reducing our reliance on Serican silk imports."
  
  #Modifiers
  mantle_of_alexander: "Mantle of Alexander"
@@ -776,8 +781,12 @@
  me_roman_missions_ti.69.b: "While a wonderful work for sure, we could use the coin elsewhere. it is fine sitting in museums and libraries."
 
  me_roman_missions_ti.70.t: "Greco? Romaned"
- me_roman_missions_ti.70.desc: "All the major cities in Greece have now properly been bettered and embellished. From Athenea rivaling Roma in sheer beauty to the jewel of Korinthus shining ever brighter, the Greek lands are becoming one of our most cherished provinces. With this effort comes more Roman settlers and further closeness between our two great peoples, Latin and Hellenic uniting under our gods and culture. Glory to Roma, carrier of the torch!
+ me_roman_missions_ti.70.desc: "All the major cities in Greece have now properly been bettered and embellished. From Athenea rivaling Roma in sheer beauty to the jewel of Korinthus shining ever brighter, the Greek lands are becoming one of our most cherished provinces. With this effort comes more Roman settlers and further closeness between our two great peoples, Latin and Hellenic uniting under our gods and culture. Glory to Roma, carrier of the torch!"
  me_roman_missions_ti.70.a: "Our peoples are coalescing in ways even we did not expect, the nation is as strong as ever"
+
+ me_roman_missions_ti.71.t: "The Pannhellenium"
+ me_roman_missions_ti.71.desc: "Since we have greatly improved our Greek cities, they have gotten closer in both affinity and trust. Feuds and rivalries going back millenium hae been washed away and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome have led to calls for greater autonomy in order to better serve the empire and our peoples. This iniative will allow us to better fund other more torublesome or unsightly provinces, well worth it indeed."
+ me_roman_missions_ti.71.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire"
 
  roman_conquest_missions_ti.42.t: "March on Medean Shores"
  roman_conquest_missions_ti.42.desc: "In the shadow of the Zagros Mountains, our legions have advanced through the enigmatic heartland of Media. Here, amidst the echoes of ancient empires, our legions find themselves at the nexus of history. Media awaits the embrace of Roman authority. Where shall we establish a Roman colonia, a radiant beacon of civilization in this land of enduring history and promise?" 
