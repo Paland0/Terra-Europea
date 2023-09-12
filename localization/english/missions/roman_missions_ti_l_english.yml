@@ -793,6 +793,7 @@
  me_roman_missions_ti.73.t: "The Pannhellenium"
  me_roman_missions_ti.73.desc: "Since we have greatly improved our Greek cities, they have grown closer in both affinity and trust. Feuds and rivalries going back a millennium have been washed away, and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome has led to calls for greater autonomy in order to better serve the empire and our peoples. This initiative will allow us to better fund other more troublesome or unsightly provinces; it will be well worth it indeed."
  me_roman_missions_ti.73.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire."
+ me_roman_missions_ti.73.b: "It is not in our best interests to give further autonomy to the Greeks, who knows what might happen?"
 
 #tooltips
  me_roman_missions_ti.73.a.tt: "Create the #Y Panhellium#! as a feudatory State."
