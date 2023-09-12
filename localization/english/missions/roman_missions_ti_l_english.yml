@@ -794,6 +794,18 @@
  me_roman_missions_ti.73.desc: "Since we have greatly improved our Greek cities, they have grown closer in both affinity and trust. Feuds and rivalries going back a millennium have been washed away, and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome has led to calls for greater autonomy in order to better serve the empire and our peoples. This initiative will allow us to better fund other more troublesome or unsightly provinces; it will be well worth it indeed."
  me_roman_missions_ti.73.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire."
 
+#tooltips
+ me_roman_missions_ti.73.a.tt: "Create the #Y Panhellium#! as a feudatory State."
+ me_roman_missions_ti.73.a.tt.2: "Hellenes across the Mediterranean will be pleased with us."
+ me_roman_missions_ti.73.a.tt.3: "Every territory we own or a subject owns in [GetProvince('(int32)427').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)373').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)365').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)266').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)290').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)362').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)268').GetArea.GetRegion.GetName|Y], [GetProvince('(int32)331').GetArea.GetRegion.GetName|Y], and [GetProvince('(int32)389').GetArea.GetName|Y] will now belong to the #Y Panhellium#!."
+
+ me_roman_missions_ti.73.b.tt: "Refusing to create the #Y Panhellium#! will disappoint our Hellenic subjects."
+ me_roman_missions_ti.73.b.tt.2: "#E Hellenes#! across the Mediterranean will be greatly displeased."
+
+ #panhellium
+ PANHELLIUM_NAME: "Panhellium"
+ PANHELLIUM_ADJECTIVE: "Panhellenic"
+
  roman_conquest_missions_ti.42.t: "March on Medean Shores"
  roman_conquest_missions_ti.42.desc: "In the shadow of the Zagros Mountains, our legions have advanced through the enigmatic heartland of Media. Here, amidst the echoes of ancient empires, our legions find themselves at the nexus of history. Media awaits the embrace of Roman authority. Where shall we establish a Roman colonia, a radiant beacon of civilization in this land of enduring history and promise?" 
  roman_conquest_missions_ti.42.a: "Ecbatana Partiorum, once the mighty Median capital, stands as a testament to our conquest and the dawn of a new Roman era"
