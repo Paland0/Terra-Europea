@@ -1761,3 +1761,204 @@ me_roman_missions_ti.63 = {							# Empire Yes
 	    }
 	}
     }
+me_roman_missions_ti.73 = { #Pannhellenium
+	type = country_event
+	title = "me_roman_missions_ti.73.t"
+	desc = "me_roman_missions_ti.73.desc"
+	picture = senate_debate
+	left_portrait = current_ruler
+
+	immediate = {
+		culture_group:hellenic = {
+			save_scope_as = hellenic_culture_group_scope
+		}
+	}
+
+	option = {
+		name = "me_roman_missions_ti.73.a"
+		custom_tooltip = "me_roman_missions_ti.73.a.tt"
+		custom_tooltip = "me_roman_missions_ti.73.a.tt.3"		
+		trigger = {
+			NOT = {
+				any_country = {
+					tag = PHL
+				}
+			}
+		}
+
+		add_aggressive_expansion = -10
+		add_tyranny = -10
+        add_treasury = 3000
+		p:416 = {
+			hidden_effect = {
+				create_country = {
+					change_country_name = "PANHELLIUM_NAME"
+					change_country_adjective = "PANHELLIUM_ADJECTIVE"
+					change_country_color =  "helvetia_color"
+					change_country_tag = PHL
+					change_country_flag = HELLENIC_LEAGUE_FLAG
+					change_government = oligarchic_republic
+					save_scope_as = panhellium_scope
+				}
+			}
+		}
+
+		area:thessaly_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }
+
+		area:macedonia_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }
+
+		area:chalkidiki_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }        
+		area:ionia_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }   
+		area:coastal_caria_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }   
+		area:rhodope_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }   
+		area:aeolia_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }   
+		area:cyprus_area = {
+			hidden_effect = {
+        		every_area_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }   
+        region:greece_region = {
+        	hidden_effect = {
+        		every_region_province = {
+        			limit = {
+        				owned_or_subject_owned = root
+        				NOR = {
+        					province_id = 7902
+        					province_id = 442
+        					province_id = 451
+        				}
+        			}
+        			set_owned_by = scope:panhellium_scope
+        		}
+        	}
+        }
+
+		hidden_effect = {
+        	make_subject = {
+        		target = scope:panhellium_scope
+        		type = feudatory
+        	}
+        }
+
+        scope:panhellium_scope = {
+        	hidden_effect = {
+        		add_opinion = {
+        			modifier = panhellium_loyalty
+        			target = root
+        		}
+        	}
+        }
+
+      	custom_tooltip = me_roman_missions_ti.73.a.tt.2
+      	hidden_effect = {
+      		every_country = {
+      			limit = {
+      				country_culture_group = hellenic
+      			}
+        		add_opinion = {
+        			modifier = panhellium_creation 
+        			target = root
+        		}
+        	}
+        }
+    }
+
+    option = {
+    	name = me_roman_missions_ti.73.b
+    	custom_tooltip = me_roman_missions_ti.73.b.tt
+    	hidden_effect = {
+    		every_country = {
+      			limit = {
+      				country_culture_group = hellenic
+      			}
+        		add_opinion = {
+        			modifier = hellenic_league_oppressed
+        			target = root
+        		}
+        	}
+        }
+        custom_tooltip = me_roman_missions_ti.73.b.tt.2 #add
+        hidden_effect = {
+        	every_country_culture = {
+        		limit = {
+        			this.culture.culture_group = c:ROM.culture.culture_group
+        			NOT = {
+        	        	this.culture = c:ROM.culture
+        	        }
+        	    }
+        		add_country_culture_modifier = {
+        			name = disenfranchised_greeks
+        			duration = 3650
+        		}
+        	}
+        }
+    }
+}
