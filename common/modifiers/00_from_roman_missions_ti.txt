@@ -86,6 +86,23 @@ aurelian_walls_ti = {
 	fort_level = 3
 	garrison_growth = 0.25
 }
+
+panhellium_loyalty = {
+		subject_loyalty = 15
+		integrate_speed = 0.35
+}
+
+panhellium_creation = {
+		global_population_happiness = 0.05
+		monthly_legitimacy = 0.2
+		stability_monthly_change = 0.02
+}
+
+hellenic_league_oppressed = {
+		stability_monthly_change = -0.02
+	    global_nobles_happyness = -0.02
+}
+
 mantle_of_alexander = {
 	general_loyalty = 5
 	heavy_cavalry_combat_ability = 0.08
