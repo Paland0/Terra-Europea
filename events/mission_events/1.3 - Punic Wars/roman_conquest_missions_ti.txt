@@ -1761,7 +1761,7 @@ me_roman_missions_ti.63 = {							# Empire Yes
 	    }
 	}
     }
-me_roman_missions_ti.73 = { #Pannhellenium
+ me_roman_missions_ti.73 = { 							#Pannhellenium
 	type = country_event
 	title = "me_roman_missions_ti.73.t"
 	desc = "me_roman_missions_ti.73.desc"
@@ -1792,13 +1792,13 @@ me_roman_missions_ti.73 = { #Pannhellenium
 		p:416 = {
 			hidden_effect = {
 				create_country = {
-					change_country_name = "PANHELLIUM_NAME"
-					change_country_adjective = "PANHELLIUM_ADJECTIVE"
+					change_country_name = "PANHELLENIUM_NAME"
+					change_country_adjective = "PANHELLENIUM_ADJECTIVE"
 					change_country_color =  "helvetia_color"
 					change_country_tag = PHL
 					change_country_flag = HELLENIC_LEAGUE_FLAG
 					change_government = oligarchic_republic
-					save_scope_as = panhellium_scope
+					save_scope_as = panhellenium_scope
 				}
 			}
 		}
@@ -1809,7 +1809,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }
@@ -1820,7 +1820,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }
@@ -1831,7 +1831,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }        
@@ -1841,7 +1841,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }   
@@ -1851,7 +1851,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }   
@@ -1861,7 +1861,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }   
@@ -1871,7 +1871,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }   
@@ -1881,7 +1881,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
         			limit = {
         				owned_or_subject_owned = root
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }   
@@ -1896,22 +1896,22 @@ me_roman_missions_ti.73 = { #Pannhellenium
         					province_id = 451
         				}
         			}
-        			set_owned_by = scope:panhellium_scope
+        			set_owned_by = scope:panhellenium_scope
         		}
         	}
         }
 
 		hidden_effect = {
         	make_subject = {
-        		target = scope:panhellium_scope
+        		target = scope:panhellenium_scope
         		type = feudatory
         	}
         }
 
-        scope:panhellium_scope = {
+        scope:panhellenium_scope = {
         	hidden_effect = {
         		add_opinion = {
-        			modifier = panhellium_loyalty
+        			modifier = panhellenium_loyalty
         			target = root
         		}
         	}
@@ -1924,7 +1924,7 @@ me_roman_missions_ti.73 = { #Pannhellenium
       				country_culture_group = hellenic
       			}
         		add_opinion = {
-        			modifier = panhellium_creation 
+        			modifier = panhellenium_creation 
         			target = root
         		}
         	}
@@ -1961,4 +1961,5 @@ me_roman_missions_ti.73 = { #Pannhellenium
         	}
         }
     }
+}
 }
