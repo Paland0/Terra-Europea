@@ -1206,3 +1206,83 @@ roman_mission_17_hellenic_empire_task_13 = { #Imperial Lineage
 		}
 
 	}
+ roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
+        icon = "task_economical"
+
+        requires = {  roman_mission_17_hellenic_empire_ti_task?? }
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = Athens ????
+                    province_id = Korinthus ????
+		    province_id = Thebes ????
+                    province_id = Delphi ????
+		    province_id = Argos ????
+                    province_id = Sparta ????
+                    AND = {
+                        owner = ROOT
+                	is_in_region = greece_region
+                    }
+                }
+            }
+        }
+
+        allow = {
+            trigger_if = {
+                limit = { is_ai = no }
+		p:Athens ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1}
+
+                p:Korinthus ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+
+		p:Thebes ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+
+                p:Delphi ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+
+		p:Argos ???? = { has_city_status = yes
+				 num_of_commerce_building >= 1
+				 num_of_theathre_building >= 1
+				 num_of_academy_building >= 1
+				 num_of_court_building >= 1
+ 				 num_of_forum_building >= 1
+				 num_of_library_building >= 1 }
+
+                p:Sparta ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+        
+            }
+        }
+
+        on_completion = {
+            trigger_event = { id = me_roman_missions_ti.72 }
+        }
+    }
