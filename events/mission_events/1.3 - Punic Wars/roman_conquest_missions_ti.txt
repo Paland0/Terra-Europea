@@ -1724,7 +1724,43 @@ me_roman_missions_ti.63 = {							# Empire Yes
 		name = me_roman_missions_ti.63.a
 		add_innovation = 4
 		add_stability = 35
-	capital_scope = {
+	p:???? Rome = {
+			if = {
+				limit = {
+					NOT = { has_province_rank = city_metropolis }
+				}
+				set_city_status = city_metropolis
+			}
+			add_permanent_province_modifier = {
+				name = "imperial_capital_mission_reward"
+				duration = -1
+			}
+		}
+	p:???? Babylonia = {
+			if = {
+				limit = {
+					NOT = { has_province_rank = city_metropolis }
+				}
+				set_city_status = city_metropolis
+			}
+			add_permanent_province_modifier = {
+				name = "imperial_capital_mission_reward"
+				duration = -1
+			}
+		}
+	p:???? Alexandria = {
+			if = {
+				limit = {
+					NOT = { has_province_rank = city_metropolis }
+				}
+				set_city_status = city_metropolis
+			}
+			add_permanent_province_modifier = {
+				name = "imperial_capital_mission_reward"
+				duration = -1
+			}
+		}
+	p:???? Byzantion = {
 			if = {
 				limit = {
 					NOT = { has_province_rank = city_metropolis }
