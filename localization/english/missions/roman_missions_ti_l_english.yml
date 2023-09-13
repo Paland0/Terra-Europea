@@ -697,6 +697,7 @@
  roman_mission_17_hellenic_empire_ti_task_7_DESC: "The vast expanses of Bactria and Sogdia lure us with the siren call, just as once, across the sands of time, they called to the indomitable Alexander the Great. We tread the path of conquerors, and the march of our legions will echo the footsteps of the Macedonian."
  roman_mission_17_hellenic_empire_ti_task_8: "Scythian Frontier"
  roman_mission_17_hellenic_empire_ti_task_8_DESC: "Beyond the furthest corners of the known world, where the Eastern horizon meets the boundless expanse of the Scythian steppes, resides a people that has eluded the grasp of Rome for too long. In these lands, where Queen Tomyris reputedly crushed the ambitions of the Achaemenids under Cyrus the Great, it falls upon us to add a new chapter, one where Rome has friends even at the very edge of the world. To do so we must forcefully extend our friendship to the Scythians, forever locking their formidable might within the orbit of Rome."
+ roman_mission_17_hellenic_empire_ti_task_8_effect_tt: "The Scythians wilds will be civilized come Hades or high water!"
  roman_mission_17_hellenic_empire_ti_task_9: "The Power of Learning"
  roman_mission_17_hellenic_empire_ti_task_9_DESC: "An empire that is to stand the test of time must be one not only of soldiers but also of letters and culture. Let us bring all the knowledge of the world to the shrine complex of Alexander the Great and make this the pearl of the Hellenistic world. Anyone wishing to partake of the collective wisdom of mankind should seek to study it at our leisure and be provided with all things needed for such a noble pursuit."
  roman_mission_17_hellenic_empire_ti_task_10: "Armaments of a Living God"
@@ -853,3 +854,7 @@
  roman_conquest_missions_ti.48.b: "Maracanda, strategically located, promises prosperity and influence"
  roman_conquest_missions_ti.48.c: "Alexandria Ochu, a place of ancient mystique, beckons for Roman development"
  roman_conquest_missions_ti.48.d: "Cyropolis, is a compelling choice"
+
+ #Other
+ HUI: "Hulaia"
+ HUI_ADJ: "Hulaian"
