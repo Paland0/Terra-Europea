@@ -715,7 +715,7 @@
    	roman_mission_17_hellenic_empire_task_8 = { ##Scythia
     	icon = "task_heracles"
 
-    	highlight = {
+        highlight = {
 			scope:province = {
 				OR = {
 					is_in_area = borysthenia_area
@@ -729,11 +729,11 @@
 					is_in_area = muradava_area
 					is_in_area = zargidava_area
 				}
-    		}
-    	}
+        	}
+        }
 
-    	allow = {
-			owns_or_subject_owns_area = borysthenia_area
+        allow = {
+        	owns_or_subject_owns_area = borysthenia_area
 					owns_or_subject_owns_area = transborysthenia_area
 					owns_or_subject_owns_area = sarmatia_superioris_area
 					owns_or_subject_owns_area = sarmatia_area
@@ -743,80 +743,13 @@
 					owns_or_subject_owns_area = transhypania_area
 					owns_or_subject_owns_area = muradava_area
 					owns_or_subject_owns_area = zargidava_area
-    	}
+        }
 
-    	on_completion = {
-    		roman_mission_ruler_popularity_effect = yes
-        	custom_tooltip = roman_conquest_reward_tooltip
-        	trigger_event = { id = roman_conquest_missions_ti.49 }
-        	if = {
-        		limit = {
-        			any_subject = {
-        				any_owned_province = {
-        					OR = {
-        						is_in_area = borysthenia_area
-					is_in_area = transborysthenia_area
-					is_in_area = sarmatia_superioris_area
-					is_in_area = sarmatia_area
-					is_in_area = hypania_minoris_area
-					is_in_area = hypania_area
-					is_in_area = dnieper_area
-					is_in_area = transhypania_area
-					is_in_area = muradava_area
-					is_in_area = zargidava_area
-        					}
-        				}
-        			}
-        		}
-        		every_subject = {
-        			limit = {
-        				any_owned_province = {
-        					OR = {
-        						is_in_area = borysthenia_area
-					is_in_area = transborysthenia_area
-					is_in_area = sarmatia_superioris_area
-					is_in_area = sarmatia_area
-					is_in_area = hypania_minoris_area
-					is_in_area = hypania_area
-					is_in_area = dnieper_area
-					is_in_area = transhypania_area
-					is_in_area = muradava_area
-					is_in_area = zargidava_area
-        					}
-        				}
-        			}
-        			add_opinion = {
-        				modifier = opinion_roman_mission_subject_appreciation
-        				target = root
-        			}
-        		}
-        	}
-            every_country_state = {
-                limit = {
-                    any_state_province = {
-                        OR = {
-                           	is_in_area = sattagydia_area
-							is_in_area = borysthenia_area
-					is_in_area = transborysthenia_area
-					is_in_area = sarmatia_superioris_area
-					is_in_area = sarmatia_area
-					is_in_area = hypania_area
-					is_in_area = hypania_minoris_area
-					is_in_area = dnieper_area
-					is_in_area = transhypania_area
-					is_in_area = muradava_area
-					is_in_area = zargidava_area
-                        }
-                    }
-                }
-                add_state_modifier = {
-                    name = new_roman_conquest_foreign_smod
-                    duration = 1825 # 5 years
-                }
-            }
-    	}
-    }
-
+        on_completion = {
+        	custom_tooltip = roman_mission_17_hellenic_empire_task_8_effect_tt #client state created
+			trigger_event = me_roman_missions_ti.75
+        }
+    }   	
 	roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 		icon = task_expansion
 		requires = { roman_mission_17_hellenic_empire_task_5 }
@@ -1195,3 +1128,22 @@
 			trigger_event = me_roman_missions_ti.73
     	}
     }
+roman_mission_17_hellenic_empire_task_13 = { #Imperial Lineage
+		icon = task_political
+		
+		requires = ???
+		
+		allow = {
+			current_ruler = {
+				is_adult = yes
+			}
+			political_influence > 50
+		}
+
+		on_completion = {
+			add_political_influence = -50
+			custom_tooltip = diadochi_imperial_lineage_reward
+			trigger_event = { id = me_roman_missions_ti.74 }
+		}
+
+	}
