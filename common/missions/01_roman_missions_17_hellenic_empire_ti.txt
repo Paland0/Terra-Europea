@@ -56,7 +56,7 @@
     }
 
 
-    roman_mission_17_hellenic_empire_task_1 = { ##Footholds in Media
+    roman_mission_17_hellenic_empire_ti_task_1 = { ##Footholds in Media
     	icon = "task_expansion"
 
     	highlight = {
@@ -99,7 +99,7 @@
         						is_in_area = aspadana_area
 								is_in_area = rhagai_area
 								is_in_area = ecbatana_area
-								is_in_area = media_choromithrene_area
+								is_in_area = media_choromithrene
 								is_in_area = amardioi_area
 								is_in_area = kossioi_area
 								is_in_area = media_area
@@ -154,7 +154,7 @@
             }
     	}
     }
-    roman_mission_17_hellenic_empire_task_2 = { ##Conquering Persis
+    roman_mission_17_hellenic_empire_ti_task_2 = { ##Conquering Persis
     	icon = "task_conquest"
 
     	highlight = {
@@ -242,9 +242,9 @@
             }
     	}
     }
-    roman_mission_17_hellenic_empire_task_3 = { ##Subduing Gedrosia
+    roman_mission_17_hellenic_empire_ti_task_3 = { ##Subduing Gedrosia
     	icon = "task_expansion"
-		requires = { roman_mission_17_hellenic_empire_task_2 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_2 }
     	highlight = {
 			scope:province = {
 				OR = {
@@ -326,9 +326,9 @@
             }
     	}
     }
-    roman_mission_17_hellenic_empire_task_4 = { ##The Indus River Valley
+    roman_mission_17_hellenic_empire_ti_task_4 = { ##The Indus River Valley
     	icon = "task_battle"
-		requires = { roman_mission_17_hellenic_empire_task_3 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_3 }
 
     	highlight = {
 			scope:province = {
@@ -430,9 +430,9 @@
             }
     	}
     }
-    roman_mission_17_hellenic_empire_task_5 = { ##The Heart of Ariana
+    roman_mission_17_hellenic_empire_ti_task_5 = { ##The Heart of Ariana
     	icon = "task_political"
-		requires = { roman_mission_17_hellenic_empire_task_2 roman_mission_17_hellenic_empire_task_1 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_2 roman_mission_17_hellenic_empire_ti_task_1 }
     	highlight = {
 			scope:province = {
 				OR = {
@@ -520,9 +520,9 @@
             }
     	}
     }
-   	roman_mission_17_hellenic_empire_task_6 = { ##Partitioning Parthia
+   	roman_mission_17_hellenic_empire_ti_task_6 = { ##Partitioning Parthia
     	icon = "task_battle"
-		requires = { roman_mission_17_hellenic_empire_task_1 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_1 }
     	highlight = {
 			scope:province = {
 				OR = {
@@ -608,15 +608,14 @@
             }
     	}
     }
-   	roman_mission_17_hellenic_empire_task_7 = { ##Bactriana & Sogdiana
+   	roman_mission_17_hellenic_empire_ti_task_7 = { ##Bactriana & Sogdiana
     	icon = "task_conquest"
-		requires = { roman_mission_17_hellenic_empire_task_6 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_6 }
     	highlight = {
 			scope:province = {
 				OR = {
 					is_in_area = sattagydia_area
 					is_in_area = bamyan_area
-					is_in_area = candria_area
 					is_in_area = bactria_area
 					is_in_area = candara_area
 					is_in_area = oxiana_area
@@ -631,7 +630,6 @@
     	allow = {
 			owns_or_subject_owns_area = sattagydia_area
 			owns_or_subject_owns_area = bamyan_area
-			owns_or_subject_owns_area = candara_area
 			owns_or_subject_owns_area = bactria_area
 			owns_or_subject_owns_area = candara_area
 			owns_or_subject_owns_area = oxiana_area
@@ -654,7 +652,6 @@
 								is_in_area = bamyan_area
 								is_in_area = candara_area
 								is_in_area = bactria_area
-								is_in_area = candara_area
 								is_in_area = oxiana_area
 								is_in_area = cyropolis_area
 								is_in_area = ferghana_area
@@ -670,7 +667,6 @@
         					OR = {
         						is_in_area = sattagydia_area
 								is_in_area = bamyan_area
-								is_in_area = candara_area
 								is_in_area = bactria_area
 								is_in_area = oxiana_area
 								is_in_area = candara_area
@@ -693,7 +689,6 @@
                         OR = {
                            	is_in_area = sattagydia_area
 							is_in_area = bamyan_area
-							is_in_area = candria_area
 							is_in_area = bactria_area
 							is_in_area = candara_area
 							is_in_area = oxiana_area
@@ -711,7 +706,7 @@
             }
     	}
     }
-   	roman_mission_17_hellenic_empire_task_8 = { ##Scythia
+   	roman_mission_17_hellenic_empire_ti_task_8 = { ##Scythia
     	icon = "task_heracles"
 
         highlight = {
@@ -745,13 +740,13 @@
         }
 
         on_completion = {
-        	custom_tooltip = roman_mission_17_hellenic_empire_task_8_effect_tt #client state created
+        	custom_tooltip = roman_mission_17_hellenic_empire_ti_task_8_effect_tt #client state created
 			trigger_event = me_roman_missions_ti.65
         }
     }   	
-	roman_mission_17_hellenic_empire_task_9 = { # Philosophy Treasure
+	roman_mission_17_hellenic_empire_ti_task_9 = { # Philosophy Treasure
 		icon = task_political
-		requires = { roman_mission_17_hellenic_empire_task_7 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_7 }
 
 		allow = {
 			trigger_if = {
@@ -811,9 +806,9 @@
 
 	}
 
-	roman_mission_17_hellenic_empire_task_10 = { # Alexander Panopoly
+	roman_mission_17_hellenic_empire_ti_task_10 = { # Alexander Panopoly
 		icon = task_conquest
-		requires = { roman_mission_17_hellenic_empire_task_4 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_4 }
 
 		allow = {
 			trigger_if = {
@@ -840,7 +835,7 @@
 			}
 		}
 		on_completion = {
-			trigger_event = { id = me_roman_missions_ti_62 }
+			trigger_event = { id = me_roman_missions_ti.62 }
 			if = {
 				limit = {
 					exists = deity:omen_alexander
@@ -882,72 +877,69 @@
 		}
 	}
 
-		roman_mission_17_hellenic_empire_task_11 = { #Triumph over the Savage Lands
+		roman_mission_17_hellenic_empire_ti_task_11 = { #Triumph over the Savage Lands
 		icon = task_heracles
-		requires = { roman_mission_17_hellenic_empire_task_9 roman_mission_17_hellenic_empire_task_10 roman_mission_17_hellenic_empire_task_12 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_9 roman_mission_17_hellenic_empire_ti_task_10 roman_mission_17_hellenic_empire_ti_task_12 }
 		final = yes
 		
 		highlight = {
 			scope:province = {
 				OR = {
 					is_in_area = bamyan_area
-							is_in_area = candria_area
-							is_in_area = bactria_area
-							is_in_area = oxiana_area
-							is_in_area = cyropolis_area
-							is_in_area = ferghana_area
-							is_in_area = transoxus_area
-							is_in_area = sogdiana_area
-							is_in_area = parthia_komishene_area
-							is_in_area = parthia_area
-							is_in_area = vishpauzatis_area
-							is_in_area = margu_area
-							is_in_area = margiana_area
-							is_in_area = namek_area
-							is_in_area = sagartia_area
-							is_in_area = drangiana_area
-							is_in_area = carmania_area
-							is_in_area = pactya_area
-							is_in_area = arachosia_area
-							is_in_area = aria_area
-							is_in_area = trigarta_area
-							is_in_area = madra_area
-							is_in_area = panchanada_area
-							is_in_area = mallia_area
-							is_in_area = sivi_area
-							is_in_area = taxila_area
-							is_in_area = gandhara_area
-							is_in_area = kasmira_area
-							is_in_area = parecania_area
-							is_in_area = south_sindhu_area
-							is_in_area = patalene_area
-							is_in_area = sauvira_area
-							is_in_area = north_sindhu_area
-							is_in_area = harmozeia_area
-							is_in_area = candara_area
-							is_in_area = susiana_area
-							is_in_area = hyrcania_area
-							is_in_area = rodewala_area
-							is_in_area = gedrosia_area
-							is_in_area = pars_area
-							is_in_area = veshapur_area
-							is_in_area = persepolis_area
-							is_in_area = utia_area
-							is_in_area = media_felix_area
-							is_in_area = ardashir_area
-							is_in_area = derbicca_area
-							is_in_area = aspadana_area
-							is_in_area = rhagai_area
-							is_in_area = ecbatana_area
-							is_in_area = media_choromithrene
-							is_in_area = amardioi_area
-							is_in_area = kossioi_area
-							is_in_area = sattagydia_area
-							is_in_area = media_area
-							is_in_area = media_atropatene_area
-							is_in_area = kadousioi_area
-
-
+					is_in_area = bactria_area
+					is_in_area = oxiana_area
+					is_in_area = cyropolis_area
+					is_in_area = ferghana_area
+					is_in_area = transoxus_area
+					is_in_area = sogdiana_area
+					is_in_area = parthia_komishene_area
+					is_in_area = parthia_area
+					is_in_area = vishpauzatis_area
+					is_in_area = margu_area
+					is_in_area = margiana_area
+					is_in_area = namek_area
+					is_in_area = sagartia_area
+					is_in_area = drangiana_area
+					is_in_area = carmania_area
+					is_in_area = pactya_area
+					is_in_area = arachosia_area
+					is_in_area = aria_area
+					is_in_area = trigarta_area
+					is_in_area = madra_area
+					is_in_area = panchanada_area
+					is_in_area = mallia_area
+					is_in_area = sivi_area
+					is_in_area = taxila_area
+					is_in_area = gandhara_area
+					is_in_area = kasmira_area
+					is_in_area = parecania_area
+					is_in_area = south_sindhu_area
+					is_in_area = patalene_area
+					is_in_area = sauvira_area
+					is_in_area = north_sindhu_area
+					is_in_area = harmozeia_area
+					is_in_area = candara_area
+					is_in_area = susiana_area
+					is_in_area = hyrcania_area
+					is_in_area = rodewala_area
+					is_in_area = gedrosia_area
+					is_in_area = pars_area
+					is_in_area = veshapur_area
+					is_in_area = persepolis_area
+					is_in_area = utia_area
+					is_in_area = media_felix_area
+					is_in_area = ardashir_area
+					is_in_area = derbicca_area
+					is_in_area = aspadana_area
+					is_in_area = rhagai_area
+					is_in_area = ecbatana_area
+					is_in_area = media_choromithrene
+					is_in_area = amardioi_area
+					is_in_area = kossioi_area
+					is_in_area = sattagydia_area
+					is_in_area = media_area
+					is_in_area = media_atropatene_area
+					is_in_area = kadousioi_area
 				}
 			}
 		}
@@ -959,7 +951,7 @@
 			trigger_event = { id = me_roman_missions_ti.64 }
 		}
 	}
-roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
+	roman_mission_17_hellenic_empire_ti_task_12 = { # Setting the Stage
 		icon = task_expansion
 		#requires = { ???? }
 
@@ -1091,7 +1083,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
         }
     }
 	
-	roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
+	roman_mission_17_hellenic_empire_ti_task_14 = { #Imperial Lineage
 		icon = task_political
 		
 		#requires = ???
@@ -1110,8 +1102,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 		}
 
 	}
- roman_mission_17_hellenic_empire_task_15 = { # Grand Epic
-#needs to be coded
 	roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
         icon = "task_economical"
 
@@ -1185,7 +1175,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
             trigger_event = { id = me_roman_missions_ti.72 }
         }
     }
-  roman_mission_17_hellenic_empire_task_17 = { # Panhellenium
+  roman_mission_17_hellenic_empire_ti_task_17 = { # Panhellenium
     	icon = "task_political"
 
     	#requires = { roman_mission_17_hellenic_empire_?? }
@@ -1213,16 +1203,10 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
     	}
 
     	on_completion = {
-    		custom_tooltip = roman_mission_17_hellenic_empire_task_17_create_panhellium
+    		custom_tooltip = roman_mission_17_hellenic_empire_ti_task_17_create_panhellium
 			show_as_tooltip = {
 				add_aggressive_expansion = -10
 			}
 			trigger_event = me_roman_missions_ti.73
     	}
     }
- roman_mission_17_hellenic_empire_task_18 = { # Serican Silk
-#needs to be coded
- roman_mission_17_hellenic_empire_task_19 = { # Stealing Silk Secrets
-#needs to be coded
- roman_mission_17_hellenic_empire_task_20 = { # Roman Silk
-#needs to be coded
