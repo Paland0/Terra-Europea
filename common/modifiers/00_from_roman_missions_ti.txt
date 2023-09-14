@@ -109,3 +109,6 @@ mantle_of_alexander = {
 	heavy_infantry_discipline = 0.08
 	war_score_cost = -0.1
 }
+roman_epic = {
+	any ideas for what it should do?
+}
