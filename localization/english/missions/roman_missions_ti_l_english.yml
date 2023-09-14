@@ -742,14 +742,14 @@
  me_roman_missions_ti.62.t: "A Sight to Behold"
  me_roman_missions_ti.62.desc: "After many trials and tribulations, we have reunited Alexander's panoply with the man himself; a feat not accomplished since his death. We have constructed a magnificent altar, and pilgrims are already coming from far and wide to see the glorious site. The man who conquered the world now has the most extravagant tomb the world has ever seen. We Romans will ensure it stays that way." 
  me_roman_missions_ti.62.a: "Alexander's finally getting the resting place he deserves"
-
- me_roman_missions_ti.63.t: "Empire of the Ages"
- me_roman_missions_ti.63.desc: "Consummatum est. The words we never thought would ever be spoken are now being shouted by every citizen of our grand realm. The largest triumph Roma has ever seen is being commenced, as are celebrations from Italia all the way to Persia. The Nile is alight with festive fires, and the ships of the Pontus all wave our banner with glee. We are the greatest empire the world has ever seen, uniting all of the Hellenic faith and finishing what Alexander could not. May our glory be as eternal as our spirit, and may all corners of the world know that Rome is the only power worthy of respect."
- me_roman_missions_ti.63.a: "I know, somewhere, he is looking down on us. Smiling"
  
- me_roman_missions_ti.64.t: "Uniting as One"
- me_roman_missions_ti.64.desc: "As we expand through every crag and valley of the Hellenic lands, a grassroots effort to embellish and greaten our nation's major cities has taken place. Every citizen has taken it upon themselves to better Roma, Babylonia, Byzantion, and Alexandria in ways both large and small, making them focal points worthy of the world's largest empire. Administratively, senators and governors alike have taken steps to make processes more efficient and bureaucracy less cumbersome. Through these efforts, along with our grand military acumen, the Roman Empire will never fade into obscurity." 
- me_roman_missions_ti.64.a: "Our empire and cities shall stand the tests of time"
+ me_roman_missions_ti.63.t: "Uniting as One"
+ me_roman_missions_ti.63.desc: "As we expand through every crag and valley of the Hellenic lands, a grassroots effort to embellish and greaten our nation's major cities has taken place. Every citizen has taken it upon themselves to better Roma, Babylonia, Byzantion, and Alexandria in ways both large and small, making them focal points worthy of the world's largest empire. Administratively, senators and governors alike have taken steps to make processes more efficient and bureaucracy less cumbersome. Through these efforts, along with our grand military acumen, the Roman Empire will never fade into obscurity." 
+ me_roman_missions_ti.63.a: "Our empire and cities shall stand the tests of time"
+
+ me_roman_missions_ti.64.t: "Empire of the Ages"
+ me_roman_missions_ti.64.desc: "Consummatum est. The words we never thought would ever be spoken are now being shouted by every citizen of our grand realm. The largest triumph Roma has ever seen is being commenced, as are celebrations from Italia all the way to Persia. The Nile is alight with festive fires, and the ships of the Pontus all wave our banner with glee. We are the greatest empire the world has ever seen, uniting all of the Hellenic faith and finishing what Alexander could not. May our glory be as eternal as our spirit, and may all corners of the world know that Rome is the only power worthy of respect."
+ me_roman_missions_ti.64.a: "I know, somewhere, he is looking down on us. Smiling" 
 
  me_roman_missions_ti.65.t: "Scythian Frontier"
  me_roman_missions_ti.65.desc: "Our legions have ventured into the vast unknown and tamed the wild Scythian frontier. This remote and rugged land, on the very edges of the known world, has long been a realm of nomads and fierce warriors, where empires have collided and civilizations have flourished. Now, it is our duty to bring the might and culture of Rome to these backward and barbaric lands as it has been decided that we shall add another name to the list of client kings that call #E Rome#! master. Let the barbarians sort their own affairs, just as long as they acknowledge who is in charge."
