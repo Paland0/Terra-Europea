@@ -292,3 +292,15 @@
  me_gaul_arvernia_ti_2700_title: ""
  me_gaul_arvernia_ti_2700_desc: ""
  me_gaul_arvernia_ti_2700.a: ""
+ 
+ #Tooltips
+ sacking_conqueror_effect_tooltip: ""
+ me_gaul_arvernia_ti_1301_tt: ""
+ me_gaul_arvernia_ti_1303_tt: ""
+ gaul_arvernia_task_15_claims_tt: ""
+ gaul_arvernia_task_1_req_tt: ""
+ gaul_arvernia_task_2_reward_tt: ""
+ gaul_arvernia_task_4_reward_tt: ""
+ gaul_arvernia_task_7_reward_tt: ""
+ gaul_arvernia_task_13_reward_tt: ""
+ gaul_arvernia_task_15_claims_tt: ""
