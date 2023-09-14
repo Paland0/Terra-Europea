@@ -1124,17 +1124,12 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 					province_id = 424
 					province_id = 440
                     province_id = 427
-                    AND = {
-                        owner = ROOT
-						is_in_region = greece_region
-                    }
                 }
             }
         }
 
         allow = {
 			p:416 = { 
-				has_city_status = yes
 				num_of_commerce_building >= 1
 				num_of_theathre_building >= 1
 				num_of_academy_building >= 1
@@ -1143,7 +1138,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				num_of_library_building >= 1 
 			}
 			p:418 = { 
-				has_city_status = yes
 				num_of_commerce_building >= 1
 				num_of_theathre_building >= 1
 				num_of_academy_building >= 1
@@ -1152,7 +1146,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				num_of_library_building >= 1 
 			}
 			p:426 = { 
-				has_city_status = yes
 				num_of_commerce_building >= 1
 				num_of_theathre_building >= 1
 				num_of_academy_building >= 1
@@ -1161,7 +1154,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				num_of_library_building >= 1 
 			}
 			p:424 = { 
-				has_city_status = yes
 				num_of_commerce_building >= 1
 				num_of_theathre_building >= 1
 				num_of_academy_building >= 1
@@ -1170,7 +1162,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				num_of_library_building >= 1 
 			}
 			p:440 = { 
-				has_city_status = yes
 				num_of_commerce_building >= 1
 				num_of_theathre_building >= 1
 				num_of_academy_building >= 1
@@ -1179,7 +1170,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				num_of_library_building >= 1 
 			}
 			p:427 = { 
-				has_city_status = yes
 				num_of_commerce_building >= 1
 				num_of_theathre_building >= 1
 				num_of_academy_building >= 1
@@ -1207,7 +1197,6 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				is_in_area = rhodope_area
 				is_in_area = aeolia_area
 				is_in_area = cyprus_area
-				is_in_region = greece_region
 			}
     	}
 
@@ -1219,102 +1208,10 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 			owns_area = rhodope_area
 			owns_area = aeolia_area
 			owns_area = cyprus_area
-			owns_region = greece_region
     	}
 
     	on_completion = {
-    		hidden_effect = {
-    			area:macedonia_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			area:chalkidiki_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			area:ionia_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			area:coastal_caria_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			area:rhodope_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			area:aeolia_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			area:cyprus_area = {
-    				ordered_area_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-			region:greece_region = {
-    				ordered_region_province = {
-    					order_by = total_population
-    					max = 1
-    					save_scope_as = pre_panhellium_scope
-    				}
-    			}
-	    		scope:pre_panhellium_scope = {
-	    			create_country = {
-	    				name = {
-							change_country_name = "PANHELLIUM_NAME"
-							change_country_adjective"PANHELLIUM_ADJECTIVE"
-									}
-							change_country_color =  "helvetia_color"
-							change_country_tag = PHL
-							change_country_flag = HELLENIC_LEAGUE_FLAG
-							change_government = oligarchic_republic
-							save_scope_as = panhellium_scope
-							add_opinion = {
-								modifier = opinion_liberated_us
-								target = root
-						}
-					}
-	    		}
-	    		every_owned_province = {
-	    			limit = {
-	    				is_in_area = macedonia_area
-					is_in_area = chalkidiki_area
-					is_in_area = ionia_area
-					is_in_area = coastal_caria_area
-					is_in_area = rhodope_area
-					is_in_area = aeolia_area
-					is_in_area = cyprus_area
-					is_in_region = greece_region
-	    			}
-	    			set_owned_by = scope:panhellium_scope
-	    		}
-	    		make_subject = {
-	    			target = scope:panhellium_scope
-	    			type = client_state
-	    		}
-    		}
+    		custom_tooltip = roman_mission_17_hellenic_empire_task_17_create_panhellium
 			show_as_tooltip = {
 				add_aggressive_expansion = -10
 			}
