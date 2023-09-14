@@ -362,10 +362,10 @@ roman_collapse_arminius_ti.4 = {     #Tag Switch
             limit = {
                 exists = scope:old_country
             }
-            set_global_variable = {
-                name = roman_country_variable
-                value = scope:old_country
-            }
+            #set_global_variable = {
+            #    name = roman_country_variable
+            #    value = scope:old_country
+            #}
         }
     }
 }
