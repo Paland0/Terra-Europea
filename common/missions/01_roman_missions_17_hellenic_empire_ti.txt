@@ -961,29 +961,29 @@
 	}
 roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 		icon = task_expansion
-		requires = { ???? }
+		#requires = { ???? }
 
 		allow = {
-			p:???? Rome = {
+			p:1 = {
 				has_great_work = yes
 			}
-			p:???? Babylonia = {
+			p:918 = {
 				has_great_work = yes
 			}
 			p:516 = {
 				has_variable = built_pharos
 			}
-			p:???? Byzantion = {
+			p:1453 = {
 				has_great_work = yes
 			}
 		}
 		highlight = {
-			p:???? Rome = {
+			p:1 = {
 				is_uninhabitable = no
 				has_owner = yes
 				owner = ROOT
 			}
-			p:???? Babylonia = {
+			p:918 = {
 				is_uninhabitable = no
 				has_owner = yes
 				owner = ROOT
@@ -993,7 +993,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 				has_owner = yes
 				owner = ROOT
 			}
-			p:???? Byzantion = {
+			p:1453 = {
 				is_uninhabitable = no
 				has_owner = yes
 				owner = ROOT
@@ -1003,7 +1003,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 			show_as_tooltip = {
 				add_innovation = 4
 				add_stability = 35
-			p:???? Rome = {
+				p:1 = {
 					if = {
 						limit = {
 							NOT = { has_province_rank = city_metropolis }
@@ -1015,7 +1015,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 						duration = -1
 					}
 				}
-			p:???? Babylonia = {
+				p:918 = {
 					if = {
 						limit = {
 							NOT = { has_province_rank = city_metropolis }
@@ -1027,7 +1027,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 						duration = -1
 					}
 				}
-			p:516 = {
+				p:516 = {
 					if = {
 						limit = {
 							NOT = { has_province_rank = city_metropolis }
@@ -1039,7 +1039,7 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 						duration = -1
 					}
 				}
-			p:???? Byzantion = {
+				p:1453 = {
 					if = {
 						limit = {
 							NOT = { has_province_rank = city_metropolis }
@@ -1056,7 +1056,8 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 		}
 
 	}
-roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
+	
+	roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
         icon = "task_diplomatic"
 
         requires = { roman_mission_17_hellenic_empire_ti_task_12 }
@@ -1089,10 +1090,11 @@ roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
             }
         }
     }
-roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
+	
+	roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
 		icon = task_political
 		
-		requires = ???
+		#requires = ???
 		
 		allow = {
 			current_ruler = {
@@ -1108,80 +1110,83 @@ roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
 		}
 
 	}
- roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
+	roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
         icon = "task_economical"
 
-        requires = {  roman_mission_17_hellenic_empire_ti_task?? }
+        #requires = {  roman_mission_17_hellenic_empire_ti_task?? }
 
         highlight = {
             scope:province = {
                 OR = {
-                    province_id = Athens ????
-                    province_id = Korinthus ????
-		    province_id = Thebes ????
-                    province_id = Delphi ????
-		    province_id = Argos ????
-                    province_id = Sparta ????
+                    province_id = 416
+                    province_id = 418
+					province_id = 426
+					province_id = 424
+					province_id = 440
+                    province_id = 427
                     AND = {
                         owner = ROOT
-                	is_in_region = greece_region
+						is_in_region = greece_region
                     }
                 }
             }
         }
 
         allow = {
-            trigger_if = {
-                limit = { is_ai = no }
-		p:Athens ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1}
-
-                p:Korinthus ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-
-		p:Thebes ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-
-                p:Delphi ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-
-		p:Argos ???? = { has_city_status = yes
-				 num_of_commerce_building >= 1
-				 num_of_theathre_building >= 1
-				 num_of_academy_building >= 1
-				 num_of_court_building >= 1
- 				 num_of_forum_building >= 1
-				 num_of_library_building >= 1 }
-
-                p:Sparta ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-        
-            }
+			p:416 = { 
+				has_city_status = yes
+				num_of_commerce_building >= 1
+				num_of_theathre_building >= 1
+				num_of_academy_building >= 1
+				num_of_court_building >= 1
+				num_of_forum_building >= 1
+				num_of_library_building >= 1 
+			}
+			p:418 = { 
+				has_city_status = yes
+				num_of_commerce_building >= 1
+				num_of_theathre_building >= 1
+				num_of_academy_building >= 1
+				num_of_court_building >= 1
+				num_of_forum_building >= 1
+				num_of_library_building >= 1 
+			}
+			p:426 = { 
+				has_city_status = yes
+				num_of_commerce_building >= 1
+				num_of_theathre_building >= 1
+				num_of_academy_building >= 1
+				num_of_court_building >= 1
+				num_of_forum_building >= 1
+				num_of_library_building >= 1 
+			}
+			p:424 = { 
+				has_city_status = yes
+				num_of_commerce_building >= 1
+				num_of_theathre_building >= 1
+				num_of_academy_building >= 1
+				num_of_court_building >= 1
+				num_of_forum_building >= 1
+				num_of_library_building >= 1 
+			}
+			p:440 = { 
+				has_city_status = yes
+				num_of_commerce_building >= 1
+				num_of_theathre_building >= 1
+				num_of_academy_building >= 1
+				num_of_court_building >= 1
+				num_of_forum_building >= 1
+				num_of_library_building >= 1 
+			}
+			p:427 = { 
+				has_city_status = yes
+				num_of_commerce_building >= 1
+				num_of_theathre_building >= 1
+				num_of_academy_building >= 1
+				num_of_court_building >= 1
+				num_of_forum_building >= 1
+				num_of_library_building >= 1 
+			}
         }
 
         on_completion = {
@@ -1191,7 +1196,7 @@ roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
   roman_mission_17_hellenic_empire_task_17 = { # Panhellenium
     	icon = "task_political"
 
-    	requires = { roman_mission_17_hellenic_empire_?? }
+    	#requires = { roman_mission_17_hellenic_empire_?? }
 
     	highlight = {
 			scope:province = {
@@ -1207,14 +1212,14 @@ roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
     	}
 
     	allow = {
-		owns_area = macedonia_area
-		owns_area = chalkidiki_area
-		owns_area = ionia_area
-		owns_area = coastal_caria_area
-		owns_area = rhodope_area
-		owns_area = aeolia_area
-		owns_area = cyprus_area
-		owns_region = greece_region
+			owns_area = macedonia_area
+			owns_area = chalkidiki_area
+			owns_area = ionia_area
+			owns_area = coastal_caria_area
+			owns_area = rhodope_area
+			owns_area = aeolia_area
+			owns_area = cyprus_area
+			owns_region = greece_region
     	}
 
     	on_completion = {
@@ -1278,19 +1283,19 @@ roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
 	    		scope:pre_panhellium_scope = {
 	    			create_country = {
 	    				name = {
-	    			change_country_name = "PANHELLIUM_NAME"
-				change_country_adjective"PANHELLIUM_ADJECTIVE"
-	    				}
-				change_country_color =  "helvetia_color"
-				change_country_tag = PHL
-				change_country_flag = HELLENIC_LEAGUE_FLAG
-				change_government = oligarchic_republic
-				save_scope_as = panhellium_scope
-	    				add_opinion = {
-	    					modifier = opinion_liberated_us
-	    					target = root
-	    				}
-	    			}
+							change_country_name = "PANHELLIUM_NAME"
+							change_country_adjective"PANHELLIUM_ADJECTIVE"
+									}
+							change_country_color =  "helvetia_color"
+							change_country_tag = PHL
+							change_country_flag = HELLENIC_LEAGUE_FLAG
+							change_government = oligarchic_republic
+							save_scope_as = panhellium_scope
+							add_opinion = {
+								modifier = opinion_liberated_us
+								target = root
+						}
+					}
 	    		}
 	    		every_owned_province = {
 	    			limit = {
