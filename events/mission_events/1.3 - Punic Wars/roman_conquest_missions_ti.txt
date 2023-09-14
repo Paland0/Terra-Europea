@@ -1166,6 +1166,7 @@ me_roman_missions_ti.42 = {							# Rome Indian Trade - End
 		add_country_modifier = {
 			name = "rome_indian_trade" #diplo reach
 			duration = -1
+		}
 		capital_scope = {
 			add_special_pop = {
 				text = "add_1_merchant_tt"
