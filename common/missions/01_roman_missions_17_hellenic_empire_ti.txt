@@ -752,18 +752,17 @@
     }   	
 	roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 		icon = task_expansion
-		requires = { roman_mission_17_hellenic_empire_task_5 }
+		requires = { ???? }
 
 		allow = {
-			government = imperium
 			p:???? Rome = {
 				has_great_work = yes
 			}
 			p:???? Babylonia = {
 				has_great_work = yes
 			}
-			p:???? Alexandria = {
-				has_great_work = yes
+			p:516 = {
+				has_variable = built_pharos
 			}
 			p:???? Byzantion = {
 				has_great_work = yes
@@ -780,7 +779,7 @@
 				has_owner = yes
 				owner = ROOT
 			}
-			p:???? Alexandria = {
+			p:516 = {
 				is_uninhabitable = no
 				has_owner = yes
 				owner = ROOT
@@ -819,7 +818,7 @@
 						duration = -1
 					}
 				}
-			p:???? Alexandria = {
+			p:516 = {
 					if = {
 						limit = {
 							NOT = { has_province_rank = city_metropolis }
@@ -1284,5 +1283,39 @@ roman_mission_17_hellenic_empire_task_13 = { #Imperial Lineage
 
         on_completion = {
             trigger_event = { id = me_roman_missions_ti.72 }
+        }
+    }
+ roman_mission_17_hellenic_empire_ti_task_16 = { # Build Mouseion
+        icon = "task_diplomatic"
+
+        requires = { roman_mission_17_hellenic_empire_ti_task_12 }
+
+        highlight = {
+            scope:province = {
+                province_id = 516
+            }
+        }
+
+        allow = {
+            trigger_if = {
+                limit = {
+                    has_dlc = "Hellenistic World Flavor Pack"
+                }
+                custom_tooltip = {
+                    p:516 = {
+                            has_variable = museion_of_alexandria_var
+                        }
+                    }
+                }
+            }      
+        }
+
+        on_completion = {           
+            if = {
+                limit = {
+                    has_variable = museion_of_alexandria_var
+                }
+                trigger_event = { id = me_roman_missions_ti.70 }
+            }
         }
     }
