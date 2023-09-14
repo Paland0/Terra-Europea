@@ -1066,6 +1066,7 @@
                     has_dlc = "Hellenistic World Flavor Pack"
                 }
                 custom_tooltip = {
+					text = roman_mission_17_hellenic_empire_ti_task_13_museion_tt
                     p:516 = {
                             has_variable = museion_of_alexandria_var
                         }
