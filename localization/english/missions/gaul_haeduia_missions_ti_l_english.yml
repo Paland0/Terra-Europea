@@ -1,56 +1,56 @@
 ﻿l_english:
 
  gaul_haeduia_1: "A Tale of Gaulish Heroes"
- gaul_haeduia_1_DESCRIPTION: "For generations, our people, the#E Haeduia#!, have thrived in the heart of#E Gaul#!, surrounded by fertile lands and ancient traditions. Yet, a new era dawns upon us, one that beckons us to go beyond our borders and unite the Gallic tribes. This is the beginning of a grand journey where we shall strive to unite#E Gaul#! under a single banner, forging a powerful federation that will shape the destiny of our land."
+ gaul_haeduia_1_DESCRIPTION: "For generations, our people, the#E Haeduia#!, have thrived in the heart of#E Gaul#!, surrounded by fertile lands and ancient traditions:Yet, a new era dawns upon us, one that beckons us to go beyond our borders and unite the Gallic tribes:This is the beginning of a grand journey where we shall strive to unite#E Gaul#! under a single banner, forging a powerful federation that will shape the destiny of our land."
  gaul_haeduia_1_CRITERIA_DESCRIPTION: "This mission will be completed when we have established a#Y Gaulish Federation#!."
  gaul_haeduia_1_BUTTON_TOOLTIP: "Forge Gaul's destiny with unity, strength, and wisdom."
 
 #Missions
 
  gaul_haeduia_task_1: "Gather Allies"
- gaul_haeduia_task_1_DESC: "We will seek out those who share our vision of a united #E Gaul#!, where the collective strength of many can overcome the challenges of the few. Together, we will create a formidable force, united in purpose and unwavering resolve, ready to face the trials that await us."
+ gaul_haeduia_task_1_DESC: "We will seek out those who share our vision of a united #E Gaul#!, where the collective strength of many can overcome the challenges of the few:Together, we will create a formidable force, united in purpose and unwavering resolve, ready to face the trials that await us."
 
  gaul_haeduia_task_2: "Cooperation is Key"
- gaul_haeduia_task_2_DESC: "To ensure the success of our grand undertaking, we will strengthen the bonds of cooperation with our newfound allies. We will forge agreements that bind our tribes together against common threats and challenges. In unity, we shall find our strength."
+ gaul_haeduia_task_2_DESC: "To ensure the success of our grand undertaking, we will strengthen the bonds of cooperation with our newfound allies:We will forge agreements that bind our tribes together against common threats and challenges:In unity, we shall find our strength."
 
  gaul_haeduia_task_3: "Gaulish Gifts"
- gaul_haeduia_task_3_DESC: "We shall demonstrate our goodwill and benevolence by offering gifts and valuable assistance to neighboring tribes. Through these gestures, we will build trust and camaraderie among the Gauls, fostering an environment of mutual respect and solidarity that transcends tribal boundaries."
+ gaul_haeduia_task_3_DESC: "We shall demonstrate our goodwill and benevolence by offering gifts and valuable assistance to neighboring tribes:Through these gestures, we will build trust and camaraderie among the Gauls, fostering an environment of mutual respect and solidarity that transcends tribal boundaries."
 
  gaul_haeduia_task_4: "Envoys to the Senate and the People of Rome"
- gaul_haeduia_task_4_DESC: "In our quest for unity, we must also engage with foreign powers, including the mighty Roman Republic. We will send envoys to Rome, expressing our commitment to peace and cooperation, and seeking their support for our vision of a united#E Gaul#!."
+ gaul_haeduia_task_4_DESC: "In our quest for unity, we must also engage with foreign powers, including the mighty Roman Republic:We will send envoys to Rome, expressing our commitment to peace and cooperation, and seeking their support for our vision of a united#E Gaul#!."
 
  gaul_haeduia_task_5: "Gaulish Hospitality"
- gaul_haeduia_task_5_DESC: "The Haeduia have always believed in the power of shared traditions and festivities to reinforce the#E Gaulish#! identity that binds us. We will host gatherings, feasts, and celebrations that promote unity and solidarity among the#E Gaulish#! tribes, demonstrating our commitment to the cause."
+ gaul_haeduia_task_5_DESC: "The Haeduia have always believed in the power of shared traditions and festivities to reinforce the#E Gaulish#! identity that binds us:We will host gatherings, feasts, and celebrations that promote unity and solidarity among the#E Gaulish#! tribes, demonstrating our commitment to the cause."
 
  gaul_haeduia_task_6: "Reveal Arvernian Corruption"
- gaul_haeduia_task_6_DESC: "Disturbing rumors of corruption plague the#E Arverni#! tribe, casting a shadow over their integrity. It is our solemn duty to uncover the truth behind these allegations and expose any deceit or wrongdoing that may threaten#E Gaul's#! harmony. We shall leave no stone unturned in our relentless quest for justice and transparency."
+ gaul_haeduia_task_6_DESC: "Disturbing rumors of corruption plague the#E Arverni#! tribe, casting a shadow over their integrity:It is our solemn duty to uncover the truth behind these allegations and expose any deceit or wrongdoing that may threaten#E Gaul's#! harmony:We shall leave no stone unturned in our relentless quest for justice and transparency."
 
  gaul_haeduia_task_7: "Envoy to Arvernia"
- gaul_haeduia_task_7_DESC: "Following our efforts to expose corruption within the#E Arverni#! leadership, a thick fog has descended over our relations. It is imperative that we extend the hand of reconciliation and seek to mend the rift. We will send our most capable envoy, armed with words of conciliation and a vision of a united#E Gaul#!, to mend the bonds between our peoples."
+ gaul_haeduia_task_7_DESC: "Following our efforts to expose corruption within the#E Arverni#! leadership, a thick fog has descended over our relations:It is imperative that we extend the hand of reconciliation and seek to mend the rift:We will send our most capable envoy, armed with words of conciliation and a vision of a united#E Gaul#!, to mend the bonds between our peoples."
 
  gaul_haeduia_task_8: "Destroy the Arverni"
- gaul_haeduia_task_8_DESC: "Despite our earnest attempts at diplomacy, the#E Arverni#! remain a formidable obstacle to our grand vision of#E Gaulish#! unity. Their refusal to embrace cooperation and their persistent hostility threaten the harmony we seek to establish among#E Gaulish#! tribes. Regrettably, we must now consider more drastic measures to ensure the success of our mission."
+ gaul_haeduia_task_8_DESC: "Despite our earnest attempts at diplomacy, the#E Arverni#! remain a formidable obstacle to our grand vision of#E Gaulish#! unity:Their refusal to embrace cooperation and their persistent hostility threaten the harmony we seek to establish among#E Gaulish#! tribes:Regrettably, we must now consider more drastic measures to ensure the success of our mission."
 
  gaul_haeduia_task_9: "Integrate Central Gaul"
- gaul_haeduia_task_9_DESC: "It is time to take the next crucial step toward#E Gallic#! unity by formalizing our alliance with the tribes in the heartland of Gaul. Our influence now extends across#Y Lemovicia, Celtica Occidentalis, and Allobrogia#!. We will integrate these tribes into our burgeoning federation, strengthening our collective resolve."
+ gaul_haeduia_task_9_DESC: "It is time to take the next crucial step toward#E Gallic#! unity by formalizing our alliance with the tribes in the heartland of Gaul:Our influence now extends across#Y Lemovicia, Celtica Occidentalis, and Allobrogia#!:We will integrate these tribes into our burgeoning federation, strengthening our collective resolve."
 
  gaul_haeduia_task_10: "A Stable Court"
- gaul_haeduia_task_10_DESC: "As we advance toward a united#E Gaul#!, establishing a centralized authority becomes essential. We will create a stable court of advisors, including esteemed tribal chiefs and influential religious leaders. This diverse assembly will provide counsel and wisdom, ensuring our decisions are well-informed and collectively beneficial, guiding#E Gaul#! toward unity and prosperity."
+ gaul_haeduia_task_10_DESC: "As we advance toward a united#E Gaul#!, establishing a centralized authority becomes essential:We will create a stable court of advisors, including esteemed tribal chiefs and influential religious leaders:This diverse assembly will provide counsel and wisdom, ensuring our decisions are well-informed and collectively beneficial, guiding#E Gaul#! toward unity and prosperity."
 
  gaul_arvernia_task_11: "Renovation of [ROOT.GetCountry.GetCapital.GetName]"
- gaul_arvernia_task_11_DESC: "With our dreams of a united Gaul drawing closer to fruition, it is imperative that we renovate and fortify our capital, making it a symbol of our collective strength and resilience. The grandeur of the revitalized [ROOT.GetCountry.GetCapital.GetName] will inspire awe and reverence, reinforcing the bonds that tie our federation together as we continue our journey towards#E Gaulish#! unity and prosperity."
+ gaul_arvernia_task_11_DESC: "With our dreams of a united Gaul drawing closer to fruition, it is imperative that we renovate and fortify our capital, making it a symbol of our collective strength and resilience:The grandeur of the revitalized [ROOT.GetCountry.GetCapital.GetName] will inspire awe and reverence, reinforcing the bonds that tie our federation together as we continue our journey towards#E Gaulish#! unity and prosperity."
 
  gaul_haeduia_task_12: "Cultivate Our Markets"
- gaul_haeduia_task_12_DESC: "To ensure the prosperity of our burgeoning federation, we must focus on cultivating and expanding our markets. Through investments in infrastructure and trade routes across our lands, we will create a network that channels wealth and resources into our capital. This strengthens our economic foundation and solidifies our position as a dominant force in#E Gaul#!."
+ gaul_haeduia_task_12_DESC: "To ensure the prosperity of our burgeoning federation, we must focus on cultivating and expanding our markets:Through investments in infrastructure and trade routes across our lands, we will create a network that channels wealth and resources into our capital:This strengthens our economic foundation and solidifies our position as a dominant force in#E Gaul#!."
 
  gaul_haeduia_task_13: "Gaulish Federation"
- gaul_haeduia_task_13_DESC: "With the support of local chieftains and the consent of the#E Gaulish#! peoples under our influence, it is time to formalize the#Y Gaulish Federation#!. Through binding agreements and shared governance, we will transform our loose system of alliances into a unified, federated#E Gaul#!."
+ gaul_haeduia_task_13_DESC: "With the support of local chieftains and the consent of the#E Gaulish#! peoples under our influence, it is time to formalize the#Y Gaulish Federation#!:Through binding agreements and shared governance, we will transform our loose system of alliances into a unified, federated#E Gaul#!."
 
  gaul_haeduia_task_14: "Arvernian Tribute"
- gaul_haeduia_task_14_DESC: "The#E Arverni#! shall become an integral part of our united#E Gaul#!, contributing their resources, manpower, and expertise to our grand endeavor. Weaving the#E Arverni#! into our federation further strengthens the bonds of unity, symbolizing the triumph of diplomacy and cooperation, and bringing us closer to our grand vision for#E Gaul#!."
+ gaul_haeduia_task_14_DESC: "The#E Arverni#! shall become an integral part of our united#E Gaul#!, contributing their resources, manpower, and expertise to our grand endeavor:Weaving the#E Arverni#! into our federation further strengthens the bonds of unity, symbolizing the triumph of diplomacy and cooperation, and bringing us closer to our grand vision for#E Gaul#!."
  
  gaul_haeduia_task_15: "Germanic Mercenaries"
- gaul_haeduia_task_15_DESC: "In our pursuit of unity, we will seek the aid of skilled#E Germanic#! mercenaries. These warriors will bolster our forces and ensure the security of our lands, making it clear to all who might oppose us that we are prepared to defend our vision of#E Gaul#! at any cost."
+ gaul_haeduia_task_15_DESC: "In our pursuit of unity, we will seek the aid of skilled#E Germanic#! mercenaries:These warriors will bolster our forces and ensure the security of our lands, making it clear to all who might oppose us that we are prepared to defend our vision of#E Gaul#! at any cost."
 
 
  #Events 
@@ -82,6 +82,7 @@
  me_gaul_haeduia_ti_7_title: "$ gaul_haeduia_task_7$"
  me_gaul_haeduia_ti_7_desc: ""
  me_gaul_haeduia_ti_7.a: ""
+ me_gaul_haeduia_ti_7.b: ""
 
  me_gaul_haeduia_ti_8_title: "$ gaul_haeduia_task_8$"
  me_gaul_haeduia_ti_8_desc: ""
@@ -118,3 +119,53 @@
  me_gaul_haeduia_ti_30_title: ""
  me_gaul_haeduia_ti_30_desc: ""
  me_gaul_haeduia_ti_30.a: ""
+ 
+ me_gaul_haeduia_ti_200_title: ""
+ me_gaul_haeduia_ti_200_desc: ""
+ me_gaul_haeduia_ti_200.a: ""
+ 
+ me_gaul_haeduia_ti_201_title: ""
+ me_gaul_haeduia_ti_201_desc: ""
+ me_gaul_haeduia_ti_201.a: ""
+ 
+ me_gaul_haeduia_ti_400_title: ""
+ me_gaul_haeduia_ti_400_desc: ""
+ me_gaul_haeduia_ti_400.a: ""
+ 
+ me_gaul_haeduia_ti_401_title: ""
+ me_gaul_haeduia_ti_401_desc: ""
+ me_gaul_haeduia_ti_401.a: ""
+ me_gaul_haeduia_ti_401.b: ""
+ 
+ me_gaul_haeduia_ti_402_title: ""
+ me_gaul_haeduia_ti_402_desc: ""
+ me_gaul_haeduia_ti_402.a: ""
+ 
+ me_gaul_haeduia_ti_403_title: ""
+ me_gaul_haeduia_ti_403_desc: ""
+ me_gaul_haeduia_ti_403.a: ""
+ 
+ me_gaul_haeduia_ti_700_title: ""
+ me_gaul_haeduia_ti_700_desc: ""
+ me_gaul_haeduia_ti_700_title: ""
+ 
+ me_gaul_haeduia_ti_1300_title: ""
+ me_gaul_haeduia_ti_1300_desc: ""
+ me_gaul_haeduia_ti_1300.a: ""
+ me_gaul_haeduia_ti_1300.b: ""
+ 
+ me_gaul_haeduia_ti_1301_title: ""
+ me_gaul_haeduia_ti_1301_desc: ""
+ me_gaul_haeduia_ti_1301.a: ""
+ 
+ me_gaul_haeduia_ti_1302_title: ""
+ me_gaul_haeduia_ti_1302_desc: ""
+ me_gaul_haeduia_ti_1302.a: ""
+ 
+ me_gaul_haeduia_ti_1303_title: ""
+ me_gaul_haeduia_ti_1303_desc: ""
+ me_gaul_haeduia_ti_1303.a: ""
+ 
+ me_gaul_haeduia_ti_1304_title: ""
+ me_gaul_haeduia_ti_1304_desc: ""
+ me_gaul_haeduia_ti_1304.a: ""
