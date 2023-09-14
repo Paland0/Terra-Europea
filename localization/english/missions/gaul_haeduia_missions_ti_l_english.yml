@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  gaul_haeduia_1: "A Tale of Gaulish Heroes"
  gaul_haeduia_1_DESCRIPTION: "For generations, our people, the#E Haeduia#!, have thrived in the heart of#E Gaul#!, surrounded by fertile lands and ancient traditions. Yet, a new era dawns upon us, one that beckons us to go beyond our borders and unite the Gallic tribes. This is the beginning of a grand journey where we shall strive to unite#E Gaul#! under a single banner, forging a powerful federation that will shape the destiny of our land."
@@ -53,13 +53,15 @@ l_english:
  gaul_haeduia_task_15_DESC: "In our pursuit of unity, we will seek the aid of skilled#E Germanic#! mercenaries. These warriors will bolster our forces and ensure the security of our lands, making it clear to all who might oppose us that we are prepared to defend our vision of#E Gaul#! at any cost."
 
 
- #Events gaul_haeduia_1_title: "$ gaul_haeduia_task_1$"
+ #Events 
+ me_gaul_haeduia_ti_1_title: "$ gaul_haeduia_task_1$"
  me_gaul_haeduia_ti_1_desc: ""
  me_gaul_haeduia_ti_1.a: ""
 
  me_gaul_haeduia_ti_2_title: "$ gaul_haeduia_task_2$"
  me_gaul_haeduia_ti_2_desc: ""
  me_gaul_haeduia_ti_2.a: ""
+ me_gaul_haeduia_ti_2.b: ""
 
  me_gaul_haeduia_ti_3_title: "$ gaul_haeduia_task_3$"
  me_gaul_haeduia_ti_3_desc: ""

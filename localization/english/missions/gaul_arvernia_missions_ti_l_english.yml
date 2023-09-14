@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  gaul_arvernia_1: "A Tale of Gaulish Heroes"
  gaul_arvernia_1_DESCRIPTION: "Our tribe, the #Y Gaulish Arvernia#! has lived amidst the lush landscapes of#E Celtica#! for generations. Nestled among rolling hills and ancient forests, we've thrived, preserving our unique traditions and ways of life. However, a new era dawns for our people, one that calls us to venture beyond the familiar and unite the Gallic tribes. This new dawn marks the beginning of a grand journey where we shall seek to unite#E Gaul#! under a single banner, forging a mighty federation."
@@ -81,7 +81,7 @@ l_english:
  gaul_arvernia_task_23: "The Three Parts of Gaul"
  gaul_arvernia_task_23_DESC: "Outsiders have traditionally divided Gaul into three parts: Celtica, Belgica, and Aquitania. Yet, our vision transcends these artificial divisions, aiming for a truly united nation of Gaul, erasing artificial divisions and forging a truly united Gaul."
 
-[ROOT.GetCountry.GetRuler.GetName]
+ #[ROOT.GetCountry.GetRuler.GetName]
  gaul_arvernia_task_24: "Apotheosis"
  gaul_arvernia_task_24_DESC: "As a monumental testament to the unity and strength we've achieved in Gaul, it is only fitting that [ROOT.GetCountry.GetRuler.GetName], who has played a pivotal role in uniting our land, ascends to a divine status. [ROOT.GetCountry.GetRuler.GetName] will forever watch over the future generations of the Celtic people, guiding them through challenges and triumphs, forever embodying the indomitable Gaulish spirit."
 
@@ -92,10 +92,10 @@ l_english:
  gaul_arvernia_task_26_DESC: "[ROOT.GetCountry.GetCapital.GetName] must ascend to the status of a metropolis of unparalleled grandeur in order to be a true reflection of the magnificence of our federation. Through meticulous development and expansion of our capital, we shall ensure that [ROOT.GetCountry.GetCapital.GetName] will not merely be a city; it will be an embodiment of our federation's vision, laying the foundation for a future where Gaul's splendor knows no bounds, and where our people thrive amid the awe-inspiring beauty of our capital."
 
  gaul_arvernia_task_27: "Gaulish Splendor"
-gaul_arvernia_task_27_DESC: "As [ROOT.GetCountry.GetCapital.GetName] transforms into a thriving metropolitan hub, we are presented with a golden opportunity to showcase the splendor and achievements of our federation to the world. Through vibrant art, rich culture, and captivating displays of our architectural accomplishments, we will captivate the hearts and minds of all who witness Gaul's cultural naissance, drawing admiration and respect from near and far."
+ gaul_arvernia_task_27_DESC: "As [ROOT.GetCountry.GetCapital.GetName] transforms into a thriving metropolitan hub, we are presented with a golden opportunity to showcase the splendor and achievements of our federation to the world. Through vibrant art, rich culture, and captivating displays of our architectural accomplishments, we will captivate the hearts and minds of all who witness Gaul's cultural naissance, drawing admiration and respect from near and far."
 
  gaul_arvernia_task_28: "Establish a Professional Army"
-gaul_arvernia_task_28_DESC: "Embracing the need for a highly skilled and professional army, we will employ rigorous training, cutting-edge tactics, and unwavering discipline to mold our soldiers into a formidable and efficient fighting force. This professional army will not only safeguard our federation but also project our strength far beyond our borders, ensuring that Gaul stands as an indomitable force in the eyes of the world."
+ gaul_arvernia_task_28_DESC: "Embracing the need for a highly skilled and professional army, we will employ rigorous training, cutting-edge tactics, and unwavering discipline to mold our soldiers into a formidable and efficient fighting force. This professional army will not only safeguard our federation but also project our strength far beyond our borders, ensuring that Gaul stands as an indomitable force in the eyes of the world."
 
  gaul_arvernia_task_29: "Brennus's Legacy"
  gaul_arvernia_task_29_DESC: "As we set our sights on the ultimate conquest, the city of Rome itself, we are poised to establish Gaul as a formidable empire in its own right. In the spirit of our legendary forebearer, Brennus, we ready to march on Rome, carrying forward the legacy of bravery and ambition that has defined our people for generations."
@@ -109,14 +109,15 @@ gaul_arvernia_task_28_DESC: "Embracing the need for a highly skilled and profess
  gaul_arvernia_treasure: "Golden Gaulish Boar"
 
 
- #Events gaul_arvernia_1_title: "$ gaul_arvernia_task_1$"
+ #Events 
+ me_gaul_arvernia_ti_1_title: "$ gaul_arvernia_task_1$"
  me_gaul_arvernia_ti_1_desc: "Our ruler has gained valuable experience from negotiating with fellow Gallic leaders, honing their diplomatic skills. This expertise will prove invaluable as we work towards uniting Gaul under a single banner."
  me_gaul_arvernia_ti_1.a: "Continue practicing."
 
  me_gaul_arvernia_ti_2_title: "$ gaul_arvernia_task_2$"
  me_gaul_arvernia_ti_2_desc: "Many of our advisors push us to directly extend our influence over neighboring lands. Their inhabitants have shown reluctance to join our federation willingly. We must decide whether to forcibly make them pay tribute, bringing them into our fold under our terms, or to resort to more forceful measures and confront them in open conflict."
  me_gaul_arvernia_ti_2.a: "Establish a tributary state."
-  me_gaul_arvernia_ti_2.b: "Let us not be hasty."
+ me_gaul_arvernia_ti_2.b: "Let us not be hasty."
 
 
  me_gaul_arvernia_ti_3_title: "$ gaul_arvernia_task_3$"
@@ -138,6 +139,7 @@ gaul_arvernia_task_28_DESC: "Embracing the need for a highly skilled and profess
  me_gaul_arvernia_ti_7_title: "$ gaul_arvernia_task_7$"
  me_gaul_arvernia_ti_7_desc: ""
  me_gaul_arvernia_ti_7.a: ""
+ me_gaul_arvernia_ti_7.b: ""
 
  me_gaul_arvernia_ti_8_title: "$ gaul_arvernia_task_8$"
  me_gaul_arvernia_ti_8_desc: ""
