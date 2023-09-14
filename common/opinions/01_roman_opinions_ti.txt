@@ -1,0 +1,9 @@
+﻿panhellenium_loyalty = {
+	value = 100
+	yearly_decay = 4
+}
+
+panhellenium_creation = {
+	value = 200
+	yearly_decay = 4
+}
