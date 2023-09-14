@@ -1796,6 +1796,161 @@ me_roman_missions_ti.63 = {							# Empire Yes
 	    }
 	}
     }
+me_roman_missions_ti.65 = {							# Scythian Client
+    type = country_event
+    title = me_roman_missions_ti.65.t
+	desc = me_roman_missions_ti.65.desc
+    picture = romans_marching
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.65.a
+		custom_tooltip = roman_mission_17_hellenic_empire_ti_task_8_effect_tt #client state created
+		hidden_effect = {
+			p:7187 = {
+				create_country = {
+					name = {
+						name = "HUI"
+						adjective = "HUI_ADJ"
+					}
+					change_government = despotic_monarchy
+					set_country_religion = roman_pantheon
+					save_scope_as = new_scythian_client
+					add_opinion = {
+						modifier = opinion_liberated_us
+						target = root
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					OR = {
+						is_in_area = borysthenia_area
+					is_in_area = hypania_minoris_area
+					is_in_area = transborysthenia_area
+					is_in_area = sarmatia_superioris_area
+					is_in_area = sarmatia_area
+					is_in_area = hypania_area
+					is_in_area = dnieper_area
+					is_in_area = transhypania_area
+					is_in_area = muradava_area
+					is_in_area = zargidava_area
+					}
+				}
+				set_owned_by = scope:new_scythian_client
+			}
+			make_subject = {
+				target = scope:new_scythian_client
+				type = client_state
+			}
+		}
+	}	
+}
+ me_roman_missions_ti.66 = { #Imperial Lineage
+    type = country_event
+    title =  me_roman_missions_ti.66.t
+    desc =  me_roman_missions_ti.66.desc
+    picture = diadochi_ptolemy_city
+    left_portrait = current_ruler
+    right_portrait = scope:finesse_thinker
+    right_portrait = scope:zeal_thinker
+    right_portrait = scope:charisma_thinker
+
+	immediate = {
+		ordered_character = {
+			limit = {
+				has_tech_office = yes
+			}
+			alternative_limit = {
+				is_ruler = no
+			}
+			order_by = finesse
+			save_scope_as = finesse_thinker
+		}
+		ordered_character = {
+			limit = {
+				has_tech_office = yes
+			}
+			alternative_limit = {
+				is_ruler = no
+				NOT = { this = scope:finesse_thinker }
+			}
+			order_by = zeal
+			save_scope_as = zeal_thinker
+		}
+		ordered_character = {
+			limit = {
+				has_tech_office = yes
+			}
+			alternative_limit = {
+				is_ruler = no
+				NOT = { this = scope:finesse_thinker }
+				NOT = { this = scope:zeal_thinker }
+			}
+			order_by = charisma
+			save_scope_as = charisma_thinker
+		}
+	}
+
+    option = {
+		name =  me_roman_missions_ti.66.a #The followers of [finesse_thinker.GetName]
+		custom_tooltip =  me_roman_missions_ti.66.a.tt
+		set_variable = imperial_lineage_finesse
+		current_ruler = {
+			add_finesse = 2
+			every_child = {
+				add_finesse = 2
+			}
+		}
+		scope:finesse_thinker = {
+			add_loyalty = tutor_of_generations
+		}
+	}
+    option = {
+		name =  me_roman_missions_ti.66.b #The School of [zeal_thinker.GetName]
+		custom_tooltip =  me_roman_missions_ti.66.b.tt
+		set_variable = imperial_lineage_zeal
+		current_ruler = {
+			add_zeal = 2
+			every_child = {
+				add_zeal = 2
+			}
+		}
+		scope:zeal_thinker = {
+			add_loyalty = tutor_of_generations
+		}
+	}
+    option = {
+		name =  me_roman_missions_ti.66.c #Disciples of [charisma_thinker.GetName]
+		custom_tooltip =  me_roman_missions_ti.66.c.tt
+		set_variable = imperial_lineage_charisma
+		current_ruler = {
+			add_charisma = 2
+			every_child = {
+				add_charisma = 2
+			}
+		}
+		scope:charisma_thinker = {
+			add_loyalty = tutor_of_generations
+		}
+	}
+}
+
+me_roman_missions_ti.70 = {			# Mouseion
+	type = country_event
+	title = me_roman_missions_ti.70.t
+	desc = me_roman_missions_ti.70.desc
+	picture = great_library
+
+	option = {                            
+		name = me_roman_missions_ti.70.a
+		add_country_modifier = {
+			name = alexandria_great_library_mod
+			duration = -1
+		}
+	}
+}
  me_roman_missions_ti.73 = { 							#Pannhellenium
 	type = country_event
 	title = "me_roman_missions_ti.73.t"
@@ -1996,144 +2151,4 @@ me_roman_missions_ti.63 = {							# Empire Yes
         	}
         }
     }
-}
-me_roman_missions_ti.65 = {							# Scythian Client
-    type = country_event
-    title = me_roman_missions_ti.65.t
-	desc = me_roman_missions_ti.65.desc
-    picture = romans_marching
-    
-    left_portrait = root.current_ruler
-	
-	option = {
-		name = me_roman_missions_ti.65.a
-		custom_tooltip = roman_mission_17_hellenic_empire_ti_task_8_effect_tt #client state created
-		hidden_effect = {
-			p:7187 = {
-				create_country = {
-					name = {
-						name = "HUI"
-						adjective = "HUI_ADJ"
-					}
-					change_government = despotic_monarchy
-					set_country_religion = roman_pantheon
-					save_scope_as = new_scythian_client
-					add_opinion = {
-						modifier = opinion_liberated_us
-						target = root
-					}
-				}
-			}
-			every_owned_province = {
-				limit = {
-					OR = {
-						is_in_area = borysthenia_area
-					is_in_area = hypania_minoris_area
-					is_in_area = transborysthenia_area
-					is_in_area = sarmatia_superioris_area
-					is_in_area = sarmatia_area
-					is_in_area = hypania_area
-					is_in_area = dnieper_area
-					is_in_area = transhypania_area
-					is_in_area = muradava_area
-					is_in_area = zargidava_area
-					}
-				}
-				set_owned_by = scope:new_scythian_client
-			}
-			make_subject = {
-				target = scope:new_scythian_client
-				type = client_state
-			}
-		}
-	}	
-}
- me_roman_missions_ti.66 = { #Imperial Lineage
-    type = country_event
-    title =  me_roman_missions_ti.66.t
-    desc =  me_roman_missions_ti.66.desc
-    picture = diadochi_ptolemy_city
-    left_portrait = current_ruler
-    right_portrait = scope:finesse_thinker
-    right_portrait = scope:zeal_thinker
-    right_portrait = scope:charisma_thinker
-
-	immediate = {
-		ordered_character = {
-			limit = {
-				has_tech_office = yes
-			}
-			alternative_limit = {
-				is_ruler = no
-			}
-			order_by = finesse
-			save_scope_as = finesse_thinker
-		}
-		ordered_character = {
-			limit = {
-				has_tech_office = yes
-			}
-			alternative_limit = {
-				is_ruler = no
-				NOT = { this = scope:finesse_thinker }
-			}
-			order_by = zeal
-			save_scope_as = zeal_thinker
-		}
-		ordered_character = {
-			limit = {
-				has_tech_office = yes
-			}
-			alternative_limit = {
-				is_ruler = no
-				NOT = { this = scope:finesse_thinker }
-				NOT = { this = scope:zeal_thinker }
-			}
-			order_by = charisma
-			save_scope_as = charisma_thinker
-		}
-	}
-
-    option = {
-		name =  me_roman_missions_ti.66.a #The followers of [finesse_thinker.GetName]
-		custom_tooltip =  me_roman_missions_ti.66.a.tt
-		set_variable = imperial_lineage_finesse
-		current_ruler = {
-			add_finesse = 2
-			every_child = {
-				add_finesse = 2
-			}
-		}
-		scope:finesse_thinker = {
-			add_loyalty = tutor_of_generations
-		}
-	}
-    option = {
-		name =  me_roman_missions_ti.66.b #The School of [zeal_thinker.GetName]
-		custom_tooltip =  me_roman_missions_ti.66.b.tt
-		set_variable = imperial_lineage_zeal
-		current_ruler = {
-			add_zeal = 2
-			every_child = {
-				add_zeal = 2
-			}
-		}
-		scope:zeal_thinker = {
-			add_loyalty = tutor_of_generations
-		}
-	}
-    option = {
-		name =  me_roman_missions_ti.66.c #Disciples of [charisma_thinker.GetName]
-		custom_tooltip =  me_roman_missions_ti.66.c.tt
-		set_variable = imperial_lineage_charisma
-		current_ruler = {
-			add_charisma = 2
-			every_child = {
-				add_charisma = 2
-			}
-		}
-		scope:charisma_thinker = {
-			add_loyalty = tutor_of_generations
-		}
-	}
 }
