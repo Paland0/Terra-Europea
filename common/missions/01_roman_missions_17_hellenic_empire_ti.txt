@@ -1110,6 +1110,8 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 		}
 
 	}
+ roman_mission_17_hellenic_empire_task_15 = { # Grand Epic
+#needs to be coded
 	roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
         icon = "task_economical"
 
@@ -1218,3 +1220,9 @@ roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
 			trigger_event = me_roman_missions_ti.73
     	}
     }
+ roman_mission_17_hellenic_empire_task_18 = { # Serican Silk
+#needs to be coded
+ roman_mission_17_hellenic_empire_task_19 = { # Stealing Silk Secrets
+#needs to be coded
+ roman_mission_17_hellenic_empire_task_20 = { # Roman Silk
+#needs to be coded
