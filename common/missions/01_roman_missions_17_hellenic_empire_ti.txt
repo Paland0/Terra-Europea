@@ -750,104 +750,6 @@
 			trigger_event = me_roman_missions_ti.65
         }
     }   	
-	roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
-		icon = task_expansion
-		requires = { ???? }
-
-		allow = {
-			p:???? Rome = {
-				has_great_work = yes
-			}
-			p:???? Babylonia = {
-				has_great_work = yes
-			}
-			p:516 = {
-				has_variable = built_pharos
-			}
-			p:???? Byzantion = {
-				has_great_work = yes
-			}
-		}
-		highlight = {
-			p:???? Rome = {
-				is_uninhabitable = no
-				has_owner = yes
-				owner = ROOT
-			}
-			p:???? Babylonia = {
-				is_uninhabitable = no
-				has_owner = yes
-				owner = ROOT
-			}
-			p:516 = {
-				is_uninhabitable = no
-				has_owner = yes
-				owner = ROOT
-			}
-			p:???? Byzantion = {
-				is_uninhabitable = no
-				has_owner = yes
-				owner = ROOT
-			}
-}
-		on_completion = {
-			show_as_tooltip = {
-				add_innovation = 4
-				add_stability = 35
-			p:???? Rome = {
-					if = {
-						limit = {
-							NOT = { has_province_rank = city_metropolis }
-						}
-						set_city_status = city_metropolis
-					}
-					add_permanent_province_modifier = {
-						name = "imperial_capital_mission_reward"
-						duration = -1
-					}
-				}
-			p:???? Babylonia = {
-					if = {
-						limit = {
-							NOT = { has_province_rank = city_metropolis }
-						}
-						set_city_status = city_metropolis
-					}
-					add_permanent_province_modifier = {
-						name = "imperial_capital_mission_reward"
-						duration = -1
-					}
-				}
-			p:516 = {
-					if = {
-						limit = {
-							NOT = { has_province_rank = city_metropolis }
-						}
-						set_city_status = city_metropolis
-					}
-					add_permanent_province_modifier = {
-						name = "imperial_capital_mission_reward"
-						duration = -1
-					}
-				}
-			p:???? Byzantion = {
-					if = {
-						limit = {
-							NOT = { has_province_rank = city_metropolis }
-						}
-						set_city_status = city_metropolis
-					}
-					add_permanent_province_modifier = {
-						name = "imperial_capital_mission_reward"
-						duration = -1
-					}
-				}
-			}
-			trigger_event = { id = me_roman_missions_ti.63 }
-		}
-
-	}
-
 	roman_mission_17_hellenic_empire_task_9 = { # Philosophy Treasure
 		icon = task_political
 		requires = { roman_mission_17_hellenic_empire_task_7 }
@@ -1058,7 +960,236 @@
 			trigger_event = { id = me_roman_missions_ti.64 }
 		}
 	}
- roman_mission_17_hellenic_empire_task_12 = { # Panhellenium
+roman_mission_17_hellenic_empire_task_12 = { # Setting the Stage
+		icon = task_expansion
+		requires = { ???? }
+
+		allow = {
+			p:???? Rome = {
+				has_great_work = yes
+			}
+			p:???? Babylonia = {
+				has_great_work = yes
+			}
+			p:516 = {
+				has_variable = built_pharos
+			}
+			p:???? Byzantion = {
+				has_great_work = yes
+			}
+		}
+		highlight = {
+			p:???? Rome = {
+				is_uninhabitable = no
+				has_owner = yes
+				owner = ROOT
+			}
+			p:???? Babylonia = {
+				is_uninhabitable = no
+				has_owner = yes
+				owner = ROOT
+			}
+			p:516 = {
+				is_uninhabitable = no
+				has_owner = yes
+				owner = ROOT
+			}
+			p:???? Byzantion = {
+				is_uninhabitable = no
+				has_owner = yes
+				owner = ROOT
+			}
+}
+		on_completion = {
+			show_as_tooltip = {
+				add_innovation = 4
+				add_stability = 35
+			p:???? Rome = {
+					if = {
+						limit = {
+							NOT = { has_province_rank = city_metropolis }
+						}
+						set_city_status = city_metropolis
+					}
+					add_permanent_province_modifier = {
+						name = "imperial_capital_mission_reward"
+						duration = -1
+					}
+				}
+			p:???? Babylonia = {
+					if = {
+						limit = {
+							NOT = { has_province_rank = city_metropolis }
+						}
+						set_city_status = city_metropolis
+					}
+					add_permanent_province_modifier = {
+						name = "imperial_capital_mission_reward"
+						duration = -1
+					}
+				}
+			p:516 = {
+					if = {
+						limit = {
+							NOT = { has_province_rank = city_metropolis }
+						}
+						set_city_status = city_metropolis
+					}
+					add_permanent_province_modifier = {
+						name = "imperial_capital_mission_reward"
+						duration = -1
+					}
+				}
+			p:???? Byzantion = {
+					if = {
+						limit = {
+							NOT = { has_province_rank = city_metropolis }
+						}
+						set_city_status = city_metropolis
+					}
+					add_permanent_province_modifier = {
+						name = "imperial_capital_mission_reward"
+						duration = -1
+					}
+				}
+			}
+			trigger_event = { id = me_roman_missions_ti.63 }
+		}
+
+	}
+roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
+        icon = "task_diplomatic"
+
+        requires = { roman_mission_17_hellenic_empire_ti_task_12 }
+
+        highlight = {
+            scope:province = {
+                province_id = 516
+            }
+        }
+
+        allow = {
+            trigger_if = {
+                limit = {
+                    has_dlc = "Hellenistic World Flavor Pack"
+                }
+                custom_tooltip = {
+                    p:516 = {
+                            has_variable = museion_of_alexandria_var
+                        }
+                    }
+                }
+            }      
+
+        on_completion = {           
+            if = {
+                limit = {
+                    has_variable = museion_of_alexandria_var
+                }
+                trigger_event = { id = me_roman_missions_ti.70 }
+            }
+        }
+    }
+roman_mission_17_hellenic_empire_task_14 = { #Imperial Lineage
+		icon = task_political
+		
+		requires = ???
+		
+		allow = {
+			current_ruler = {
+				is_adult = yes
+			}
+			political_influence > 50
+		}
+
+		on_completion = {
+			add_political_influence = -50
+			custom_tooltip = diadochi_imperial_lineage_reward
+			trigger_event = { id = me_roman_missions_ti.66 }
+		}
+
+	}
+ roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
+        icon = "task_economical"
+
+        requires = {  roman_mission_17_hellenic_empire_ti_task?? }
+
+        highlight = {
+            scope:province = {
+                OR = {
+                    province_id = Athens ????
+                    province_id = Korinthus ????
+		    province_id = Thebes ????
+                    province_id = Delphi ????
+		    province_id = Argos ????
+                    province_id = Sparta ????
+                    AND = {
+                        owner = ROOT
+                	is_in_region = greece_region
+                    }
+                }
+            }
+        }
+
+        allow = {
+            trigger_if = {
+                limit = { is_ai = no }
+		p:Athens ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1}
+
+                p:Korinthus ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+
+		p:Thebes ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+
+                p:Delphi ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+
+		p:Argos ???? = { has_city_status = yes
+				 num_of_commerce_building >= 1
+				 num_of_theathre_building >= 1
+				 num_of_academy_building >= 1
+				 num_of_court_building >= 1
+ 				 num_of_forum_building >= 1
+				 num_of_library_building >= 1 }
+
+                p:Sparta ???? = { has_city_status = yes
+				  num_of_commerce_building >= 1
+				  num_of_theathre_building >= 1
+				  num_of_academy_building >= 1
+				  num_of_court_building >= 1
+ 				  num_of_forum_building >= 1
+				  num_of_library_building >= 1 }
+        
+            }
+        }
+
+        on_completion = {
+            trigger_event = { id = me_roman_missions_ti.72 }
+        }
+    }
+  roman_mission_17_hellenic_empire_task_17 = { # Panhellenium
     	icon = "task_political"
 
     	requires = { roman_mission_17_hellenic_empire_?? }
@@ -1185,137 +1316,4 @@
 			}
 			trigger_event = me_roman_missions_ti.73
     	}
-    }
-roman_mission_17_hellenic_empire_task_13 = { #Imperial Lineage
-		icon = task_political
-		
-		requires = ???
-		
-		allow = {
-			current_ruler = {
-				is_adult = yes
-			}
-			political_influence > 50
-		}
-
-		on_completion = {
-			add_political_influence = -50
-			custom_tooltip = diadochi_imperial_lineage_reward
-			trigger_event = { id = me_roman_missions_ti.66 }
-		}
-
-	}
- roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
-        icon = "task_economical"
-
-        requires = {  roman_mission_17_hellenic_empire_ti_task?? }
-
-        highlight = {
-            scope:province = {
-                OR = {
-                    province_id = Athens ????
-                    province_id = Korinthus ????
-		    province_id = Thebes ????
-                    province_id = Delphi ????
-		    province_id = Argos ????
-                    province_id = Sparta ????
-                    AND = {
-                        owner = ROOT
-                	is_in_region = greece_region
-                    }
-                }
-            }
-        }
-
-        allow = {
-            trigger_if = {
-                limit = { is_ai = no }
-		p:Athens ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1}
-
-                p:Korinthus ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-
-		p:Thebes ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-
-                p:Delphi ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-
-		p:Argos ???? = { has_city_status = yes
-				 num_of_commerce_building >= 1
-				 num_of_theathre_building >= 1
-				 num_of_academy_building >= 1
-				 num_of_court_building >= 1
- 				 num_of_forum_building >= 1
-				 num_of_library_building >= 1 }
-
-                p:Sparta ???? = { has_city_status = yes
-				  num_of_commerce_building >= 1
-				  num_of_theathre_building >= 1
-				  num_of_academy_building >= 1
-				  num_of_court_building >= 1
- 				  num_of_forum_building >= 1
-				  num_of_library_building >= 1 }
-        
-            }
-        }
-
-        on_completion = {
-            trigger_event = { id = me_roman_missions_ti.72 }
-        }
-    }
- roman_mission_17_hellenic_empire_ti_task_16 = { # Build Mouseion
-        icon = "task_diplomatic"
-
-        requires = { roman_mission_17_hellenic_empire_ti_task_12 }
-
-        highlight = {
-            scope:province = {
-                province_id = 516
-            }
-        }
-
-        allow = {
-            trigger_if = {
-                limit = {
-                    has_dlc = "Hellenistic World Flavor Pack"
-                }
-                custom_tooltip = {
-                    p:516 = {
-                            has_variable = museion_of_alexandria_var
-                        }
-                    }
-                }
-            }      
-        }
-
-        on_completion = {           
-            if = {
-                limit = {
-                    has_variable = museion_of_alexandria_var
-                }
-                trigger_event = { id = me_roman_missions_ti.70 }
-            }
-        }
     }
