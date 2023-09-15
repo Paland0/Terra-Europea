@@ -464,7 +464,7 @@
                         }
                     }
                 }
-                custom = roman_mission_16_imperium_sine_fine_task_6_modifier_tt
+                custom = roman_mission_16_imperium_sine_fine_task_6_tt
                 add_state_modifier = {
                     name = new_roman_conquest_foreign_smod
                     duration = 1825 # 5 years
