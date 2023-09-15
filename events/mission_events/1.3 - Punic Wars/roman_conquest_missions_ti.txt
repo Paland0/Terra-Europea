@@ -1,4 +1,4 @@
-﻿namespace = me_roman_missions_ti
+namespace = me_roman_missions_ti
 
 me_roman_missions_ti.1 = {							# Trouble at the Hellespontus - Startup (robbed merchant)
     type = country_event
@@ -1811,9 +1811,11 @@ me_roman_missions_ti.65 = {							# Scythian Client
 			p:7187 = {
 				create_country = {
 					name = {
-						name = "HUI"
-						adjective = "HUI_ADJ"
+						name = "Hulaia"
+						adjective = "Hulaian"
 					}
+					change_country_color =  "galatia_light_blue_color"
+					change_country_tag = HUL
 					change_government = despotic_monarchy
 					set_country_religion = roman_pantheon
 					save_scope_as = new_scythian_client
@@ -1970,6 +1972,22 @@ me_roman_missions_ti.71 = {							# Grand Epic
 	    }
 	}
     }
+me_roman_missions_ti.72 = {							# Rebirth Greek Cities
+    type = country_event
+    title = me_roman_missions_ti.72.t
+	desc = me_roman_missions_ti.72.desc
+    picture = diadochi_ptolemy_city
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.72.a
+			add_stability = 35
+		current_ruler = {
+			add_popularity = popularity_large
+	    }
+	}
+    }
  me_roman_missions_ti.73 = { 							#Pannhellenium
 	type = country_event
 	title = "me_roman_missions_ti.73.t"
@@ -2001,8 +2019,8 @@ me_roman_missions_ti.71 = {							# Grand Epic
 		p:416 = {
 			hidden_effect = {
 				create_country = {
-					change_country_name = "PANHELLENIUM_NAME"
-					change_country_adjective = "PANHELLENIUM_ADJECTIVE"
+					change_country_name = "Panhellenium"
+					change_country_adjective = "Panhellian"
 					change_country_color =  "helvetia_color"
 					change_country_tag = PHL
 					change_country_flag = HELLENIC_LEAGUE_FLAG
@@ -2063,17 +2081,7 @@ me_roman_missions_ti.71 = {							# Grand Epic
         			set_owned_by = scope:panhellenium_scope
         		}
         	}
-        }   
-		area:rhodope_area = {
-			hidden_effect = {
-        		every_area_province = {
-        			limit = {
-        				owned_or_subject_owned = root
-        			}
-        			set_owned_by = scope:panhellenium_scope
-        		}
-        	}
-        }   
+        }     
 		area:aeolia_area = {
 			hidden_effect = {
         		every_area_province = {
