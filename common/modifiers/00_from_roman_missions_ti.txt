@@ -110,5 +110,8 @@ mantle_of_alexander = {
 	war_score_cost = -0.1
 }
 roman_epic = {
-	#any ideas for what it should do?
+	global_pop_assimilation_speed_modifier = 0.05
+	happiness_for_same_culture_modifier = 0.02
+	global_unrest = -0.1
+	happiness_for_same_religion_modifier = 0.05
 }
