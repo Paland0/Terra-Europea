@@ -728,8 +728,8 @@
  desc_mantle_of_alexander: "A feat most thought impossible, we have united the Hellenistic world under one flag; that of the mighty Roman eagle. We shall make Alexander proud."
  roman_epic: "The Greatest Story Ever Told"
  desc_roman_epic: "Telling the story of our empire through poetic personal accounts, philosophical musings, and sweeping historical analysis to rival Herodotus, this grand tale is a fitting tribute to our great nation. From Romulus and Remus to our reaching the edges of Serica, everything resides within this tome. For the first time, an entire nation's history and culture lay within a single book. Here's hoping we need a second volume."
- roman_silk_justinian: "TODO"
- desc_roman_silk_justinian: "TODO"
+ roman_silk_justinian: "Romanus Sericum"
+ desc_roman_silk_justinian: "The finest of silks the world has ever seen now comes from the artisans within our Empire. Citizens from far and wide just can't seem to get enough, and neither can our coffers. The age of Roman tapestry, high fashion, and economic strength is upon us."
  
  
  #Events
@@ -777,9 +777,9 @@
  me_roman_missions_ti.68.desc: "After careful deliberation and planning, our best spies and masters of espionage have breached the Serican capital and taken hold of not only the sacred documents on silk cultivation but even the precious worms who spin the illustrious strands we so desperately desire. It was not without risk, and it is assured that our reputation shall suffer for it in the east, but at long last we have silk in abundance; as well as the means to produce more. This is truly a remarkable day, indeed."
  me_roman_missions_ti.68.a: "We have pulled the heist of the century; none shall soon forget this!"
 
- me_roman_missions_ti.69.t: ""
- me_roman_missions_ti.69.desc: ""
- me_roman_missions_ti.69.a: ""
+ me_roman_missions_ti.69.t: "The Start of Something New"
+ me_roman_missions_ti.69.desc: "The greatest artisan minds of our age are confering on the unthinkable: We Romans unseating Serica and the East as the premier supplier of silk. We have the means and materials, the best scientists and crafters to do so, and a willing public hungry for results. We have done the 'undoable' before, both diplomatically and militarily, why should this be any different? It is time our risky gambit paid off, it is time to make the best silk imaginable."
+ me_roman_missions_ti.69.a: "It will not be easy, but it shall be done regardless"
  
  me_roman_missions_ti.70.t: "Roman Mouseion"
  me_roman_missions_ti.70.desc: "Greeks and Romans alike have always been enjoyers of the more existential academic sciences. Of learning, pondering, and philosophizing. A grand mouseion is right at home within our empire, and Rome will challenge our scholars in compiling the collective knowledge of the Hellenic world. The building itself should cause awe in all who gaze upon its wonder, and we shall make this so."
@@ -870,4 +870,4 @@
  roman_mission_17_hellenic_empire_ti_task_17_create_panhellium: "It is now time to decide what to do about this situation"
  roman_mission_17_hellenic_empire_ti_task_13_museion_tt: "This Grand Mouseion will do nicely under Roman influence"
  roman_mission_17_hellenic_empire_ti_task_19_reward_silk_worms: "We will 'acquire' our very own silk worms."
- roman_mission_17_hellenic_empire_ti_task_13_build_mouseion: "TODO"
+ roman_mission_17_hellenic_empire_ti_task_13_build_mouseion: "We now embark on a glorious undertaking the world will not soon forget"
