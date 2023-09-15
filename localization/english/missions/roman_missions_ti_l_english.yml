@@ -673,12 +673,12 @@
  rome_mesopotamian_forts_tt: "Is a level 3 fort in the Mesopotamia Region."
 
 #Hellenic Empire
- roman_mission_17_hellenic_empire: "Terra Indomita"
- roman_mission_17_hellenic_empire_BUTTON_TOOLTIP: "Nothing Shall Stand in Our Way"
- roman_mission_17_hellenic_empire_BUTTON_DETAILS: ""
- roman_mission_17_hellenic_empire_DESCRIPTION: "In the wake of Alexander the Great's legendary conquests, the Hellenistic world has long stood fragmented and divided. For years, we have observed the Hellenistic kingdoms engaging in petty conflicts and undermining the stability of the Eastern Mediterranean.  Rome has tolerated this turmoil for too long, but the time has come to unite and bring these fractured realms under the banner of Rome. We, the Romans, the very children of the wolf, are destined to fulfill Jupiter's prophecy and become the "rulers of the world," establishing a truly eternal empire - Imperium Invictus!"
- roman_mission_17_hellenic_empire_CRITERIA_DESCRIPTION: "This mission will be considered complete after we have stabilized and united the Hellenistic World which was once ruled by [alexander_scope.GetName] under the Roman banner"
- roman_mission_17_hellenic_empire_REWARD_DESCRIPTION: ""
+ roman_mission_17_hellenic_empire_ti: "Terra Indomita"
+ roman_mission_17_hellenic_empire_ti_BUTTON_TOOLTIP: "Nothing Shall Stand in Our Way"
+ roman_mission_17_hellenic_empire_ti_BUTTON_DETAILS: ""
+ roman_mission_17_hellenic_empire_ti_DESCRIPTION: "In the wake of Alexandros the Great's legendary conquests, the Hellenistic world has long stood fragmented and divided. For years, we have observed the Hellenistic kingdoms engaging in petty conflicts and undermining the stability of the Eastern Mediterranean. \n\nRome has tolerated this turmoil for too long, but the time has come to unite and bring these fractured realms under the banner of Rome. We, the Romans, the very children of the wolf, are destined to fulfill Jupiter's prophecy and become the 'rulers of the world', establishing a truly eternal empire - Imperium Invictus!"
+ roman_mission_17_hellenic_empire_ti_CRITERIA_DESCRIPTION: "This mission will be considered complete after we have stabilized and united the Hellenistic World which was once ruled by #Y Alexandros the Great#! under the Roman banner."
+ roman_mission_17_hellenic_empire_ti_REWARD_DESCRIPTION: "We will become the true successors of Alexandros the Great."
  
  #Tasks
  roman_mission_17_hellenic_empire_ti_task_1: "March on Median Mountains"
