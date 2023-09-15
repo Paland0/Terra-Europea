@@ -1,4 +1,4 @@
-namespace = me_roman_missions_ti
+﻿namespace = me_roman_missions_ti
 
 me_roman_missions_ti.1 = {							# Trouble at the Hellespontus - Startup (robbed merchant)
     type = country_event
