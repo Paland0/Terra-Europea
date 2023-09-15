@@ -974,8 +974,8 @@
 		
 		
 		on_completion = {
-			capital_scope = { rm_triumphal_arch_effect = yes }
-			add_2_free_province_investments = yes
+			p:1453 = { rm_triumphal_arch_effect = yes }
+			add_3_free_province_investments = yes
 			add_country_modifier = {
 				name = "mantle_of_alexander"
 				duration = -1
@@ -1008,14 +1008,16 @@
 				owner = ROOT
 			}
 		}
+		
 		highlight = {
-			 OR = {
-                    province_id = 1
-                    province_id = 918
-		    province_id = 1453
-		    province_id = 516
-                }
-			}
+			OR = {
+				province_id = 1
+				province_id = 918
+				province_id = 1453
+				province_id = 516
+            }
+		}
+		
 		on_completion = {
 			show_as_tooltip = {
 				p:1 = {
