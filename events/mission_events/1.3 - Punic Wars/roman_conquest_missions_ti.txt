@@ -1938,6 +1938,43 @@ me_roman_missions_ti.65 = {							# Scythian Client
 		}
 	}
 }
+me_roman_missions_ti.67 = {			# Silk - Start
+	type = country_event
+	title = me_roman_missions_ti.67.t
+	desc = me_roman_missions_ti.67.desc
+	picture = great_library
+
+	option = {                            
+		name = me_roman_missions_ti.67.a
+		show_as_tooltip = {
+			add_treasury = -500
+		}
+	}
+}
+
+me_roman_missions_ti.68 = {			# Silk - End
+	type = country_event
+	title = me_roman_missions_ti.68.t
+	desc = me_roman_missions_ti.68.desc
+	picture = great_library
+
+	option = {                            
+		name = me_roman_missions_ti.68.a
+		custom_tooltip = roman_mission_17_hellenic_empire_ti_task_19_reward_silk_worms
+	}
+}
+
+me_roman_missions_ti.69 = {			# Roman Silk - Start
+	type = country_event
+	title = me_roman_missions_ti.69.t
+	desc = me_roman_missions_ti.69.desc
+	picture = great_library
+
+	option = {                            
+		name = me_roman_missions_ti.69.a
+		add_treasury = -250
+	}
+}
 
 me_roman_missions_ti.70 = {			# Mouseion
 	type = country_event
@@ -1953,6 +1990,7 @@ me_roman_missions_ti.70 = {			# Mouseion
 		}
 	}
 }
+
 me_roman_missions_ti.71 = {							# Grand Epic
     type = country_event
     title = me_roman_missions_ti.71.t
@@ -1963,15 +2001,16 @@ me_roman_missions_ti.71 = {							# Grand Epic
 	
 	option = {
 		name = me_roman_missions_ti.71.a
-			add_country_modifier = {
-				name = "roman_epic"
-				duration = -1
-			}
+		add_country_modifier = {
+			name = "roman_epic"
+			duration = -1
+		}
 		current_ruler = {
 			add_popularity = popularity_large
-	    }
+		}
 	}
-    }
+}
+
 me_roman_missions_ti.72 = {							# Rebirth Greek Cities
     type = country_event
     title = me_roman_missions_ti.72.t
@@ -1983,10 +2022,10 @@ me_roman_missions_ti.72 = {							# Rebirth Greek Cities
 	option = {
 		name = me_roman_missions_ti.72.a
 			add_stability = 35
-		current_ruler = {
-			add_popularity = popularity_large
-	    }
-	}
+			current_ruler = {
+				add_popularity = popularity_large
+			}
+		}
     }
  me_roman_missions_ti.73 = { 							#Pannhellenium
 	type = country_event
@@ -2178,4 +2217,33 @@ me_roman_missions_ti.72 = {							# Rebirth Greek Cities
         	}
         }
     }
+}
+
+me_roman_missions_ti.74 = {			# Roman Silk - End
+	type = country_event
+	title = me_roman_missions_ti.74.t
+	desc = me_roman_missions_ti.74.desc
+	picture = great_library
+
+	option = {                            
+		name = me_roman_missions_ti.74.a
+		p:426 = {
+			set_trade_goods = silk
+			add_permanent_province_modifier = {
+				name = "roman_silk_justinian"
+			}
+		}
+		p:748 = {
+			set_trade_goods = silk
+			add_permanent_province_modifier = {
+				name = "roman_silk_justinian"
+			}
+		}
+		p:345 = {
+			set_trade_goods = silk
+			add_permanent_province_modifier = {
+				name = "roman_silk_justinian"
+			}
+		}
+	}
 }
