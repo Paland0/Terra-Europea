@@ -728,6 +728,9 @@
  desc_mantle_of_alexander: "A feat most thought impossible, we have united the Hellenistic world under one flag; that of the mighty Roman eagle. We shall make Alexander proud."
  roman_epic: "The Greatest Story Ever Told"
  desc_roman_epic: "Telling the story of our empire through poetic personal accounts, philosophical musings, and sweeping historical analysis to rival Herodotus, this grand tale is a fitting tribute to our great nation. From Romulus and Remus to our reaching the edges of Serica, everything resides within this tome. For the first time, an entire nation's history and culture lay within a single book. Here's hoping we need a second volume."
+ roman_silk_justinian: "TODO"
+ desc_roman_silk_justinian: "TODO"
+ 
  
  #Events
  me_roman_missions_ti.60.t: "Walking in his Footsteps"
@@ -774,9 +777,9 @@
  me_roman_missions_ti.68.desc: "After careful deliberation and planning, our best spies and masters of espionage have breached the Serican capital and taken hold of not only the sacred documents on silk cultivation but even the precious worms who spin the illustrious strands we so desperately desire. It was not without risk, and it is assured that our reputation shall suffer for it in the east, but at long last we have silk in abundance; as well as the means to produce more. This is truly a remarkable day, indeed."
  me_roman_missions_ti.68.a: "We have pulled the heist of the century; none shall soon forget this!"
 
- me_roman_missions_ti.69.t: "Masters of the Strand"
- me_roman_missions_ti.69.desc: "It has taken time, effort, and no shortage of coin, but craftsmen in Roma now tell us that it is our Roman silk that reigns supreme! The brightest scientists and weavers have done the impossible after the success of our daring mission: made better silk than even those in Serica. We shall spare no expense in introducing our new product into markets across our nation and beyond. A new age of Roman aesthetic and industry has begun."
- me_roman_missions_ti.69.c: "Through time and effort, Roman silk shall be the gold standard across the world!"
+ me_roman_missions_ti.69.t: ""
+ me_roman_missions_ti.69.desc: ""
+ me_roman_missions_ti.69.a: ""
  
  me_roman_missions_ti.70.t: "Roman Mouseion"
  me_roman_missions_ti.70.desc: "Greeks and Romans alike have always been enjoyers of the more existential academic sciences. Of learning, pondering, and philosophizing. A grand mouseion is right at home within our empire, and Rome will challenge our scholars in compiling the collective knowledge of the Hellenic world. The building itself should cause awe in all who gaze upon its wonder, and we shall make this so."
@@ -794,6 +797,11 @@
  me_roman_missions_ti.73.desc: "Since we have greatly improved our Greek cities, they have grown closer in both affinity and trust. Feuds and rivalries going back a millennium have been washed away, and the lands of the Hellenes are truly peaceful for the first time. This sense of trust and loyalty to each other and Rome has led to calls for greater autonomy in order to better serve the empire and our peoples. This initiative would allow us to better fund other more troublesome or unsightly provinces but it might make the Greeks more prone to independence. What shall we do?"
  me_roman_missions_ti.73.a: "A path of self-governance, well within our Roman sphere, will do the most to enrich our empire."
  me_roman_missions_ti.73.b: "It is not in our best interests to give further autonomy to the Greeks, who knows what might happen?"
+ 
+ me_roman_missions_ti.74.t: "Masters of the Strand"
+ me_roman_missions_ti.74.desc: "It has taken time, effort, and no shortage of coin, but craftsmen in Roma now tell us that it is our Roman silk that reigns supreme! The brightest scientists and weavers have done the impossible after the success of our daring mission: made better silk than even those in Serica. We shall spare no expense in introducing our new product into markets across our nation and beyond. A new age of Roman aesthetic and industry has begun."
+ me_roman_missions_ti.74.a: "Through time and effort, Roman silk shall be the gold standard across the world!"
+ 
 
 #tooltips
  me_roman_missions_ti.73.a.tt: "Create the #Y Panhellium#! as a feudatory State."
@@ -861,3 +869,5 @@
  #Tooltips
  roman_mission_17_hellenic_empire_ti_task_17_create_panhellium: "It is now time to decide what to do about this situation"
  roman_mission_17_hellenic_empire_ti_task_13_museion_tt: "This Grand Mouseion will do nicely under Roman influence"
+ roman_mission_17_hellenic_empire_ti_task_19_reward_silk_worms: "We will 'acquire' our very own silk worms."
+ roman_mission_17_hellenic_empire_ti_task_13_build_mouseion: "TODO"
