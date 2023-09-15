@@ -1074,6 +1074,7 @@
 	
 	roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
         icon = "task_diplomatic"
+		duration = 1795
 
         requires = { roman_mission_17_hellenic_empire_ti_task_16 }
 
@@ -1084,20 +1085,67 @@
         }
 
         allow = {
-            trigger_if = {
-                limit = {
-                    has_dlc = "Hellenistic World Flavor Pack"
-                }
-               custom_tooltip = {
-					text = cyrene_1_intoegypt_task_8.ttt # Museion has been constructed previously
-					p:516 = { has_variable = museion_of_alexandria_var }
+            treasury >= 1500
+			stability > 60
+			p:516 = {
+				free_building_slots >= 1
+				great_work_locator_is_free = primary_great_work
+			}
+        }  
+
+		bypass = {
+			p:516 = {
+				OR = { 
+					has_province_modifier = museion_of_alexandria 
+					has_province_modifier = country_modifier_broken_museion
+					has_variable = museion_of_alexandria_var
 				}
-            }
-        }     
+			}
+		}
+		
+		on_start = {
+			add_treasury = -1500
+			custom_tooltip = "dhe_museion_tooltip"
+			hidden_effect = {
+				set_variable = {
+					name = museion_progress
+					value = 1
+				}
+				trigger_event = {
+					id = "dhe_museion.10"
+				}
+				trigger_event = {
+					id = "dhe_museion.1"
+					days = { 200 400 }
+				}
+				p:516 = {
+					begin_great_work_construction = {
+						great_work = "library_of_alexandria"
+						locator = primary_great_work
+						is_ancient = yes						
+					}
+				}
+			}
+		}
 
         on_completion = {           
 			add_innovation = 5
-			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_13_build_mouseion
+			show_as_tooltip = {
+				p:516 = {
+					#add_province_modifier = {
+					#	name = museion_of_alexandria
+					#}
+					#show_model = "wonder_library_of_alexandria"
+					set_variable = {
+						name = museion_of_alexandria_var
+						days = -1
+					}
+					finish_great_work_construction = {
+						great_work = "library_of_alexandria"
+						locator = primary_great_work
+					}
+				}
+			}
             trigger_event = { id = me_roman_missions_ti.70 }
         }
 	}
@@ -1138,6 +1186,7 @@
         icon = "task_economical"
 
         requires = {roman_mission_17_hellenic_empire_ti_task_14 }
+		duration = 365
 
         highlight = {
             scope:province = {
@@ -1149,11 +1198,20 @@
             political_influence > 150
 			treasury >= 500
         }
-
-        on_completion = {           
-			trigger_event = { id = me_roman_missions_ti.71 }
+		
+		on_start = {
 			add_treasury = -500
 			add_political_influence = -150
+		}
+		
+        on_completion = {           
+			trigger_event = { id = me_roman_missions_ti.71 }
+			show_as_tooltip = {
+				add_country_modifier = {
+					name = "roman_epic"
+					duration = -1
+				}
+			}
 		}
     }
 	
