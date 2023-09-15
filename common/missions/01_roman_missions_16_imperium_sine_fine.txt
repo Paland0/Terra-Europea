@@ -51,14 +51,8 @@
 		requires = { roman_mission_16_imperium_sine_fine_task_15 }
 		
 		allow = {
-    		political_influence >= 25
-			current_ruler = {
-				custom_tooltip = {
-                    text = does_not_have_divine_offerings_tt
-                    has_variable = divine_offerings_var
-                }
-				has_triggered_character_modifier = divinity_focus_triggered_mod
-			}
+    		political_influence >= 150
+		
     	}
 		
 		on_completion = {
