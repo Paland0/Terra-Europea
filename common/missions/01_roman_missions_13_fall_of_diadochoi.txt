@@ -345,7 +345,7 @@
     	icon = "task_political"
 
     	requires = { roman_mission_09_eastern_glory_task_10 }
-
+	bypass = { roman_mission_13_fall_of_diadochoi_ti_task_2 }
     	highlight = {
 			scope:province = {
 				OR = {
@@ -562,6 +562,7 @@
     	icon = "task_conquest"
 
     	requires = { roman_mission_09_eastern_glory_task_10 }
+	bypass = { roman_mission_09_eastern_glory_task_12 }
 
     	highlight = {
 			scope:province = {
@@ -705,10 +706,7 @@
     	allow = {
     		diplomatic_stance = vassaling_stance
 			political_influence >= 100
-			c:EGY = { num_of_cities < rm_4_rome_subject_city_counter_compare_svalue }
-			current_ruler = {
-				has_trait = master_of_diplomacy_trait
-			}
+			c:EGY = { num_of_cities < 175 }
     	}
 
     	on_completion = {
@@ -846,12 +844,6 @@
 
     	allow = {
     		stability >= 60
-			current_ruler = {
-				custom_tooltip = {
-                    text = does_not_have_legendary_ancestors_tt
-                    has_variable = legendary_ancestors_var
-                }
-			}
 			OR = {
 				has_law = princeps_civitatis
 				government = dictatorship
