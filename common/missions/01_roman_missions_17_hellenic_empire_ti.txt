@@ -1,4 +1,4 @@
-roman_mission_17_hellenic_empire_ti = {
+﻿roman_mission_17_hellenic_empire_ti = {
     header = "mission_image_rome"
 	icon = "rome_4"
 
@@ -747,7 +747,20 @@ roman_mission_17_hellenic_empire_ti = {
 	
 	roman_mission_17_hellenic_empire_ti_task_9 = { # Philosophy Treasure
 		icon = task_political
-		requires = { roman_mission_17_hellenic_empire_ti_task_7 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_4 }
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 7901
+					province_id =  929
+					province_id =  516
+					province_id =  763
+					province_id =  504
+					province_id =  416
+				}
+			}
+		}
 
 		allow = {
 			trigger_if = {
@@ -809,7 +822,17 @@ roman_mission_17_hellenic_empire_ti = {
 
 	roman_mission_17_hellenic_empire_ti_task_10 = { # Alexander Panopoly
 		icon = task_conquest
-		requires = { roman_mission_17_hellenic_empire_ti_task_4 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_7 }
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 516
+					province_id = 743
+					province_id = 6678
+				}
+			}
+		}
 
 		allow = {
 			trigger_if = {
@@ -878,7 +901,7 @@ roman_mission_17_hellenic_empire_ti = {
 		}
 	}
 
-		roman_mission_17_hellenic_empire_ti_task_11 = { #Triumph over the Savage Lands
+	roman_mission_17_hellenic_empire_ti_task_11 = { #Triumph over the Savage Lands
 		icon = task_heracles
 		requires = { roman_mission_17_hellenic_empire_ti_task_9 roman_mission_17_hellenic_empire_ti_task_10 roman_mission_17_hellenic_empire_ti_task_15 }
 		final = yes
@@ -943,6 +966,10 @@ roman_mission_17_hellenic_empire_ti = {
 					is_in_area = kadousioi_area
 				}
 			}
+		}
+		
+		allow = {
+			age_ability_trigger = yes
 		}
 		
 		
@@ -1082,6 +1109,14 @@ roman_mission_17_hellenic_empire_ti = {
 		allow = {
 			current_ruler = {
 				is_adult = yes
+				custom_tooltip = {
+                    text = does_not_have_sound_foundations_tt
+                    has_variable = sound_foundations_var
+                }
+				custom_tooltip = {
+                    text = does_not_have_legendary_ancestors_tt
+                    has_variable = legendary_ancestors_var
+                }
 			}
 			political_influence > 50
 		}
@@ -1090,6 +1125,12 @@ roman_mission_17_hellenic_empire_ti = {
 			add_political_influence = -50
 			custom_tooltip = diadochi_imperial_lineage_reward
 			trigger_event = { id = me_roman_missions_ti.66 }
+			current_ruler = {
+				add_focus_perk = {
+					text = "add_2_char_perk"
+					amount = 2
+				}
+			}
 		}
 
 	}
@@ -1106,15 +1147,13 @@ roman_mission_17_hellenic_empire_ti = {
 
         allow = {
             political_influence > 150
-	    treasury >= 500
-            }
+			treasury >= 500
+        }
 
         on_completion = {           
 			trigger_event = { id = me_roman_missions_ti.71 }
-			add_country_modifier = {
-				name = "roman_epic"
-				duration = -1
-			}
+			add_treasury = -500
+			add_political_influence = -150
 		}
     }
 	
@@ -1170,8 +1209,10 @@ roman_mission_17_hellenic_empire_ti = {
         }
 
         on_completion = {
-	add_stability = 35
-        trigger_event = { id = me_roman_missions_ti.72 }
+			add_splendor = {
+				amount = "200"
+			}
+			trigger_event = { id = me_roman_missions_ti.72 }
         }
     }
   roman_mission_17_hellenic_empire_ti_task_17 = { # Panhellenium
@@ -1223,7 +1264,7 @@ roman_mission_17_hellenic_empire_ti = {
 	roman_mission_17_hellenic_empire_ti_task_19 = { # Silk Smuggling
         icon = "task_economical"
 		requires = { roman_mission_17_hellenic_empire_ti_task_5 }
-		duration = 1095
+		duration = 730
 
         highlight = {
             scope:province = {
@@ -1232,29 +1273,72 @@ roman_mission_17_hellenic_empire_ti = {
         }
 
         allow = {
-
+			treasury >= 500
         }
+		
+		on_start = {
+			trigger_event = { id = me_roman_missions_ti.67 }
+			show_as_tooltip = {
+				add_treasury = -500
+			}
+		}
 
         on_completion = {           
-			trigger_event = { id = me_roman_missions_ti.71 }
+			trigger_event = { id = me_roman_missions_ti.68 }
+			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_19_reward_silk_worms
 		}
     }
 	
 	roman_mission_17_hellenic_empire_ti_task_20 = { # Roman Silk
         icon = "task_economical"
 		requires = { roman_mission_17_hellenic_empire_ti_task_19 }
+		duration = 365
 
         highlight = {
             scope:province = {
-				trade_goods = silk
+				OR = {
+					province_id = 426
+					province_id = 748
+					province_id = 345
+				}
             }
         }
 
         allow = {
-
+			treasury >= 250
+			owns = 426
+			owns = 748
+			owns = 345
         }
+		
+		on_start = {
+			trigger_event = { id = me_roman_missions_ti.69 }
+			show_as_tooltip = {
+				add_treasury = -250
+			}
+		}
 
         on_completion = {           
-			trigger_event = { id = me_roman_missions_ti.71 }
+			trigger_event = { id = me_roman_missions_ti.74 }
+			show_as_tooltip = {
+				p:426 = {
+					set_trade_goods = silk
+					add_permanent_province_modifier = {
+						name = "roman_silk_justinian"
+					}
+				}
+				p:748 = {
+					set_trade_goods = silk
+					add_permanent_province_modifier = {
+						name = "roman_silk_justinian"
+					}
+				}
+				p:345 = {
+					set_trade_goods = silk
+					add_permanent_province_modifier = {
+						name = "roman_silk_justinian"
+					}
+				}
+			}
 		}
     }
