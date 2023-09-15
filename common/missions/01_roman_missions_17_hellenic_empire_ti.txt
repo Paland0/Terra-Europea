@@ -9,7 +9,7 @@ roman_mission_17_hellenic_empire_ti = {
     }
 
     potential = {
-        NOT = { has_variable = roman_mission_17_hellenic_empire }
+        NOT = { has_variable = roman_mission_17_hellenic_empire_ti }
         has_dlc = "The Punic Wars"
     	tag = ROM
     	OR = {
@@ -610,7 +610,7 @@ roman_mission_17_hellenic_empire_ti = {
     }
    	roman_mission_17_hellenic_empire_ti_task_7 = { ##Bactriana & Sogdiana
     	icon = "task_conquest"
-		requires = { roman_mission_17_hellenic_empire_ti_task_6 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_5 roman_mission_17_hellenic_empire_ti_task_6 }
     	highlight = {
 			scope:province = {
 				OR = {
@@ -743,7 +743,8 @@ roman_mission_17_hellenic_empire_ti = {
         	custom_tooltip = roman_mission_17_hellenic_empire_ti_task_8_effect_tt #client state created
 			trigger_event = me_roman_missions_ti.65
         }
-    }   	
+    }
+	
 	roman_mission_17_hellenic_empire_ti_task_9 = { # Philosophy Treasure
 		icon = task_political
 		requires = { roman_mission_17_hellenic_empire_ti_task_7 }
@@ -879,7 +880,7 @@ roman_mission_17_hellenic_empire_ti = {
 
 		roman_mission_17_hellenic_empire_ti_task_11 = { #Triumph over the Savage Lands
 		icon = task_heracles
-		requires = { roman_mission_17_hellenic_empire_ti_task_9 roman_mission_17_hellenic_empire_ti_task_5 roman_mission_17_hellenic_empire_ti_task_10 roman_mission_17_hellenic_empire_ti_task_12 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_9 roman_mission_17_hellenic_empire_ti_task_10 roman_mission_17_hellenic_empire_ti_task_15 }
 		final = yes
 		
 		highlight = {
@@ -957,7 +958,7 @@ roman_mission_17_hellenic_empire_ti = {
 	}
 	roman_mission_17_hellenic_empire_ti_task_12 = { # Setting the Stage
 		icon = "task_conquest"
-		requires = { roman_mission_17_hellenic_empire_ti_task_14 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_2 roman_mission_17_hellenic_empire_ti_task_16 }
 
 		allow = {
 			p:1 = {
@@ -968,13 +969,13 @@ roman_mission_17_hellenic_empire_ti = {
 				has_great_work = yes
 				owner = ROOT
 			}
-			 p:516 = {
-			custom_tooltip = {
+			p:516 = {
+				custom_tooltip = {
                     text = egypt_mission_2_pharaoh_task_10.tt.2
-				has_variable = built_pharos
-                   }
+					has_variable = built_pharos
+                }
 				owner = ROOT
-                    }
+            }
 			p:1453 = {
 				has_great_work = yes
 				owner = ROOT
@@ -1047,7 +1048,7 @@ roman_mission_17_hellenic_empire_ti = {
 	roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
         icon = "task_diplomatic"
 
-        requires = { roman_mission_17_hellenic_empire_ti_task_12 }
+        requires = { roman_mission_17_hellenic_empire_ti_task_16 }
 
         highlight = {
             scope:province = {
@@ -1061,22 +1062,22 @@ roman_mission_17_hellenic_empire_ti = {
                     has_dlc = "Hellenistic World Flavor Pack"
                 }
                custom_tooltip = {
-                text = cyrene_1_intoegypt_task_8.ttt # Museion has been constructed previously
-                p:516 = { has_variable = museion_of_alexandria_var }
-           	   }
-                }
-            }     
+					text = cyrene_1_intoegypt_task_8.ttt # Museion has been constructed previously
+					p:516 = { has_variable = museion_of_alexandria_var }
+				}
+            }
+        }     
 
         on_completion = {           
-        add_innovation = 5
-	custom_tooltip = roman_mission_17_hellenic_empire_ti_task_13_build_mouseion
-                trigger_event = { id = me_roman_missions_ti.70 }
-            }
+			add_innovation = 5
+			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_13_build_mouseion
+            trigger_event = { id = me_roman_missions_ti.70 }
         }
+	}
 	
 	roman_mission_17_hellenic_empire_ti_task_14 = { #Imperial Lineage
 		icon = task_political
-		
+		requires = { roman_mission_17_hellenic_empire_ti_task_12 roman_mission_17_hellenic_empire_ti_task_13 }
 		
 		allow = {
 			current_ruler = {
@@ -1095,7 +1096,7 @@ roman_mission_17_hellenic_empire_ti = {
 	roman_mission_17_hellenic_empire_ti_task_15 = { # Grand Epic
         icon = "task_economical"
 
-        requires = {roman_mission_17_hellenic_empire_ti_task_13 }
+        requires = {roman_mission_17_hellenic_empire_ti_task_14 }
 
         highlight = {
             scope:province = {
@@ -1109,17 +1110,18 @@ roman_mission_17_hellenic_empire_ti = {
             }
 
         on_completion = {           
-                trigger_event = { id = me_roman_missions_ti.71 }
-		add_country_modifier = {
-		name = "roman_epic"
+			trigger_event = { id = me_roman_missions_ti.71 }
+			add_country_modifier = {
+				name = "roman_epic"
 				duration = -1
 			}
-            }
+		}
     }
+	
 	roman_mission_17_hellenic_empire_ti_task_16 = { # Rebirth of Hellenic Cities
         icon = "task_economical"
 
-        requires = {  roman_mission_17_hellenic_empire_ti_task_14 }
+        #requires = {  roman_mission_17_hellenic_empire_ti_task_14 }
 
         highlight = {
             scope:province = {
@@ -1180,20 +1182,20 @@ roman_mission_17_hellenic_empire_ti = {
     	highlight = {
             scope:province = {
                 OR = {
-                is_in_area = macedonia_area
-		is_in_area = thessaly_area
-                is_in_area = chalkidiki_area
-                is_in_area = ionia_area
-		is_in_area = mysia_area
-                is_in_area = coastal_caria_area
-		is_in_area = sporades_area
-                is_in_area = aeolia_area
-		is_in_area = bithynia_inferior_area
-                is_in_area = cyprus_area
-		is_in_region = greece_region
-            }
-	}
-    }
+					is_in_area = macedonia_area
+					is_in_area = thessaly_area
+					is_in_area = chalkidiki_area
+					is_in_area = ionia_area
+					is_in_area = mysia_area
+					is_in_area = coastal_caria_area
+					is_in_area = sporades_area
+					is_in_area = aeolia_area
+					is_in_area = bithynia_inferior_area
+					is_in_area = cyprus_area
+					is_in_region = greece_region
+				}
+			}
+		}
 
     	allow = {
 			owns_area = macedonia_area
@@ -1216,4 +1218,43 @@ roman_mission_17_hellenic_empire_ti = {
 			}
 			trigger_event = me_roman_missions_ti.73
     	}
+    }
+	
+	roman_mission_17_hellenic_empire_ti_task_19 = { # Silk Smuggling
+        icon = "task_economical"
+		requires = { roman_mission_17_hellenic_empire_ti_task_5 }
+		duration = 1095
+
+        highlight = {
+            scope:province = {
+				trade_goods = silk
+            }
+        }
+
+        allow = {
+
+        }
+
+        on_completion = {           
+			trigger_event = { id = me_roman_missions_ti.71 }
+		}
+    }
+	
+	roman_mission_17_hellenic_empire_ti_task_20 = { # Roman Silk
+        icon = "task_economical"
+		requires = { roman_mission_17_hellenic_empire_ti_task_19 }
+
+        highlight = {
+            scope:province = {
+				trade_goods = silk
+            }
+        }
+
+        allow = {
+
+        }
+
+        on_completion = {           
+			trigger_event = { id = me_roman_missions_ti.71 }
+		}
     }
