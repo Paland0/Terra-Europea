@@ -210,11 +210,11 @@
  #Could we add claims to the rest of Arabia?#
 
  #Eastern Glory - Trouble at the Bosporus
- roman_mission_14_trouble_at_hellespontus: "Trouble at the Bosporus"
- roman_mission_14_trouble_at_hellespontus_BUTTON_TOOLTIP:0 "The waters of the Bosporus, the crossing that separates the landmasses of Europe and Asia, call out to be claimed by the growing power of Rome."
+ roman_mission_14_trouble_at_hellespontus: "Trouble in Hellespontus"
+ roman_mission_14_trouble_at_hellespontus_BUTTON_TOOLTIP:0 "The waters and cities of the northern Greeks call out to be claimed by the growing power of Rome."
  roman_mission_14_trouble_at_hellespontus_BUTTON_DETAILS:0 ""
- roman_mission_14_trouble_at_hellespontus_DESCRIPTION:0 "The Bosporus region came into the possession of Lysimachus after the death of Alexander, and ever since, the once-calm farmlands around Lysimacheia have seen nothing but war and trouble; if not caused from the armies of passing Macedonians and Greeks, then by the raiding Odrysians and other barbarians from the north. Unfortunately for the poor and battered inhabitants of Thrace, our interests have brought our own armies here, but we can promise that once we push out any other interlopers, peace will finally come forever."
- roman_mission_14_trouble_at_hellespontus_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when we have conquered the Thracian territories, as well as the Dacian hinterlands to the north."
+ roman_mission_14_trouble_at_hellespontus_DESCRIPTION:0 "The region known as Hellespontus is the farthest Hellenic settlers have civilized in the areas north of Anatolia and Thrace. The coasts of Bosporus and the northern Pontus are dotted with our religous bretheren, struggling to carve out a life surrounded by barbarians in Scythia and Dacia. It is high time we not only incorporate these colorful bastions of civilization, including the Thracian lands Lysimachian rule have left destabilized, but also pacify the wilds that surround them. Unfortunately for the poor and battered inhabitants of these regions, our interests have brought our own armies here, but we can promise that once we push out any other interlopers, peace will finally come forever."
+ roman_mission_14_trouble_at_hellespontus_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when we have conquered the Thracian territories, Scythia, Bosporus, as well as the Dacian wildlands to the north."
  roman_mission_14_trouble_at_hellespontus_REWARD_DESCRIPTION:0 ""
  #Tasks
  roman_mission_14_trouble_at_hellespontus_ti_task_1: "West-Pontic Colonies"
@@ -257,7 +257,7 @@
  BUF_DAC_ROM_ADJ: "Pannonian"
  
  #Events
- me_roman_missions_ti.1.t: "Trouble at the Bosporus"
+ me_roman_missions_ti.1.t: "Decision at the Bosporus"
  me_roman_missions_ti.1.desc: "Although there were hopes in [ROOT.GetCountry.GetCapital.GetName] that we would avoid getting entangled in regional politics, it appears that our presence in #E Thrace#! has upset the delicate balance of power in the region. Some are with us, some are against us, but we cannot rely on our tenuous friendships here to provide security for the Roman people - we will have to take matters into our own hands and make difficult decisions as they come.\n\nAlthough the diplomatic scene remains as perilous as ever, the leading merchants of #Y Asia#! and #Y Bithynia et Paphlagonia#! have privately sent representatives to the #E Roman Senate#!, asking that we remember the trade agreements that are in place."
  me_roman_missions_ti.1.a: "Let us honor the existing Thracian trade networks."
  me_roman_missions_ti.1.b: "We do not need foreign merchants in #E Roma#!"
