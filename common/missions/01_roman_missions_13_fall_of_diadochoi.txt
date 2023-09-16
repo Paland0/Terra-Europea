@@ -345,7 +345,8 @@
     	icon = "task_political"
 
     	requires = { roman_mission_09_eastern_glory_task_10 }
-	bypass = { roman_mission_13_fall_of_diadochoi_ti_task_2 }
+	prevented_by = { roman_mission_13_fall_of_diadochoi_ti_task_2 }
+
     	highlight = {
 			scope:province = {
 				OR = {
@@ -562,7 +563,7 @@
     	icon = "task_conquest"
 
     	requires = { roman_mission_09_eastern_glory_task_10 }
-	bypass = { roman_mission_09_eastern_glory_task_12 }
+	prevented_by = { roman_mission_09_eastern_glory_task_12 }
 
     	highlight = {
 			scope:province = {
