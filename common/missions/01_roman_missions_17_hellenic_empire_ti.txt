@@ -1285,7 +1285,7 @@
     	}
     }
 	
-	roman_mission_17_hellenic_empire_ti_task_19 = { # Silk Smuggling
+	roman_mission_17_hellenic_empire_ti_task_18 = { # Silk Smuggling
         icon = "task_economical"
 		requires = { roman_mission_17_hellenic_empire_ti_task_5 }
 		duration = 730
@@ -1313,9 +1313,9 @@
 		}
     }
 	
-	roman_mission_17_hellenic_empire_ti_task_20 = { # Roman Silk
+	roman_mission_17_hellenic_empire_ti_task_19 = { # Roman Silk
         icon = "task_economical"
-		requires = { roman_mission_17_hellenic_empire_ti_task_19 }
+		requires = { roman_mission_17_hellenic_empire_ti_task_18 }
 		duration = 365
 
         highlight = {
