@@ -123,11 +123,11 @@
 
  #Events 
  me_gaul_arvernia_ti_1_title: "$gaul_arvernia_task_1$"
- me_gaul_arvernia_ti_1_desc: "Our ruler has gained valuable experience from negotiating with fellow Gallic leaders, honing their diplomatic skills:This expertise will prove invaluable as we work towards uniting Gaul under a single banner."
+ me_gaul_arvernia_ti_1_desc: "Our ruler has gained valuable experience from negotiating with fellow Gallic leaders, honing their diplomatic skills. This expertise will prove invaluable as we work towards uniting Gaul under a single banner."
  me_gaul_arvernia_ti_1.a: "Continue practicing."
 
  me_gaul_arvernia_ti_2_title: "$gaul_arvernia_task_2$"
- me_gaul_arvernia_ti_2_desc: "Many of our advisors push us to directly extend our influence over neighboring lands:Their inhabitants have shown reluctance to join our federation willingly:We must decide whether to forcibly make them pay tribute, bringing them into our fold under our terms, or to resort to more forceful measures and confront them in open conflict."
+ me_gaul_arvernia_ti_2_desc: "Many of our advisors push us to directly extend our influence over neighboring lands. Their inhabitants have shown reluctance to join our federation willingly. We must decide whether to forcibly make them pay tribute, bringing them into our fold under our terms, or to resort to more forceful measures and confront them in open conflict."
  me_gaul_arvernia_ti_2.a: "Establish a tributary state."
  me_gaul_arvernia_ti_2.b: "Let us not be hasty."
 
@@ -141,7 +141,7 @@
  me_gaul_arvernia_ti_4.a: "We have much to learn from our ruler."
 
  me_gaul_arvernia_ti_5_title: "$gaul_arvernia_task_5$"
- me_gaul_arvernia_ti_5_desc: "In our pursuit of unity and cultural richness, our ruler has recognized the importance of celebrating our Gaulish heritage through the arts. By nurturing the talents of local artists and fostering an environment that values artistic expression:As we support these artisans and invest in cultural endeavors, our treasury may see a modest expenditure, but the cultural richness and pride it brings to our people are."
+ me_gaul_arvernia_ti_5_desc: "In our pursuit of unity and cultural richness, our ruler has recognized the importance of celebrating our Gaulish heritage through the arts. By nurturing the talents of local artists and fostering an environment that values artistic expression. As we support these artisans and invest in cultural endeavors, our treasury may see a modest expenditure, but the cultural richness and pride it brings to our people are."
  me_gaul_arvernia_ti_5.a: "Very well."
 
  me_gaul_arvernia_ti_6_title: "$gaul_arvernia_task_6$"
@@ -235,29 +235,29 @@
  me_gaul_arvernia_ti_27.a: "[ROOT.GetCountry.GetCapital.GetName] is a sight to behold"
 
  me_gaul_arvernia_ti_28_title: "$gaul_arvernia_task_28$"
- me_gaul_arvernia_ti_28_desc: "Our armies, while never week, are now the strongest this side of the Alps; perhaps even giving the Italians or Greeks a run for their money. The soldiers that defend our glorious Gaul are equipped with only the best of materials, trained by professional soldiers who have served us for years, and have a burning passion to give their lives in defense of Gaul. Of an army, there is truly nothing more we could ask. What was once fledgling and primitive, is now grand and powerful."
+ me_gaul_arvernia_ti_28_desc: "Our armies, while never weak, are now the strongest this side of the Alps; perhaps even giving the Italians or Greeks a run for their money. The soldiers that defend our glorious Gaul are equipped with only the best of materials, trained by professional soldiers who have served us for years, and have a burning passion to give their lives in defense of Gaul. Of an army, there is truly nothing more we could ask. What was once fledgling and primitive, is now grand and powerful."
  me_gaul_arvernia_ti_28.a: "Might makes right!"
 
  me_gaul_arvernia_ti_29_title: "$gaul_arvernia_task_29$"
  me_gaul_arvernia_ti_29_desc: "With Rome in our sights, a major development is being discussed within our court. Are we yet ready to take the title of empire? It would add a certain aura around our nation, a powerful reminder of who we are as Gaul and what all we want to accomplish, but it might ruffle some feathers of those who would rather keep things as is. The time of debate is over, the time for decision is now."
- me_gaul_arvernia_ti_29.a: "Gaul is deserving of an empire, and an empire we shall be"
+ me_gaul_arvernia_ti_29.a: "Gaul is deserving of an empire and an empire we shall be"
  me_gaul_arvernia_ti_29.b: "The status quo does have its strengths, however"
 
  me_gaul_arvernia_ti_30_title: ""
  me_gaul_arvernia_ti_30_desc: ""
  me_gaul_arvernia_ti_30.a: ""
  
- me_gaul_arvernia_ti_200_title: ""
- me_gaul_arvernia_ti_200_desc: ""
- me_gaul_arvernia_ti_200.a: ""
+ me_gaul_arvernia_ti_200_title: "Galish Tributaries"
+ me_gaul_arvernia_ti_200_desc: "Our decision to establish a tributary state in the neighboring lands has yielded results. With a display of military might and diplomatic finesse, we have managed to bring the inhabitants under our influence, albeit under terms that acknowledge our supremacy. They now pay tribute to our federation, and while their autonomy has been curtailed, they will continue to exist with nominal independence as part of our growing federation of Gallic peoples."
+ me_gaul_arvernia_ti_200.a: "Extend the hand of friendship to our new subjects."
  
- me_gaul_arvernia_ti_201_title: ""
- me_gaul_arvernia_ti_201_desc: ""
- me_gaul_arvernia_ti_201.a: ""
+ me_gaul_arvernia_ti_201_title: "The Diplomatic Approach"
+ me_gaul_arvernia_ti_201_desc: "Opting to avoid immediate conflict, we have opted for a more diplomatic approach to deal with our neighbors. Our envoys and diplomats have been dispatched to engage in negotiations with their leaders. We aim to find common ground and build trust, hoping that over time, they will see the benefits of joining our Gaulish Federation willingly."
+ me_gaul_arvernia_ti_201.a: "Let diplomacy be our path to unity."
  
- me_gaul_arvernia_ti_400_title: ""
- me_gaul_arvernia_ti_400_desc: ""
- me_gaul_arvernia_ti_400.a: ""
+ me_gaul_arvernia_ti_400_title: "Diplomatic Success"
+ me_gaul_arvernia_ti_400_desc: "Our envoys have returned from their missions to the fellow Gaulish tribes with news of great success. Through their skilled negotiations and unwavering commitment, they have managed to secure promises of support and cooperation from several of the tribes. These tribes have expressed their willingness to consider the prospect of a united Gaul more seriously, and our diplomatic efforts have strengthened the bonds of friendship among our people."
+ me_gaul_arvernia_ti_400.a: "A united Gaul is within our grasp."
  
  me_gaul_arvernia_ti_401_title: ""
  me_gaul_arvernia_ti_401_desc: ""
