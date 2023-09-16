@@ -750,9 +750,8 @@
 			trigger_event = me_roman_missions_ti.20
 		}
     }
-
-}
-roman_mission_17_hellenic_empire_ti_task_8 = { ##Scythia
+	
+	roman_mission_17_hellenic_empire_ti_task_8 = { ##Scythia
     	icon = "task_heracles"
 
 	requires = { roman_mission_14_trouble_at_hellespontus_ti_task_7 roman_mission_14_trouble_at_hellespontus_ti_task_8 }
@@ -792,3 +791,6 @@ roman_mission_17_hellenic_empire_ti_task_8 = { ##Scythia
 			trigger_event = me_roman_missions_ti.65
         }
     }
+
+}
+
