@@ -1,0 +1,46 @@
+ROMAN_HELLENIC_FLAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "roman_hellenic_color"
+	color2 = "roman_red"
+
+	colored_emblem = {
+		texture = "ce_border_rug_01.tga"
+		color1 = "roman_gold"
+		color2 = "roman_red"
+		instance = {
+			rotation = 270
+		}
+		instance = {
+			rotation = 90
+		}
+	}
+
+	colored_emblem = {
+		texture = "ce_roman_eagle_02.dds"
+		color1 = "roman_gold"
+		instance = {
+			scale = { 0.9 0.9 }
+			position = { 0.5 0.31 }
+		}
+	}
+
+	colored_emblem = {
+		texture = "ce_hellenic_2_full_03.dds"
+		color1 = "roman_gold"
+		instance = {
+			scale = { 0.74 0.74 }
+			position = { 0.4985 0.70 }
+			rotation = 0
+		}
+	}
+
+	colored_emblem = {
+		texture = "ce_argead_empire.dds"
+		color1 = "roman_gold"
+		instance = {
+			scale = { 0.55 0.55 }
+			position = { 0.5 0.68 }
+		}
+	}
+
+}
