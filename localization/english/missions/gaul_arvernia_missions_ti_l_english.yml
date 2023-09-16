@@ -107,7 +107,7 @@
  
  #Treasures
  gaul_arvernia_treasure: "Golden Gaulish Boar"
-
+ gaul_arvernia_treasure: "A pristine yet rugged boar has been sculpted of pure gold, representing the beauty and strength of our glorious nation. This symbol of the greatness of our people will be shown at all great ceremonies and strike fear in our enemies, truly a wonderous sight indeed."
 
  #Events 
  me_gaul_arvernia_ti_1_title: "$ gaul_arvernia_task_1$"
@@ -133,17 +133,17 @@
  me_gaul_arvernia_ti_5.a: "Very well."
 
  me_gaul_arvernia_ti_6_title: "$ gaul_arvernia_task_6$"
- me_gaul_arvernia_ti_6_desc: ""
- me_gaul_arvernia_ti_6.a: ""
+ me_gaul_arvernia_ti_6_desc: "Haeduia is a most trustworthy tribe, or at least it was before these snakes in the grass presented themselves. No more, however, as loyalty has ruled the day with those tempted with corruption coming forth. We have the names, know the faces, of those guilty of this most heinous of crimes. Now we must act."
+ me_gaul_arvernia_ti_6.a: "Stealing never pays"
 
  me_gaul_arvernia_ti_7_title: "$ gaul_arvernia_task_7$"
- me_gaul_arvernia_ti_7_desc: ""
- me_gaul_arvernia_ti_7.a: ""
- me_gaul_arvernia_ti_7.b: ""
+ me_gaul_arvernia_ti_7_desc: "It seems our attempts are strengthening the Haeduian people have not gone unnoticed, and not at all positicely. Though our motivations might havebeen pure, we are now seen as nothing more than vultures circling the carcass, or worse yet that we are the snakes lying in wait! We have the oppertunity to smooth things over, or is it truly war that we want?"
+ me_gaul_arvernia_ti_7.a: "Peace is always the better alternative"
+ me_gaul_arvernia_ti_7.b: "It shall be war then"
 
  me_gaul_arvernia_ti_8_title: "$ gaul_arvernia_task_8$"
- me_gaul_arvernia_ti_8_desc: ""
- me_gaul_arvernia_ti_8.a: ""
+ me_gaul_arvernia_ti_8_desc: "It seems Haeduia is not at all open to the possibility of cooperation, they are so blind in rage they cannot see that a united Gaul is the only path to protect our families and homes. If the alternative is the petty and squabbled tribes we were before and most mighty Gaul, we know which side we must take."
+ me_gaul_arvernia_ti_8.a: "Off with your head!"
 
  me_gaul_arvernia_ti_9_title: "$ gaul_arvernia_task_9$"
  me_gaul_arvernia_ti_9_desc: ""
