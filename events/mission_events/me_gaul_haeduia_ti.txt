@@ -738,7 +738,7 @@ me_gaul_haeduia_ti.30 = {
     picture = great_library    
 	left_portrait = root.current_ruler
 	
-	left_portrait = root.current_ruler
+	right_portrait = c:AVN.current_ruler
 
     option = {
         name = "me_gaul_haeduia_ti_30.a"
