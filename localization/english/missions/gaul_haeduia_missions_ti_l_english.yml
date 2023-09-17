@@ -68,8 +68,8 @@
  me_gaul_haeduia_ti_3.a: "Bestow generous gifts upon our neighbors"
 
  me_gaul_haeduia_ti_4_title: "$gaul_haeduia_task_4$"
- me_gaul_haeduia_ti_4_desc: "In pursuit of a grand federation, diplomacy must be a cornerstone of our strategy. Luckily, our ruler's dedication to the studies of diplomacy and oration has paid off, contributing significantly to the fruitful discussions and frank negotiations had with fellow Gaulish tribes."
- me_gaul_haeduia_ti_4.a: "We have much to learn from our ruler."
+ me_gaul_haeduia_ti_4_desc: "In pursuit of a grand federation, diplomacy must be a cornerstone of our strategy. Luckily, our ruler's dedication to the studies of diplomacy and oration has paid off, contributing significantly to the fruitful discussions and frank negotiations had with Rome."
+ me_gaul_haeduia_ti_4.a: "We have much to learn from the power in the far south."
 
  me_gaul_haeduia_ti_5_title: "$gaul_haeduia_task_5$"
  me_gaul_haeduia_ti_5_desc: "In our pursuit of unity and cultural richness, our ruler has recognized the importance of celebrating our Gaulish heritage through the arts. By nurturing the talents of local artists and fostering an environment that values artistic expression. As we support these artisans and invest in cultural endeavors, our treasury may see a modest expenditure, but the cultural richness and pride it brings to our people are."
@@ -170,7 +170,7 @@
  me_gaul_arvernia_ti_1304.a: "Thus always to tyrants!"
  
  #Tooltips
- me_gaul_haeduia_ti_1301_tt: ""
- me_gaul_haeduia_ti_1303_tt: ""
- gaul_haeduia_task_4_reward_tt: ""
- gaul_haeduia_task_7_reward_tt: ""
+ me_gaul_haeduia_ti_1301_tt: "An event worthy of a king shal be held"
+ me_gaul_haeduia_ti_1303_tt: "We will get to the bottom of this"
+ gaul_haeduia_task_4_reward_tt: "Hopefully Rome will be susceptible to diplomacy now"
+ gaul_haeduia_task_7_reward_tt: "A reward fitting for our undertaking"
