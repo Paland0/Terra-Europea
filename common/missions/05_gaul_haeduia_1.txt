@@ -39,7 +39,7 @@
     }
 	
     gaul_haeduia_task_1 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
 		
         allow = {
 			any_country = {
@@ -68,7 +68,7 @@
     }
 	
     gaul_haeduia_task_2 = {
-        icon = "task_political"
+        icon = "task_battle"
 		requires = { gaul_haeduia_task_1 }
 		
         allow = {
@@ -77,6 +77,7 @@
 		}
 		
         on_completion = {
+			add_treasury = -100
 			every_country = {
 				limit = {
 					has_land = yes
@@ -90,7 +91,7 @@
     }
 	
     gaul_haeduia_task_3 = {
-        icon = "task_political"
+        icon = "task_economical"
 		requires = { gaul_haeduia_task_2 }
 		
         allow = {
@@ -115,7 +116,7 @@
     }
 	
     gaul_haeduia_task_4 = {
-        icon = "task_political"
+        icon = "task_battle"
 		requires = { gaul_haeduia_task_3 }
 		duration = 365
 		
@@ -151,7 +152,7 @@
     }
 	
     gaul_haeduia_task_5 = {
-        icon = "task_political"
+        icon = "task_artemis"
 		
         allow = {
 			current_ruler = {
@@ -181,7 +182,7 @@
     }
 	
     gaul_haeduia_task_6 = {
-        icon = "task_political"
+        icon = "task_calm"
 		requires = { gaul_haeduia_task_5 }
 		
 		highlight = {
@@ -219,7 +220,7 @@
     }
 	
     gaul_haeduia_task_7 = {
-        icon = "task_political"
+        icon = "task_religion"
 		requires = { gaul_haeduia_task_5 }
 		duration = 90
 		prevented_by = { gaul_haeduia_task_6 }
@@ -255,7 +256,7 @@
     }
 	
     gaul_haeduia_task_8 = {
-        icon = "task_political"
+        icon = "task_expansion"
 		requires = { gaul_haeduia_task_6 }
 		
 		highlight = {
@@ -445,7 +446,7 @@
     }
 	
     gaul_haeduia_task_11 = {
-        icon = "task_political"
+        icon = "task_diplomatic"
 		requires = { gaul_haeduia_task_10 }
 		duration = 365
 		
@@ -482,7 +483,7 @@
     }
 	
     gaul_haeduia_task_12 = {
-        icon = "task_political"
+        icon = "task_economical"
 		requires = { gaul_haeduia_task_11 }
 		
         allow = {
@@ -520,7 +521,7 @@
     }
 	
     gaul_haeduia_task_13 = {
-        icon = "task_political"
+        icon = "task_atlas"
 		requires = { gaul_haeduia_task_4 gaul_haeduia_task_9 gaul_haeduia_task_11 }
 		final = yes
 		duration = 180
@@ -551,7 +552,7 @@
     }
 	
     gaul_haeduia_task_14 = {
-        icon = "task_political"
+        icon = "task_apollo"
 		requires = { gaul_haeduia_task_7 }
 		
 		prevented_by = { gaul_haeduia_task_6 }
@@ -586,7 +587,7 @@
     }
 	
 	gaul_haeduia_task_15 = {
-        icon = "task_political"
+        icon = "task_battle"
 		
         allow = {
 			any_character = {
