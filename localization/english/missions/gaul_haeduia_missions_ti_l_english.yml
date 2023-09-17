@@ -134,7 +134,8 @@
  
  me_gaul_haeduia_ti_401_title: "The Peaceful Path"
  me_gaul_haeduia_ti_401_desc: "In light of our recent expansion and the concerns it has raised among neighboring tribes, some of our advisors argue that we should send envoys to all nearby tribes to assure them of our peaceful intentions and discuss potential agreements to reduce tensions."
- me_gaul_haeduia_ti_401.a: "Let us seek diplomatic solutions."
+ me_gaul_haeduia_ti_401.a: "Let us send some gifts."
+ me_gaul_haeduia_ti_401.b: "Money corrupts."
  
  me_gaul_haeduia_ti_402_title: "Cultivating Rhetorical Skills"
  me_gaul_haeduia_ti_402_desc: "[ROOT.GetCountry.GetRuler.GetName] has recognized the importance of effective communication and diplomacy in our quest for unity and expansion and has decided to summon the wisest minds of the land. [ROOT.GetCountry.GetRuler.GetName] believes that by learning from our people's most skilled orators and diplomats, they can become a more persuasive and personable figure."
