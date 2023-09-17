@@ -211,16 +211,16 @@
 
  me_gaul_arvernia_ti_22_title: "$gaul_arvernia_task_22$"
  me_gaul_arvernia_ti_22_desc: "Our conquests to the south have pushed the boundaries of Gaul to its southernmost reaches. These lands, once held by distant relations, are now under our dominion, extending the influence and power of newly united Gaul."
- me_gaul_arvernia_ti_22.a: "Gaul has no boundaries"
+ me_gaul_arvernia_ti_22.a: "Gaul has no boundaries."
 
  #[ROOT.GetCountry.GetRuler.GetName]
  me_gaul_arvernia_ti_23_title: "$gaul_arvernia_task_23$"
  me_gaul_arvernia_ti_23_desc: "News of [ROOT.GetCountry.GetRuler.GetName]'s extraordinary conquests have spread like wildfire across the lands of Gaul. From the northernmost reaches to the southernmost frontiers, people from all walks of life can be heard praising the bravery and unwavering determination demonstrated by ROOT.GetCountry.GetRuler.GetName]."
- me_gaul_arvernia_ti_23.a: "The people are too kind"
+ me_gaul_arvernia_ti_23.a: "The people are too kind."
 
  me_gaul_arvernia_ti_24_title: "$gaul_arvernia_task_24$"
  me_gaul_arvernia_ti_24_desc: "Description: In cities and villages alike, the people have begun to spontaneously pray to [ROOT.GetCountry.GetRuler.GetName] as though he were a god. Temples and shrines dedicated to [ROOT.GetCountry.GetRuler.GetName] have sprung up, and fervent worshippers gather to seek their divine guidance. The belief in [ROOT.GetCountry.GetRuler.GetName]'s transcendent qualities have taken root, and tales of their wisdom and leadership are recounted as though they were sacred parables."
- me_gaul_arvernia_ti_24.a: "It is only fitting that I embrace the acclaim of the people"
+ me_gaul_arvernia_ti_24.a: "It is only fitting that I embrace the acclaim of the people."
 
  me_gaul_arvernia_ti_25_title: "$gaul_arvernia_task_25$"
  me_gaul_arvernia_ti_25_desc: "With the renovation of sacred Celtic sanctuaries, our people's connection to the divine has deepened. The ancient traditions of the Druids are experiencing a resurgence, and more individuals are drawn to their ranks, eager to embrace the teachings of the old ways. The people of Gaul now look to [ROOT.GetCountry.GetRuler.GetName] not only as a political leader but also as a spiritual guide, a custodian of our sacred heritage."
@@ -228,11 +228,11 @@
 
  me_gaul_arvernia_ti_26_title: "$gaul_arvernia_task_26$"
  me_gaul_arvernia_ti_26_desc: "With the transformation of [ROOT.GetCountry.GetCapital.GetName] into a thriving metropolis, the allure of the capital has become undeniable. Skilled workers, artisans, and intellectuals from across Gaul are drawn to the city, seeking to be part of its vibrant culture and burgeoning opportunities. The streets are alive with creativity, innovation, and a sense of boundless possibility."
- me_gaul_arvernia_ti_26.a: "Perhaps we can put these new arrivals to work"
+ me_gaul_arvernia_ti_26.a: "Perhaps we can put these new arrivals to work."
 
  me_gaul_arvernia_ti_27_title: "$gaul_arvernia_task_27$"
  me_gaul_arvernia_ti_27_desc: "With the transformation of [ROOT.GetCountry.GetCapital.GetName] into a thriving metropolitan capital, the heart of Gaul now boasts grandeur and magnificence befitting its status. [ROOT.GetCountry.GetCapital.GetName]'s workers have constructed a grand forum to act as a hub of political, cultural, and economic activity. Additionally, our priests scheme to increase religiosity by crafting  a symbol of Gallic unity and divine reverence in the form of a Golden Gaulish Boar."
- me_gaul_arvernia_ti_27.a: "[ROOT.GetCountry.GetCapital.GetName] is a sight to behold"
+ me_gaul_arvernia_ti_27.a: "[ROOT.GetCountry.GetCapital.GetName] is a sight to behold."
 
  me_gaul_arvernia_ti_28_title: "$gaul_arvernia_task_28$"
  me_gaul_arvernia_ti_28_desc: "Our armies, while never weak, are now the strongest this side of the Alps; perhaps even giving the Italians or Greeks a run for their money. The soldiers that defend our glorious Gaul are equipped with only the best of materials, trained by professional soldiers who have served us for years, and have a burning passion to give their lives in defense of Gaul. Of an army, there is truly nothing more we could ask. What was once fledgling and primitive, is now grand and powerful."
@@ -241,11 +241,11 @@
  me_gaul_arvernia_ti_29_title: "$gaul_arvernia_task_29$"
  me_gaul_arvernia_ti_29_desc: "With Rome in our sights, a major development is being discussed within our court. Are we yet ready to take the title of empire? It would add a certain aura around our nation, a powerful reminder of who we are as Gaul and what all we want to accomplish, but it might ruffle some feathers of those who would rather keep things as is. The time of debate is over, the time for decision is now."
  me_gaul_arvernia_ti_29.a: "Gaul is deserving of an empire and an empire we shall be"
- me_gaul_arvernia_ti_29.b: "The status quo does have its strengths, however"
+ me_gaul_arvernia_ti_29.b: "The status quo does have its strengths, however."
 
- me_gaul_arvernia_ti_30_title: ""
- me_gaul_arvernia_ti_30_desc: ""
- me_gaul_arvernia_ti_30.a: ""
+ me_gaul_arvernia_ti_30_title: "A Call to Unite Gaul"
+ me_gaul_arvernia_ti_30_desc: "The winds of change blow across the hills and forests of Gaul, and our tribe, the #Y Gaulish Arvernia#!, finds itself at a crossroads. For generations, we have thrived in these lands, preserving our unique traditions and ways of life. But now, a new era beckons, one that calls us to venture beyond the familiar and unite the Gallic tribes. It is a grand journey we must undertake to unite#E Gaul#! under a single banner, forging a mighty federation that will stand the test of time."
+ me_gaul_arvernia_ti_30.a: "For generations to come, our descendants will remember our story and tell the tale of Gaulish Heroes."
  
  me_gaul_arvernia_ti_200_title: "Galish Tributaries"
  me_gaul_arvernia_ti_200_desc: "Our decision to establish a tributary state in the neighboring lands has yielded results. With a display of military might and diplomatic finesse, we have managed to bring the inhabitants under our influence, albeit under terms that acknowledge our supremacy. They now pay tribute to our federation, and while their autonomy has been curtailed, they will continue to exist with nominal independence as part of our growing federation of Gallic peoples."
