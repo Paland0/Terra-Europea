@@ -47,7 +47,7 @@
  gaul_haeduia_task_13_DESC: "With the support of local chieftains and the consent of the #E Gaulish#! peoples under our influence, it is time to formalize the #Y Gaulish Federation#!. Through binding agreements and shared governance, we will transform our loose system of alliances into a unified, federated #E Gaul#!."
 
  gaul_haeduia_task_14: "Arvernian Tribute"
- gaul_haeduia_task_14_DESC: "The#E Arverni#! shall become an integral part of our united #E Gaul#!, contributing their resources, manpower, and expertise to our grand endeavor. Weaving the#E Arverni#! into our federation further strengthens the bonds of unity, symbolizing the triumph of diplomacy and cooperation, and bringing us closer to our grand vision for#E Gaul#!."
+ gaul_haeduia_task_14_DESC: "The #E Arverni#! shall become an integral part of our united #E Gaul#!, contributing their resources, manpower, and expertise to our grand endeavor. Weaving the#E Arverni#! into our federation further strengthens the bonds of unity, symbolizing the triumph of diplomacy and cooperation, and bringing us closer to our grand vision for#E Gaul#!."
  
  gaul_haeduia_task_15: "Germanic Mercenaries"
  gaul_haeduia_task_15_DESC: "In our pursuit of unity, we will seek the aid of skilled #E Germanic#! mercenaries. These warriors will bolster our forces and ensure the security of our lands, making it clear to all who might oppose us that we are prepared to defend our vision of #E Gaul#! at any cost."
@@ -116,9 +116,9 @@
  me_gaul_haeduia_ti_15_desc: "As we strive to unite Gaul under our banner and protect our lands from any threat, we have turned our attention to the formidable warriors from across the Rhenus. The  prowess of the Germans in battle is well-known, and their services will significantly enhance our military strength."
  me_gaul_haeduia_ti_15.a: "Come cousins, let us drink cervoise and be merry"
 
- me_gaul_haeduia_ti_30_title: "A Call to Unite Gaul"
+ me_gaul_haeduia_ti_30_title: "$me_gaul_arvernia_ti_30_title$"
  me_gaul_haeduia_ti_30_desc: "The winds of change blow across the hills and forests of Gaul, and our tribe, the #Y Gaulish Haeduia#!, finds itself at a crossroads. For generations, we have thrived in these lands, preserving our unique traditions and ways of life. But now, a new era beckons, one that calls us to venture beyond the familiar and unite the Gallic tribes. It is a grand journey we must undertake to unite#E Gaul#! under a single banner, forging a mighty federation that will stand the test of time."
- me_gaul_haeduia_ti_30.a: "For generations to come, our descendants will remember our story and tell the tale of Gaulish Heroes."
+ me_gaul_haeduia_ti_30.a: "$me_gaul_arvernia_ti_30.a$"
  
  me_gaul_haeduia_ti_200_title: "Galish Tributaries"
  me_gaul_haeduia_ti_200_desc: "Our decision to establish a tributary state in the neighboring lands has yielded results. With a display of military might and diplomatic finesse, we have managed to bring the inhabitants under our influence, albeit under terms that acknowledge our supremacy. They now pay tribute to our federation, and while their autonomy has been curtailed, they will continue to exist with nominal independence as part of our growing federation of Gallic peoples."

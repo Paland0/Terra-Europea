@@ -49,6 +49,8 @@
  gaul_arvernia_task_14: "Haeduian Tribute"
  gaul_arvernia_task_14_DESC: "The #E Haedui#! shall become an integral part of our united #E Gaul#!, contributing their resources, manpower, and expertise to our grand endeavor. By weaving the #E Haedui#! into the fabric of our federation, we will further solidify the bonds of unity that hold #E Gaul#! together. This act not only strengthens our collective might but also symbolizes the triumph of diplomacy and cooperation over conflict and division, bringing us one step closer to the realization of our grand vision for #E Gaul#!."
 
+
+ #2nd part
  gaul_arvernia_2: "Supreme Leader of Gaulish Heroes"
  gaul_arvernia_2_DESCRIPTION: "As the central Gallic tribes rally under our banner in a grand federation, our vision extends beyond unity. We aim to become the Supreme Leader of all Gaul, guiding the Gallic people to an era of unparalleled prosperity and power. With unity as our foundation, we will cultivate a realm where the collective spirit of the Gallic tribes flourishes, where every tribe finds its place in a harmonious mosaic of cultures and strengths."
  gaul_arvernia_2_CRITERIA_DESCRIPTION: "This mission will be completed when we have achieved unrivaled supremacy over all Gaul and solidified our position as its Supreme Leader."
@@ -101,7 +103,7 @@
  gaul_arvernia_task_29_DESC: "As we set our sights on the ultimate conquest, the city of Rome itself, we are poised to establish Gaul as a formidable empire in its own right. In the spirit of our legendary forebearer, Brennus, we ready to march on Rome, carrying forward the legacy of bravery and ambition that has defined our people for generations."
  
  #Formables
- GAUL_FEDERATION_NAME:  "Gaulish Federation"
+ GAUL_FEDERATION_NAME: "Gaulish Federation"
  
  #Modifiers
  gaul_ruined_reputation_mod: "Ruined Reputation"
@@ -306,9 +308,9 @@
  me_gaul_arvernia_ti_2700.a: "Fair wages and bonuses are to be disseminated for our hardworking laborers."
  
  #Tooltips
- sacking_conqueror_effect_tooltip: "Fear is an effective tool in warfare, let us use it"
- me_gaul_arvernia_ti_1301_tt: "An event worthy of a king shall be held"
- me_gaul_arvernia_ti_1303_tt: "We will get to the bottom of this"
+ sacking_conqueror_effect_tooltip: "Fear is an effective tool in warfare, let us use it."
+ me_gaul_arvernia_ti_1301_tt: "An event worthy of a king shall be held."
+ me_gaul_arvernia_ti_1303_tt: "We will get to the bottom of this."
  gaul_arvernia_task_15_claims_tt: "We will receive claims on the rest of #Y Gaul#!."
  gaul_arvernia_task_1_req_tt: "A Gallic country is allied with us."
  gaul_arvernia_task_2_reward_tt: "Some of our Gaulish allies might become our subjects."
