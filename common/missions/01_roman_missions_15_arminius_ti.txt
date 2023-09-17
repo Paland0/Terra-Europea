@@ -319,7 +319,7 @@
 		
 
 		allow = {
-			stability >= 70
+			stability >= 65
 		}
 
 		on_completion = {
