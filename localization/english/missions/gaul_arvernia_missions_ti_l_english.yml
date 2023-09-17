@@ -215,7 +215,7 @@
 
  #[ROOT.GetCountry.GetRuler.GetName]
  me_gaul_arvernia_ti_23_title: "$gaul_arvernia_task_23$"
- me_gaul_arvernia_ti_23_desc: "News of [ROOT.GetCountry.GetRuler.GetName]'s extraordinary conquests have spread like wildfire across the lands of Gaul. From the northernmost reaches to the southernmost frontiers, people from all walks of life can be heard praising the bravery and unwavering determination demonstrated by ROOT.GetCountry.GetRuler.GetName]."
+ me_gaul_arvernia_ti_23_desc: "News of [ROOT.GetCountry.GetRuler.GetName]'s extraordinary conquests have spread like wildfire across the lands of Gaul. From the northernmost reaches to the southernmost frontiers, people from all walks of life can be heard praising the bravery and unwavering determination demonstrated by [ROOT.GetCountry.GetRuler.GetName]."
  me_gaul_arvernia_ti_23.a: "The people are too kind."
 
  me_gaul_arvernia_ti_24_title: "$gaul_arvernia_task_24$"
@@ -307,12 +307,12 @@
  
  #Tooltips
  sacking_conqueror_effect_tooltip: "Fear is an effective tool in warfare, let us use it"
- me_gaul_arvernia_ti_1301_tt: "An event worthy of a king shal be held"
+ me_gaul_arvernia_ti_1301_tt: "An event worthy of a king shall be held"
  me_gaul_arvernia_ti_1303_tt: "We will get to the bottom of this"
- gaul_arvernia_task_15_claims_tt: "we now have claims on much of Gaul"
+ gaul_arvernia_task_15_claims_tt: "We now have claims on much of Gaul"
  gaul_arvernia_task_1_req_tt: ""
  gaul_arvernia_task_2_reward_tt: "This will serve us nicely"
  gaul_arvernia_task_4_reward_tt: "Hopefully they will be susceptible to diplomacy now"
  gaul_arvernia_task_7_reward_tt: "A reward fitting for our undertaking"
  gaul_arvernia_task_13_reward_tt: "A glorious day indeed!"
- gaul_arvernia_task_15_claims_tt: "The rest of Gaul shall nelong to us"
+ gaul_arvernia_task_15_claims_tt: "The rest of Gaul shall belong to us"
