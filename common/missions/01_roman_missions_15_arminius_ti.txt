@@ -56,12 +56,6 @@
 					is_in_area = chamavia_area
 					is_in_area = bructeria_area
 					is_in_area = sicambria_area
-					is_in_area = turonia_area
-					is_in_area = germanicum_area
-					is_in_area = latobrigia_area
-					is_in_area = chattia_occidentalis_area
-					is_in_area = raurica_area
-					is_in_area = vangionia_area
 				}
         	}
         }
@@ -75,12 +69,6 @@
         		owns_or_subject_owns_area = chamavia_area
 			owns_or_subject_owns_area = bructeria_area
 			owns_or_subject_owns_area = sicambria_area
-			owns_or_subject_owns_area = turonia_area
-			owns_or_subject_owns_area = germanicum_area
-			owns_or_subject_owns_area = latobrigia_area
-			owns_or_subject_owns_area = chattia_occidentalis_area
-			owns_or_subject_owns_area = raurica_area
-			owns_or_subject_owns_area = vangionia_area
         }
 
 		on_completion = {
