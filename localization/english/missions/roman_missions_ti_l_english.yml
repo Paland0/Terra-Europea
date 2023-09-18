@@ -365,7 +365,7 @@
  roman_mission_15_arminius_task_13: "Triumph in Germania"
  roman_mission_15_arminius_task_13_DESC: "The hour of our total victory in [GetProvince('(int32)3827').GetArea.GetRegion.GetName] is at hand! We have broken the will of the Germans to resist and have planted deep roots in this faraway province - let us celebrate the glory of Rome! \n\n\n\n\n\n\n\n\n\n\n@greek_mil14!"
  roman_mission_15_arminius_task_14: "Cleaning Up the Southern Front"
- roman_mission_15_arminius_task_14_DESC: "TODO"
+ roman_mission_15_arminius_task_14_DESC: "TODO. \n\n\n\n\n\n\n\n\n\n\n@celt_mil10!"
  
  #Modifiers and League 
  CHERUSCIAN_LEAGUE_NAME: "Cheruscian League"
