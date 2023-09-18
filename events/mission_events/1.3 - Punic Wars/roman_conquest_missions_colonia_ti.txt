@@ -1489,3 +1489,51 @@ roman_conquest_missions_ti.48 = {							# Bactria & Sogdiana
 		}
 	}
 }
+roman_conquest_missions_ti.49 = {							# Southern Germania
+    type = country_event
+	title = roman_conquest_missions_ti.49.t
+    desc = {
+		desc = roman_conquest_missions_ti.49.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:???
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.49.a 
+		trigger = { owns = ??? } 
+		p:??? = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.49.b
+		trigger = { owns = ??? } 
+		p:??? = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.49.c
+		trigger = { owns = ??? } 
+		p:??? = { roman_mission_colonia_effect = yes }
+    }
+	
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = ??? }
+				NOT = { owns = ??? }
+				NOT = { owns = ??? }
+				NOT = { owns = ??? }
+			}
+		}
+	}
+}
