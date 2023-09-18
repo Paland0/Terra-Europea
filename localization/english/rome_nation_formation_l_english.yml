@@ -1,0 +1,30 @@
+﻿l_english:
+ #Terra Indomita (Romano-Hellenic Empire)
+ form_rome_hellenic_empire:0 "Reclaim Alexander's Legacy"
+ form_rome_hellenic_empire_desc:0 "Generations ago, Alexander the Great conquered most of the eastern world, establishing an empire unprecedented in power and destined for greatness, spanning from Macedon to the Indus. Upon his untimely death, however, Alexander's vast realm was instead partitioned and pillaged by lesser men, corrupted from their greed and blinded by their petty self-interest. Through picking up the pieces of his shattered empire and by subduing the many despots that claim lordship over them, Rome will carry on Alexander's legacy into the next age. From the ashes of the old one, a new world order combining east and west shall be established ensuring peace, prosperity, and security."
+ ROMAN_HELLENIC_NAME:0 "Terra Indomita"
+ ROMAN_HELLENIC_ADJECTIVE:0 "Imperial"
+ rome_hellenic_empire_not_exists:0 "#Y Terra Indomita#! must NOT exist."
+ rome_hellenic_empire_has_hellenic:0 "We must have a culture in the Hellenic group integrated."
+ 
+ roman_hellenic_heritage:0 "Terra Indomita Heritage" 
+ roman_hellenic_heritage_desc:0 "After having claimed Alexander's legacy, the empire has achieved a fusion of eastern and western cultures, combining the best aspects of Roman civilization with the Hellenic world. However, such a vast and brimming state is difficult to maintain, and should it find itself under incapable leadership, history may very well repeat itself." 
+ 
+ romano_hellenic_group:0 "Imperial"
+ romano_hellenic:0 "Romano-Hellenic"
+ helleno_roman:0 "Helleno-Roman"
+ romano_hellenic_group_malename:0 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ romano_hellenic_group_femalename:1 "$FAMILY_FEMALE$ $FEMALE_ORDER$ $REGNALNUMBER$ $NICKNAME$"
+ 
+ rhe_culture_event:0 "We will have the choice to either create Romano-Hellenic culture or Helleno-Roman culture"
+ romano_hellenic_formation.1.t:0 "Alexander's Legacy Reclaimed"
+ romano_hellenic_formation.1.desc:0 "Destroyed long ago by corrupt and petty warlords, we have achieved through cunning and a force of arms what many believed to be impossible; the reclamation of Alexander's legacy, and with it, a vast empire stretching from Italia to the Indus. From the ashes of the old one, a new world order combining east and west has been established, ensuring the peace, prosperity, and security of millions for generations to come. Before our benevolent reign is to begin, however, there is a critical debate over the shape that our world order is to take; while few publicly dispute Alexander's vision of a unified culture throughout the empire, the prominent patrician families believe that Roman culture should take priority to honor our roots, while Macedonian nobles have argued that Hellenic should be dominant, given Greek's status as a lingua franca throughout most of our eastern territories. Which should form the basis of the imperial culture?"
+ 
+ romano_hellenic_formation.1.a:0 "Roman, we must honor the legacy of Romulus in addition to Alexander"
+ romano_hellenic_formation.1.b:0 "Hellenic, we must appeal to the masses for the sake of stability"
+ 
+ switch_to_romano_hellenic_culture:0 "Many Roman pops will be converted to the Romano-Hellenic culture."
+ switch_characters_to_romano_hellenic_culture:0 "Most loyal Roman characters will be converted to the Romano-Hellenic culture."
+ 
+ switch_to_helleno_roman_culture:0 "Many Macedonian pops will be converted to the Helleno-Roman culture."
+ switch_characters_to_helleno_roman_culture:0 "Most characters with a Hellenic culture, your family, and some easily-manipulated Romans will be converted to the Helleno-Roman culture."
