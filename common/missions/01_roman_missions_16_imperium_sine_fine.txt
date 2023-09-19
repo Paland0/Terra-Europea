@@ -635,7 +635,7 @@
 		
 		allow = {
 			any_owned_province = {
-				count >= 7
+				count >= 3
 				custom_tooltip = {
 					text = rome_assyrian_forts_tt
 					is_in_region = assyria_region
@@ -643,7 +643,7 @@
 				}
 			}
 			any_owned_province = {
-				count >= 7
+				count >= 3
 				custom_tooltip = {
 					text = rome_mesopotamian_forts_tt
 					is_in_region = mesopotamia_region
