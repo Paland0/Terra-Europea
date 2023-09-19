@@ -440,9 +440,9 @@
 
  roman_conquest_missions_ti.35.t: "Colonization of Cisalbia"
  roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested, and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
- roman_conquest_missions_ti.35.a: "Tropea is strategic enough"
+ roman_conquest_missions_ti.35.a: "Tropea is strategic in its own right"
  roman_conquest_missions_ti.35.b: "Hercynia, watchman to the Albia, is our eastern lookout" 
- roman_conquest_missions_ti.35.c: "The omens have said that Teutoburgiensis is our destiny"
+ roman_conquest_missions_ti.35.c: "Melocavus has a central position, it is perfect for us"
  
  #Collapse
  roman_collapse_arminius_ti.1.t: "Rumbles of Rebellion"
