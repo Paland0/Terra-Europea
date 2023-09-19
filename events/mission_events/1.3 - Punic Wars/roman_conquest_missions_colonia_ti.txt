@@ -597,7 +597,7 @@ roman_conquest_missions_ti.31 = {							# Semnonia
 	
 	fire_only_once = yes
 	
-	goto_location = p:3986
+	goto_location = p:3889
 
     trigger = { has_land = yes }
 
@@ -615,8 +615,8 @@ roman_conquest_missions_ti.31 = {							# Semnonia
 	
 	option = {      
         name = roman_conquest_missions_ti.31.c
-		trigger = { owns = 3891 } 
-		p:3891 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3889 } 
+		p:3889 = { roman_mission_colonia_effect = yes }
     }
 
 	option = {      
@@ -625,7 +625,7 @@ roman_conquest_missions_ti.31 = {							# Semnonia
 			OR = {
 				NOT = { owns = 3986 }
 				NOT = { owns = 3899 }
-				NOT = { owns = 3891 }
+				NOT = { owns = 3889 }
 			}
 		}
 	}
@@ -738,14 +738,14 @@ roman_conquest_missions_ti.34 = {							# Istvaeonic
 	
 	fire_only_once = yes
 	
-	goto_location = p:3777
+	goto_location = p:3700
 
     trigger = { has_land = yes }
 
     option = {      
         name = roman_conquest_missions_ti.34.a 
-		trigger = { owns = 3776 } 
-		p:3776 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3700 } 
+		p:3700 = { roman_mission_colonia_effect = yes }
     }
 	
     option = {      
@@ -756,17 +756,22 @@ roman_conquest_missions_ti.34 = {							# Istvaeonic
 	
 	option = {      
         name = roman_conquest_missions_ti.34.c
-		trigger = { owns = 3787 } 
-		p:3787 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3055 } 
+		p:3055 = { roman_mission_colonia_effect = yes }
     }
-
+option = {      
+        name = roman_conquest_missions_ti.34.d
+		trigger = { owns = 3776 } 
+		p:3776 = { roman_mission_colonia_effect = yes }
+    }
 	option = {      
         name = roman_conquest.not_interfere
 		trigger = {
 			OR = {
 				NOT = { owns = 3776 }
 				NOT = { owns = 3831 }
-				NOT = { owns = 3787 }
+				NOT = { owns = 3055 }
+				NOT = { owns = 3776 }
 			}
 		}
 	}
@@ -785,35 +790,35 @@ roman_conquest_missions_ti.35 = {							# Irminonic
 	
 	fire_only_once = yes
 	
-	goto_location = p:3889
+	goto_location = p:3960
 
     trigger = { has_land = yes }
 
     option = {      
         name = roman_conquest_missions_ti.35.a 
-		trigger = { owns = 3963 } 
-		p:3963 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3960 } 
+		p:3960 = { roman_mission_colonia_effect = yes }
     }
 	
     option = {      
         name = roman_conquest_missions_ti.35.b
-		trigger = { owns = 3889 } 
-		p:3889 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3990 } 
+		p:3990 = { roman_mission_colonia_effect = yes }
     }
 	
 	option = {      
         name = roman_conquest_missions_ti.35.c
-		trigger = { owns = 3953 } 
-		p:3953 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3823 } 
+		p:3823 = { roman_mission_colonia_effect = yes }
     }
 
 	option = {      
         name = roman_conquest.not_interfere
 		trigger = {
 			OR = {
-				NOT = { owns = 3963 }
-				NOT = { owns = 3972 }
-				NOT = { owns = 3953 }
+				NOT = { owns = 3960 }
+				NOT = { owns = 3990 }
+				NOT = { owns = 3823 }
 			}
 		}
 	}
@@ -1489,53 +1494,6 @@ roman_conquest_missions_ti.48 = {							# Bactria & Sogdiana
 				NOT = { owns = 6682 }
 				NOT = { owns = 6694 }
 				NOT = { owns = 6703 }
-			}
-		}
-	}
-}
-roman_conquest_missions_ti.49 = {							# Southern Germania
-    type = country_event
-	title = roman_conquest_missions_ti.49.t
-    desc = {
-		desc = roman_conquest_missions_ti.49.desc
-		desc = roman_conquest.colonia_desc
-	}
-    picture = romans_marching
-    
-    left_portrait = current_ruler
-	
-	fire_only_once = yes
-	
-	goto_location = p:3771
-
-    trigger = { has_land = yes }
-
-    option = {      
-        name = roman_conquest_missions_ti.49.a 
-		trigger = { owns = 3733 } 
-		p:3733 = { roman_mission_colonia_effect = yes }
-    }
-	
-    option = {      
-        name = roman_conquest_missions_ti.49.b
-		trigger = { owns = 3055 } 
-		p:3055 = { roman_mission_colonia_effect = yes }
-    }
-	
-	option = {      
-        name = roman_conquest_missions_ti.49.c
-		trigger = { owns = 3771 } 
-		p:3771 = { roman_mission_colonia_effect = yes }
-    }
-	
-
-	option = {      
-        name = roman_conquest.not_interfere
-		trigger = {
-			OR = {
-				NOT = { owns = 3733 }
-				NOT = { owns = 3055 }
-				NOT = { owns = 3771 }
 			}
 		}
 	}
