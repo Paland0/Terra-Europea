@@ -365,7 +365,7 @@
  roman_mission_15_arminius_task_13: "Triumph in Germania"
  roman_mission_15_arminius_task_13_DESC: "The hour of our total victory in [GetProvince('(int32)3827').GetArea.GetRegion.GetName] is at hand! We have broken the will of the Germans to resist and have planted deep roots in this faraway province - let us celebrate the glory of Rome! \n\n\n\n\n\n\n\n\n\n\n@greek_mil14!"
  roman_mission_15_arminius_task_14: "Cleaning Up the Southern Front"
- roman_mission_15_arminius_task_14_DESC: "TODO. \n\n\n\n\n\n\n\n\n\n\n@celt_mil10!"
+ roman_mission_15_arminius_task_14_DESC: "The Germanic tribes in the south of Germania have always been some of the most troublesome due to their proximity to our borders. Of all the barbarians who call this land home, these are the ones with the easiest access to our people and lands. We cannot let this stand; every moment we wait is another good Roman killed for plunder and worse, we shall put them down like the dogs they are. \n\n\n\n\n\n\n\n\n\n\n@celt_mil10!"
  
  #Modifiers and League 
  CHERUSCIAN_LEAGUE_NAME: "Cheruscian League"
@@ -433,7 +433,6 @@
  roman_conquest_missions_ti.33.b: "Amastica has a nice ring to it"
  roman_conquest_missions_ti.33.c: "The maps show Tecelia could be an excellent option" 
 
-
  roman_conquest_missions_ti.34.t: "Colonization of the interior"
  roman_conquest_missions_ti.34.desc: "With the coast secured, our colonists are ready to venture further inland, into the heart of darkness. This area is cold, dangerous, distant, and not yet fully pacified presenting a great challenge to our colonization efforts. But if we are truly committed to bringing civilization to Germania, we cannot ignore the interior, regardless of the harsh conditions. As our colonists cross the Rhenus and leave the shores behind, it is up to us to decide where to build the new Roman hub of the area."
  roman_conquest_missions_ti.34.a: "Carvium, sister to the Rhenus, is too important"
@@ -447,10 +446,10 @@
  roman_conquest_missions_ti.35.c: "Dandutia has a nice ring to it"
 
  roman_conquest_missions_ti.49.t: "Colonization of the South"
- roman_conquest_missions_ti.49.desc: "TODO"
- roman_conquest_missions_ti.49.a: "TODO"
- roman_conquest_missions_ti.49.b: "TODO" 
- roman_conquest_missions_ti.49.c: "TODO"
+ roman_conquest_missions_ti.49.desc: "After many a long struggle, the southern reaches of Germania have been conquered. Our people and lands north of the Alps breath much easier now; mothers no longer have to hide with their children at the sound of galloping horses, and everywhere you look the eagle banner waves high. The lands we've conquered, while important in their own right, serve as a massive boon to protect our flanks end bustling imperial heartland to the South. The locals are already calling this region 'Agri Decumates': the land where the Limes Germanicus stands the tallest! Glory to Rome, forever!  "
+ roman_conquest_missions_ti.49.a: "Arae Falviae is the natural choice"
+ roman_conquest_missions_ti.49.b: "Lopodunum shall be our bulwark against the northern tribes" 
+ roman_conquest_missions_ti.49.c: "Aquileia Germanica has the makings of a fine Roman city"
  
  #Collapse
  roman_collapse_arminius_ti.1.t: "Rumbles of Rebellion"
