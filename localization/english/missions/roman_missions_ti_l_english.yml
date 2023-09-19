@@ -364,9 +364,7 @@
  roman_mission_15_arminius_task_12_DESC: "While many say that Germania is a harsh land, with an unforgiving climate that is cold and dreary when compared to our beautiful Italian landscapes, that does not mean that the people of this area are beyond civilizing. In fact, there is much we could do to help develop this region.  \n\n\n\n\n\n\n\n\n\n\n@celt_mil14!"
  roman_mission_15_arminius_task_13: "Triumph in Germania"
  roman_mission_15_arminius_task_13_DESC: "The hour of our total victory in [GetProvince('(int32)3827').GetArea.GetRegion.GetName] is at hand! We have broken the will of the Germans to resist and have planted deep roots in this faraway province - let us celebrate the glory of Rome! \n\n\n\n\n\n\n\n\n\n\n@greek_mil14!"
- roman_mission_15_arminius_task_14: "Cleaning Up the Southern Front"
- roman_mission_15_arminius_task_14_DESC: "The Germanic tribes in the south of Germania have always been some of the most troublesome due to their proximity to our borders. Of all the barbarians who call this land home, these are the ones with the easiest access to our people and lands. We cannot let this stand; every moment we wait is another good Roman killed for plunder and worse, we shall put them down like the dogs they are. \n\n\n\n\n\n\n\n\n\n\n@celt_mil10!"
- 
+
  #Modifiers and League 
  CHERUSCIAN_LEAGUE_NAME: "Cheruscian League"
  rome_clades_variana_mod: "Clades Variana"
@@ -419,7 +417,7 @@
  roman_conquest_missions_ti.31.desc: "We have conquered and firmly established our dominion over the western expanse of Germania, yet our borders remain vulnerable. Beyond the Albis River dwell the Suebi, the fiercest, most barbaric, and warlike of all the Germanic tribes, undeterred by a mere river's breadth. Sustaining our suzerainty over the Germans is impossible as long as their eastern kin raid our holdings and aid local rebels, threatening the stability of the entire region. Our legions have been dispatched to crush these barbarians and extend our dominion to the Viadua, silencing the Suebian menace and solidifying our eastern borders once and for all. With newly conquered territory comes the inevitable parceling of land and distribution of promises, but it is up to us to decide which township will become the Roman hub of the area."
  roman_conquest_missions_ti.31.a: "Urania and its central position is key to securing Semnonia" 
  roman_conquest_missions_ti.31.b: "The island of Lemovia is strategic enough"
- roman_conquest_missions_ti.31.c: "Laciburaium and its coastline is crucial to trade"
+ roman_conquest_missions_ti.31.c: "Treva already bustles with Romans, it will hold the northern hinterlands" 
 
  roman_conquest_missions_ti.32.t: "The Conquest of Boihaemia"
  roman_conquest_missions_ti.32.desc: "Despite its apparent proximity to our heartland compared to the Germanic lands, the Bohemian Basin poses a deceptively daunting challenge for colonization. Encircled by thick forests and rugged hills to the north and west, and the formidable Alps to the south, it can only be safely approached via a narrow corridor: the Pannonian Plain and the Danube within it. The geographic isolation only adds to the harsh climate and unfriendly tribes rendering Roman settlement a complicated and difficult endeavor. Nevertheless, undeterred by these obstacles, our colonists march across the plain and traverse the mighty Danube into the heart of the basin leaving it up to us to decide where to build the new Roman hub of the area."
@@ -435,21 +433,16 @@
 
  roman_conquest_missions_ti.34.t: "Colonization of the interior"
  roman_conquest_missions_ti.34.desc: "With the coast secured, our colonists are ready to venture further inland, into the heart of darkness. This area is cold, dangerous, distant, and not yet fully pacified presenting a great challenge to our colonization efforts. But if we are truly committed to bringing civilization to Germania, we cannot ignore the interior, regardless of the harsh conditions. As our colonists cross the Rhenus and leave the shores behind, it is up to us to decide where to build the new Roman hub of the area."
- roman_conquest_missions_ti.34.a: "Carvium, sister to the Rhenus, is too important"
+ roman_conquest_missions_ti.34.a: "Nida, sister to the Rhenus and Moenis, is too important"
  roman_conquest_missions_ti.34.b: "The omens have said that Teutoburgiensis is our destiny"
- roman_conquest_missions_ti.34.c: "Tenctheria could work, given enough time"
+ roman_conquest_missions_ti.34.c: "Lopodunum shall be our bulwark against the northern tribes"
+ roman_conquest_missions_ti.34.d: "Carvium, opposite the fortress city of Ulpia Traiana, is our home away from home"
 
  roman_conquest_missions_ti.35.t: "Colonization of Cisalbia"
  roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested, and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
  roman_conquest_missions_ti.35.a: "Tropea is strategic enough"
- roman_conquest_missions_ti.35.b: "Treva, watchman to the Albia, is our eastern lookout" 
- roman_conquest_missions_ti.35.c: "Dandutia has a nice ring to it"
-
- roman_conquest_missions_ti.49.t: "Colonization of the South"
- roman_conquest_missions_ti.49.desc: "After many a long struggle, the southern reaches of Germania have been conquered. Our people and lands north of the Alps breath much easier now; mothers no longer have to hide with their children at the sound of galloping horses, and everywhere you look the eagle banner waves high. The lands we've conquered, while important in their own right, serve as a massive boon to protect our flanks end bustling imperial heartland to the South. The locals are already calling this region 'Agri Decumates': the land where the Limes Germanicus stands the tallest! Glory to Rome, forever!  "
- roman_conquest_missions_ti.49.a: "Arae Falviae is the natural choice"
- roman_conquest_missions_ti.49.b: "Lopodunum shall be our bulwark against the northern tribes" 
- roman_conquest_missions_ti.49.c: "Aquileia Germanica has the makings of a fine Roman city"
+ roman_conquest_missions_ti.35.b: "Hercynia, watchman to the Albia, is our eastern lookout" 
+ roman_conquest_missions_ti.35.c: "The omens have said that Teutoburgiensis is our destiny"
  
  #Collapse
  roman_collapse_arminius_ti.1.t: "Rumbles of Rebellion"
