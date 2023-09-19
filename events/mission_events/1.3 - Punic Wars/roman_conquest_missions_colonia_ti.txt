@@ -1512,20 +1512,20 @@ roman_conquest_missions_ti.49 = {							# Southern Germania
 
     option = {      
         name = roman_conquest_missions_ti.49.a 
-		trigger = { owns = ??? } 
-		p:??? = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3733 } 
+		p:3733 = { roman_mission_colonia_effect = yes }
     }
 	
     option = {      
         name = roman_conquest_missions_ti.49.b
-		trigger = { owns = ??? } 
-		p:??? = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3055 } 
+		p:3055 = { roman_mission_colonia_effect = yes }
     }
 	
 	option = {      
         name = roman_conquest_missions_ti.49.c
-		trigger = { owns = ??? } 
-		p:??? = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3771 } 
+		p:3771 = { roman_mission_colonia_effect = yes }
     }
 	
 
@@ -1533,10 +1533,9 @@ roman_conquest_missions_ti.49 = {							# Southern Germania
         name = roman_conquest.not_interfere
 		trigger = {
 			OR = {
-				NOT = { owns = ??? }
-				NOT = { owns = ??? }
-				NOT = { owns = ??? }
-				NOT = { owns = ??? }
+				NOT = { owns = 3733 }
+				NOT = { owns = 3055 }
+				NOT = { owns = 3771 }
 			}
 		}
 	}
