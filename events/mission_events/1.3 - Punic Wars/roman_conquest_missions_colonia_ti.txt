@@ -630,6 +630,7 @@ roman_conquest_missions_ti.31 = {							# Semnonia
 		}
 	}
 }
+
 roman_conquest_missions_ti.32 = {							# Boihaemia
     type = country_event
 	title = roman_conquest_missions_ti.32.t
@@ -676,6 +677,7 @@ roman_conquest_missions_ti.32 = {							# Boihaemia
 		}
 	}
 }
+
 roman_conquest_missions_ti.33 = {							# Ingvaeonic Coast
     type = country_event
 	title = roman_conquest_missions_ti.33.t
@@ -689,14 +691,14 @@ roman_conquest_missions_ti.33 = {							# Ingvaeonic Coast
 	
 	fire_only_once = yes
 	
-	goto_location = p:3847
+	goto_location = p:3852
 
     trigger = { has_land = yes }
 
     option = {      
         name = roman_conquest_missions_ti.33.a 
-		trigger = { owns = 3847 } 
-		p:3847 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3852 } 
+		p:3852 = { roman_mission_colonia_effect = yes }
     }
 	
     option = {      
@@ -722,6 +724,7 @@ roman_conquest_missions_ti.33 = {							# Ingvaeonic Coast
 		}
 	}
 }
+
 roman_conquest_missions_ti.34 = {							# Istvaeonic
     type = country_event
 	title = roman_conquest_missions_ti.34.t
@@ -768,6 +771,7 @@ roman_conquest_missions_ti.34 = {							# Istvaeonic
 		}
 	}
 }
+
 roman_conquest_missions_ti.35 = {							# Irminonic
     type = country_event
 	title = roman_conquest_missions_ti.35.t
@@ -781,7 +785,7 @@ roman_conquest_missions_ti.35 = {							# Irminonic
 	
 	fire_only_once = yes
 	
-	goto_location = p:3963
+	goto_location = p:3889
 
     trigger = { has_land = yes }
 
@@ -793,8 +797,8 @@ roman_conquest_missions_ti.35 = {							# Irminonic
 	
     option = {      
         name = roman_conquest_missions_ti.35.b
-		trigger = { owns = 3972 } 
-		p:3972 = { roman_mission_colonia_effect = yes }
+		trigger = { owns = 3889 } 
+		p:3889 = { roman_mission_colonia_effect = yes }
     }
 	
 	option = {      
