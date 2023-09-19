@@ -1506,7 +1506,7 @@ roman_conquest_missions_ti.49 = {							# Southern Germania
 	
 	fire_only_once = yes
 	
-	goto_location = p:???
+	goto_location = p:3771
 
     trigger = { has_land = yes }
 
