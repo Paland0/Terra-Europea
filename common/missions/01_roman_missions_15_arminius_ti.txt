@@ -478,6 +478,7 @@
 					is_in_area = saxony_area
 					is_in_area = sicambria_area
 					is_in_area = marcomannia_maiores_area
+					is_in_area = chattia_orientalis_area
 					is_in_area = marcomannia_minores_area
 					is_in_area = boioa_meridionalis_area
 					is_in_area = boioa_septentrionalis_area
