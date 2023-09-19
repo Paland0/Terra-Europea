@@ -418,9 +418,6 @@
 		OR = {	
 			any_owned_province = {
 				trade_goods = amber
-					is_in_region = germania_region
-					is_in_region = scandinavia_region 
-					is_in_region = venedia_region
 				}
 			capital_scope = {
 				is_importing_trade_good = amber
@@ -499,32 +496,14 @@
 					is_in_area = buria_area
 					is_in_area = saxony_area
 					is_in_area = sicambria_area
+					is_in_area = marcomannia_maiores_area
+					is_in_area = marcomannia_minores_area
+					is_in_area = boioa_meridionalis_area
+					is_in_area = boioa_septentrionalis_area
 					is_in_area = chattia_orientalis_area
 				}
         	}
         }
-
-		allow = {
-			owns_or_subject_owns_area = semnonia_area
-        	owns_or_subject_owns_area = pharodenia_area
-			owns_or_subject_owns_area = suradonia_area
-			owns_or_subject_owns_area = frisia_area
-        	owns_or_subject_owns_area = chasuaria_area
-			owns_or_subject_owns_area = chaucia_area
-			owns_or_subject_owns_area = langobardia_area
-			owns_or_subject_owns_area = caluconia_area
-        	owns_or_subject_owns_area = chamavia_area
-			owns_or_subject_owns_area = bructeria_area
-		owns_or_subject_owns_area = sicambria_area
-			owns_or_subject_owns_area = turonia_area
-			owns_or_subject_owns_area = germanicum_area
-			owns_or_subject_owns_area = latobrigia_area
-			owns_or_subject_owns_area = chattia_occidentalis_area
-			owns_or_subject_owns_area = raurica_area
-			owns_or_subject_owns_area = vangionia_area
-		owns_or_subject_owns_area = saxony_area
-			owns_or_subject_owns_area = buria_area
-		}
 
 		on_completion = {
 			trigger_event = me_roman_missions_ti.37
