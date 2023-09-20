@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  #Eastern Glory Rework
  roman_mission_09_eastern_glory_ti_task_1: "Lycia et Pisidia"
  roman_mission_09_eastern_glory_ti_task_1_DESC: "The lands of Lycia et Pisidia lie before us, untouched by the light of Roman rule. Here, our legions shall bring not only conquest but will also illuminate these lands with the civilizing light of#E Rome#!."
@@ -48,7 +48,7 @@
  me_roman_missions_ti.16.a: "With Armenia at our beckoning, we gain access to a vibrant region full of wonderous wares and hearty people; as well as swinging open the door to Persia. Our empire ever expands."
  
  me_roman_missions_ti.17.t: "Defiance of Roman Hegemony"
- me_roman_missions_ti.17.desc: "Those damned Armenians, they have made the unwise decision to reject our offer of becoming a client state under our great dominion. The Armenians seem unwilling to concede power to the might of Rome without a fight. As the sun rises over the Caucasus Mountains, our scouts are making headway in learning the shortcomngs in the foolish Armenians' defenses. Our ambitions to seize Armenian lands by force are clear, we shall not yield without a valiant struggle."
+ me_roman_missions_ti.17.desc: "Those damned Armenians, they have made the unwise decision to reject our offer of becoming a client state under our great dominion. The Armenians seem unwilling to concede power to the might of Rome without a fight. As the sun rises over the Caucasus Mountains, our scouts are making headway in learning the shortcomings in the foolish Armenians' defenses. Our ambitions to seize Armenian lands by force are clear, we shall not yield without a valiant struggle."
  me_roman_missions_ti.17.a: "We will gain Armenia, one way or another."
  
  roman_conquest_missions_ti.19.t: "Liberation of the Lycian Shore"
@@ -133,7 +133,7 @@
  me_roman_missions_ti.12.desc: "For far too long the Israelites have been a rebellious thorn in our side, as they have been for all who have ruled them. We shall destroy their spirit of insolence and integrate them into our people. In time they will see our ways as theirs, and peace shall reign over Ierusalem." 
  me_roman_missions_ti.12.a: "Perhaps we should take a look at Nebuchadnezzar for inspiration." 
 
- me_roman_missions_ti.10.t: "Indepenedent Judea"
+ me_roman_missions_ti.10.t: "Independent Judea"
  me_roman_missions_ti.10.desc: "The troublesome Israelites buck us at every turn, they will not listen to Roman rule no matter how hard we try. It is not worth the trouble to directly control these damned people, so we shall put in place a puppet who can reign over the Judeans."
  me_roman_missions_ti.10.a: "This will serve us nicely."
 
@@ -213,7 +213,7 @@
  roman_mission_14_trouble_at_hellespontus: "Trouble in Hellespontus"
  roman_mission_14_trouble_at_hellespontus_BUTTON_TOOLTIP:0 "The waters and cities of the northern Greeks call out to be claimed by the growing power of Rome."
  roman_mission_14_trouble_at_hellespontus_BUTTON_DETAILS:0 ""
- roman_mission_14_trouble_at_hellespontus_DESCRIPTION:0 "The region known as Hellespontus is the farthest Hellenic settlers have civilized in the areas north of Anatolia and Thrace. The coasts of Bosporus and the northern Pontus are dotted with our religous bretheren, struggling to carve out a life surrounded by barbarians in Scythia and Dacia. It is high time we not only incorporate these colorful bastions of civilization, including the Thracian lands Lysimachian rule have left destabilized, but also pacify the wilds that surround them. Unfortunately for the poor and battered inhabitants of these regions, our interests have brought our own armies here, but we can promise that once we push out any other interlopers, peace will finally come forever."
+ roman_mission_14_trouble_at_hellespontus_DESCRIPTION:0 "The region known as Hellespontus is the farthest Hellenic settlers have civilized in the areas north of Anatolia and Thrace. The coasts of Bosporus and the northern Pontus are dotted with our religious brethren, struggling to carve out a life surrounded by barbarians in Scythia and Dacia. It is high time we not only incorporate these colorful bastions of civilization, including the Thracian lands Lysimachian rule has left destabilized, but also pacify the wilds that surround them. Unfortunately for the poor and battered inhabitants of these regions, our interests have brought our own armies here, but we can promise that once we push out any other interlopers, peace will finally come forever."
  roman_mission_14_trouble_at_hellespontus_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when we have conquered the Thracian territories, Scythia, Bosporus, as well as the Dacian wildlands to the north."
  roman_mission_14_trouble_at_hellespontus_REWARD_DESCRIPTION:0 ""
  #Tasks
@@ -568,7 +568,7 @@
  
  me_roman_missions_ti.43.t: "Diplomatic Overtures"
  me_roman_missions_ti.43.desc: "The winds of change sweep across the eastern lands, and the Parthian Empire rises as a formidable power on Rome's eastern borders. In this perilous moment, voices within the Senate advocate for the pursuit of a truce with #Y Parthia#!, a chance to secure peace and stability in the East. "
- me_roman_missions_ti.43.a: "Send envoys to #Y Parthia#! in pursuit of a nonagression pact."
+ me_roman_missions_ti.43.a: "Send envoys to #Y Parthia#! in pursuit of a nonaggression pact."
  me_roman_missions_ti.43.b: "Rome shall stand firm, meeting this rising power with unwavering determination and defending our interests without compromise."
 
  me_roman_missions_ti.44.t: "The Parthian Truce"
@@ -700,7 +700,7 @@
  roman_mission_17_hellenic_empire_ti_task_8_DESC: "Beyond the furthest corners of the known world, where the Eastern horizon meets the boundless expanse of the Scythian steppes, resides a people that has eluded the grasp of Rome for too long. In these lands, where Queen Tomyris reputedly crushed the ambitions of the Achaemenids under Cyrus the Great, it falls upon us to add a new chapter, one where Rome has friends even at the very edge of the world. To do so we must forcefully extend our friendship to the Scythians, forever locking their formidable might within the orbit of Rome."
  roman_mission_17_hellenic_empire_ti_task_8_effect_tt: "The Scythians wilds will be civilized come Hades or high water!"
  roman_mission_17_hellenic_empire_ti_task_9: "The Power of Learning"
- roman_mission_17_hellenic_empire_ti_task_9_DESC: "An empire that is to stand the test of time must be one not only of soldiers but also of letters and culture. Let us bring all the knowledge of the world to bear against the barbarous darkness which hides in shadows our light not yet touches. Anyone wishing to partake in the collective wisdom of mankind should seek to study it at our discretion and be provided with all things needed for such a noble pursuit. Every scientific or philosophic work worthy of reading, we shall find and collect."
+ roman_mission_17_hellenic_empire_ti_task_9_DESC: "An empire that is to stand the test of time must be one not only of soldiers but also of letters and culture. Let us bring all the knowledge of the world to bear against the barbarous darkness that hides in shadows our light not yet touches. Anyone wishing to partake in the collective wisdom of mankind should seek to study it at our discretion and be provided with all things needed for such a noble pursuit. Every scientific or philosophic work worthy of reading, we shall find and collect."
  roman_mission_17_hellenic_empire_ti_task_10: "Armaments of a Living God"
  roman_mission_17_hellenic_empire_ti_task_10_DESC: "When Alexander died in Babylon, his arms and armor were initially shown the greatest respect, taking the highest seat at the table as the plans were drawn up for the succession. In the general chaos that ensued, however, they were lost, spread by the winds of change across his crumbling empire. We must assemble the panoply of Alexander once again, and return it to his grave, where it shall be properly honored."
  roman_mission_17_hellenic_empire_ti_task_11: "Doing the Impossible"
@@ -777,7 +777,7 @@
  me_roman_missions_ti.68.a: "We have pulled the heist of the century; none shall soon forget this!"
 
  me_roman_missions_ti.69.t: "The Start of Something New"
- me_roman_missions_ti.69.desc: "The greatest artisan minds of our age are confering on the unthinkable: We Romans unseating Serica and the East as the premier supplier of silk. We have the means and materials, the best scientists and crafters to do so, and a willing public hungry for results. We have done the 'undoable' before, both diplomatically and militarily, why should this be any different? It is time our risky gambit paid off, it is time to make the best silk imaginable."
+ me_roman_missions_ti.69.desc: "The greatest artisan minds of our age are conferring on the unthinkable: We Romans unseating Serica and the East as the premier supplier of silk. We have the means and materials, the best scientists and crafters to do so, and a willing public hungry for results. We have done the 'undoable' before, both diplomatically and militarily, why should this be any different? It is time our risky gambit paid off, it is time to make the best silk imaginable."
  me_roman_missions_ti.69.a: "It will not be easy, but it shall be done regardless"
  
  me_roman_missions_ti.70.t: "Roman Mouseion"
