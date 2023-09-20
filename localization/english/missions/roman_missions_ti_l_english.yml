@@ -338,7 +338,7 @@
  roman_mission_15_arminius_BUTTON_TOOLTIP:0 "We will send our Legions into these dark forests and prove to our people that we have nothing to fear."
  roman_mission_15_arminius_BUTTON_DETAILS:0 ""
  roman_mission_15_arminius_DESCRIPTION:0 "Germans; even the name of these barbarians is enough to send a shiver down a good Roman citizen's spine. Although we have memories of Gallic invasions, like the time when Brennus came and sacked Rome itself, the Germans are even fiercer and deadlier opponents and present a threat to our interests in the north. Although it will require a strenuous effort, we should do what we can to bring peace to this region."
- roman_mission_15_arminius_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when Germania and Boihaemia are brought under roman rule, quelling the rebellious sparks within."
+ roman_mission_15_arminius_CRITERIA_DESCRIPTION:0 "This mission will be considered complete when Germania and Boihaemia are brought under Roman rule, quelling the rebellious sparks within."
  roman_mission_15_arminius_REWARD_DESCRIPTION:0 "We will be able to stabilize our conquests in Germania Magna."
  #Tasks
  roman_mission_15_arminius_task_2: "The Land between Albis and Rhenus"
