@@ -51,6 +51,7 @@
 					is_in_area = frisia_area
 					is_in_area = chasuaria_area
 					is_in_area = chaucia_area
+					is_in_area = turonia_area 
 					is_in_area = langobardia_area
 					is_in_area = caluconia_area
 					is_in_area = chamavia_area
@@ -72,6 +73,7 @@
         		owns_or_subject_owns_area = chamavia_area
 			owns_or_subject_owns_area = bructeria_area
 			owns_or_subject_owns_area = sicambria_area
+			owns_or_subject_owns_area = turonia_area 
 			owns_or_subject_owns_area = raurica_area
 			owns_or_subject_owns_area = vangionia_area
         }
