@@ -327,6 +327,28 @@ me_roman_missions_ti.12 = {							# Raising the Decapolian League
 	}
 }
 
+me_roman_missions_ti.13 = {							# Island of Cyprus
+    type = country_event
+    title = me_roman_missions_ti.13.t
+	desc = me_roman_missions_ti.13.desc
+    picture = romans_marching
+    
+    left_portrait = root.current_ruler
+	
+	option = {
+		name = me_roman_missions_ti.13.a
+		p:331 = { roman_mission_colonia_effect = yes }
+	}
+	option = {
+		name = me_roman_missions_ti.13.b
+		p:334 = { roman_mission_colonia_effect = yes }
+	}
+	option = {
+		name = me_roman_missions_ti.13.c
+		p:338 = { roman_mission_colonia_effect = yes }
+	}
+}
+
 me_roman_missions_ti.15 = {							# Ultimatum to Armenia
     type = country_event
     title = me_roman_missions_ti.15.t
