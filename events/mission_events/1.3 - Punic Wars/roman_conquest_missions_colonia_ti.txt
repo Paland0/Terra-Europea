@@ -1498,3 +1498,50 @@ roman_conquest_missions_ti.48 = {							# Bactria & Sogdiana
 		}
 	}
 }
+roman_conquest_missions_ti.49 = {							# Cyprus
+    type = country_event
+	title = roman_conquest_missions_ti.49.t
+    desc = {
+		desc = roman_conquest_missions_ti.49.desc
+		desc = roman_conquest.colonia_desc
+	}
+    picture = romans_marching
+    
+    left_portrait = current_ruler
+	
+	fire_only_once = yes
+	
+	goto_location = p:331
+
+    trigger = { has_land = yes }
+
+    option = {      
+        name = roman_conquest_missions_ti.49.a 
+		trigger = { owns = 331 } 
+		p:331 = { roman_mission_colonia_effect = yes }
+    }
+	
+    option = {      
+        name = roman_conquest_missions_ti.49.b
+		trigger = { owns = 334 } 
+		p:334 = { roman_mission_colonia_effect = yes }
+    }
+	
+	option = {      
+        name = roman_conquest_missions_ti.49.c
+		trigger = { owns = 338 } 
+		p:338 = { roman_mission_colonia_effect = yes }
+    }
+	
+
+	option = {      
+        name = roman_conquest.not_interfere
+		trigger = {
+			OR = {
+				NOT = { owns = 331 }
+				NOT = { owns = 334 }
+				NOT = { owns = 338 }
+			}
+		}
+	}
+}
