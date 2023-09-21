@@ -677,11 +677,23 @@
     	}
 
     	on_completion = {
-        	#custom_tooltip = roman_conquest_reward_tooltip
-			trigger_event = me_roman_missions_ti.13
-			show_as_tooltip = {
-				p:331 = { roman_mission_colonia_effect = yes }
-			}
+			roman_mission_ruler_popularity_effect = yes
+        	custom_tooltip = roman_conquest_reward_tooltip
+        	trigger_event = { id = roman_conquest_missions_ti.49 }
+    		every_country_state = {
+                limit = {
+                    any_state_province = {
+                        OR = {
+                            is_in_area = cyprus_area
+                        }
+                    }
+                }
+                custom = roman_mission_13_fall_of_diadochoi_ti_task_4_modifier_tt
+                add_state_modifier = {
+                    name = new_roman_conquest_foreign_smod
+                    duration = 1825 # 5 years
+                }
+            }
     	}
     }
 	
