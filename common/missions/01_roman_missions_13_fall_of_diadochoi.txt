@@ -664,7 +664,7 @@ roman_mission_13_fall_of_diadochoi = {
 	roman_mission_13_fall_of_diadochoi_ti_task_4 = { # Island of Cyprus
     	icon = "task_conquest"
 
-    	requires = { roman_mission_13_fall_of_diadochoi_ti_task_1 roman_mission_13_fall_of_diadochoi_ti_task_5 }
+    	requires = { roman_mission_13_fall_of_diadochoi_ti_task_1 }
 
     	highlight = {
 			scope:province = {
@@ -739,7 +739,7 @@ roman_mission_13_fall_of_diadochoi = {
 		
 		duration = 60
 
-    	requires = { roman_mission_13_fall_of_diadochoi_ti_task_4 }
+    	requires = { roman_mission_13_fall_of_diadochoi_ti_task_5 }
 
     	highlight = {
 			scope:province = {
@@ -787,7 +787,7 @@ roman_mission_13_fall_of_diadochoi = {
 	roman_mission_13_fall_of_diadochoi_ti_task_7 = { # The Matter of Cyrenaica
     	icon = "task_conquest"
 
-    	requires = { roman_mission_13_fall_of_diadochoi_ti_task_5 }
+    	requires = { roman_mission_13_fall_of_diadochoi_ti_task_1 }
 
     	highlight = {
 			scope:province = {
