@@ -1366,8 +1366,8 @@ me_roman_missions_ti.49 = {							# Sol Invictus Random
 	
 	trigger = {
 		OR = {
-			has_this_omen = deity:sol_invictus
-			deity:sol_invictus = {
+			has_this_omen = deity:omen_sol_invictus
+			deity:omen_sol_invictus = {
 				has_holy_site = yes
 				holy_site = {
 					owner = root
