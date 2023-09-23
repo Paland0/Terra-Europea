@@ -380,6 +380,7 @@
  desc_angrivarian_wall_burnt_rome: "The Angrivarian Wall was once an impressive defensive fortification, but the Romans destroyed everything."
  roman_mission_amber_source: "Amber from Germania"
  desc_roman_mission_amber_source: "We are importing the finest amber from the faraway forests of Germania."
+ roman_mission_15_arminius_task_11_reqq: "We own at least one #Y Amber#! producing provinces in the regions of #Y Germania Magna#!, #Y Venedia#! or #Y Scandia#!."
  
  #Events
  me_roman_missions_ti.34.t: "The Conquest of Transrhenia"
