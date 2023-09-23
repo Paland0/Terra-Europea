@@ -1,7 +1,7 @@
 deity_manager = {
 	deities_database = { 
 		#added via missions
-		2512274 = {
+		274274 = {
 			key = omen_sol_invictus
 			deity = ﻿deity_sol_invictus
 		}
