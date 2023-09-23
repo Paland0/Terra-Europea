@@ -8,7 +8,7 @@
 			num_of_cities >= 1
 			NOT = { tag = RHE }
 			primary_culture = roman
-			has_completed_mission_task = 01_roman_missions_17_hellenic_empire_ti
+			has_completed_mission = roman_mission_17_hellenic_empire_ti
 			OR = {
 				NOT = {
 					is_endgame_tag_trigger = yes
