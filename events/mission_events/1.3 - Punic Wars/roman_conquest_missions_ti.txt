@@ -339,6 +339,14 @@ me_roman_missions_ti.13 = {							# Island of Cyprus
 		name = me_roman_missions_ti.13.a
 		p:331 = { roman_mission_colonia_effect = yes }
 	}
+	option = {
+		name = me_roman_missions_ti.13.b
+		p:334 = { roman_mission_colonia_effect = yes }
+	}
+	option = {
+		name = me_roman_missions_ti.13.c
+		p:338 = { roman_mission_colonia_effect = yes }
+	}
 }
 
 me_roman_missions_ti.15 = {							# Ultimatum to Armenia
