@@ -1,0 +1,182 @@
+﻿namespace = romano_hellenic_formation
+
+romano_hellenic_formation.1 = {
+	type = country_event
+	title = romano_hellenic_formation.1.t
+	desc = romano_hellenic_formation.1.desc
+	picture = diadochi_legion_carrying_standard_honor
+	left_portrait = current_ruler
+	right_portrait = char:39
+
+	trigger = {
+		tag = RHE
+	}
+
+	option = {	  
+		name = romano_hellenic_formation.1.a
+		custom_tooltip = "switch_to_romano_hellenic_culture"
+		#Change old culture pops to new culture
+		hidden_effect = {
+			capital_scope = {
+				ordered_pops_in_province = {
+					order_by = pop_hapiness
+					limit = {
+						OR = {
+							pop_type = citizen
+							pop_type = nobles
+						}
+						NOT = { pop_culture = romano_hellenic }
+					}
+					set_pop_culture = romano_hellenic
+					max = 25
+					check_range_bounds = no
+				}
+			}
+			ordered_owned_province = {
+				order_by = total_population
+				max = 30
+				check_range_bounds = no
+				ordered_pops_in_province = {
+					order_by = pop_hapiness
+					limit = {
+						OR = {
+							#pop_culture = this.culture.culture_group = culture_group:hellenic
+							#pop_culture.culture_group = culture_group:hellenic
+							pop_culture = root.culture
+							#pop_type = citizen
+							#pop_type = nobles
+						}
+						NOT = { pop_culture = romano_hellenic }
+					}
+					set_pop_culture = romano_hellenic
+					max = 15
+					check_range_bounds = no
+				}
+			}
+		}
+
+		custom_tooltip = "switch_characters_to_romano_hellenic_culture"
+		hidden_effect = {
+			#Change most old culture characters to new culture			
+			every_character = {
+				limit = {
+					AND = {
+						OR = {
+							from_ruler_family = yes
+							is_minor_character = no
+						}
+						has_culture = root.culture
+					}
+					OR = { #ruling family members'll become culture
+						any_family_member = { this = root.current_ruler }
+						NOR = {
+							has_trait = sceptical
+							has_trait = stubborn
+							has_trait = narrowminded
+							has_trait = suspicious
+							has_trait = xenophobic
+							loyalty < 33
+						}
+					}
+				}
+				set_culture = romano_hellenic
+			}
+			set_primary_culture_cleanup_effect = {
+				NEW_PRIMARY_CULTURE = romano_hellenic
+				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
+		}
+	}
+	option = {	  
+		name = romano_hellenic_formation.1.b
+
+		custom_tooltip = "switch_to_helleno_roman_culture"
+		#Change old culture pops to new culture
+		hidden_effect = {
+			capital_scope = {
+				ordered_pops_in_province = {
+					order_by = pop_hapiness
+					limit = {
+						OR = {
+							pop_type = citizen
+							pop_type = nobles
+						}
+						NOT = { pop_culture = helleno_roman }
+					}
+					set_pop_culture = helleno_roman
+					max = 5
+					check_range_bounds = no
+				}
+			}
+			ordered_owned_province = {
+				order_by = total_population
+				max = 60
+				check_range_bounds = no
+				ordered_pops_in_province = {
+					order_by = pop_hapiness
+					limit = {
+						OR = {
+							#pop_culture = this.culture.culture_group = culture_group:hellenic
+							#pop_culture.culture_group = culture_group:hellenic
+							pop_culture = macedonian
+							#pop_type = citizen
+							#pop_type = nobles
+						}
+						NOT = { pop_culture = helleno_roman }
+					}
+					set_pop_culture = helleno_roman
+					max = 45
+					check_range_bounds = no
+				}
+			}
+		}
+
+		custom_tooltip = "switch_characters_to_romano_hellenic_culture"
+		hidden_effect = {
+			#Change most old culture characters to new culture			
+			every_character = {
+				limit = {
+					AND = {
+						OR = {
+							from_ruler_family = yes
+							is_minor_character = no
+						}
+						OR = {
+							has_culture = root.culture
+							has_culture = macedonian
+						}
+					}
+					OR = { #ruling family members'll become culture
+						any_family_member = { this = root.current_ruler }
+						AND = {
+							OR = {
+								loyalty > 60
+								has_culture = macedonian
+								has_trait = trustworthy
+								has_trait = easygoing
+								has_trait = tolerant
+								has_trait = impartial
+								has_trait = weak_willed
+								has_trait = trusting
+								has_trait = submissive
+							}
+							NOR = {
+								has_trait = sceptical
+								has_trait = stubborn
+								has_trait = narrowminded
+								has_trait = suspicious
+								has_trait = xenophobic
+								loyalty < 33
+							}
+						}
+					}
+				}
+				set_culture = helleno_roman
+			}
+			set_primary_culture_cleanup_effect = {
+				NEW_PRIMARY_CULTURE = helleno_roman
+				MAKE_OLD_CULTURE_INTEGRATED = yes
+			}
+		}
+	}
+}

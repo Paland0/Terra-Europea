@@ -2,5 +2,6 @@
 colors = {
 
 	roman_hellenic_color = rgb { 110 12 140 }
+	roman_hellenic_map_color = rgb { 100 11 132 }
 }
 

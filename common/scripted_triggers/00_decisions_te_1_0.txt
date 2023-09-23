@@ -1,0 +1,32 @@
+﻿##Left all of the vanilla formable triggers - remember molon labe formables
+
+is_endgame_tag_trigger = {
+	OR = {
+		tag = ROM #Rome
+		tag = AX2 #Axum Formable
+		tag = AXM #Axum
+		tag = AIO #Albion
+		tag = ALX #Alexander's Empire
+		tag = BHA #Bharatavarsha
+		tag = DAC #Dacia
+		tag = GAU #Gaul
+		tag = HLA #Hellenic League
+		tag = HBR #Greater Iberia
+		tag = PER #Persia/Achaemenid
+		tag = PPN #Phoenicia
+		tag = PTH #Parthia Formable
+		tag = PAR #Parthia 
+		tag = MGG #Magna Graecia
+		tag = KHN #Kushan
+		tag = DLA #Delian League
+		tag = PLL #Peloponnesian League
+		tag = SCY #Scythia
+		tag = SLA #Slavia
+		tag = IDC #Indo-Greek Kingdom
+		tag = TIB #Tibetan Empire
+		tag = IGK #Indo-Germanic Kingdom
+		tag = ARB #Arabia
+		tag = GEE #Germania
+		tag = RHE #Terra Indomita (Roman Hellenic Empire)
+	}
+}
