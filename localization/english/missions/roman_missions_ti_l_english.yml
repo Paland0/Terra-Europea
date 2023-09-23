@@ -143,8 +143,10 @@
  me_roman_missions_ti.11.a: "Unity is strength." 
 
  me_roman_missions_ti.13.t: "The Island of Cyprus"
- me_roman_missions_ti.13.desc: "Cyprus, island gateway to the far eastern Mediterranean, belongs now to Rome. With it, our control of trade flowing from Anatolia and down through Phoenicia is secured, and the Pirates of Cicilia will know no peace." 
- me_roman_missions_ti.13.a: "Salamis, site of the great Antigonid victory, shall become our port stronghold. We are its new masters."
+ me_roman_missions_ti.13.desc: "Cyprus, island gateway to the far eastern Mediterranean, belongs now to Rome. With it, our control of trade flowing from Anatolia and down through Phoenicia is secured, and the Pirates of Cilicia will know no peace. The island has a history dating back numerous millennia and is home to many temples and priestesses dedicated to the worship of Venus: our Goddess of Love and beauty. May she bless us with the fiery passions and familial bonds that tie our empire together, Glory to Venus! Glory to Rome!" 
+ me_roman_missions_ti.13.a: "Salamis, site of the great Antigonid victory, shall become our port stronghold. We are its new masters"
+ me_roman_missions_ti.13.b: "Paphus, earthly birthplace of Venus, is a site steeped in rich history and culture; this is surely the place"
+ me_roman_missions_ti.13.c: "Almathus, homeland of the most holy temple dedicated to Venus, will serve our Roman settlers best"
  
  me_roman_missions_ti.25.t: "Egyptian Protectorate"
  me_roman_missions_ti.25.desc: "After years of fumbling away their kingdom, watching it get taken piece by piece, it is high time we become the guarantors of Egypt. Rome shall now ensure not only that the rulers of this storied land know their place, but also make the promise of further glory for our people." 
