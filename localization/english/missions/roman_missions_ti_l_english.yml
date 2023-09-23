@@ -86,6 +86,7 @@
  roman_mission_13_fall_of_diadochoi_ti_task_1: "The Phoenician Coast"
  roman_mission_13_fall_of_diadochoi_ti_task_1_DESC: "The old and storied cities of the Phoenician coast call out to be ruled by the hand of Rome, desperate for peace at any cost. The relentless Wars of the Diadochi have brought nothing but misery to these lands, shattering legitimacy - our claims are as good as any others.\n\n\n\n\n\n\n\n\n\n\n@event_pic3!"
  roman_mission_13_fall_of_diadochoi_ti_task_1_tt: "We will gain claims on the region of #Y Cyrenaica#!."
+ roman_mission_13_fall_of_diadochoi_ti_task_1_phoenicia_tt: "We will gain claims on the areas of #Y Judea#!, #Y Peraea#!, #Y Samaria#!, #Y Decapolis#!, #Y Galilee#! and #Y Philistia#!."
  roman_mission_13_fall_of_diadochoi_ti_task_2: "Integrated Judea"
  roman_mission_13_fall_of_diadochoi_ti_task_2_DESC: "Although these lands are prone to rebellion and filled with contentious locals, we have decided that it is in the best interests of Rome to directly administer the region. We are confident in our ability to handle any problems that might arise. \n\n\n\n\n\n\n\n\n\n\n@celt_mil16!"
  roman_mission_13_fall_of_diadochoi_ti_task_3: "Arabia Petrea"
