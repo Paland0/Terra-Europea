@@ -204,6 +204,8 @@
 				change_country_color =  "roman_hellenic_map_color"
 				change_country_tag = RHE
 				change_country_flag = ROMAN_HELLENIC_FLAG
+				set_variable = greek_influence
+				set_variable = italic_influence
 			}
 			add_5_free_province_investments = yes
 			set_country_heritage = roman_hellenic_heritage
