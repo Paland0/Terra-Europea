@@ -1,0 +1,14 @@
+﻿roman_hellenic_heritage = {
+	modifier = {
+		#good
+		global_pop_assimilation_speed_modifier = 0.1
+		discipline = 0.05
+		
+		#bad
+		stability_monthly_change = -0.05
+	}
+	
+	trigger = {
+		tag = RHE
+	}
+}

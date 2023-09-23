@@ -339,6 +339,14 @@ me_roman_missions_ti.13 = {							# Island of Cyprus
 		name = me_roman_missions_ti.13.a
 		p:331 = { roman_mission_colonia_effect = yes }
 	}
+	option = {
+		name = me_roman_missions_ti.13.b
+		p:334 = { roman_mission_colonia_effect = yes }
+	}
+	option = {
+		name = me_roman_missions_ti.13.c
+		p:338 = { roman_mission_colonia_effect = yes }
+	}
 }
 
 me_roman_missions_ti.15 = {							# Ultimatum to Armenia
@@ -1366,8 +1374,8 @@ me_roman_missions_ti.49 = {							# Sol Invictus Random
 	
 	trigger = {
 		OR = {
-			has_this_omen = deity:sol_invictus
-			deity:sol_invictus = {
+			has_this_omen = deity:omen_sol_invictus
+			deity:omen_sol_invictus = {
 				has_holy_site = yes
 				holy_site = {
 					owner = root

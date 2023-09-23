@@ -85,7 +85,8 @@
  #Tasks
  roman_mission_13_fall_of_diadochoi_ti_task_1: "The Phoenician Coast"
  roman_mission_13_fall_of_diadochoi_ti_task_1_DESC: "The old and storied cities of the Phoenician coast call out to be ruled by the hand of Rome, desperate for peace at any cost. The relentless Wars of the Diadochi have brought nothing but misery to these lands, shattering legitimacy - our claims are as good as any others.\n\n\n\n\n\n\n\n\n\n\n@event_pic3!"
- roman_mission_13_fall_of_diadochoi_ti_task_1_tt: "We will gain claims on the region of #Y Syria#!."
+ roman_mission_13_fall_of_diadochoi_ti_task_1_tt: "We will gain claims on the region of #Y Cyrenaica#!."
+ roman_mission_13_fall_of_diadochoi_ti_task_1_phoenicia_tt: "We will gain claims on the areas of #Y Judea#!, #Y Peraea#!, #Y Samaria#!, #Y Decapolis#!, #Y Galilee#! and #Y Philistia#!."
  roman_mission_13_fall_of_diadochoi_ti_task_2: "Integrated Judea"
  roman_mission_13_fall_of_diadochoi_ti_task_2_DESC: "Although these lands are prone to rebellion and filled with contentious locals, we have decided that it is in the best interests of Rome to directly administer the region. We are confident in our ability to handle any problems that might arise. \n\n\n\n\n\n\n\n\n\n\n@celt_mil16!"
  roman_mission_13_fall_of_diadochoi_ti_task_3: "Arabia Petrea"
@@ -142,8 +143,10 @@
  me_roman_missions_ti.11.a: "Unity is strength." 
 
  me_roman_missions_ti.13.t: "The Island of Cyprus"
- me_roman_missions_ti.13.desc: "Cyprus, island gateway to the far eastern Mediterranean, belongs now to Rome. With it, our control of trade flowing from Anatolia and down through Phoenicia is secured, and the Pirates of Cicilia will know no peace." 
- me_roman_missions_ti.13.a: "Salamis, site of the great Antigonid victory, shall become our port stronghold. We are its new masters."
+ me_roman_missions_ti.13.desc: "Cyprus, island gateway to the far eastern Mediterranean, belongs now to Rome. With it, our control of trade flowing from Anatolia and down through Phoenicia is secured, and the Pirates of Cilicia will know no peace. The island has a history dating back numerous millennia and is home to many temples and priestesses dedicated to the worship of Venus: our Goddess of Love and beauty. May she bless us with the fiery passions and familial bonds that tie our empire together, Glory to Venus! Glory to Rome!" 
+ me_roman_missions_ti.13.a: "Salamis, site of the great Antigonid victory, shall become our port stronghold. We are its new masters"
+ me_roman_missions_ti.13.b: "Paphus, earthly birthplace of Venus, is a site steeped in rich history and culture; this is surely the place"
+ me_roman_missions_ti.13.c: "Almathus, homeland of the most holy temple dedicated to Venus, will serve our Roman settlers best"
  
  me_roman_missions_ti.25.t: "Egyptian Protectorate"
  me_roman_missions_ti.25.desc: "After years of fumbling away their kingdom, watching it get taken piece by piece, it is high time we become the guarantors of Egypt. Rome shall now ensure not only that the rulers of this storied land know their place, but also make the promise of further glory for our people." 
@@ -377,6 +380,7 @@
  desc_angrivarian_wall_burnt_rome: "The Angrivarian Wall was once an impressive defensive fortification, but the Romans destroyed everything."
  roman_mission_amber_source: "Amber from Germania"
  desc_roman_mission_amber_source: "We are importing the finest amber from the faraway forests of Germania."
+ roman_mission_15_arminius_task_11_reqq: "We own at least one #Y Amber#! producing provinces in the regions of #Y Germania Magna#!, #Y Venedia#! or #Y Scandia#!."
  
  #Events
  me_roman_missions_ti.34.t: "The Conquest of Transrhenia"
@@ -440,7 +444,7 @@
 
  roman_conquest_missions_ti.35.t: "Colonization of Cisalbia"
  roman_conquest_missions_ti.35.desc: "The Albis River is a mighty torrent that flows through the heart of Germania, standing as the boundary of our domain in the region, fierce and barbarous tribes dwelling on the other side. It is a waterway so far removed from our Mediterranean heartland that many once doubted its very existence. Yet, it serves as a vital artery, crucial in our control and defense of this vast region, making the colonization of its basin, a vast and untamed wilderness, a priority despite the formidable challenges posed by the distant, cold, forested, and harsh terrain of the area. Undaunted by these obstacles, our indomitable colonists now embark on the perilous journey to traverse the great river, ready to establish settlements along its rugged shores.  It is up to us to decide where to build the new Roman hub of the area."
- roman_conquest_missions_ti.35.a: "Tropea is strategic enough"
+ roman_conquest_missions_ti.35.a: "Tropea is strategic in its own right"
  roman_conquest_missions_ti.35.b: "Treva, watchman to the Albia, is our eastern lookout" 
  roman_conquest_missions_ti.35.c: "Dandutia has a nice ring to it"
  

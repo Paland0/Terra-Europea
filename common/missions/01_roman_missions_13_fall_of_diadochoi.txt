@@ -550,10 +550,25 @@
                     duration = 1825 # 5 years
                 }
             }
-			custom_tooltip = roman_mission_13_fall_of_diadochoi_ti_task_1_tt 
+			custom_tooltip = roman_mission_13_fall_of_diadochoi_ti_task_1_phoenicia_tt 
 			hidden_effect = {
-				region:syria_region = {
-					every_region_province = { add_claim = ROOT }
+				area:judea_area = {
+					every_area_province = { add_claim = ROOT }
+				}
+				area:peraea_area = {
+					every_area_province = { add_claim = ROOT }
+				}
+				area:samaria_area = {
+					every_area_province = { add_claim = ROOT }
+				}
+				area:galilee_area = {
+					every_area_province = { add_claim = ROOT }
+				}
+				area:decapolis_area = {
+					every_area_province = { add_claim = ROOT }
+				}
+				area:philistia_area = {
+					every_area_province = { add_claim = ROOT }
 				}
 			}
     	}
@@ -677,11 +692,8 @@
     	}
 
     	on_completion = {
-        	#custom_tooltip = roman_conquest_reward_tooltip
+        	custom_tooltip = roman_conquest_reward_tooltip
 			trigger_event = me_roman_missions_ti.13
-			show_as_tooltip = {
-				p:331 = { roman_mission_colonia_effect = yes }
-			}
     	}
     }
 	
@@ -707,7 +719,10 @@
     	allow = {
     		diplomatic_stance = vassaling_stance
 			political_influence >= 100
-			c:EGY = { num_of_cities < 175 }
+			c:EGY = { num_of_cities < rm_4_rome_subject_city_counter_compare_svalue }
+			current_ruler = {
+				has_trait = master_of_diplomacy_trait
+			}
     	}
 
     	on_completion = {
@@ -766,12 +781,14 @@
 				}
 			}
 			c:EGY = {
-				is_guaranteed_by = root
-				custom_tooltip = {
-					text = "showered_subject_with_gifts_ti_tt"
-					OR = {
-						has_country_modifier = loyalty_to_overlord_1
-						has_country_modifier = loyalty_to_overlord_2
+				OR = {
+					is_guaranteed_by = root
+					custom_tooltip = {
+						text = "showered_subject_with_gifts_ti_tt"
+						OR = {
+							has_country_modifier = loyalty_to_overlord_1
+							has_country_modifier = loyalty_to_overlord_2
+						}
 					}
 				}
 			}
@@ -845,6 +862,12 @@
 
     	allow = {
     		stability >= 60
+			current_ruler = {
+				custom_tooltip = {
+                    text = does_not_have_legendary_ancestors_tt
+                    has_variable = legendary_ancestors_var
+                }
+			}
 			OR = {
 				has_law = princeps_civitatis
 				government = dictatorship

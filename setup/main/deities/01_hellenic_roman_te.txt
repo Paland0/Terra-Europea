@@ -1,0 +1,9 @@
+deity_manager = {
+	deities_database = {
+		274 = {
+			key = omen_sol_invictus
+			deity =deity_sol_invictus
+		}
+	}
+}
+
