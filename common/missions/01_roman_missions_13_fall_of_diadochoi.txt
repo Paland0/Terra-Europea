@@ -692,11 +692,8 @@
     	}
 
     	on_completion = {
-        	#custom_tooltip = roman_conquest_reward_tooltip
+        	custom_tooltip = roman_conquest_reward_tooltip
 			trigger_event = me_roman_missions_ti.13
-			show_as_tooltip = {
-				p:331 = { roman_mission_colonia_effect = yes }
-			}
     	}
     }
 	
