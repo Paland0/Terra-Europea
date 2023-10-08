@@ -16,7 +16,7 @@
 	passive_modifier = { monthly_military_experience_modifier = deity_monthly_military_experience_modifier_svalue }
 	omen = { global_pop_conversion_speed_modifier = omen_global_pop_conversion_speed_modifier_svalue } #Bonus from Omen
 	religion = roman_pantheon
-	deity_category = justice #This Deity uses a Justice Slot
+	deity_category = culture #This Deity uses a Culture Slot
 	
 	deification_trigger = {
 		can_deify_trigger = yes
