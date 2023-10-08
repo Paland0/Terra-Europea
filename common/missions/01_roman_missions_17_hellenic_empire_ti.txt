@@ -94,6 +94,12 @@
     	on_completion = {
     		roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
+			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_1_claims_tt
+			hidden_effect = {
+				region:parthia_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+			}
         	trigger_event = { id = roman_conquest_missions_ti.42 }
         	if = {
         		limit = {
@@ -188,6 +194,16 @@
     	on_completion = {
     		roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
+			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_2_claims_tt
+			hidden_effect = {
+				region:ariana_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+				area:harmozeia_area = { mission_area_claim_effect = yes }
+				area:south_sindhu_area = { mission_area_claim_effect = yes }
+				area:sauvira_area = { mission_area_claim_effect = yes }
+				area:patalene_area = { mission_area_claim_effect = yes }
+			}
         	trigger_event = { id = roman_conquest_missions_ti.43 }
         	if = {
         		limit = {
@@ -274,6 +290,13 @@
     	on_completion = {
     		roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
+			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_3_claims_tt
+			hidden_effect = {
+				region:gandhara_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+				area:north_sindhu_area = { mission_area_claim_effect = yes }
+			}
         	trigger_event = { id = roman_conquest_missions_ti.44 }
         	if = {
         		limit = {
@@ -554,6 +577,15 @@
     	on_completion = {
     		roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
+			custom_tooltip = roman_mission_17_hellenic_empire_ti_task_6_claims_tt 
+			hidden_effect = {
+				region:bactriana_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+				area:sogdiana_area = { mission_area_claim_effect = yes }
+				area:cyropolis_area = { mission_area_claim_effect = yes }
+				area:ferghana_area = { mission_area_claim_effect = yes }
+			}
         	trigger_event = { id = roman_conquest_missions_ti.47 }
         	if = {
         		limit = {
@@ -732,17 +764,7 @@
 			trigger_if = {
 				limit = { exists = treasure:treasure_anthology }
 				treasure:treasure_anthology = {
-					custom_tooltip = {
-						text = own_or_control_treasure_in_alex_shrine
-						ROOT = {
-							any_holy_site = {
-								province_deity = scope:alexander_deity_scope
-								any_province_treasure = {
-									this = treasure:treasure_anthology
-								}
-							}
-						}
-					}
+					treasure_owned_or_altared_trigger = { SHINY = treasure:treasure_anthology }
 				}
 			}
 			trigger_else = {
@@ -804,17 +826,7 @@
 			trigger_if = {
 				limit = { exists = treasure:treasure_alexander_panoply }
 				treasure:treasure_alexander_panoply = {
-					custom_tooltip = {
-						text = own_or_control_treasure_in_alex_shrine
-						ROOT = {
-							any_holy_site = {
-								province_deity = scope:alexander_deity_scope
-								any_province_treasure = {
-									this = treasure:treasure_alexander_panoply
-								}
-							}
-						}
-					}
+					treasure_owned_or_altared_trigger = { SHINY = treasure:treasure_alexander_panoply }
 				}
 			}
 			trigger_else = {
@@ -1042,7 +1054,7 @@
 	
 	roman_mission_17_hellenic_empire_ti_task_13 = { # Build Mouseion
         icon = "task_diplomatic"
-		duration = 1795
+		duration = 1460
 
         requires = { roman_mission_17_hellenic_empire_ti_task_16 }
 
@@ -1084,9 +1096,35 @@
 				trigger_event = {
 					id = "dhe_museion.10"
 				}
-				trigger_event = {
-					id = "dhe_museion.1"
-					days = { 200 400 }
+				random_list = {
+					50 = {
+						trigger_event = {
+							id = "dhe_museion.2"
+							days = { 200 400 }
+						}
+						trigger_event = {
+							id = "dhe_museion.3"
+							days = { 600 800 }
+						}
+						trigger_event = {
+							id = "dhe_museion.5"
+							days = { 1000 1200 }
+						}
+					}
+					50 = {
+						trigger_event = {
+							id = "dhe_museion.3"
+							days = { 200 400 }
+						}
+						trigger_event = {
+							id = "dhe_museion.5"
+							days = { 600 800 }
+						}
+						trigger_event = {
+							id = "dhe_museion.2"
+							days = { 1000 1200 }
+						}
+					}
 				}
 				p:516 = {
 					begin_great_work_construction = {
@@ -1115,6 +1153,9 @@
 						locator = primary_great_work
 					}
 				}
+			}
+			trigger_event = {
+				id = dhe_museion.11
 			}
             trigger_event = { id = me_roman_missions_ti.70 }
         }
