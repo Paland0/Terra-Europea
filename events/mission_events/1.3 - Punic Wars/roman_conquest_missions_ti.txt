@@ -954,6 +954,7 @@ me_roman_missions_ti.33 = {							# Egyptian Annexation
     picture = romans_marching
 	left_portrait = root.current_ruler
 	right_portrait = scope:suicidal_egyptian_ptolemaioi
+	fire_only_once = yes
     
 	
 	trigger = {
