@@ -167,11 +167,11 @@
  me_roman_missions_ti.28.b: "The legacy of Ptolemy must endure."
  
  me_roman_missions_ti.29.t: "Defiance Against Rome"
- me_roman_missions_ti.29.desc: "In the face of Roman pressure, we choose defiance. Our legacy as the rulers of Egypt shall not yield to external dominance. We reject any notion of capitulation to Rome. It is time to strengthen our resolve, bolster our defenses, and prepare for the inevitable clash with the Roman Empire. Our sovereignty shall remain unbroken, and the spirit of Egypt shall endure."
+ me_roman_missions_ti.29.desc: "In the face of our pressure, the Ptolemies choose defiance. 'Our legacy as the rulers of Egypt shall not yield to external dominance. We reject any notion of capitulation to Rome,' is what they have sent in teir message to us.  It is time to strengthen our resolve, bolster our offenses, and prepare for the inevitable clash with the Ptolemies. The spirit of Egypt shall bow to Rome."
  me_roman_missions_ti.29.a: "Ready our armies."
 
  me_roman_missions_ti.30.t: "Capitulation to Rome"
- me_ptolemies_mission_rome_capitulation_desc: "In the face of relentless Roman pressure, we have made the decision to submit to their suzerainty. Rome's power and influence have grown too formidable to resist, and it is in the best interest of Egypt to align with the might of the Roman Empire."
+ me_roman_missions_ti.30.desc: "In the face of our pressure, the 'last Ptolemy' has made the decision to submit to our suzerainty. Rome's power and influence have grown too formidable to resist, and it is in the best interest of Egypt to align with the might of the Roman Empire."
  me_roman_missions_ti.30.a: "This is what Ptolemy I Soter would have wanted."
 
  me_roman_missions_ti.31.t: "The Last Ptolemy"
@@ -179,13 +179,13 @@
  me_roman_missions_ti.31.a: "Let our accomplishments be a guiding light for those who follow."
  
  me_roman_missions_ti.32.t: "The End of Ptolemaic Rule"
- me_roman_missions_ti.32.desc: "In the Pharaoh's will, it is decreed that Egypt shall be bequeathed to Rome, marking the official end of the Ptolemaic dynasty. With the passing of our beloved ruler, the fate of Egypt has taken a new course. The time has come to make the formal announcement of the Pharaoh's will and transfer of authority to Rome."
+ me_roman_missions_ti.32.desc: "In the Pharaoh's will, it is decreed that Egypt shall be bequeathed to Rome, marking the official end of the Ptolemaic dynasty. With the passing of the last Ptolemaic ruler, the fate of Egypt has taken a new course. The time has come to make the formal announcement of the Pharaoh's will and transfer of authority to Rome."
  me_roman_missions_ti.32.a: "The legacy of Ptolemaic rule shall forever be part of Aegyptus's identity."
  
  suicide_asp: "Killed by the bite of an asp"
  
  me_roman_missions_ti.33.t: "The Fall of the Ptolemies"
- me_roman_missions_ti.33.desc: "In the heart of the Nile's embrace, our ancient land, Egypt, has witnessed a tragedy of unparalleled proportions. Our beloved Pharaoh, in a desperate act of defiance, chose to embrace the venomous kiss of the asp, rather than submit to the yoke of Rome. The heavens wept as Egypt's sovereignty seemed to crumble like the sands of the desert."
+ me_roman_missions_ti.33.desc: "In the heart of the Nile's embrace, the ancient land, Egypt, has witnessed a tragedy of unparalleled proportions. Their beloved Pharaoh, in a desperate act of defiance, chose to embrace the venomous kiss of the asp, rather than submit to Rome. The heavens wept as Egypt's sovereignty seemed to crumble like the sands of the desert."
  me_roman_missions_ti.33.a: "#E To the strongest#!"
  
  me_roman_missions_ti.53.t: "NOT NEEDED"
