@@ -259,6 +259,11 @@
  BUF_DAC_ROM: "Pannonia Terminus"
  BUF_DAC_ROM_ADJ: "Pannonian"
  
+ #TTs
+ roman_mission_14_trouble_at_hellespontus_ti_task_1_ti_tt: "We shall receive claims on #Y Clepia#! and #Y Olbia#!."
+ roman_mission_14_trouble_at_hellespontus_ti_task_2_ti_tt: "We shall receive claims on #Y Malvensis#!, #Y Getia Occidentalis#! and #Y Getia Orientalis#!."
+ roman_mission_14_trouble_at_hellespontus_ti_task_4_ti_tt: "We shall receive claims on #Y Dacia#!."
+ 
  #Events
  me_roman_missions_ti.1.t: "Decision at the Bosporus"
  me_roman_missions_ti.1.desc: "Although there were hopes in [ROOT.GetCountry.GetCapital.GetName] that we would avoid getting entangled in regional politics, it appears that our presence in #E Thrace#! has upset the delicate balance of power in the region. Some are with us, some are against us, but we cannot rely on our tenuous friendships here to provide security for the Roman people - we will have to take matters into our own hands and make difficult decisions as they come.\n\nAlthough the diplomatic scene remains as perilous as ever, the leading merchants of #Y Asia#! and #Y Bithynia et Paphlagonia#! have privately sent representatives to the #E Roman Senate#!, asking that we remember the trade agreements that are in place."
@@ -870,7 +875,11 @@
  HUI_ADJ: "Hulaian"
 
  #Tooltips
- roman_mission_17_hellenic_empire_ti_task_17_create_panhellium: "It is now time to decide what to do about this situation"
- roman_mission_17_hellenic_empire_ti_task_13_museion_tt: "This Grand Mouseion will do nicely under Roman influence"
+ roman_mission_17_hellenic_empire_ti_task_17_create_panhellium: "It is now time to decide what to do about this situation."
+ roman_mission_17_hellenic_empire_ti_task_13_museion_tt: "This Grand Mouseion will do nicely under Roman influence."
  roman_mission_17_hellenic_empire_ti_task_19_reward_silk_worms: "We will 'acquire' our very own silk worms."
- roman_mission_17_hellenic_empire_ti_task_13_build_mouseion: "We now embark on a glorious undertaking the world will not soon forget"
+ roman_mission_17_hellenic_empire_ti_task_13_build_mouseion: "We now embark on a glorious undertaking the world will not soon forget."
+ roman_mission_17_hellenic_empire_ti_task_1_claims_tt: "We shall receive claims on #Y Parthia#!."
+ roman_mission_17_hellenic_empire_ti_task_2_claims_tt: "We shall receive claims on #Y Ariana#! and Western #Y Maru#!."
+ roman_mission_17_hellenic_empire_ti_task_3_claims_tt: "We shall receive claims on #Y North Sindhu#! and #Y Gandhara#!."
+ roman_mission_17_hellenic_empire_ti_task_6_claims_tt: "We shall receive claims on Southern #Y Sogdiana#! and #Y Bactriana#!."
