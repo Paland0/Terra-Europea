@@ -875,8 +875,8 @@ me_roman_missions_ti.29 = {							# Egyptian No
 
 me_roman_missions_ti.30 = {							# Egyptian Yes
     type = country_event
-    title = me_roman_missions_ti.31.t
-	desc = me_roman_missions_ti.31.desc
+    title = me_roman_missions_ti.30.t
+	desc = me_roman_missions_ti.30.desc
     picture = romans_marching
     
     left_portrait = root.current_ruler
@@ -885,7 +885,7 @@ me_roman_missions_ti.30 = {							# Egyptian Yes
 
 	
 	option = { 
-		name = me_roman_missions_ti.31.a
+		name = me_roman_missions_ti.30.a
 		c:ROM = {
 			make_subject = {
     			target = c:EGY
