@@ -106,6 +106,12 @@
 				add_political_influence = -50
 			}
 			custom_tooltip = roman_mission_16_imperium_sine_fine_task_2_tt #claims on Assyria and Armenia
+			if = {
+				limit = {
+					tag = ROM
+				}
+				change_country_name = "roman_empire_name"
+			}
 		}
 	}
 	
@@ -635,7 +641,7 @@
 		
 		allow = {
 			any_owned_province = {
-				count >= 7
+				count >= 5
 				custom_tooltip = {
 					text = rome_assyrian_forts_tt
 					is_in_region = assyria_region
@@ -643,7 +649,7 @@
 				}
 			}
 			any_owned_province = {
-				count >= 7
+				count >= 5
 				custom_tooltip = {
 					text = rome_mesopotamian_forts_tt
 					is_in_region = mesopotamia_region
@@ -740,6 +746,14 @@
 				add_country_modifier = {
 					name = "rome_imperium_sine_fine_ti" #annexation modifier, WS cost reduction, fabricate claims cost
 					duration = -1
+				}
+			}
+			hidden_effect = {
+				region:persis_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+				region:media_region = {
+					every_region_province = { add_claim = ROOT }
 				}
 			}
 

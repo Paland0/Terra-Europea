@@ -163,6 +163,11 @@
         on_completion = {
         	roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
+			custom_tooltip = roman_mission_14_trouble_at_hellespontus_ti_task_1_ti_tt 
+			hidden_effect = {
+				area:clepia_area = { mission_area_claim_effect = yes }
+				area:olbia_area = { mission_area_claim_effect = yes }
+			}
         	trigger_event = { id = roman_conquest_missions_ti.22 }
         	if = {
         		limit = {
@@ -239,6 +244,12 @@
         on_completion = {
         	roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
+			custom_tooltip = roman_mission_14_trouble_at_hellespontus_ti_task_2_ti_tt 
+			hidden_effect = {
+				area:malvensis_area = { mission_area_claim_effect = yes }
+				area:getia_occidentalis_area = { mission_area_claim_effect = yes }
+				area:getia_orientalis_area = { mission_area_claim_effect = yes }
+			}
         	trigger_event = { id = roman_conquest_missions_ti.23 }
         	if = {
         		limit = {
@@ -319,6 +330,7 @@
         on_completion = {
         	custom_tooltip = roman_mission_14_trouble_at_hellespontus_ti_task_3_effect_tt #client state created
 			trigger_event = me_roman_missions_ti.18
+			add_aggressive_expansion = -10
         }
     }
 	
@@ -347,6 +359,12 @@
         	roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
         	trigger_event = { id = roman_conquest_missions_ti.24 }
+			custom_tooltip = roman_mission_14_trouble_at_hellespontus_ti_task_4_ti_tt 
+			hidden_effect = {
+				region:dacia_region = {
+					every_region_province = { add_claim = ROOT }
+				}
+			}
         	if = {
         		limit = {
         			any_subject = {
@@ -489,6 +507,13 @@
         	roman_mission_ruler_popularity_effect = yes
         	custom_tooltip = roman_conquest_reward_tooltip
         	trigger_event = { id = roman_conquest_missions_ti.26 }
+			custom_tooltip = roman_mission_14_trouble_at_hellespontus_ti_task_2_ti_tt 
+			hidden_effect = {
+				area:borysthenia_minor_area = { mission_area_claim_effect = yes }
+				area:maeotia_area = { mission_area_claim_effect = yes }
+				area:taurica_area = { mission_area_claim_effect = yes }
+				area:bosproranum_area = { mission_area_claim_effect = yes }
+			}
         	if = {
         		limit = {
         			any_subject = {
