@@ -1,4 +1,4 @@
-version="2.x"
+version="1.0.2"
 tags={
 	"Historical"
 }
